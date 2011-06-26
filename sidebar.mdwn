@@ -21,7 +21,7 @@
  * [[Twitter (Users)|http://twitter.com/smuxi/users]]
  * [Roadmap]
  * [Hall of Fame]
- * [[Browse Source (Redmine)|/repositories/show/smuxi]]
+ * [Browse Source (Redmine)]
  * [[Browse Source (gitweb)|http://git.qnetp.net/?p=smuxi.git]]
  * [[Source Mirror (Gitorious)|http://gitorious.org/smuxi]]
 
@@ -35,3 +35,4 @@
  [Report Bug]: /issues/new
  [Roadmap]: /roadmap
  [Hall of Fame]: /fame
+ [Browse Source (Redmine)]: /repositories/show/smuxi
