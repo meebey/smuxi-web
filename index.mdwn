@@ -1,3 +1,4 @@
+[[!meta description="Smuxi - the user-friendly and cross-platform IRC client for sophisticated users for GNOME / GTK+"]]
 [[!pagestats pages="./tags/*" among="./posts/*"]]
 
 Welcome to my blog.
