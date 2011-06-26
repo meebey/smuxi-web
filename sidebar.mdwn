@@ -1,7 +1,31 @@
-Example sidebar
+### Main ###
+ * [[About]]
+ * [[News|posts]]
+ * [[News Archive|archives]]
+ * [[Features]]
+ * [[Screenshots]]
+ * [[Download]]
+ * [[FAQ|/faq]
+ * [[IRC]]
+ * [[Known Issues|/issues]]
+ * [[Report Bug|/issues/new]]
 
-* [[Blog|index]]
-* [[Archive|posts]]
+### Documentation ###
+ * [[Server HowTo|documentation/server]]
+ * [[Translation HowTo|contribute/translation]]
+ * [[Hacking HowTo|contribute/hacking]]
 
-Categories:
-[[!map pages="./tags/* and !*/Discussion"]]
+### Community ###
+ * [[Twitter (News)|http://twitter.com/smuxi]]
+ * [[Twitter (Developers)|http://twitter.com/smuxi/developers]]
+ * [[Twitter (Users)|http://twitter.com/smuxi/users]]
+ * [[Roadmap|/roadmap]]
+ * [[Hall of Fame|/fame]]
+ * [[Browse Source (Redmine)|/repositories/show/smuxi]]
+ * [[Browse Source (gitweb)|http://git.qnetp.net/?p=smuxi.git]]
+ * [[Source Mirror (Gitorious)|http://gitorious.org/smuxi]]
+
+### IRC News ###
+ * [[IRC-Junkie|http://www.irc-junkie.org/]]
+ * [[IRCReport|http://www.ircreport.com/]]
+ * [[Auronia (German)|http://www.auronia.net/]]
