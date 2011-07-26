@@ -1,0 +1,291 @@
+<script type="text/javascript" src="/js/download.js"></script>
+<script>
+    setDistros('opensuse debian ubuntu gentoo archlinux foresight linux freebsd windows');
+</script>
+<link href="/css/download.css" media="screen" type="text/css" rel="stylesheet">
+
+## Release Notes
+
+**[Smuxi 0.8 Release Notes][]**
+
+## Binary Packages
+
+<div id="distro-selector" style="overflow: hidden; display: block;">
+<div style="float: top">
+**Please select your operating system:**
+</div>
+<!-- Distro Selectors -->
+<div onclick="selectDistro('opensuse')" id="button-opensuse" class="button button-select" style="float: left;">
+![openSUSE Logo Small][]\
+ <span style="font-size: x-small;">openSUSE</span>
+</div>
+<div onclick="selectDistro('debian')" id="button-debian" class="button button-select" style="float: left;">
+![Debian GNU/Linux Logo Small][]\
+ <span style="font-size: x-small;">Debian</span>
+</div>
+<div onclick="selectDistro('ubuntu')" id="button-ubuntu" class="button button-select" style="float: left;">
+![Ubuntu Logo Small][]\
+ <span style="font-size: x-small;">Ubuntu</span>
+</div>
+<div onclick="selectDistro('gentoo')" id="button-gentoo" class="button button-select" style="float: left;">
+![Gentoo Logo][]\
+ <span style="font-size: x-small;">Gentoo</span>
+</div>
+<div onclick="selectDistro('archlinux')" id="button-archlinux" class="button button-select" style="float: left;">
+![Arch Linux Logo Small][]\
+ <span style="font-size: x-small">Arch Linux</span>
+</div>
+<div onclick="selectDistro('foresight')" id="button-foresight" class="button button-select" style="float: left;">
+![Foresight Linux Logo Small][]\
+ <span style="font-size: x-small">Foresight</span>
+</div>
+<div onclick="selectDistro('linux')" id="button-linux" class="button button-select" style="float: left;">
+![GNU/Linux Logo Small][]\
+ <span style="font-size: x-small">GNU/Linux</span>
+</div>
+<div onclick="selectDistro('freebsd')" id="button-freebsd" class="button button-select" style="float: left;">
+![FreeBSD Logo Small][]\
+ <span style="font-size: x-small">FreeBSD</span>
+</div>
+<div onclick="selectDistro('windows')" id="button-windows" class="button button-select" style="float: left;">
+![Microsoft Windows Logo Small][]\
+ <span style="font-size: x-small">Windows</span>
+</div>
+</div>
+<div id="distro-items">
+
+<!-- Distro Items -->
+<div style="display: none;" id="download-opensuse-stable">
+![openSUSE Logo][]
+openSUSE 11.3 users can install Smuxi by using this 1-Click install:
+
+[[!img "jaws/data/files/images/smuxi-one-click.png"
+       link="http://download.opensuse.org/repositories/Mono:/Community:/smuxi/openSUSE_11.3/smuxi.ymp"
+       alt="openSUSE 1-Click Install Package"
+]]
+
+</div>
+
+<div style="display: none;" id="download-debian-stable">
+![Debian GNU/Linux Logo][] \
+### Debian 6.0 (Stable / Squeeze)
+
+**Debian 6.0** users can install Smuxi from the [backports.debian.org][]
+repository, just add the following line to your /etc/apt/source.list
+file:
+
+    deb http://backports.debian.org/debian-backports squeeze-backports main
+
+After that run:
+
+    apt-get update
+    apt-get -t squeeze-backports install smuxi
+
+Now you can start Smuxi from the GNOME or KDE menu.
+
+### Debian 5.0 (Old Stable / Lenny)
+
+**Debian 5.0** users can install Smuxi from the [backports.debian.org][]
+repository, just add the following line to your /etc/apt/source.list
+file:
+
+    deb http://backports.debian.org/debian-backports lenny-backports main
+
+After that run:
+
+    apt-get update
+    apt-get -t lenny-backports install smuxi
+
+Now you can start Smuxi from the GNOME or KDE menu.
+
+### Debian Testing and Unstable
+
+**Debian/Testing** and **Debian/Unstable** users can install Smuxi from
+the official Debian repository, just run the following command:
+
+    apt-get install smuxi
+
+Now you can start Smuxi from the GNOME or KDE menu.
+
+### Unofficial Debian Repositories
+
+**In case the official repositories from above are not providing the
+latest Smuxi version yet, you can use these instead:**
+
+For **Debian/Testing** and **Debian/Unstable** add the following line to
+your /etc/apt/source.list file:
+
+    deb http://debian.meebey.net/sid/smuxi /
+
+For **Debian 6.0** add the following line to your /etc/apt/source.list
+file:
+
+    deb http://debian.meebey.net/squeeze-backports/smuxi /
+
+For **Debian 5.0** add the following line to your /etc/apt/source.list
+file:
+
+    deb http://debian.meebey.net/lenny-backports/mono /
+    deb http://debian.meebey.net/lenny-backports/smuxi /
+
+After that run:
+
+    apt-get update
+    apt-get install smuxi
+
+Now you can start Smuxi from the GNOME or KDE menu.
+</div>
+
+<div style="display: none;" id="download-ubuntu-stable">
+![Ubuntu Logo][]
+NOTE: Ubuntu/Lucid (10.4) contains Smuxi <u>0.7.1</u>, but it's
+recommended to use <u>0.8</u> instead!
+
+**Ubuntu/Lucid (10.04)** users can install Smuxi from this [Ubuntu PPA][], just
+run the following commands:
+
+    sudo add-apt-repository ppa:meebey/ppa
+    sudo aptitude update
+    sudo aptitude install smuxi
+
+Now you can start Smuxi from the GNOME or KDE menu.
+</div>
+
+<div style="display: none;" id="download-gentoo-stable">
+![Gentoo Logo][] Gentoo users that are using [\~amd64 or \~x86][Gentoo Package]
+can install Smuxi by running:
+
+    emerge smuxi
+
+Now you can start Smuxi from the GNOME or KDE menu.
+</div>
+
+<div style="display: none;" id="download-archlinux-stable">
+![Arch Linux Logo][]
+Smuxi is in [AUR][], so just run the following comand to install it:
+
+    sudo yaourt -S smuxi
+
+Now you can start Smuxi from the GNOME or KDE menu.
+</div>
+
+<div style="display: none;" id="download-foresight-stable">
+![Foresight Linux Logo][]
+Smuxi is in [Conary][], so just run the following comand to install it:
+
+    sudo conary update smuxi
+
+Now you can start Smuxi from the GNOME, KDE or XFCE menu.
+</div>
+
+<div style="display: none;" id="download-linux-stable">
+![GNU/Linux Logo][]
+**Download: [smuxi-0.8-1-bin.tar.gz][]**
+
+This package contains pre-compiled Smuxi binaries plus the required
+libraries (log4net, Nini, SmartIrc4net), suitable for Linux (using Mono)
+users.
+
+Linux users using the binary tarball have to make sure the required
+runtime and libraries are installed in order to run Smuxi correctly!
+
+You need the Mono runtime (\>= 1.2.6) and the GTK\# libraries (\>= 2.8)
+which you can download here:
+
+[http://www.go-mono.com/mono-downloads/download.html][]
+
+Alternatively you can install Mono and GTK\# from your package
+repository of your Linux Distribution, just make sure they are the right
+version!
+
+After you have installed those you can run the smuxi-frontend-gnome
+script from the binary tarball or run the following from a terminal:
+
+    mono smuxi-frontend-gnome.exe
+
+</div>
+
+<div style="display: none;" id="download-freebsd-stable">
+![FreeBSD Logo][]
+Smuxi is in the official [FreeBSD ports tree][], so just run the
+following comand to install it:
+
+    make -C /usr/ports/irc/smuxi/ install
+
+Now you can start Smuxi from the GNOME or KDE menu.
+</div>
+
+<div style="display: none;" id="download-windows-stable">
+![Microsoft Windows Logo][]
+**Download: [smuxi-0.8-3-win32-setup.exe][]**
+
+Windows XP / Vista / 7 users (32-bit and 64-bit) can download the
+installer (as listed above). The installer automatically downloads the
+needed requirements if missing. If the auto install fails for some
+reason, you can download the component from here.
+
+Microsoft .NET Framework 3.5 SP1:
+
+[http://www.microsoft.com/downloads/en/details.aspx?familyid=ab99342f-5d1a-413d-8319-81da479ab0d7][]
+
+GTK\# 2.12 for MS .NET package:
+
+[http://ftp.novell.com/pub/mono/gtk-sharp/gtk-sharp-2.12.9-2.win32.msi][]
+
+After you have installed GTK\# 2.12 for .NET you **must reboot (or re-logon)**
+your Windows!
+
+After you have installed both packages, you can start Smuxi from the
+Windows Start Menu.
+</div>
+</div>
+
+## Source Tarball
+
+This tarball contains only the source code of Smuxi and is intended for package
+maintainers of Unix-like operating systems as it requires you to compile Smuxi
+and the needed components yourself.
+
+Building Smuxi from source requires the following packages being installed:
+
+- [log4net][]
+- [Nini][]
+
+[smuxi-0.8.tar.gz][]
+
+  [Smuxi 0.8 Release Notes]: /blog/show/Smuxi_08_Release
+  [openSUSE Logo]: /jaws/data/files/logos/opensuse.jpg
+  [openSUSE Logo Small]: /jaws/data/files/logos/opensuse_small.png
+  [openSUSE one-click]: /jaws/data/files/images/smuxi-one-click.png
+  [openSUSE package]: http://download.opensuse.org/repositories/Mono:/Community:/smuxi/openSUSE_11.3/smuxi.ymp
+  [Debian GNU/Linux Logo]: /jaws/data/files/logos/debian.png
+  [Debian GNU/Linux Logo Small]: /jaws/data/files/logos/debian_small.png
+  [Ubuntu Logo]: /jaws/data/files/logos/ubuntu.png
+  [Ubuntu Logo Small]: /jaws/data/files/logos/ubuntu_small.png
+  [Ubuntu PPA]: https://launchpad.net/~meebey/+archive/ppa "PPA"
+  [Gentoo Logo]: /jaws/data/files/logos/gentoo.png
+  [Gentoo Package]: http://packages.gentoo.org/package/net-irc/smuxi
+  [Arch Linux Logo]: /jaws/data/files/logos/archlinux.png
+  [Arch Linux Logo Small]: /jaws/data/files/logos/archlinux_small.png
+  [Foresight Linux Logo]: /jaws/data/files/logos/foresight.png
+  [Foresight Linux Logo Small]: /jaws/data/files/logos/foresight_small.png
+  [GNU/Linux Logo]: /jaws/data/files/logos/linux.png
+  [GNU/Linux Logo Small]: /jaws/data/files/logos/linux_small.jpg
+  [FreeBSD Logo]: /jaws/data/files/logos/freebsd.png
+  [FreeBSD Logo Small]: /jaws/data/files/logos/freebsd_small.png
+  [FreeBSD ports tree]: http://www.freshports.org/irc/smuxi/
+  [Microsoft Windows Logo]: /jaws/data/files/logos/windows.png
+  [Microsoft Windows Logo Small]: /jaws/data/files/logos/windows_small.png
+  [backports.debian.org]: http://backports.debian.org/
+  [AUR]: http://aur.archlinux.org/packages.php?ID=19247
+  [Conary]: http://www.rpath.org/web/repos/foresight/troveInfo?t=smuxi
+  [http://www.go-mono.com/mono-downloads/download.html]: http://www.go-mono.com/mono-downloads/download.html
+  [http://www.microsoft.com/downloads/en/details.aspx?familyid=ab99342f-5d1a-413d-8319-81da479ab0d7]:
+    http://www.microsoft.com/downloads/en/details.aspx?familyid=ab99342f-5d1a-413d-8319-81da479ab0d7
+  [http://ftp.novell.com/pub/mono/gtk-sharp/gtk-sharp-2.12.9-2.win32.msi]:
+    http://ftp.novell.com/pub/mono/gtk-sharp/gtk-sharp-2.12.9-2.win32.msi
+  [log4net]: http://logging.apache.org/log4net/
+  [Nini]: http://nini.sourceforge.net/
+  [smuxi-0.8.tar.gz]: /download.php?file=smuxi-0.8.tar.gz
+  [smuxi-0.8-1-bin.tar.gz]: /download.php?file=smuxi-0.8-1-bin.tar.gz
+  [smuxi-0.8-3-win32-setup.exe]: /download.php?file=smuxi-0.8-3-win32-setup.exe
