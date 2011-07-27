@@ -54,39 +54,39 @@
 <!-- Distro Items -->
 <div id="distro-items">
 [[!toggleable  id="download-debian-stable" text="""
-    [[!inline pages="download/debian" feeds=0]]
+    [[!inline pages="download/debian"]]
 """]]
 
 [[!toggleable  id="download-ubuntu-stable" text="""
-    [[!inline pages="download/ubuntu" feeds=0]]
+    [[!inline pages="download/ubuntu"]]
 """]]
 
 [[!toggleable  id="download-opensuse-stable" text="""
-    [[!inline pages="download/opensuse" feeds=0]]
+    [[!inline pages="download/opensuse"]]
 """]]
 
 [[!toggleable  id="download-gentoo-stable" text="""
-    [[!inline pages="download/gentoo" feeds=0]]
+    [[!inline pages="download/gentoo"]]
 """]]
 
 [[!toggleable  id="download-archlinux-stable" text="""
-    [[!inline pages="download/archlinux" feeds=0]]
+    [[!inline pages="download/archlinux"]]
 """]]
 
 [[!toggleable  id="download-foresight-stable" text="""
-    [[!inline pages="download/foresight" feeds=0]]
+    [[!inline pages="download/foresight"]]
 """]]
 
 [[!toggleable  id="download-linux-stable" text="""
-    [[!inline pages="download/linux" feeds=0]]
+    [[!inline pages="download/linux"]]
 """]]
 
 [[!toggleable  id="download-freebsd-stable" text="""
-    [[!inline pages="download/freebsd" feeds=0]]
+    [[!inline pages="download/freebsd"]]
 """]]
 
 [[!toggleable  id="download-windows-stable" text="""
-    [[!inline pages="download/windows" feeds=0]]
+    [[!inline pages="download/windows"]]
 """]]
 </div>
 
