@@ -13,41 +13,41 @@
 </div>
 
 <!-- Distro Selectors -->
-<div onclick="selectDistro('opensuse')" id="button-opensuse" class="button button-select" style="float: left;">
-  <img src="/jaws/data/files/logos/opensuse_small.png" />
-  <span style="font-size: x-small;">openSUSE</span>
+<div onclick="selectDistro('opensuse')" id="button-opensuse" class="button button-select">
+  <img src="/jaws/data/files/logos/opensuse_small.png" /><br />
+  openSUSE<
 </div>
-<div onclick="selectDistro('debian')" id="button-debian" class="button button-select" style="float: left;">
-  <img src="/jaws/data/files/logos/debian_small.png" />
-  <span style="font-size: x-small;">Debian</span>
+<div onclick="selectDistro('debian')" id="button-debian" class="button button-select">
+  <img src="/jaws/data/files/logos/debian_small.png" /><br />
+  Debian
 </div>
-<div onclick="selectDistro('ubuntu')" id="button-ubuntu" class="button button-select" style="float: left;">
-  <img src="/jaws/data/files/logos/ubuntu_small.png" />
-  <span style="font-size: x-small;">Ubuntu</span>
+<div onclick="selectDistro('ubuntu')" id="button-ubuntu" class="button button-select">
+  <img src="/jaws/data/files/logos/ubuntu_small.png" /><br />
+  Ubuntu
 </div>
-<div onclick="selectDistro('gentoo')" id="button-gentoo" class="button button-select" style="float: left;">
-  <img src="/jaws/data/files/logos/gentoo.png" />
-  <span style="font-size: x-small;">Gentoo</span>
+<div onclick="selectDistro('gentoo')" id="button-gentoo" class="button button-select">
+  <img src="/jaws/data/files/logos/gentoo.png" /><br />
+  Gentoo
 </div>
-<div onclick="selectDistro('archlinux')" id="button-archlinux" class="button button-select" style="float: left;">
-  <img src="/jaws/data/files/logos/archlinux_small.png" />
-  <span style="font-size: x-small">Arch Linux</span>
+<div onclick="selectDistro('archlinux')" id="button-archlinux" class="button button-select">
+  <img src="/jaws/data/files/logos/archlinux_small.png" /><br />
+  Arch Linux
 </div>
-<div onclick="selectDistro('foresight')" id="button-foresight" class="button button-select" style="float: left;">
-  <img src="/jaws/data/files/logos/foresight_small.png" />
-  <span style="font-size: x-small">Foresight</span>
+<div onclick="selectDistro('foresight')" id="button-foresight" class="button button-select">
+  <img src="/jaws/data/files/logos/foresight_small.png" /><br />
+  Foresight
 </div>
-<div onclick="selectDistro('linux')" id="button-linux" class="button button-select" style="float: left;">
-  <img src="/jaws/data/files/logos/debian_small.png" />
-  <span style="font-size: x-small">GNU/Linux</span>
+<div onclick="selectDistro('linux')" id="button-linux" class="button button-select">
+  <img src="/jaws/data/files/logos/debian_small.png" /><br />
+  GNU/Linux
 </div>
-<div onclick="selectDistro('freebsd')" id="button-freebsd" class="button button-select" style="float: left;">
-  <img src="/jaws/data/files/logos/freebsd_small.png" />
-  <span style="font-size: x-small">FreeBSD</span>
+<div onclick="selectDistro('freebsd')" id="button-freebsd" class="button button-select">
+  <img src="/jaws/data/files/logos/freebsd_small.png" /><br />
+  FreeBSD
 </div>
-<div onclick="selectDistro('windows')" id="button-windows" class="button button-select" style="float: left;">
-  <img src="/jaws/data/files/logos/windows_small.png" />
-  <span style="font-size: x-small">Windows</span>
+<div onclick="selectDistro('windows')" id="button-windows" class="button button-select">
+  <img src="/jaws/data/files/logos/windows_small.png" /><br />
+  Windows
 </div>
 </div>
 
