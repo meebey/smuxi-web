@@ -38,7 +38,7 @@
   Foresight
 </div>
 <div onclick="selectDistro('linux')" id="button-linux" class="button button-select">
-  <img src="/jaws/data/files/logos/debian_small.png" /><br />
+  <img src="/jaws/data/files/logos/linux_small.png" /><br />
   GNU/Linux
 </div>
 <div onclick="selectDistro('freebsd')" id="button-freebsd" class="button button-select">
