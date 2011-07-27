@@ -13,10 +13,6 @@
 </div>
 
 <!-- Distro Selectors -->
-<div onclick="selectDistro('opensuse')" id="button-opensuse" class="button button-select">
-  <img src="/jaws/data/files/logos/opensuse_small.png" /><br />
-  openSUSE
-</div>
 <div onclick="selectDistro('debian')" id="button-debian" class="button button-select">
   <img src="/jaws/data/files/logos/debian_small.png" /><br />
   Debian
@@ -24,6 +20,10 @@
 <div onclick="selectDistro('ubuntu')" id="button-ubuntu" class="button button-select">
   <img src="/jaws/data/files/logos/ubuntu_small.png" /><br />
   Ubuntu
+</div>
+<div onclick="selectDistro('opensuse')" id="button-opensuse" class="button button-select">
+  <img src="/jaws/data/files/logos/opensuse_small.png" /><br />
+  openSUSE
 </div>
 <div onclick="selectDistro('gentoo')" id="button-gentoo" class="button button-select">
   <img src="/jaws/data/files/logos/gentoo.png" /><br />
