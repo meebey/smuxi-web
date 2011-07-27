@@ -25,3 +25,7 @@ div.button-chosen {
 .inlineheader, .inlinefooter {
     display: none;
 }
+
+.distrologo {
+    float: right;
+}
