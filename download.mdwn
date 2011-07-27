@@ -15,7 +15,7 @@
 <!-- Distro Selectors -->
 <div onclick="selectDistro('opensuse')" id="button-opensuse" class="button button-select">
   <img src="/jaws/data/files/logos/opensuse_small.png" /><br />
-  openSUSE<
+  openSUSE
 </div>
 <div onclick="selectDistro('debian')" id="button-debian" class="button button-select">
   <img src="/jaws/data/files/logos/debian_small.png" /><br />
