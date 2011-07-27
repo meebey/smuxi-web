@@ -1,0 +1,25 @@
+@import "/local.css";
+
+div.button {
+    border:1px solid lightgrey;
+    cursor:pointer;
+    margin:10px;
+    padding:5px;
+}
+
+div.button img {
+    width: 32px;
+    height: 32px;
+}
+
+div.button-select:hover {
+    background-color:lightgreen;
+}
+
+div.button-chosen {
+    background-color:lightgreen;
+}
+
+.inlineheader, .inlinefooter {
+    display: none;
+}

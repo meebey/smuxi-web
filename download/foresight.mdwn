@@ -1,0 +1,9 @@
+![Foresight Linux Logo][]
+Smuxi is in [Conary][], so just run the following comand to install it:
+
+    sudo conary update smuxi
+
+Now you can start Smuxi from the GNOME, KDE or XFCE menu.
+
+  [Foresight Linux Logo]: /jaws/data/files/logos/foresight.png
+  [Conary]: http://www.rpath.org/web/repos/foresight/troveInfo?t=smuxi

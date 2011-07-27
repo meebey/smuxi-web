@@ -1,0 +1,66 @@
+![Debian GNU/Linux Logo][] \
+### Debian 6.0 (Stable / Squeeze)
+**Debian 6.0** users can install Smuxi from the [backports.debian.org][]
+repository, just add the following line to your /etc/apt/source.list
+file:
+
+    deb http://backports.debian.org/debian-backports squeeze-backports main
+
+After that run:
+
+    apt-get update
+    apt-get -t squeeze-backports install smuxi
+
+Now you can start Smuxi from the GNOME or KDE menu.
+
+### Debian 5.0 (Old Stable / Lenny)
+**Debian 5.0** users can install Smuxi from the [backports.debian.org][]
+repository, just add the following line to your /etc/apt/source.list
+file:
+
+    deb http://backports.debian.org/debian-backports lenny-backports main
+
+After that run:
+
+    apt-get update
+    apt-get -t lenny-backports install smuxi
+
+Now you can start Smuxi from the GNOME or KDE menu.
+
+### Debian Testing and Unstable
+**Debian/Testing** and **Debian/Unstable** users can install Smuxi from
+the official Debian repository, just run the following command:
+
+    apt-get install smuxi
+
+Now you can start Smuxi from the GNOME or KDE menu.
+
+### Unofficial Debian Repositories
+**In case the official repositories from above are not providing the
+latest Smuxi version yet, you can use these instead:**
+
+For **Debian/Testing** and **Debian/Unstable** add the following line to
+your /etc/apt/source.list file:
+
+    deb http://debian.meebey.net/sid/smuxi /
+
+For **Debian 6.0** add the following line to your /etc/apt/source.list
+file:
+
+    deb http://debian.meebey.net/squeeze-backports/smuxi /
+
+For **Debian 5.0** add the following line to your /etc/apt/source.list
+file:
+
+    deb http://debian.meebey.net/lenny-backports/mono /
+    deb http://debian.meebey.net/lenny-backports/smuxi /
+
+After that run:
+
+    apt-get update
+    apt-get install smuxi
+
+Now you can start Smuxi from the GNOME or KDE menu.
+
+  [Debian GNU/Linux Logo]: /jaws/data/files/logos/debian.png
+  [backports.debian.org]: http://backports.debian.org/

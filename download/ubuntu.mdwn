@@ -1,0 +1,15 @@
+![Ubuntu Logo][]
+NOTE: Ubuntu/Lucid (10.4) contains Smuxi <u>0.7.1</u>, but it's
+recommended to use <u>0.8</u> instead!
+
+**Ubuntu/Lucid (10.04)** users can install Smuxi from this [PPA], just
+run the following commands:
+
+    sudo add-apt-repository ppa:meebey/ppa
+    sudo aptitude update
+    sudo aptitude install smuxi
+
+Now you can start Smuxi from the GNOME or KDE menu.
+
+  [Ubuntu Logo]: /jaws/data/files/logos/ubuntu.png
+  [PPA]: https://launchpad.net/~meebey/+archive/ppa

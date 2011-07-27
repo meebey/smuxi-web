@@ -1,0 +1,27 @@
+![GNU/Linux Logo][]
+**Download: [smuxi-0.8-1-bin.tar.gz][]**
+
+This package contains pre-compiled Smuxi binaries plus the required
+libraries (log4net, Nini, SmartIrc4net), suitable for Linux (using Mono)
+users.
+
+Linux users using the binary tarball have to make sure the required
+runtime and libraries are installed in order to run Smuxi correctly!
+
+You need the Mono runtime (\>= 1.2.6) and the GTK\# libraries (\>= 2.8)
+which you can download here:
+
+[http://www.go-mono.com/mono-downloads/download.html][]
+
+Alternatively you can install Mono and GTK\# from your package
+repository of your Linux Distribution, just make sure they are the right
+version!
+
+After you have installed those you can run the smuxi-frontend-gnome
+script from the binary tarball or run the following from a terminal:
+
+    mono smuxi-frontend-gnome.exe
+
+  [GNU/Linux Logo]: /jaws/data/files/logos/linux.png
+  [GNU/Linux Logo Small]: /jaws/data/files/logos/linux_small.jpg
+  [smuxi-0.8-1-bin.tar.gz]: /download.php?file=smuxi-0.8-1-bin.tar.gz
