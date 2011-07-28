@@ -11,7 +11,7 @@ reason, you can download the components from here.
 * [GTK\# 2.12 for Microsoft .NET package (2.12.9)][GTK#]
 
 **Attention:** As of now GTK# 2.12.<u>10</u> will [**not** work][GTK# 2.12.10
-issue]. Please make sure 2.12.9 gets installed!
+issue]. Please make sure 2.12.<u>9</u> gets installed!
 
 After you have installed GTK\# 2.12 for .NET manually you **must reboot (or
 re-logon)** your Windows!
