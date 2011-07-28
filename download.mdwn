@@ -1,3 +1,5 @@
+[[!meta title="Download"]
+
 <script type="text/javascript" src="selector.js"></script>
 <script>
     setDistros('opensuse debian ubuntu gentoo archlinux foresight linux freebsd windows');
