@@ -1,4 +1,5 @@
-[[!img logos/debian.png alt="Debian GNU/Linux Logo" class="distrologo"]]
+[[!img logos/debian.png link=no alt="Debian GNU/Linux Logo" class="distrologo"]]
+
 ### Debian 6.0 (Stable / Squeeze)
 **Debian 6.0** users can install Smuxi from the [backports.debian.org][]
 repository, just add the following line to your /etc/apt/source.list
