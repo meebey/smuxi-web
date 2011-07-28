@@ -1,4 +1,4 @@
-[[!meta title="Download"]
+[[!meta title="Download"]]
 
 <script type="text/javascript" src="selector.js"></script>
 <script>
