@@ -1,4 +1,5 @@
-![Microsoft Windows Logo][]
+[[!img logos/windows.png link=no alt="Microsoft Windows Logo" class="distrologo"]]
+
 **Download: [smuxi-0.8-3-win32-setup.exe][]**
 
 Windows XP / Vista / 7 users (32-bit and 64-bit) can download the
@@ -20,7 +21,6 @@ your Windows!
 After you have installed both packages, you can start Smuxi from the
 Windows Start Menu.
 
-  [Microsoft Windows Logo]: /jaws/data/files/logos/windows.png
   [http://www.go-mono.com/mono-downloads/download.html]: http://www.go-mono.com/mono-downloads/download.html
   [http://www.microsoft.com/downloads/en/details.aspx?familyid=ab99342f-5d1a-413d-8319-81da479ab0d7]:
     http://www.microsoft.com/downloads/en/details.aspx?familyid=ab99342f-5d1a-413d-8319-81da479ab0d7

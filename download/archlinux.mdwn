@@ -1,9 +1,9 @@
-![Arch Linux Logo][]
+[[!img logos/archlinux.png link=no alt="Arch Linux Logo" class="distrologo"]]
+
 Smuxi is in [AUR][], so just run the following comand to install it:
 
     sudo yaourt -S smuxi
 
 Now you can start Smuxi from the GNOME or KDE menu.
 
-  [Arch Linux Logo]: /jaws/data/files/logos/archlinux.png
   [AUR]: http://aur.archlinux.org/packages.php?ID=19247

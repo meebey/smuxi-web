@@ -1,4 +1,5 @@
-![Ubuntu Logo][]
+[[!img logos/ubuntu.png link=no alt="Ubuntu Logo" class="distrologo"]]
+
 NOTE: Ubuntu/Lucid (10.4) contains Smuxi <u>0.7.1</u>, but it's
 recommended to use <u>0.8</u> instead!
 
@@ -11,5 +12,4 @@ run the following commands:
 
 Now you can start Smuxi from the GNOME or KDE menu.
 
-  [Ubuntu Logo]: /jaws/data/files/logos/ubuntu.png
   [PPA]: https://launchpad.net/~meebey/+archive/ppa

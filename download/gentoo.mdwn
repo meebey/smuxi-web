@@ -1,9 +1,10 @@
-![Gentoo Logo][] Gentoo users that are using [\~amd64 or \~x86][Gentoo Package]
-can install Smuxi by running:
+[[!img logos/gentoo.png link=no alt="Gentoo Logo" class="distrologo"]]
+
+Gentoo users that are using [\~amd64 or \~x86][Gentoo Package] can install Smuxi
+by running:
 
     emerge smuxi
 
 Now you can start Smuxi from the GNOME or KDE menu.
 
-  [Gentoo Logo]: /jaws/data/files/logos/gentoo.png
   [Gentoo Package]: http://packages.gentoo.org/package/net-irc/smuxi
