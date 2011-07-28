@@ -94,6 +94,10 @@
 [[!toggleable  id="download-windows-stable" text="""
     [[!inline pages="download/windows"]]
 """]]
+
+[[!toggleable  id="download-osx-stable" text="""
+    [[!inline pages="download/osx"]]
+"""]]
 </div>
 
 ## Source Tarball
