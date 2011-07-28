@@ -2,7 +2,7 @@
 
 <script type="text/javascript" src="selector.js"></script>
 <script>
-    setDistros('opensuse debian ubuntu gentoo archlinux foresight linux freebsd windows');
+    setDistros('opensuse debian ubuntu gentoo archlinux foresight linux freebsd windows osx');
 </script>
 
 ## Release Notes
@@ -50,6 +50,10 @@
 <div onclick="selectDistro('windows')" id="button-windows" class="button button-select">
   <img src="/logos/windows_small.png" /><br />
   Windows
+</div>
+<div onclick="selectDistro('osx')" id="button-osx" class="button button-select">
+  <img src="/logos/osx_small.png" /><br />
+  OS X
 </div>
 </div>
 

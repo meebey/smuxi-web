@@ -1,0 +1,13 @@
+[[!img logos/osx.png link=no alt="Mac OS X" class="distrologo"]]
+
+**Download: [smuxi-0.8-osx.zip][]**
+
+Mac OS X users can download this experimental package. You have to download and
+install first the Mono runtime though:
+
+* [Mono 2.10 for Intel (x86)][Mono X86]
+* [Mono 2.10 for PowerPC][Mono PowerPC]
+
+  [Mono X86]: http://ftp.novell.com/pub/mono/archive/2.10.2/macos-10-x86/5.4/MonoFramework-MRE-2.10.2_5.4.macos10.novell.x86.dmg
+  [Mono PowerPC]: http://ftp.novell.com/pub/mono/archive/2.10.2/macos-10-ppc/5.4/MonoFramework-MRE-2.10.2_5.4.macos10.novell.ppc.dmg
+  [smuxi-0.8-osx.zip]: /download.php?file=experimental/smuxi-0.8-osx.zip
