@@ -1,0 +1,91 @@
+### Smuxi currently supports the following features
+
+#### User Interface Features
+  * Detachable Frontend (frontend can be detached from a smuxi-server)
+  * Desktop Notifications (with full support of actions, icons, updates, append
+    and sound)
+  * Messaging Menu / Indicators (as provided by Ubuntu's [Ayatana project][])
+  * Unified Nickname Colors (identical color across channels and networks)
+  * [Caret-Mode][] (keyboard navigation through messages)
+  * [Browse Mode][] (allows to navigate through tabs without moving the markerline)
+  * [Regular and Bash-Style Nickname Completion][Nick Completion]
+  * Full Keyboard Control
+  * Message / Command History
+  * Configurable Command Character
+  * Quick Connect Dialog (simply connect to any server)
+  * Open / Join Chat Dialog
+  * Find Group Chat Dialog
+  * Sorted and Reoderable Tabs
+  * Colors are checked and adjusted for optimium contrast
+  * Clickable URLs
+  * Word Wrapping
+  * Configurable Highlight Words
+  * Markerlines which divide old messages from new messages
+  * Toggle-able menubar
+  * Full screen mode
+  * Themeing Support
+    * Configurable Font
+    * Foreground / Background Color
+    * Userlist Position
+    * Tab Colors / Position
+    * Configurable Timestamps
+    * Configurable Tray-Icon Support
+
+#### Connectivity Features
+  * Multiple Server Support (you can connect to more than one server)
+  * Configurable Encoding (ISO-8859-1/15, UTF-8, etc)
+  * HTTP / SOCKS Proxy Support
+  * SSL Support (with optional certificate validation)
+  * Multiple Network Protocols
+    * IRC Support
+    * Twitter Support
+
+#### IRC Features
+  * Stripping Colors and/or Formattings from Messages
+  * Showing mIRC Colors
+  * Splitting oversized messages
+  * [Channel List / Search][]
+  * CTCP Support including a Menu
+  * Invite To Menu
+  * Lag Indicator
+  * Flood detection and prevention 
+
+#### Twitter Features
+  * OAuth authentication
+  * Reading and Posting Tweets
+  * Friends Timeline
+  * Replies
+  * Direct Messages
+
+#### Automatization
+  * Auto Connect (automatically connect to defined servers)
+  * Startup Commands (when Smuxi starts)
+  * [On Connect Commands][] (when connecting to a server)
+  * Logging Support
+  * [Fully customizable filters][Filters] (to ignore messages or events)
+
+#### Localization
+  * Translations
+    * British English
+    * Czech
+    * Catalan (partial)
+    * Danish
+    * Finnish (partial)
+    * French
+    * German
+    * Italian
+    * Portuguese
+    * Spanish (partial)
+    * Swedish 
+
+#### Planned features for the next release
+  * IPv6 Support
+
+  [Ayatana project]: https://wiki.ubuntu.com/MessagingMenu
+  [Caret-Mode]: http://www.smuxi.org/ezfaq/show/smuxi?faq_id=7
+  [Browse Mode]: http://www.smuxi.org/ezfaq/show/smuxi?faq_id=24
+  [Nick Completion]: http://www.smuxi.org/ezfaq/show/smuxi?faq_id=14
+  [Channel List / Search]: http://www.smuxi.org/ezfaq/show/smuxi?faq_id=27
+  [On Connect Commands]: http://www.smuxi.org/ezfaq/show/smuxi?faq_id=26
+  [Filters]: http://www.smuxi.org/ezfaq/show/smuxi?faq_id=13
+
