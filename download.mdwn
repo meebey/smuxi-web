@@ -16,43 +16,43 @@
 
 <!-- Distro Selectors -->
 <div onclick="selectDistro('debian')" id="button-debian" class="button button-select">
-  <img src="/logos/debian_small.png" /><br />
+  <img src="/logos/debian_small.png" />
   Debian
 </div>
 <div onclick="selectDistro('ubuntu')" id="button-ubuntu" class="button button-select">
-  <img src="/logos/ubuntu_small.png" /><br />
+  <img src="/logos/ubuntu_small.png" />
   Ubuntu
 </div>
 <div onclick="selectDistro('opensuse')" id="button-opensuse" class="button button-select">
-  <img src="/logos/opensuse_small.png" /><br />
+  <img src="/logos/opensuse_small.png" />
   openSUSE
 </div>
 <div onclick="selectDistro('gentoo')" id="button-gentoo" class="button button-select">
-  <img src="/logos/gentoo.png" /><br />
+  <img src="/logos/gentoo.png" />
   Gentoo
 </div>
 <div onclick="selectDistro('archlinux')" id="button-archlinux" class="button button-select">
-  <img src="/logos/archlinux_small.png" /><br />
+  <img src="/logos/archlinux_small.png" />
   Arch Linux
 </div>
 <div onclick="selectDistro('foresight')" id="button-foresight" class="button button-select">
-  <img src="/logos/foresight_small.png" /><br />
+  <img src="/logos/foresight_small.png" />
   Foresight
 </div>
 <div onclick="selectDistro('linux')" id="button-linux" class="button button-select">
-  <img src="/logos/linux_small.jpg" /><br />
+  <img src="/logos/linux_small.jpg" />
   GNU/Linux
 </div>
 <div onclick="selectDistro('freebsd')" id="button-freebsd" class="button button-select">
-  <img src="/logos/freebsd_small.png" /><br />
+  <img src="/logos/freebsd_small.png" />
   FreeBSD
 </div>
 <div onclick="selectDistro('windows')" id="button-windows" class="button button-select">
-  <img src="/logos/windows_small.png" /><br />
+  <img src="/logos/windows_small.png" />
   Windows
 </div>
 <div onclick="selectDistro('osx')" id="button-osx" class="button button-select">
-  <img src="/logos/osx_small.png" /><br />
+  <img src="/logos/osx_small.png" />
   OS X
 </div>
 </div>
