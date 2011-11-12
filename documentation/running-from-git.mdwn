@@ -1,0 +1,12 @@
+If you like living on the bleeding edge and can't wait for the latest features,
+then you can build and run Smuxi from the git source repository.
+
+On Debian and Ubuntu it should be as simple as running the following commands:
+
+	sudo apt-get build-dep smuxi
+	sudo apt-get install git
+	git clone git://git.qnetp.net/smuxi.git
+	cd smuxi
+	./autogen.sh
+	make run
+
