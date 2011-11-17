@@ -10,6 +10,11 @@ On Debian and Ubuntu it should be as simple as running the following commands:
 	./autogen.sh
 	make run
 
+On older Debian systems (like Debian 5.0 / Lenny) you need to install the build
+dependencies by hand using this command:
+
+	sudo apt-get install build-essential pkg-config mono-devel lsb-release gettext intltool libtool autoconf automake autotools-dev
+
 On Windows it is even simpler and you just need to install a development
 snapshot which you can find [[here|http://app.cresces.com/smuxi/]].
 
