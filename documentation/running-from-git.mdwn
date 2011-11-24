@@ -45,4 +45,4 @@ dependencies by hand using this command:
 
 	sudo apt-get install build-essential pkg-config mono-devel lsb-release gettext intltool libtool autoconf automake autotools-dev
 
- [PPA]: http://ppa.launchpad.net/meebey/smuxi-daily
+ [PPA]: https://launchpad.net/~meebey/+archive/smuxi-daily
