@@ -1,6 +1,32 @@
-If you like living on the bleeding edge and can't wait for the latest features,
-then you can build and run Smuxi from the git source repository.
+If you like living on the bleeding edge and can't wait for the latest features
+and bugfixes, then you can install a development build or build Smuxi from the
+git source repository.
 
+## Installing Development Builds ##
+
+### Debian ###
+On Debian Testing/Unstable you can use the [daily APT repository][PPA] by running:
+
+    sudo 'echo "deb http://ppa.launchpad.net/meebey/smuxi-daily/ubuntu natty main" >> /etc/apt/sources.list'
+    gpg --recv-keys FC6D77D5 --keyserver keyserver.ubuntu.com
+    gpg --export --armor FC6D77D5 | sudo apt-key add -
+    sudo apt-get update
+    sudo apt-get install smuxi
+
+### Ubuntu ###
+On Ubuntu you can use the [daily APT repository][PPA] by running:
+
+    sudo add-apt-repository ppa:meebey/smuxi-daily
+    sudo apt-get update
+    sudo apt-get install smuxi
+
+## Windows ##
+On Windows it is even simpler and you just need to install a development
+snapshot which you can find [[here|http://app.cresces.com/smuxi/]].
+
+## Building Smuxi from Git Source Repository ##
+
+### Debian / Ubuntu ###
 On Debian and Ubuntu it should be as simple as running the following commands:
 
 	sudo apt-get build-dep smuxi
@@ -19,6 +45,4 @@ dependencies by hand using this command:
 
 	sudo apt-get install build-essential pkg-config mono-devel lsb-release gettext intltool libtool autoconf automake autotools-dev
 
-On Windows it is even simpler and you just need to install a development
-snapshot which you can find [[here|http://app.cresces.com/smuxi/]].
-
+ [PPA]: http://ppa.launchpad.net/meebey/smuxi-daily
