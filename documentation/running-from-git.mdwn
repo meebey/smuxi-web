@@ -5,6 +5,14 @@ git source repository.
 ## Installing Development Builds ##
 
 ### Debian ###
+On Debian 6.0 (squeeze) you can use the [daily APT repository][PPA] by running:
+
+    sudo 'echo "deb http://ppa.launchpad.net/meebey/smuxi-daily/ubuntu lucid main" >> /etc/apt/sources.list'
+    gpg --recv-keys FC6D77D5 --keyserver keyserver.ubuntu.com
+    gpg --export --armor FC6D77D5 | sudo apt-key add -
+    sudo apt-get update
+    sudo apt-get install smuxi
+
 On Debian Testing/Unstable you can use the [daily APT repository][PPA] by running:
 
     sudo 'echo "deb http://ppa.launchpad.net/meebey/smuxi-daily/ubuntu natty main" >> /etc/apt/sources.list'
