@@ -3,4 +3,4 @@ files to the posts/ subdirectory, or use the web form.
 
 [[Running Smuxi from git howto|documentation/running-from-git]]
 
-[[!tag tags/tech planet-smuxifeed]]
+[[!tag tags/tech planet-feed]]
