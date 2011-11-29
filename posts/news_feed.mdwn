@@ -1,0 +1,5 @@
+[[!meta title="News Feed"]]                      
+[[!tag planet-feed]]
+
+Smuxi now comes with a built-in news feed which keeps you up to date about
+important news! Don't worry, we will try to keep the volume low and short.
