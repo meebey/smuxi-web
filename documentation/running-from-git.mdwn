@@ -8,7 +8,7 @@ git source repository.
 On Debian 6.0 (squeeze) you can use the [daily APT repository][PPA] by running:
 
     sudo -s bash -c 'echo "deb http://ppa.launchpad.net/meebey/smuxi-daily/ubuntu lucid main" >> /etc/apt/sources.list'
-    gpg --recv-keys FC6D77D5 --keyserver keyserver.ubuntu.com
+    gpg --keyserver keyserver.ubuntu.com --recv-keys FC6D77D5
     gpg --export --armor FC6D77D5 | sudo apt-key add -
     sudo apt-get update
     sudo apt-get install smuxi
@@ -16,7 +16,7 @@ On Debian 6.0 (squeeze) you can use the [daily APT repository][PPA] by running:
 On Debian Testing/Unstable you can use the [daily APT repository][PPA] by running:
 
     sudo -s bash -c 'echo "deb http://ppa.launchpad.net/meebey/smuxi-daily/ubuntu natty main" >> /etc/apt/sources.list'
-    gpg --recv-keys FC6D77D5 --keyserver keyserver.ubuntu.com
+    gpg --keyserver keyserver.ubuntu.com --recv-keys FC6D77D5
     gpg --export --armor FC6D77D5 | sudo apt-key add -
     sudo apt-get update
     sudo apt-get install smuxi
