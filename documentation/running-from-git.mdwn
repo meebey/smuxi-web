@@ -5,7 +5,7 @@ git source repository.
 ## Installing Development Builds ##
 
 ### Debian ###
-On Debian 6.0 (squeeze) you can use the [daily APT repository][PPA] by running:
+On **Debian 6.0 (squeeze)** you can use the [daily APT repository][PPA] by running:
 
     sudo -s bash -c 'echo "deb http://ppa.launchpad.net/meebey/smuxi-daily/ubuntu lucid main" >> /etc/apt/sources.list'
     gpg --keyserver keyserver.ubuntu.com --recv-keys FC6D77D5
@@ -13,7 +13,7 @@ On Debian 6.0 (squeeze) you can use the [daily APT repository][PPA] by running:
     sudo apt-get update
     sudo apt-get install smuxi
 
-On Debian Testing/Unstable you can use the [daily APT repository][PPA] by running:
+On **Debian Testing/Unstable** you can use the [daily APT repository][PPA] by running:
 
     sudo -s bash -c 'echo "deb http://ppa.launchpad.net/meebey/smuxi-daily/ubuntu natty main" >> /etc/apt/sources.list'
     gpg --keyserver keyserver.ubuntu.com --recv-keys FC6D77D5
@@ -22,13 +22,13 @@ On Debian Testing/Unstable you can use the [daily APT repository][PPA] by runnin
     sudo apt-get install smuxi
 
 ### Ubuntu ###
-On Ubuntu you can use the [daily APT repository][PPA] by running:
+On **Ubuntu** you can use the [daily APT repository][PPA] by running:
 
     sudo add-apt-repository ppa:meebey/smuxi-daily
     sudo apt-get update
     sudo apt-get install smuxi
 
-On Ubuntu Server you can use the [daily APT repository][PPA] by running:
+On **Ubuntu Server you** can use the [daily APT repository][PPA] by running:
 
     sudo apt-get install python-software-properties
     sudo add-apt-repository ppa:meebey/smuxi-daily
@@ -42,7 +42,7 @@ snapshot which you can find [[here|http://app.cresces.com/smuxi/]].
 ## Building Smuxi from Git Source Repository ##
 
 ### Debian / Ubuntu ###
-On Debian and Ubuntu it should be as simple as running the following commands:
+On **Debian** and **Ubuntu** it should be as simple as running the following commands:
 
 	sudo apt-get build-dep smuxi
 	sudo apt-get install git
@@ -51,7 +51,7 @@ On Debian and Ubuntu it should be as simple as running the following commands:
 	./autogen.sh
 	make run
 
-On Ubuntu 11.10 (Oneiric Ocelot) the compiler has to be dmcs using this command:
+On **Ubuntu 11.10 (Oneiric Ocelot)** the compiler has to be dmcs using this command:
 
     ./autogen.sh MCS=/usr/bin/dmcs
 
