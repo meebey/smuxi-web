@@ -28,6 +28,13 @@ On Ubuntu you can use the [daily APT repository][PPA] by running:
     sudo apt-get update
     sudo apt-get install smuxi
 
+On Ubuntu Server you can use the [daily APT repository][PPA] by running:
+
+    sudo apt-get install python-software-properties
+    sudo add-apt-repository ppa:meebey/smuxi-daily
+    sudo apt-get update
+    sudo apt-get install smuxi
+
 ## Windows ##
 On Windows it is even simpler and you just need to install a development
 snapshot which you can find [[here|http://app.cresces.com/smuxi/]].
