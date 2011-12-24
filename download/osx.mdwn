@@ -8,6 +8,9 @@ install first the Mono runtime though:
 * [Mono 2.10 for Intel (x86)][Mono X86]
 * [Mono 2.10 for PowerPC][Mono PowerPC]
 
+[[!img screenshots/smuxi-0.8.9-dev-osx.png size="400x"
+       alt="Screenshot of Smuxi on Mac OS X"]]
+
   [Mono X86]: /jaws/data/files/MonoFramework-MRE-2.10.8.1_2.macos10.xamarin.x86.dmg
   [Mono PowerPC]: http://ftp.novell.com/pub/mono/archive/2.10.2/macos-10-ppc/5.4/MonoFramework-MRE-2.10.2_5.4.macos10.novell.ppc.dmg
   [smuxi-snapshot-osx.zip]: /download.php?file=snapshots/smuxi-snapshot-osx.zip
