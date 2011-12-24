@@ -60,43 +60,43 @@
 <!-- Distro Items -->
 <div id="distro-items">
 [[!toggleable  id="download-debian-stable" text="""
-    [[!inline pages="download/debian"]]
+    [[!inline pages="download/debian" feeds=no]]
 """]]
 
 [[!toggleable  id="download-ubuntu-stable" text="""
-    [[!inline pages="download/ubuntu"]]
+    [[!inline pages="download/ubuntu" feeds=no]]
 """]]
 
 [[!toggleable  id="download-opensuse-stable" text="""
-    [[!inline pages="download/opensuse"]]
+    [[!inline pages="download/opensuse" feeds=no]]
 """]]
 
 [[!toggleable  id="download-gentoo-stable" text="""
-    [[!inline pages="download/gentoo"]]
+    [[!inline pages="download/gentoo" feeds=no]]
 """]]
 
 [[!toggleable  id="download-archlinux-stable" text="""
-    [[!inline pages="download/archlinux"]]
+    [[!inline pages="download/archlinux" feeds=no]]
 """]]
 
 [[!toggleable  id="download-foresight-stable" text="""
-    [[!inline pages="download/foresight"]]
+    [[!inline pages="download/foresight" feeds=no]]
 """]]
 
 [[!toggleable  id="download-linux-stable" text="""
-    [[!inline pages="download/linux"]]
+    [[!inline pages="download/linux" feeds=no]]
 """]]
 
 [[!toggleable  id="download-freebsd-stable" text="""
-    [[!inline pages="download/freebsd"]]
+    [[!inline pages="download/freebsd" feeds=no]]
 """]]
 
 [[!toggleable  id="download-windows-stable" text="""
-    [[!inline pages="download/windows"]]
+    [[!inline pages="download/windows" feeds=no]]
 """]]
 
 [[!toggleable  id="download-osx-stable" text="""
-    [[!inline pages="download/osx"]]
+    [[!inline pages="download/osx" feeds=no]]
 """]]
 </div>
 
