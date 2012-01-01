@@ -7,4 +7,4 @@ the PPA please upgrade to at least ~66 or if you run Windows or OS X please
 upgrade to at least 2012-01-01 from [here][snapshots]. Please report any issue
 you find on #smuxi IRC channel. Thank you for your participation!
 
-  [git]: http://smuxi.im/documentation/running-from-git/
+  [snapshots]: http://smuxi.im/documentation/running-from-git/
