@@ -1,0 +1,10 @@
+[[!meta title="Call for Testing - Smuxi 0.8.9 Release Imminet"]]
+
+Smuxi development build users please upgrade your Smuxi version now. The
+release of Smuxi 0.8.9 is imminent and needs final testing. If you run from git
+please upgrade to at least 4d9c56d (2012-01-01), if you run daily builds from
+the PPA please upgrade to at least ~66 or if you run Windows or OS X please
+upgrade to at least 2012-01-01 from [here][snapshots]. Please report any issue
+you find on #smuxi IRC channel. Thank you for your participation!
+
+  [git]: http://smuxi.im/documentation/running-from-git/
