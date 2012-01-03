@@ -1,6 +1,6 @@
 [[!img logos/windows.png link=no alt="Microsoft Windows Logo" class="distrologo"]]
 
-**Download: [smuxi-0.8-3-win32-setup.exe][]**
+**Download: [smuxi-0.8.9-1-win32-setup.exe][]**
 
 Windows XP / Vista / 7 users (32-bit and 64-bit) can download the
 installer (as listed above). The installer automatically downloads the
@@ -9,9 +9,6 @@ reason, you can download the components from here.
 
 * [Microsoft .NET Framework 3.5 SP1][.NET]
 * [GTK\# 2.12.9 for Microsoft .NET package][GTK#]
-
-**Attention:** As of now GTK# 2.12.<u>10</u> will [**not** work][GTK# 2.12.10
-issue]. Please make sure 2.12.<u>9</u> gets installed!
 
 After you have installed GTK\# 2.12 for .NET manually you **must reboot (or
 re-logon)** your Windows!
@@ -22,6 +19,5 @@ Windows Start Menu.
   [.NET]:
     http://www.microsoft.com/downloads/en/details.aspx?familyid=ab99342f-5d1a-413d-8319-81da479ab0d7
   [GTK#]:
-    http://ftp.novell.com/pub/mono/gtk-sharp/gtk-sharp-2.12.9-2.win32.msi
-  [GTK# 2.12.10 issue]: /issues/show/230
-  [smuxi-0.8-3-win32-setup.exe]: /download.php?file=smuxi-0.8-3-win32-setup.exe
+    http://download.mono-project.com/gtk-sharp/gtk-sharp-2.12.10.win32.msi
+  [smuxi-0.8.9-1-win32-setup.exe]: /download.php?file=smuxi-0.8.9-1-win32-setup.exe

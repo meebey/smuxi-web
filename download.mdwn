@@ -117,4 +117,4 @@ Building Smuxi from source requires the following packages being installed:
   [Smuxi 0.8 Release Notes]: /blog/show/Smuxi_08_Release
   [log4net]: http://logging.apache.org/log4net/
   [Nini]: http://nini.sourceforge.net/
-  [smuxi-0.8.tar.gz]: /download.php?file=smuxi-0.8.tar.gz
+  [smuxi-0.8.9.tar.gz]: /download.php?file=smuxi-0.8.9.tar.gz
