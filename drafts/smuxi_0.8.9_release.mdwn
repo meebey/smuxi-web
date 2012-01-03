@@ -1,0 +1,216 @@
+[[!meta title="Smuxi 0.8.9 Release"]]
+[[!meta date="2012-01-01"]]
+
+Just in time for 2012 I am very pleased to announce Smuxi **0.8.9** codenamed
+**"One Giant Leap"**. During the development [56 bug reports][bugs] and
+[33 feature requests][features] in [593 commits][commits] were worked on making
+this release a major milestone of the Smuxi project.
+
+Here are the highlights of this release:
+
+### Development Builds / Rolling Releases ###
+After the 0.8 release it became clear that a continious and short
+development -> test cycle is important to keep the project going
+quickly. At some point I have received requests if the project is dead while
+it was more active than ever. The lack of new releases (for about 15 months)
+lead to this wrong impression. Thus Smuxi can be obtained from
+[development builds] now. This includes [daily builds][#504] for
+Debian (Squeeze, Wheezy, Sid),
+Ubuntu (Lucid, Maverick, Natty, Oneiric, Precise) and Windows.
+
+We invite everyone to use these daily builds to keep track of the latest
+development of Smuxi. Issues and regressions are fixed in a very short period
+(usually the same day).
+
+### Mac OS X support ###
+With the help of Steven McGrath (Steve\[cug\]) who created the initial Mac OS X
+installer for Smuxi we now have official support for Mac OS X. The download
+page contains the instructions how to obtain and install Smuxi on Mac OS X.
+This makes the 4th platform where Smuxi can be used on besides Windows, Linux
+and *BSD.
+
+For now Smuxi 0.8.9 doesn't feel as native as it could as it relies on the GTK+
+port. We are looking into [enhancing the experience][osx-port] though, just
+stay tuned.
+
+### Persistent Message Buffers (Beta) ###
+
+### Jabber / XMPP Support (Beta) ###
+
+### Text Interface (Alpha) ###
+This is the first release that contains a text frontend based on the
+[STFL library][STFL]. STFL is a library that uses ncurses to draw text based
+user interface using a markup language (like Glade for GTK+). This frontend
+is in early alpha state and lacks a lot of interface features and likes to
+crash. It is still included to attract potential developers who want to enhance
+this frontend. The frontend can be enabled by passing --enable-frontend-stfl
+to the configure script and then by executing smuxi-frontend-stfl.
+
+### NetworkManager Support ###
+[#205]
+
+### IPv6 Support ###
+You can now connect to IRC servers using the [IPv6 protocol][#22]
+
+## Smuxi Server specific highlights ###
+
+### More interactive and much faster synchronization ###
+When connecting to a smuxi-server you had to wait till Smuxi finished the
+synchronization before you could the interface. Also you could not tell how far
+the synchronization was and just had to wait till it was completed.
+With Smuxi 0.8.9 the connect just takes a few seconds and all chats are
+synchronized in the background with [a progress bar][#624] so you can use the interface
+from the first moment on and know how far it is. The speed how much it takes to
+synchronize all chats also reduced drastictly by 400%!
+
+### More background communication ###
+When using a smuxi-server the interface sometimes had load times like when
+[opening the preferences][#597] or when using the [nickname completion][#616]
+(using the tab key). These operations are done in the background and no longer blocks the
+interface. Also when the communication is lost to the smuxi-server the frontend
+will now automatically reconnect to it in the background.
+
+### Low Bandwidth Mode ###
+[#591]
+
+### Stable Protocol ###
+[#600]
+
+### Shutdown Command ###
+[#647]
+
+### Built-in SSH Keyfile Support ###
+
+
+### Enhanced Find Group Chat Support ###
+[#655]
+[#548]
+
+### Enhanced Windows Experience ###
+GTK# 2.19.10 on Windows support [#619]
+Consolas font [#216]
+Deals with multiple GTK+ installs [#551]
+
+### SSL for IRC fixed ###
+IRC with SSL was only working with the default port of 6697. Now any port can
+be used with SSL.
+
+### Crash Related Issues ###
+[Desktop notifications][#512] could [crash Smuxi][#574] [in case][#630] [of errors][#533] related to the
+notification system or an [absent notification daemon][#507]. 
+crash dialog [#638]
+ctrl+w [#518]
+/window close on Smuxi tab crash [#523]
+Find Group Chat on Smuxi tab crash [#532]
+[Number-only network names crashed Smuxi on startup][#573]
+[/network switch freenode crash][#610]
+[GTK+ without SVG support lead to a crash][#304]
+All these crash issues no longer happen.
+
+### Enhanced Notice Handling ###
+[#38]
+[#494]
+ChanServ and NickServ notices [#554]
+
+### Twitter fixes ###
+Twitter made some changes to their API which broke the Twitter support of
+Smuxi 0.8. This was taken care of and also [a][#623] [few][#644] [other][#464] [issues][#649] were solved
+allowing Smuxi 0.8.9 to work smoothly with Twitter again.
+
+### Extended Keybindings ###
+ctrl+tab [#659]
+ctrl+n [#505]
+Keybindings still work even with a [hidden menu bar][#462]
+
+### Updated Translations ###
+  * Catalan (Siegfried-Angel Gevatter Pujals)
+  * Danish (Joe Hansen)
+  * Finnish (Kalle Kaitala)
+  * French (Clément Bourgeois)
+  * German (Bianca Mix)
+  * Italian (Vincenzo Campanella)
+  * Portuguese (Americo Monteiro)
+  * Spanish (Castilian) (Ricardo A. Hermosilla Carrillo)
+
+### New Translations ###
+  * Chinese Simp (Dean Lee)
+  * Slovak (Tomáš Vadina)
+  * Swedish (Jimmie Elvenmark)
+  * partially Russian (Aleksandr P)
+  * partially Turkish (Umut Albayrak)
+  * partially Urdu (makki)
+
+### Contributors ####
+Contributors to this release are the following people:
+  * Mirco Bauer (497 commits)
+  * Tuukka Hastrup (10 commits)
+  * Bianca Mix (10 commits, translations)
+  * Clément Bourgeois (8 commits, translations)
+  * Andrius Bentkus (5 commits)
+  * Carlos Martín Nieto (3 commits)
+  * Jimmie Elvenmark (3 commits, translations)
+  * Hannes Tismer (1 commit)
+  * Jonathan Pryor (1 commit)
+  * Jo Shields (1 commit)
+  * Siegfried-Angel Gevatter Pujals (translations)
+  * Dean Lee (translations)
+  * Aleksandr P (translations)
+  * Americo Monteiro (translations)
+  * Andrew Kannan (translations)
+  * Joe Hansen (translations)
+  * Kalle Kaitala (translations)
+  * makki (translations)
+  * Ricardo A. Hermosilla Carrillo (translations)
+  * Tomáš Vadina (translations)
+  * Umut Albayrak (translations)
+  * Vincenzo Campanella (translations)
+
+Thank you very much for your contributions to Smuxi!
+
+  [osx-port]: http://live.gnome.org/Smuxi/Porting/Mac
+  [bugs]: /projects/smuxi/issues?fixed_version_id=15&set_filter=1&tracker_id=1&status_id=5
+  [features]: /projects/smuxi/issues?fixed_version_id=15&set_filter=1&tracker_id=2&status_id=5
+  [development builds]: /documentation/running-from-git/
+  [commits]: http://git.qnetp.net/?p=smuxi.git;a=log;h=0.8.9
+  [STFL]: http://www.clifford.at/stfl/
+  [#22]: /issues/show/22 "IPv6 support"
+  [#38]: /issues/show/38 "send notices from users to channels and querys where useful"
+  [#216]: /issues/show/216 "Consolas font for Windows"
+  [#494]: /issues/show/494 "Notices shouldn't open a query"
+  [#429]: /issues/show/429 "Using database for logging"
+  [#472]: /issues/show/472 "Theme sensitive application icon"
+  [#205]: /issues/show/205 "NetworkManager Support"
+  [#574]: /issues/show/574 "Smuxi crashes with \"0 is not a valid notification ID\""
+  [#590]: /issues/show/590 "Twitter timestamp always wrong"
+  [#619]: /issues/show/619 "Maximizing on Windows"
+  [#655]: /issues/show/655 "Find group chat not working correctly on freenode"
+  [#504]: /issues/show/504 "PPA with daily snapshots"
+  [#548]: /issues/show/548 "Support for SAFELIST (RPL_ISUPPORT)"
+  [#551]: /issues/show/551 "Set PATH before starting Smuxi on Windows"
+  [#554]: /issues/show/554 "Hide Chanserv and Nickserv messages"
+  [#591]: /issues/show/591 "Low Bandwidth Mode"
+  [#597]: /issues/show/597 "Sync config cache when connecting to smuxi-server"
+  [#600]: /issues/show/600 "smuxi-server should not need to perform a version check"
+  [#616]: /issues/show/616 "Engine-less nickname completion"
+  [#624]: /issues/show/624 "Count and show still pending chats which need to be synchronized"
+  [#644]: /issues/show/644 "New Twitter API key with Direct Messages permission"
+  [#647]: /issues/show/647 "Shutdown sequence for persistent message buffers"
+  [#653]: /issues/show/653 "SSH key authorization support"
+  [#659]: /issues/show/659 "Imitate mIRC channel window change (with CTRL+TAB)"
+  [#505]: /issues/show/505 "Move on to the next/previous window when pressing ctrl+n and p respectively."
+  [#623]: /issues/show/623 "Smuxi no longer shows Direct Messages of Twitter"
+  [#464]: /issues/show/464 "Twitter pin command should be more forgiving"
+  [#649]: /issues/show/649 "Verify Twitter OAuth tokens, invalidate and re-request when needed"
+  [#638]: /issues/show/638 "Crash dialog closes without user interaction"
+  [#507]: /issues/show/507 "Crash on startup when no Notification Daemon is running"
+  [#512]: /issues/show/512 "Smuxi crashes when spamming the notification daemon"
+  [#518]: /issues/show/518 "Crash when closing multiple chats using ctrl+w"
+  [#523]: /issues/show/523 "Crash when executing /window close on Smuxi tab"
+  [#532]: /issues/show/532 "Crashed on Ubuntu 10.04"
+  [#533]: /issues/show/533 "Crash at startup (notification related)"
+  [#573]: /issues/show/573 "Use of number in network name make the server crash"
+  [#610]: /issues/show/610 "Crash with /network switch freenode"
+  [#630]: /issues/show/630 "Crash on highlight"
+  [#304]: /issues/show/304 "Startup Crash on OpenSUSE: GLib.GException: Unrecognized image file format"
+  [#462]: /issues/show/462 "Keybinds doesn't work when hiding menubar"
+
