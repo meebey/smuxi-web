@@ -4,9 +4,10 @@
 Just in time for 2012 I am very pleased to announce Smuxi **0.8.9** codenamed
 **"One Giant Leap"**. During the development [56 bug reports][bugs] and
 [33 feature requests][features] in [593 commits][commits] were worked on making
-this release a _major milestone of the Smuxi project_. At the [Chaos Communication
-Congress (28C3)][28C3] in Berlin I was doing the final development sprint to
-get [0.8.9 done][roadmap], which was a very intensive and refreshing experience.
+this release a _major milestone of the Smuxi project_. At the
+[Chaos Communication Congress (28C3)][28C3] in Berlin I was doing the final
+development sprint to get [0.8.9 done][roadmap], which was a very intensive and
+refreshing experience.
 
 Here are the highlights of this release:
 
@@ -31,9 +32,9 @@ On the other hand one of my New Year's resolutions are to
 ### Mac OS X support ###
 With the help of Steven McGrath (Steve\[cug\]) who created the initial Mac OS X
 installer for Smuxi we now have official support for Mac OS X. The
-[download page] contains the instructions how to obtain and install Smuxi on Mac OS X.
-This makes the 4th platform where Smuxi can be used on besides Windows, Linux
-and *BSD.
+[download page] contains the instructions how to obtain and install Smuxi on
+Mac OS X. This makes the 4th platform where Smuxi can be used on besides
+Windows, Linux and *BSD.
 
 For now Smuxi 0.8.9 doesn't feel as native as it could as it relies on the GTK+
 port. We are looking into [enhancing the experience][osx-port] though, just
@@ -114,9 +115,9 @@ console-like font available called Consolas. Smuxi will now
 SCREENSHOT FixedSys
 SCREENSHOT Consolas
 
-Another important enhancement is that Smuxi no longer has issues with [multiple
-GTK+ installs][#551] on the same computer, which was getting more common with
-more popular ported GTK+ applications such as GIMP or Pidgin.
+Another important enhancement is that Smuxi no longer has issues with
+[multiple GTK+ installs][#551] on the same computer, which was getting more
+common with more popular ported GTK+ applications such as GIMP or Pidgin.
 
 ### SSL for IRC fixed ###
 IRC with SSL was only working with the default port of 6697. Thanks to Jo
@@ -154,21 +155,21 @@ with a [hidden menu bar][#462] now.
 
 #### More interactive and much faster synchronization ####
 When connecting to a smuxi-server you had to wait till Smuxi finished the
-synchronization before you could use the interface. Also you could not tell how far
-the synchronization was and just had to wait till it was completed.
+synchronization before you could use the interface. Also you could not tell how
+far the synchronization was and just had to wait till it was completed.
 With Smuxi 0.8.9 the connect just takes a few seconds and all chats are
-synchronized in the background with [a progress bar][#624] so you can use the interface
-from the first moment on and know how far it is. The speed how much it takes to
-synchronize all chats also reduced drastictly by 400%!
+synchronized in the background with [a progress bar][#624] so you can use the
+interface from the first moment on and know how far it is. The speed how much
+it takes to synchronize all chats also reduced drastictly by 400%!
 
 SCREENCAST!
 
 #### More background communication ####
 When using a smuxi-server the interface sometimes had load times like when
 [opening the preferences][#597] or when using the [nickname completion][#616]
-(Andrew Kannan). These operations are done in the background and no longer blocks the
-interface. Also when the communication is lost to the smuxi-server the frontend
-will now automatically reconnect to it in the background.
+(Andrew Kannan). These operations are done in the background and no longer
+blocks the interface. Also when the communication is lost to the smuxi-server
+the frontend will now automatically reconnect to it in the background.
 
 #### Low Bandwidth Mode ####
 When it comes to mobile internet connectivity such as UMTS/HSDPA, Edge and GRPS
