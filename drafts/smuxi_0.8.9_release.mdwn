@@ -39,8 +39,6 @@ For now Smuxi 0.8.9 doesn't feel as native as it could as it relies on the GTK+
 port. We are looking into [enhancing the experience][osx-port] though, just
 stay tuned.
 
-SCREENCAST!
-
 ### Chat History on Disk (Beta) ###
 The most exciting feature in this release I think are the
 "persistent message buffers". With this feature I could solve one of the
@@ -70,8 +68,6 @@ Facebook? This is where the new XMPP engine of Smuxi comes into play. You can
 send and receive messages to/from them now! The implementation is far from
 complete, though. It has no buddy list for example and needs only to be treated
 as a _technical preview_ of what will be coming in future Smuxi releases.
-
-SCREENCAST!
 
 ### Text Interface (Alpha) ###
 This is the first release that contains a text frontend based on the
