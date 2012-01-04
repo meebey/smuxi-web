@@ -31,9 +31,9 @@ many bug fixes prior to this release.
 On the other hand one of my New Year's resolutions are to
 "release early, release often" :-) So there should be [no nerd left behind]...
 
-### Mac OS X support ###
 [[!img screenshots/smuxi-0.8.9-dev-osx.png size="400x"
        alt="Screenshot of Smuxi 0.8.9 on Mac OS X" class="screenshot"]]
+### Mac OS X support ###
 With the help of Steven McGrath (Steve\[cug\]) who created the initial Mac OS X
 installer for Smuxi we now have official support for Mac OS X. The
 [download page] contains the instructions how to obtain and install Smuxi on
