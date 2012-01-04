@@ -62,15 +62,7 @@ Interface and change "Persistency Type" from "Volatile" to "Persistent", hit OK
 and restart Smuxi. Now all messages are saved into the database and will
 automatically be shown.
 
-Here is a screencast of this feature in action.
-[[!inline pages="/screencasts/persistent_message_buffers" feeds=no]]
-[[!toggle id="persistent-message-buffers-screencast"
-          text="show screencast"]]
-
-[[!toggleable id="persistent-message-buffers-screencast" text="""
-    [[!toggle id="persistent-message-buffers-screencast"
-              text="hide screencast"]]
-"""]]
+[Click here for a screencast of this feature][screencast 1]
 
 ### Jabber / XMPP Support (Beta) ###
 You probably have friends not on IRC and Twitter, say on Jabber, gTalk or
@@ -78,6 +70,8 @@ Facebook? This is where the new XMPP engine of Smuxi comes into play. You can
 send and receive messages to/from them now! The implementation is far from
 complete, though. It has no buddy list for example and needs only to be treated
 as a _technical preview_ of what will be coming in future Smuxi releases.
+
+[Click here for a screencast of this feature][screencast 2]
 
 ### Text Interface (Alpha) ###
 This is the first release that contains a text frontend based on the
@@ -171,7 +165,7 @@ synchronized in the background with [a progress bar][#624] so you can use the
 interface from the first moment on and know how far it is. The speed how much
 it takes to synchronize all chats also reduced drastictly by 400%!
 
-SCREENCAST!
+[Click here for a screencast of this feature][screencast 3]
 
 #### More background communication ####
 When using a smuxi-server the interface sometimes had load times like when
@@ -265,6 +259,9 @@ this smexy stuff!
   [bugs]: /projects/smuxi/issues?fixed_version_id=15&set_filter=1&tracker_id=1&status_id=5
   [features]: /projects/smuxi/issues?fixed_version_id=15&set_filter=1&tracker_id=2&status_id=5
   [development builds]: /documentation/running-from-git/
+  [screencast 1]: /screencasts/persistent-message-buffers/
+  [screencast 2]: /screencasts/jabber/
+  [screencast 3]: /screencasts/smuxi-server-connect/
   [commits]: http://git.qnetp.net/?p=smuxi.git;a=log;h=0.8.9
   [28C3]: http://events.ccc.de/congress/2011/wiki/Main_Page
   [no nerd left behind]: http://events.ccc.de/congress/2011/wiki/No_nerd_left_behind
