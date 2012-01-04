@@ -60,8 +60,15 @@ Interface and change "Persistency Type" from "Volatile" to "Persistent", hit OK
 and restart Smuxi. Now all messages are saved into the database and will
 automatically be shown.
 
-Here a little screencast of what this feature exactly does:
-SCREENCAST!
+Here is a screencast of this feature in action.
+[[!toggle id="persistent-message-buffers-screencast"
+          text="show screencast"]]
+
+[[!toggleable id="persistent-message-buffers-screencast" text="""
+    [[!inline pages="screencasts/persistent-message-buffers" feeds=no]]
+    [[!toggle id="persistent-message-buffers-screencast"
+              text="hide screencast"]]
+"""]]
 
 ### Jabber / XMPP Support (Beta) ###
 You probably have friends not on IRC and Twitter, say on Jabber, gTalk or
