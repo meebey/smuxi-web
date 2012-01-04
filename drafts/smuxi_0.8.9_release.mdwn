@@ -32,6 +32,7 @@ On the other hand one of my New Year's resolutions are to
 "release early, release often" :-) So there should be [no nerd left behind]...
 
 ### Mac OS X support ###
+<div>
 With the help of Steven McGrath (Steve\[cug\]) who created the initial Mac OS X
 installer for Smuxi we now have official support for Mac OS X. The
 [download page] contains the instructions how to obtain and install Smuxi on
@@ -41,6 +42,10 @@ Windows, Linux and *BSD.
 For now Smuxi 0.8.9 doesn't feel as native as it could as it relies on the GTK+
 port. We are looking into [enhancing the experience][osx-port] though, just
 stay tuned.
+
+[[!img screenshots/smuxi-0.8.9-dev-osx.png size="400x"
+       alt="Screenshot of Smuxi 0.8.9 on Mac OS X" class="screenshot"]]
+</div>
 
 ### Chat History on Disk (Beta) ###
 The most exciting feature in this release I think are the
