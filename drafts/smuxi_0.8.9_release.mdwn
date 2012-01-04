@@ -4,7 +4,9 @@
 Just in time for 2012 I am very pleased to announce Smuxi **0.8.9** codenamed
 **"One Giant Leap"**. During the development [56 bug reports][bugs] and
 [33 feature requests][features] in [593 commits][commits] were worked on making
-this release a major milestone of the Smuxi project.
+this release a major milestone of the Smuxi project. At the [Chaos Communication
+Congress (28C3)][28C3] in Berlin I was doing the final development sprint to
+get 0.8.9 done, which was a very intensive and refreshing experience.
 
 Here are the highlights of this release:
 
@@ -22,10 +24,13 @@ We invite everyone to use these daily builds to keep track of the latest
 development of Smuxi. Issues and regressions are fixed in a very short period
 (usually the same day).
 
+On the other hand one of my New Year's resolutions are to
+"release early, release often" :-) So there should be [no nerd left behind]...
+
 ### Mac OS X support ###
 With the help of Steven McGrath (Steve\[cug\]) who created the initial Mac OS X
-installer for Smuxi we now have official support for Mac OS X. The download
-page contains the instructions how to obtain and install Smuxi on Mac OS X.
+installer for Smuxi we now have official support for Mac OS X. The
+[download page] contains the instructions how to obtain and install Smuxi on Mac OS X.
 This makes the 4th platform where Smuxi can be used on besides Windows, Linux
 and *BSD.
 
@@ -33,9 +38,39 @@ For now Smuxi 0.8.9 doesn't feel as native as it could as it relies on the GTK+
 port. We are looking into [enhancing the experience][osx-port] though, just
 stay tuned.
 
-### Persistent Message Buffers (Beta) ###
+SCREENCAST!
+
+### Chat History on Disk (Beta) ###
+The most exciting feature in this release I think are the
+"persistent message buffers". With this feature I could solve one of the
+biggest drawbacks IRC ever had: IRC does not retain any messages you have sent
+or received. All messages are only relayed to all users. The issue is that if
+you close your IRC client or even just leave a channel, all your received
+messages are _gone_.
+
+One workaround in most clients was to create text log files which then contains
+the chat history, but it is annoying and not user-friendly to open some text
+file somewhere from your disk to read the history *outside* if your IRC client.
+
+Now with Smuxi 0.8.9 you no longer have this issue, all chat history gets
+automatically written and read to a message database when you start Smuxi,
+join channels or open queries! As this feature is not fully stable yet it is
+_not_ enabled by default. If you want to try it go to: File -> Preferences ->
+Interface and change "Persistency Type" from "Volatile" to "Persistent", hit OK
+and restart Smuxi. Now all messages are saved into the database and will
+automatically be shown.
+
+Here a little screencast of what this feature exactly does:
+SCREENCAST!
 
 ### Jabber / XMPP Support (Beta) ###
+You probably have friends not on IRC and Twitter, say on Jabber, gTalk or
+Facebook? This is where the new XMPP engine of Smuxi comes into play. You can
+send and receive messages to/from them now! The implementation is far from
+complete, though. It has no buddy list for example and needs only to be treated
+as a _technical preview_ of what will be coming in future Smuxi releases.
+
+SCREENCAST!
 
 ### Text Interface (Alpha) ###
 This is the first release that contains a text frontend based on the
@@ -47,80 +82,125 @@ this frontend. The frontend can be enabled by passing --enable-frontend-stfl
 to the configure script and then by executing smuxi-frontend-stfl.
 
 ### NetworkManager Support ###
-[#205]
+Everyone with a laptop knows how annoying it can be to suspend and resume when
+network based applications suddenly go crazy because they have lost the
+connection and either spew errors or take forever to get back in shape. Smuxi
+will now detect the network state right away with the help of the new
+[Network Manager support][#205]. It automatically reconnects when needed right
+away for you.
 
-### IPv6 Support ###
+### Next Generation Internet Support ###
 You can now connect to IRC servers using the [IPv6 protocol][#22]
 
 ## Smuxi Server specific highlights ###
 
 ### More interactive and much faster synchronization ###
 When connecting to a smuxi-server you had to wait till Smuxi finished the
-synchronization before you could the interface. Also you could not tell how far
+synchronization before you could use the interface. Also you could not tell how far
 the synchronization was and just had to wait till it was completed.
 With Smuxi 0.8.9 the connect just takes a few seconds and all chats are
 synchronized in the background with [a progress bar][#624] so you can use the interface
 from the first moment on and know how far it is. The speed how much it takes to
 synchronize all chats also reduced drastictly by 400%!
 
+SCREENCAST!
+
 ### More background communication ###
 When using a smuxi-server the interface sometimes had load times like when
 [opening the preferences][#597] or when using the [nickname completion][#616]
-(using the tab key). These operations are done in the background and no longer blocks the
+(Andrew Kannan). These operations are done in the background and no longer blocks the
 interface. Also when the communication is lost to the smuxi-server the frontend
 will now automatically reconnect to it in the background.
 
 ### Low Bandwidth Mode ###
-[#591]
+When it comes to mobile internet connectivity such as UMTS/HSDPA, Edge and GRPS
+it can be a real pain to connect to the smuxi-server as it has to transfer all
+the messages over that. If you just want to ask someone you know then you don't
+need any old messages to do that. With the ["Low Bandwidth Mode"][#591] you can
+now connect to the smuxi-server without loading old messages which makes the
+connect very quick. You find this option in the engine connect dialog.
 
 ### Stable Protocol ###
-[#600]
+Initially I didn't plan to make the protocol of Smuxi stable before the 0.9
+release, but as it turned out the 0.8 protocol was good enough to still use
+it and for that reason Smuxi 0.8.9 is still compatible with 0.8. The 0.8
+protocol will see no breakages, instead the next protocol will be on-top or
+opt-in of the current one. This means feature Smuxi versions
+[stay compatible][#600] with it.
 
 ### Shutdown Command ###
-[#647]
+You can now shutdown the smuxi-server if you like using the
+[/shutdown command][#647]. It it safe to use the command, it will do a clean
+shutdown sequence for you. For example it makes sure all messages are written
+to disk in the case of enabled persistent message buffers. If you have your
+smuxi-server daemon monitored (e.g. with runit) it can also automatically be
+restarted and upgraded this way. 
 
 ### Built-in SSH Keyfile Support ###
-
+It is no longer needed to fiddle with the .ssh/config file or pagent to get
+SSH key authorization working. You can now simply tell Smuxi which
+[SSH keyfile][#653] you want to use to connect to your smuxi-server.
 
 ### Enhanced Find Group Chat Support ###
-[#655]
-[#548]
+Users had real issues to find out how to search for channels, thus Bianca Mix
+added a neat feature. The [/list command][#536] will now simply open the
+Find Group Chat dialog for you. This way everyone used to IRC will find it in
+no time. Searching for channels on freenode wasn't working correctly, this is
+now [fixed][#655]. Smuxi also supports the [SAFELIST feature][#548] of the IRC
+protocol now which allows to retrieve a full channel list and do client side
+search which makes consecutive searches much faster.
 
 ### Enhanced Windows Experience ###
-GTK# 2.19.10 on Windows support [#619]
-Consolas font [#216]
-Deals with multiple GTK+ installs [#551]
+For a long time you could not use Smuxi with the latest GTK# version of 2.12.10
+on Windows. The issue was that Smuxi relied on SVG support which 2.12.10 no
+longer had. Smuxi is no longer using SVG instead it uses pre-scaled PNG images
+thus it works just fine with [GTK# 2.12.10 on Windows][#619] now. At the same
+time the issue that the maximized state of the main window was left when
+restoring from task bar is [fixed][#619] with GTK# 2.12.10.
+
+Smuxi used by default the FixedSys font on Windows to give it the typical IRC
+look most people are used to. Since Windows Vista there is a better
+console-like font available called Consolas. Smuxi will now
+[use the Consolas font][#216] instead on Windows Vista or later.
+
+SCREENSHOT FixedSys
+SCREENSHOT Consolas
+
+Another important enhancement is that Smuxi no longer has issues with [multiple
+GTK+ installs][#551] on the same computer, which was getting more common with
+more popular ported GTK+ applications such as GIMP or Pidgin.
 
 ### SSL for IRC fixed ###
-IRC with SSL was only working with the default port of 6697. Now any port can
-be used with SSL.
+IRC with SSL was only working with the default port of 6697. Thanks to Jo
+Shields now [any port can be used with SSL][#549].
 
 ### Crash Related Issues ###
-[Desktop notifications][#512] could [crash Smuxi][#574] [in case][#630] [of errors][#533] related to the
-notification system or an [absent notification daemon][#507]. 
-crash dialog [#638]
-ctrl+w [#518]
-/window close on Smuxi tab crash [#523]
-Find Group Chat on Smuxi tab crash [#532]
-[Number-only network names crashed Smuxi on startup][#573]
-[/network switch freenode crash][#610]
-[GTK+ without SVG support lead to a crash][#304]
-All these crash issues no longer happen.
+[Desktop notifications][#512] could [crash Smuxi][#574] [in case][#630]
+[of errors][#533] related to the notification system or an
+[absent notification daemon][#507]. There was a chance that the
+[crash dialog simply disappeared][#638] which made reporting bugs more
+difficult no longer happens. [Rapid use of ctrl+w][#518],
+[/window close][#523] (Jimmie Elvenmark) and
+[opening the Find Group Chat dialog][#532] on the Smuxi tab do no longer crash.
+Also [number-only network names][#573], [/network switch freenode][#610] and
+[GTK+ install without SVG support][#304] no longer lead into a crash.
 
 ### Enhanced Notice Handling ###
-[#38]
-[#494]
-ChanServ and NickServ notices [#554]
+[Notices will no longer open query tabs][#494] for you instead it will
+[show them on tabs you share with the person][#38] who sent it with the server
+tab as fallback. This also avoids [ChanServ, NickServ][#554] and spammy IRCop
+tabs.
 
 ### Twitter fixes ###
 Twitter made some changes to their API which broke the Twitter support of
-Smuxi 0.8. This was taken care of and also [a][#623] [few][#644] [other][#464] [issues][#649] were solved
-allowing Smuxi 0.8.9 to work smoothly with Twitter again.
+Smuxi 0.8. This was taken care of and also [a][#623] [few][#644] [other][#464]
+[issues][#649] were solved allowing Smuxi 0.8.9 to work smoothly with Twitter
+again.
 
 ### Extended Keybindings ###
-ctrl+tab [#659]
-ctrl+n [#505]
-Keybindings still work even with a [hidden menu bar][#462]
+Smuxi allows now to use the [ctrl+tab / ctrl+shift+tab][#659] and
+[ctrl+n / ctrl+p][#505] keys to switch tabs. The keybindings still work even
+with a [hidden menu bar][#462] now.
 
 ### Updated Translations ###
   * Catalan (Siegfried-Angel Gevatter Pujals)
@@ -167,11 +247,17 @@ Contributors to this release are the following people:
 
 Thank you very much for your contributions to Smuxi!
 
+After reading this whole pile of text, head over [here][download page] and grab
+this smexy stuff!
+
+  [download page]: /page/Download
   [osx-port]: http://live.gnome.org/Smuxi/Porting/Mac
   [bugs]: /projects/smuxi/issues?fixed_version_id=15&set_filter=1&tracker_id=1&status_id=5
   [features]: /projects/smuxi/issues?fixed_version_id=15&set_filter=1&tracker_id=2&status_id=5
   [development builds]: /documentation/running-from-git/
   [commits]: http://git.qnetp.net/?p=smuxi.git;a=log;h=0.8.9
+  [28C3]: http://events.ccc.de/congress/2011/wiki/Main_Page
+  [no nerd left behind]: http://events.ccc.de/congress/2011/wiki/No_nerd_left_behind
   [STFL]: http://www.clifford.at/stfl/
   [#22]: /issues/show/22 "IPv6 support"
   [#38]: /issues/show/38 "send notices from users to channels and querys where useful"
@@ -213,4 +299,5 @@ Thank you very much for your contributions to Smuxi!
   [#630]: /issues/show/630 "Crash on highlight"
   [#304]: /issues/show/304 "Startup Crash on OpenSUSE: GLib.GException: Unrecognized image file format"
   [#462]: /issues/show/462 "Keybinds doesn't work when hiding menubar"
-
+  [#536]: /issues/show/536 "/list command should open the Find Group Chat dialog"
+  [#549]: /issues/show/549 "Cannot configure/connect to an IRC server with SSL on a port other than 6697 via GUI"
