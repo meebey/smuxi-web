@@ -1,0 +1,8 @@
+<video width="960" height="660" controls="controls">
+	<source src="/screencasts/persistent-message-buffers.mp4" type="video/mp4" />
+	<source src="/screencasts/persistent-message-buffers.webm" type="video/webm" />
+	<object data="/screencasts/persistent-message-buffers.mp4" width="960" height="660" />
+	<embed>
+		<a href="/screencasts/persistent-message-buffers.mp4" />
+    </embed>
+</video>
