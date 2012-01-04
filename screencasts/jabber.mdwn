@@ -1,6 +1,6 @@
-<video width="320" height="240" controls="controls">
+<video width="800" height="600" controls="controls">
 	<source src="/screencasts/jabber.mp4" type="video/mp4" />
 	<source src="/screencasts/jabber.webm" type="video/webm" />
 	<source src="/screencasts/jabber.ogv" type="video/ogg" />
-	<object data="/screencasts/jabber.mp4" width="320" height="240" />
+	<object data="/screencasts/jabber.mp4" width="800" height="600" />
 </video>
