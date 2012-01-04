@@ -4,7 +4,7 @@
 Just in time for 2012 I am very pleased to announce Smuxi **0.8.9** codenamed
 **"One Giant Leap"**. During the development [56 bug reports][bugs] and
 [33 feature requests][features] in [593 commits][commits] were worked on making
-this release a major milestone of the Smuxi project. At the [Chaos Communication
+this release a _major milestone of the Smuxi project_. At the [Chaos Communication
 Congress (28C3)][28C3] in Berlin I was doing the final development sprint to
 get [0.8.9 done][roadmap], which was a very intensive and refreshing experience.
 
