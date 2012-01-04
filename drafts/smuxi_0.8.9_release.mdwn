@@ -63,11 +63,11 @@ and restart Smuxi. Now all messages are saved into the database and will
 automatically be shown.
 
 Here is a screencast of this feature in action.
+    [[!inline pages="/screencasts/persistent-message-buffers" feeds=no]]
 [[!toggle id="persistent-message-buffers-screencast"
           text="show screencast"]]
 
 [[!toggleable id="persistent-message-buffers-screencast" text="""
-    [[!inline pages="/screencasts/persistent-message-buffers" feeds=no]]
     [[!toggle id="persistent-message-buffers-screencast"
               text="hide screencast"]]
 """]]
