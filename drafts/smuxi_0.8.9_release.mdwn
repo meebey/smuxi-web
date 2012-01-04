@@ -112,13 +112,12 @@ thus it works just fine with [GTK# 2.12.10 on Windows][#619] now. At the same
 time the issue that the maximized state of the main window was left when
 restoring from task bar is [fixed][#619] with GTK# 2.12.10.
 
+[[!img screenshots/fixedsys-vs-consolas.png size="200x"
+       alt="Screenshot of Fixed-Sys vs Consolas font" class="screenshot"]]
 Smuxi used by default the FixedSys font on Windows to give it the typical IRC
 look most people are used to. Since Windows Vista there is a better
 console-like font available called Consolas. Smuxi will now
 [use the Consolas font][#216] instead on Windows Vista or later.
-
-SCREENSHOT FixedSys
-SCREENSHOT Consolas
 
 Another important enhancement is that Smuxi no longer has issues with
 [multiple GTK+ installs][#551] on the same computer, which was getting more
