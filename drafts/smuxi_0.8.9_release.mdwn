@@ -6,7 +6,7 @@ Just in time for 2012 I am very pleased to announce Smuxi **0.8.9** codenamed
 [33 feature requests][features] in [593 commits][commits] were worked on making
 this release a major milestone of the Smuxi project. At the [Chaos Communication
 Congress (28C3)][28C3] in Berlin I was doing the final development sprint to
-get 0.8.9 done, which was a very intensive and refreshing experience.
+get [0.8.9 done][roadmap], which was a very intensive and refreshing experience.
 
 Here are the highlights of this release:
 
@@ -252,6 +252,7 @@ this smexy stuff!
 
   [download page]: /page/Download
   [osx-port]: http://live.gnome.org/Smuxi/Porting/Mac
+  [roadmap]: /versions/show/15
   [bugs]: /projects/smuxi/issues?fixed_version_id=15&set_filter=1&tracker_id=1&status_id=5
   [features]: /projects/smuxi/issues?fixed_version_id=15&set_filter=1&tracker_id=2&status_id=5
   [development builds]: /documentation/running-from-git/
