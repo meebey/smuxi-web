@@ -222,6 +222,7 @@ with a [hidden menu bar][#462] now.
 
 ### Contributors ####
 Contributors to this release are the following people:
+
   * Mirco Bauer (497 commits)
   * Tuukka Hastrup (10 commits)
   * Bianca Mix (10 commits, translations)
