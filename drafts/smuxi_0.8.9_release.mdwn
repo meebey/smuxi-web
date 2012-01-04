@@ -92,55 +92,6 @@ away for you.
 ### Next Generation Internet Support ###
 You can now connect to IRC servers using the [IPv6 protocol][#22]
 
-## Smuxi Server specific highlights ###
-
-### More interactive and much faster synchronization ###
-When connecting to a smuxi-server you had to wait till Smuxi finished the
-synchronization before you could use the interface. Also you could not tell how far
-the synchronization was and just had to wait till it was completed.
-With Smuxi 0.8.9 the connect just takes a few seconds and all chats are
-synchronized in the background with [a progress bar][#624] so you can use the interface
-from the first moment on and know how far it is. The speed how much it takes to
-synchronize all chats also reduced drastictly by 400%!
-
-SCREENCAST!
-
-### More background communication ###
-When using a smuxi-server the interface sometimes had load times like when
-[opening the preferences][#597] or when using the [nickname completion][#616]
-(Andrew Kannan). These operations are done in the background and no longer blocks the
-interface. Also when the communication is lost to the smuxi-server the frontend
-will now automatically reconnect to it in the background.
-
-### Low Bandwidth Mode ###
-When it comes to mobile internet connectivity such as UMTS/HSDPA, Edge and GRPS
-it can be a real pain to connect to the smuxi-server as it has to transfer all
-the messages over that. If you just want to ask someone you know then you don't
-need any old messages to do that. With the ["Low Bandwidth Mode"][#591] you can
-now connect to the smuxi-server without loading old messages which makes the
-connect very quick. You find this option in the engine connect dialog.
-
-### Stable Protocol ###
-Initially I didn't plan to make the protocol of Smuxi stable before the 0.9
-release, but as it turned out the 0.8 protocol was good enough to still use
-it and for that reason Smuxi 0.8.9 is still compatible with 0.8. The 0.8
-protocol will see no breakages, instead the next protocol will be on-top or
-opt-in of the current one. This means feature Smuxi versions
-[stay compatible][#600] with it.
-
-### Shutdown Command ###
-You can now shutdown the smuxi-server if you like using the
-[/shutdown command][#647]. It it safe to use the command, it will do a clean
-shutdown sequence for you. For example it makes sure all messages are written
-to disk in the case of enabled persistent message buffers. If you have your
-smuxi-server daemon monitored (e.g. with runit) it can also automatically be
-restarted and upgraded this way. 
-
-### Built-in SSH Keyfile Support ###
-It is no longer needed to fiddle with the .ssh/config file or pagent to get
-SSH key authorization working. You can now simply tell Smuxi which
-[SSH keyfile][#653] you want to use to connect to your smuxi-server.
-
 ### Enhanced Find Group Chat Support ###
 Users had real issues to find out how to search for channels, thus Bianca Mix
 added a neat feature. The [/list command][#536] will now simply open the
@@ -201,6 +152,56 @@ again.
 Smuxi allows now to use the [ctrl+tab / ctrl+shift+tab][#659] and
 [ctrl+n / ctrl+p][#505] keys to switch tabs. The keybindings still work even
 with a [hidden menu bar][#462] now.
+
+### Smuxi Server specific highlights ####
+
+#### More interactive and much faster synchronization ####
+When connecting to a smuxi-server you had to wait till Smuxi finished the
+synchronization before you could use the interface. Also you could not tell how far
+the synchronization was and just had to wait till it was completed.
+With Smuxi 0.8.9 the connect just takes a few seconds and all chats are
+synchronized in the background with [a progress bar][#624] so you can use the interface
+from the first moment on and know how far it is. The speed how much it takes to
+synchronize all chats also reduced drastictly by 400%!
+
+SCREENCAST!
+
+#### More background communication ####
+When using a smuxi-server the interface sometimes had load times like when
+[opening the preferences][#597] or when using the [nickname completion][#616]
+(Andrew Kannan). These operations are done in the background and no longer blocks the
+interface. Also when the communication is lost to the smuxi-server the frontend
+will now automatically reconnect to it in the background.
+
+#### Low Bandwidth Mode ####
+When it comes to mobile internet connectivity such as UMTS/HSDPA, Edge and GRPS
+it can be a real pain to connect to the smuxi-server as it has to transfer all
+the messages over that. If you just want to ask someone you know then you don't
+need any old messages to do that. With the ["Low Bandwidth Mode"][#591] you can
+now connect to the smuxi-server without loading old messages which makes the
+connect very quick. You find this option in the engine connect dialog.
+
+#### Stable Protocol ####
+Initially I didn't plan to make the protocol of Smuxi stable before the 0.9
+release, but as it turned out the 0.8 protocol was good enough to still use
+it and for that reason Smuxi 0.8.9 is still compatible with 0.8. The 0.8
+protocol will see no breakages, instead the next protocol will be on-top or
+opt-in of the current one. This means feature Smuxi versions
+[stay compatible][#600] with it.
+
+#### Shutdown Command ####
+You can now shutdown the smuxi-server if you like using the
+[/shutdown command][#647]. It it safe to use the command, it will do a clean
+shutdown sequence for you. For example it makes sure all messages are written
+to disk in the case of enabled persistent message buffers. If you have your
+smuxi-server daemon monitored (e.g. with runit) it can also automatically be
+restarted and upgraded this way.
+
+#### Built-in SSH Keyfile Support ####
+It is no longer needed to fiddle with the .ssh/config file or pagent to get
+SSH key authorization working. You can now simply tell Smuxi which
+[SSH keyfile][#653] you want to use to connect to your smuxi-server.
+
 
 ### Updated Translations ###
   * Catalan (Siegfried-Angel Gevatter Pujals)
