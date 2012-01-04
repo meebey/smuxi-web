@@ -1,4 +1,4 @@
-[[!meta title="Smuxi 0.8.9 Release"]]
+[[!meta title="Smuxi 0.8.9 \"One Giant Leap\" Release"]]
 [[!meta date="2012-01-01"]]
 
 Just in time for 2012 I am very pleased to announce Smuxi **0.8.9** codenamed
