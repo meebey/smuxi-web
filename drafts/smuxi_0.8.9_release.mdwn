@@ -75,6 +75,8 @@ as a _technical preview_ of what will be coming in future Smuxi releases.
 
 [Click here for a screencast of this feature][screencast 2]
 
+[[!img screenshots/smuxi-0.8.9-stfl.png size="200x"
+       alt="Screenshot of Smuxi's Text Interface" class="screenshot"]]
 ### Text Interface (Alpha) ###
 This is the first release that contains a text frontend based on the
 [STFL library][STFL]. STFL is a library that uses ncurses to draw text based
