@@ -1,6 +1,6 @@
 <video width="320" height="240" controls="controls">
-	<source src="jabber.mp4" type="video/mp4" />
-	<source src="jabber.webm" type="video/webm" />
-	<source src="jabber.ogv" type="video/ogg" />
-	<object data="jabber.mp4" width="320" height="240" />
+	<source src="/screencasts/jabber.mp4" type="video/mp4" />
+	<source src="/screencasts/jabber.webm" type="video/webm" />
+	<source src="/screencasts/jabber.ogv" type="video/ogg" />
+	<object data="/screencasts/jabber.mp4" width="320" height="240" />
 </video>
