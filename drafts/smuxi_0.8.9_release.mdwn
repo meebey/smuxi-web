@@ -23,9 +23,12 @@ Ubuntu (Lucid, Maverick, Natty, Oneiric, Precise) and Windows.
 
 We invite everyone to use these daily builds to keep track of the latest
 development of Smuxi. Issues and regressions are fixed in a very short period
-(usually the same day). Thanks goes to Hannes Tismer for providing the Windows
-autobuilder and to Canonical for the PPA autobuilder.
-Thanks to users who ran development builds and reported issues which led to
+(usually the same day).
+
+Thanks goes to Hannes Tismer for providing the Windows autobuilder and to
+Canonical for the PPA autobuilder.
+
+Thanks to our users who ran development builds and reported issues which led to
 many bug fixes prior to this release.
 
 On the other hand one of my New Year's resolutions are to
