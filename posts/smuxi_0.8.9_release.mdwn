@@ -54,7 +54,7 @@ messages are _gone_.
 
 One workaround in most clients was to create text log files which then contains
 the chat history, but it is annoying and not user-friendly to open some text
-file somewhere from your disk to read the history *outside* if your IRC client.
+file somewhere from your disk to read the history *outside* of your IRC client.
 
 Now with Smuxi 0.8.9 you no longer have this issue, all chat history gets
 automatically written and read to a message database when you start Smuxi,
