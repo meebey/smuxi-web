@@ -190,7 +190,7 @@ Initially I didn't plan to make the protocol of Smuxi stable before the 0.9
 release, but as it turned out the 0.8 protocol was good enough to still use
 it and for that reason Smuxi 0.8.9 is still compatible with 0.8. The 0.8
 protocol will see no breakages, instead the next protocol will be on-top or
-opt-in of the current one. This means feature Smuxi versions
+opt-in of the current one. This means future Smuxi versions
 [stay compatible][#600] with it.
 
 #### Shutdown Command ####
