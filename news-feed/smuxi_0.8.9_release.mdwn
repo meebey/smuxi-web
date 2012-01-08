@@ -1,5 +1,5 @@
 [[!meta title="""Smuxi 0.8.9 "One Giant Leap" Release"""]]
-[[!tag planet-feed-draft]]
+[[!tag planet-feed]]
 
 Finally Smuxi 0.8.9 is out and spreading already. Please upgrade your version
 if you are not using it already. Binary packages are available for Windows,
