@@ -1,0 +1,10 @@
+[[!meta title="""Smuxi 0.8.9 "One Giant Leap" Release"""]]
+[[!tag planet-feed-draft]]
+
+Finally Smuxi 0.8.9 is out and spreading already. Please upgrade your version
+if you are not using it already. Binary packages are available for Windows,
+Mac OS X, Debian (Sid) and Ubuntu (Lucid, Oneiric, Precise). Here you can read
+the [full release announcement][1]. For users running a development build of
+Smuxi it is recommended to simply upgrade to the newest development build.
+
+  [1]: http://www.smuxi.org/blog/show/Smuxi_089_Release
