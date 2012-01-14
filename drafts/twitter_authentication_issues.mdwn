@@ -1,0 +1,10 @@
+[[!meta title="Twitter Authentication Issues"]]
+
+Shortly after the release of 0.8.9 Smuxi users reported issues with Twitter.
+Connecting to Twitter, OAuth login and loading the timelines worked fine but
+suddenly after letting it run for a while an error like this occured:
+"An error occurred while fetching the replies from Twitter. Reason: Could not authenticate you."
+There is nothing that Smuxi can really fix, if Twitter temporarily replies:
+"sorry, your authentication is wrong", Smuxi has to believe it and stops making
+further timeline updates. The good news is, it seems like this issue is now
+solved on Twitters side and it works as usual again.
