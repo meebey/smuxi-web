@@ -1,4 +1,5 @@
 [[!meta title="Twitter Authentication Issues"]]
+[[!tag planet-feed]]
 
 Shortly after the release of 0.8.9 Smuxi users reported issues with Twitter.
 Connecting to Twitter, OAuth login and loading the timelines worked fine but
