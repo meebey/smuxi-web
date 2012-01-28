@@ -1,6 +1,7 @@
 [[!img logos/archlinux.png link=no alt="Arch Linux Logo" class="distrologo"]]
 
-Smuxi is in [AUR][], so just run the following comand to install it:
+Smuxi is in [AUR][], so just download the PKGBUILD and run makepkg.
+Alternatively if you're using yaourt just run the following command:
 
     sudo yaourt -S smuxi
 
