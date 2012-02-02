@@ -3,7 +3,7 @@
 NOTE: Ubuntu/Lucid (10.4) contains Smuxi <u>0.7.1</u>, but it's
 recommended to use <u>0.8</u> instead!
 
-**Ubuntu/Lucid (10.04)**, **Ubuntu/Oneiric (11.11)** and
+**Ubuntu/Lucid (10.04)**, **Ubuntu/Oneiric (11.10)** and
 **Ubuntu/Precise (12.04)** users can install Smuxi from this [PPA], just run
 the following commands:
 
