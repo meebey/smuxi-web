@@ -6,7 +6,7 @@
 </script>
 
 ## Release Notes
-**[Smuxi 0.8 Release Notes][]**
+**[Smuxi 0.8.9 Release Notes][]**
 
 ## Binary Packages
 <div id="distro-selector" style="overflow: hidden; display: block;">
@@ -110,11 +110,11 @@ Building Smuxi from source requires the following packages being installed:
 - [log4net][]
 - [Nini][]
 
-[smuxi-0.8.9.tar.gz][]
+[smuxi-0.8.9.2.tar.gz][]
 
 <script type="text/javascript" src="http://www.ohloh.net/p/15257/widgets/project_basic_stats.js"></script>
 
-  [Smuxi 0.8 Release Notes]: /blog/show/Smuxi_08_Release
+  [Smuxi 0.8.9 Release Notes]: /blog/show/Smuxi_089_Release
   [log4net]: http://logging.apache.org/log4net/
   [Nini]: http://nini.sourceforge.net/
-  [smuxi-0.8.9.tar.gz]: /download.php?file=smuxi-0.8.9.tar.gz
+  [smuxi-0.8.9.2.tar.gz]: /download.php?file=smuxi-0.8.9.2.tar.gz
