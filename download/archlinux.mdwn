@@ -1,10 +1,43 @@
 [[!img logos/archlinux.png link=no alt="Arch Linux Logo" class="distrologo"]]
 
-Smuxi is in [AUR][], so just download the PKGBUILD and run makepkg.
-Alternatively if you're using yaourt just run the following command:
+Smuxi is in [AUR][], if you're using **yaourt** just run the following command:
 
     sudo yaourt -S smuxi
+
+Alternatively you can download and install Smuxi and the dependencies (log4net,
+nini) from AUR by hand using makepkg. Download the PKGBUILDs, run [makepkg][]
+and install the resulting packages with pacman, using the following commands:
+
+    # prepare build system
+    su -c "pacman -Sy base-devel"
+
+    # log4net from AUR
+    mkdir -p ~/builds; cd ~/builds && rm -r log4net/
+    wget http://aur.archlinux.org/packages/lo/log4net/log4net.tar.gz
+    tar -xaf log4net.tar.gz
+    cd log4net
+    makepkg -s
+    su -c "pacman -U log4net-*.pkg.tar.xz"
+
+    # nini from AUR
+    mkdir -p ~/builds; cd ~/builds && rm -r nini/
+    wget http://aur.archlinux.org/packages/ni/nini/nini.tar.gz
+    tar -xaf nini.tar.gz
+    cd nini
+    makepkg -s
+    su -c "pacman -U nini-*.pkg.tar.xz"
+
+    # Smuxi from AUR
+    mkdir -p ~/builds; cd ~/builds && rm -r smuxi/
+    wget http://aur.archlinux.org/packages/sm/smuxi/smuxi.tar.gz
+    tar -xaf smuxi.tar.gz
+    cd smuxi
+    sed "s/'libindicate' //" -i PKGBUILD
+    sed "s/--with-indicate /--with-indicate=auto /" -i PKGBUILD
+    makepkg -s
+    su -c "pacman -U smuxi-*.tar.xz"
 
 Now you can start Smuxi from the GNOME or KDE menu.
 
   [AUR]: http://aur.archlinux.org/packages.php?ID=19247
+  [makepkg]: https://wiki.archlinux.org/index.php/Makepkg#Usage
