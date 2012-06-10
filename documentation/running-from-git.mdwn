@@ -35,7 +35,17 @@ On **Ubuntu Server you** can use the [daily APT repository][PPA] by running:
     sudo apt-get update
     sudo apt-get install smuxi
 
-## Windows ##
+### Arch Linux ###
+On **Arch Linux** you can install a development build of Smuxi from [AUR][]. Download the PKGBUILD, run [makepkg][] and install the resulting package with pacman, using the following commands:
+
+    mkdir -p ~/builds; cd ~/builds && rm -r smuxi-git/
+    wget http://aur.archlinux.org/packages/sm/smuxi-git/smuxi-git.tar.gz
+    tar -xaf smuxi-git.tar.gz
+    cd smuxi-git
+    makepkg -s
+    su -c "pacman -U smuxi-git-*.tar.xz"
+
+### Windows ###
 On Windows it is even simpler and you just need to install a development
 snapshot which you can find [[here|http://smuxi.fragstore.net/smuxi/]].
 
@@ -61,3 +71,5 @@ dependencies by hand using this command:
 	sudo apt-get install build-essential pkg-config mono-devel lsb-release gettext intltool libtool autoconf automake autotools-dev
 
  [PPA]: https://launchpad.net/~meebey/+archive/smuxi-daily
+ [AUR]: http://aur.archlinux.org/packages.php?ID=56733
+ [makepkg]: https://wiki.archlinux.org/index.php/Makepkg#Usage
