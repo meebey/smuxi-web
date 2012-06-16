@@ -8,8 +8,7 @@ pre {
     font-size: small;
     font-family: "Courier New", Courier;
     background: black;
+    color: white;
     border: solid 1px #D3D7CF;
     line-height: 110%;
-    color: white;
-    width: 90%;
 }
