@@ -1,8 +1,6 @@
 [[!img logos/opensuse.jpg link=no alt="openSUSE Logo" class="distrologo"]]
 
-openSUSE 11.3 users can install Smuxi by using this 1-Click install:
+Users of openSUSE 11.3 and later can install Smuxi from the
+[official openSUSE repositories][repo].
 
-[[!img logos/smuxi-one-click.png
-       link="http://download.opensuse.org/repositories/Mono:/Community:/smuxi/openSUSE_11.3/smuxi.ymp"
-       alt="openSUSE 1-Click Install Package"
-]]
+ [repo]: http://software.opensuse.org/package/smuxi
