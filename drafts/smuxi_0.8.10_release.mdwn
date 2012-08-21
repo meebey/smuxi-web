@@ -20,6 +20,9 @@ OSX and Windows build do not ship with it. The installers need to be extended
 and I haven't found pre-compiled OSX nor Windows binaries for the GTK+ spell
 checking library.
 
+[[!img screenshots/smuxi-0.8.10-spellcheck.png link=no
+    alt="Screenshot of Smuxi 0.8.10 showing spell checking in action"]]
+
 ### Favicons for Server Tabs ###
 Distinguishing server tabs can be difficult, especially if you have plenty of
 them. All server tabs have the same icon so you need to search for the right
