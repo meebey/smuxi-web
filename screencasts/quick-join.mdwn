@@ -1,0 +1,8 @@
+<video width="960" height="660" controls="controls">
+	<source src="/screencasts/quick-join.mp4" type="video/mp4" />
+	<source src="/screencasts/quick-join.webm" type="video/webm" />
+	<object data="/screencasts/quick-join.mp4" width="960" height="660" />
+	<embed>
+		<a href="/screencasts/quick-join.mp4" />
+    </embed>
+</video>
