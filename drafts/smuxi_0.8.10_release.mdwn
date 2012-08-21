@@ -74,7 +74,10 @@ title, and, several fixed crashes.
 
 ### Enhanced Commands ###
 The /network command by default shows now all connected and also
-[available networks][#724].
+[available networks][#724]:
+
+[[!img screenshots/smuxi-0.8.10-network-command.png link=no
+    alt="Screenshot of Smuxi 0.8.10 showing network command"]]
 
 The /connect command now allows you to [connect by network name][#723] like
 this:
