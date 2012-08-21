@@ -1,12 +1,11 @@
 [[!meta title="""Smuxi 0.8.10 "Tracy" Release"""]]
-[[!meta date="2012-06-30 "]]
 
 As longly awaited I am very happy to announce Smuxi **0.8.10** codenamed
 **"Tracy"**. During the development [8 bug reports][bugs] and [15 feature
 requests][features] in [136 commits][commits] were worked on making this release
 a major feature and minor bugfix release.
 
-[[!img screenshots/smuxi-0.8.10-main-window.png size="200px"
+[[!img screenshots/smuxi-0.8.10-main-window.png size="200x"
     alt="Screenshot of Smuxi 0.8.10 in action"]]
 
 Notable highlights in this release are:
@@ -31,7 +30,7 @@ technology? Well, [now it does][#702]! You connect to a known network, and Smuxi
 will download and show the favicon of the website. It just works and does
 everything in the background for you.
 
-[[!img screenshots/smuxi-0.8.10-favicons.png size="200px"
+[[!img screenshots/smuxi-0.8.10-favicons.png size="200x"
     alt="Screenshot of Smuxi 0.8.10 showing favicons in action"]]
 
 ### Quick Join Bar ###
@@ -56,13 +55,13 @@ can show, thus it has to be split into a second line or more. The issue here is
 that the continuation line looks cluttered because it doesn't align with the
 first line. Here you can see an example for this issue: 
 
-[[!img screenshots/smuxi-0.8.9-line-break.png size="200px"
+[[!img screenshots/smuxi-0.8.9-line-break.png size="200x"
     alt="Screenshot of Smuxi 0.8.9 showing line breaks"]]
 
 Ewww, that looks ugly, doesn't it? I will make this one short, here is the cure
 with [indented multi-line messages][#727]:
 
-[[!img screenshots/smuxi-0.8.10-line-break.png size="200px"
+[[!img screenshots/smuxi-0.8.10-line-break.png size="200x"
     alt="Screenshot of Smuxi 0.8.10 showing line breaks"]]
 
 ### Enhanced Text Frontend ###
@@ -70,7 +69,7 @@ The text frontend which is still in alpha state has received the following
 enhancements: new /exit command, new /help command, regular and xterm window
 title, and, several fixed crashes.
 
-[[!img screenshots/smuxi-0.8.10-stfl.png size="200px"
+[[!img screenshots/smuxi-0.8.10-stfl.png size="200x"
     alt="Screenshot of Smuxi 0.8.10's text frontend"]]
 
 ### Enhanced Commands ###
