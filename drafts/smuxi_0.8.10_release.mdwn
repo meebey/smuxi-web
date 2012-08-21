@@ -1,6 +1,6 @@
 [[!meta title="""Smuxi 0.8.10 "Tracy" Release"""]]
 
-As longly awaited I am very happy to announce Smuxi **0.8.10** codenamed
+As longingly awaited I am very happy to announce Smuxi **0.8.10** codenamed
 **"Tracy"**. During the development [8 bug reports][bugs] and [15 feature
 requests][features] in [136 commits][commits] were worked on making this release
 a major feature and minor bugfix release.
@@ -113,18 +113,17 @@ Contributors to this release are the following people:
 
 Thank you very much for your contributions to Smuxi!
 
-After reading this whole pile of text, head over [here][download page] and grab
-this smexy stuff!
+Already horny? Go [here][download page] and get some!
 
 ## Update: Smuxi 0.8.10.1 ##
 
 About 2 months after the 0.8.10 release, Smuxi 0.8.10.1 with only important
 bugfixes and translation updates was released. This release includes the
 following [6 bugfixes][0.8.10.1-bugs]:
-[smuxi-server now honors the timezone][#590],
+[smuxi-server now honors the timezone of tweets][#590],
 [fixed a connection crash with InspIRCd-2.0 servers][#684],
-[quick join no longers opens another network tab][#730],
-[closing chats no longer crashes smuxi sometimes][#731],
+[quick join no longer opens another network tab][#730],
+[closing chats no longer crashes Smuxi sometimes][#731],
 [/connect irc.some-server.com works again][#735] and
 [focusing the message area moves the focus back to the entry again][#738].
 
