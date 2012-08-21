@@ -5,7 +5,7 @@ As longly awaited I am very happy to announce Smuxi **0.8.10** codenamed
 requests][features] in [136 commits][commits] were worked on making this release
 a major feature and minor bugfix release.
 
-[[!img screenshots/smuxi-0.8.10-main-window.png size="400x"
+[[!img screenshots/smuxi-0.8.10-main-window.png size="800x"
     alt="Screenshot of Smuxi 0.8.10 in action"]]
 
 Notable highlights in this release are:
