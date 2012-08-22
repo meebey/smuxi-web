@@ -1,4 +1,4 @@
-[[!meta title="""Smuxi 0.8.10 "Tray" Release"""]]
+[[!meta title="""Smuxi 0.8.10 "Tracy" Release"""]]
 
 Smuxi 0.8.10 with spell checking, favicons, quick join bar, indented messages
 and enhanced text frontend is available. Binary packages are available for
