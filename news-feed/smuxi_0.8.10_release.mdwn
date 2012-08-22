@@ -1,0 +1,11 @@
+[[!meta title="""Smuxi 0.8.10 "Tray" Release"""]]
+
+Smuxi 0.8.10 with spell checking, favicons, quick join bar, indented messages
+and enhanced text frontend is available. Binary packages are available for
+Windows, Mac OS X and Debian (Experimental). Binary packages for Ubuntu (Lucid,
+Oneiric, Precise, Quantal) will follow. Here you can read the
+[full release announcement][1]. For users running a development build of
+Smuxi it is recommended to simply upgrade to the newest [development build][2].
+
+  [1]: http://www.smuxi.org/blog/show/Smuxi_0810_Release
+  [2]: http://smuxi.im/documentation/running-from-git/
