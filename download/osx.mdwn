@@ -8,7 +8,7 @@ install first the Mono runtime though:
 * [Mono 2.10 for Intel (x86)][Mono X86]
 * [Mono 2.10 for PowerPC][Mono PowerPC]
 
-[[!img screenshots/smuxi-0.8.9-dev-osx.png size="400x"
+[[!img screenshots/smuxi-0.8.10-osx-main-window.jpg size="400x"
        alt="Screenshot of Smuxi on Mac OS X"]]
 
   [Mono X86]: /jaws/data/files/MonoFramework-MRE-2.10.8.1_2.macos10.xamarin.x86.dmg
