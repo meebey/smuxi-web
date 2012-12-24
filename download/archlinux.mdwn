@@ -1,3 +1,5 @@
+[[!meta robots="noindex, nofollow"]]
+
 [[!img logos/archlinux.png link=no alt="Arch Linux Logo" class="distrologo"]]
 
 Smuxi is in the [community repository][] of Arch Linux, so you can simply install it with this command:
