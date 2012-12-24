@@ -1,3 +1,5 @@
+[[!meta robots="noindex, nofollow"]]
+
 [[!img logos/debian.png link=no alt="Debian GNU/Linux Logo" class="distrologo"]]
 
 ### Debian 6.0 (Stable / Squeeze)

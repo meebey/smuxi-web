@@ -1,3 +1,5 @@
+[[!meta robots="noindex, nofollow"]]
+
 [[!img logos/freebsd.png link=no alt="FreeBSD Logo" class="distrologo"]]
 
 Smuxi is in the official [FreeBSD ports tree][], so just run the

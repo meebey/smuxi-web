@@ -1,3 +1,5 @@
+[[!meta robots="noindex, nofollow"]]
+
 [[!img logos/ubuntu.png link=no alt="Ubuntu Logo" class="distrologo"]]
 
 NOTE: Ubuntu/Lucid (10.4) contains Smuxi <u>0.7.1</u>, but it's

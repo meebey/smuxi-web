@@ -1,3 +1,5 @@
+[[!meta robots="noindex, nofollow"]]
+
 [[!img logos/gentoo.png link=no alt="Gentoo Logo" class="distrologo"]]
 
 Gentoo users that are using [~amd64 or ~x86][Gentoo Package] can install Smuxi

@@ -1,3 +1,5 @@
+[[!meta robots="noindex, nofollow"]]
+
 [[!img logos/osx.png link=no alt="Mac OS X" class="distrologo"]]
 
 **Download: [smuxi-0.8.11-3-dev-osx.zip]**

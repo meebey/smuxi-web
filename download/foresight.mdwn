@@ -1,3 +1,5 @@
+[[!meta robots="noindex, nofollow"]]
+
 [[!img logos/foresight.png link=no alt="Foresight Linux Logo" class="distrologo"]]
 
 Smuxi is in [Conary][], so just run the following comand to install it:

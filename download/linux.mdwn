@@ -1,3 +1,5 @@
+[[!meta robots="noindex, nofollow"]]
+
 [[!img logos/linux.png link=no alt="GNU/Linux Logo" class="distrologo"]]
 
 **Download: [smuxi-0.8-1-bin.tar.gz][]**
