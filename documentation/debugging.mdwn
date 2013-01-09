@@ -1,0 +1,12 @@
+# Debugging Smuxi with Mono #
+
+*bwok* *bwok* *bwok*
+
+# Debugging Smuxi with gdb #
+
+If you want to debug like real men, you need to use gdb. gdb is useful when
+Smuxi crashes with a SEGV, as gdb can debug into Mono itself too.
+
+First you need gdb and Mono with debug symbols installed:
+
+    sudo apt-get install gdb mono-runtime-dbg mono-dbg
