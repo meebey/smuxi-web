@@ -2,7 +2,7 @@
 
 *bwok* *bwok* *bwok*
 
-# Debugging Smuxi with gdb #
+# Debugging Smuxi with GDB #
 
 If you want to debug like real men, you need to use gdb. gdb is useful when
 Smuxi crashes with a SEGV, as gdb can debug into Mono itself too.
@@ -10,3 +10,20 @@ Smuxi crashes with a SEGV, as gdb can debug into Mono itself too.
 First you need gdb and Mono with debug symbols installed:
 
     sudo apt-get install gdb mono-runtime-dbg mono-dbg
+
+Now you can start smuxi-server with gdb like this:
+
+    gdb --args mono-sgen --debug /usr/lib/smuxi/smuxi-server.exe
+
+Or smuxi-frontend-gnome like this:
+
+    gdb --args mono-sgen --debug /usr/lib/smuxi/smuxi-frontend-gnome.exe
+
+Or test-cases like this:
+
+    gdb --args mono-sgen --debug /usr/lib/nunit/nunit-console.exe bin/debug/smuxi-engine-tests.dll
+
+This starts a gdb shell that lets you control the process. Start the process
+by entering:
+    
+    run
