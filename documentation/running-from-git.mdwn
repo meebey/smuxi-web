@@ -15,7 +15,7 @@ On **Debian 6.0 (squeeze)** you can use the [daily APT repository][PPA] by runni
 
 On **Debian Testing/Unstable** you can use the [daily APT repository][PPA] by running:
 
-    sudo -s bash -c 'echo "deb http://ppa.launchpad.net/meebey/smuxi-daily/ubuntu natty main" >> /etc/apt/sources.list'
+    sudo -s bash -c 'echo "deb http://ppa.launchpad.net/meebey/smuxi-daily/ubuntu quantal main" >> /etc/apt/sources.list'
     gpg --keyserver keyserver.ubuntu.com --recv-keys FC6D77D5
     gpg --export --armor FC6D77D5 | sudo apt-key add -
     sudo apt-get update
