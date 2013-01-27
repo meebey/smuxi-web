@@ -10,7 +10,7 @@ needed requirements if missing. If the auto install fails for some
 reason, you can download the components from here.
 
 * [Microsoft .NET Framework 3.5 SP1][.NET]
-* [GTK\# 2.12.9 for Microsoft .NET package][GTK#]
+* [GTK\# 2.12.10 for Microsoft .NET package][GTK#]
 
 After you have installed GTK\# 2.12 for .NET manually you **must reboot (or
 re-logon)** your Windows!
@@ -18,8 +18,6 @@ re-logon)** your Windows!
 After you have installed both packages, you can start Smuxi from the
 Windows Start Menu.
 
-  [.NET]:
-    http://www.microsoft.com/downloads/en/details.aspx?familyid=ab99342f-5d1a-413d-8319-81da479ab0d7
-  [GTK#]:
-    http://download.mono-project.com/gtk-sharp/gtk-sharp-2.12.10.win32.msi
+  [.NET]: http://www.microsoft.com/downloads/en/details.aspx?familyid=ab99342f-5d1a-413d-8319-81da479ab0d7
+  [GTK#]: /jaws/data/files/gtk-sharp-2.12.10.win32.msi
   [smuxi-0.8.10.1-1-win32-setup.exe]: /download.php?file=smuxi-0.8.10.1-1-win32-setup.exe
