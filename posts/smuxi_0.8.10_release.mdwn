@@ -14,7 +14,7 @@ Notable highlights in this release are:
 Everyone knows the "how do you spell that word again?" situation and either you
 don't care and send a possible typo or you go checking a dictionary which is
 kind of annoying. The good news is: with this release you no longer need to do
-that, as Smuxi includes automatic [spell checking][#48] while you type messages.
+that, as Smuxi includes automatic [spell checking][48] while you type messages.
 The bad news is that this feature is currently limited to Linux builds, and thus
 OSX and Windows build do not ship with it. The installers need to be extended
 and I haven't found pre-compiled OSX nor Windows binaries for the GTK+ spell
@@ -29,7 +29,7 @@ them. All server tabs have the same icon so you need to search for the right
 name. I wondered why this issue doesn't happen so easily with a web browser
 which usually also has lots of tabs open. Besides the page name there is the
 favicon right in front. So why can't Smuxi make use of that simple but effective
-technology? Well, [now it does][#702]! You connect to a known network, and Smuxi
+technology? Well, [now it does][702]! You connect to a known network, and Smuxi
 will download and show the favicon of the website. It just works and does
 everything in the background for you.
 
@@ -44,7 +44,7 @@ have to connect to the right server/network and then switch to the right tab,
 before they can join the channel (using the /join command or join dialog). The
 developers of Smuxi had a brainstorming session and came up with something that
 should be easy enough for anyone to use and finally solves the issue: the
-[quick join bar][#671]. You know which channel you want to join and which
+[quick join bar][671]. You know which channel you want to join and which
 network, you enter the channel name, select the network from the list and hit
 the "Join Chat" button and you are _done_. Now Smuxi will do just the right
 thing for you and connects to that network if needed, joins the channel if
@@ -62,7 +62,7 @@ first line. Here you can see an example for this issue:
     alt="Screenshot of Smuxi 0.8.9 showing line breaks"]]
 
 Ewww, that looks ugly, doesn't it? I will make this one short, here is the cure
-with [indented multi-line messages][#727]:
+with [indented multi-line messages][727]:
 
 [[!img screenshots/smuxi-0.8.10-line-break.png link=no
     alt="Screenshot of Smuxi 0.8.10 showing line breaks"]]
@@ -77,12 +77,12 @@ title, and, several fixed crashes.
 
 ### Enhanced Commands ###
 The /network command by default shows now all connected and also
-[available networks][#724]:
+[available networks][724]:
 
 [[!img screenshots/smuxi-0.8.10-network-command.png link=no
     alt="Screenshot of Smuxi 0.8.10 showing network command"]]
 
-The /connect command now allows you to [connect by network name][#723] like
+The /connect command now allows you to [connect by network name][723] like
 this:
 
     /connect freenode
@@ -120,12 +120,12 @@ Already horny? Go [here][download page] and get some!
 About 2 months after the 0.8.10 release, Smuxi 0.8.10.1 with only important
 bugfixes and translation updates was released. This release includes the
 following [6 bugfixes][0.8.10.1-bugs]:
-[smuxi-server now honors the timezone of tweets][#590],
-[fixed a connection crash with InspIRCd-2.0 servers][#684],
-[quick join no longer opens another network tab][#730],
-[closing chats no longer crashes Smuxi sometimes][#731],
-[/connect irc.some-server.com works again][#735] and
-[focusing the message area moves the focus back to the entry again][#738].
+[smuxi-server now honors the timezone of tweets][590],
+[fixed a connection crash with InspIRCd-2.0 servers][684],
+[quick join no longer opens another network tab][730],
+[closing chats no longer crashes Smuxi sometimes][731],
+[/connect irc.some-server.com works again][735] and
+[focusing the message area moves the focus back to the entry again][738].
 
   [download page]: /page/Download
   [roadmap]: /versions/show/17
@@ -134,15 +134,15 @@ following [6 bugfixes][0.8.10.1-bugs]:
   [0.8.10.1-bugs]: /projects/smuxi/issues?fixed_version_id=21&set_filter=1&tracker_id=1&status_id=5
   [quick join screencast]: /screencasts/quick-join/
   [commits]: http://git.qnetp.net/?p=smuxi.git;a=log;h=0.8.10
-  [#48]: /issues/show/48 "#48: spell checking"
-  [#702]: /issues/show/702 "#702: Use website favicons instead of default server icon for major IRC networks"
-  [#671]: /issues/show/671 "#671: Easy Join"
-  [#727]: /issues/show/727 "#727: Indent messages across newlines"
-  [#724]: /issues/show/724 "#724: /network list should show available networks"
-  [#723]: /issues/show/723 "#723: /connect command should allow to connect by network name"
-  [#590]: /issues/show/590 "#590: Twitter timestamp always wrong"
-  [#684]: /issues/show/684 "#684: NullReferenceException in Meebey.SmartIrc4net.WhoInfo.Parse()"
-  [#730]: /issues/show/730 "#730: easy join sometimes opens second network tab"
-  [#731]: /issues/show/731 "#731: NullReferenceException in ChatView.Close()"
-  [#735]: /issues/show/735 "#735: /connect irc.example.com is no longer working"
-  [#738]: /issues/show/738 "#738: Focusing the message text view no longer moves the focus to the entry"
+  [48]: /issues/show/48 "#48: spell checking"
+  [702]: /issues/show/702 "#702: Use website favicons instead of default server icon for major IRC networks"
+  [671]: /issues/show/671 "#671: Easy Join"
+  [727]: /issues/show/727 "#727: Indent messages across newlines"
+  [724]: /issues/show/724 "#724: /network list should show available networks"
+  [723]: /issues/show/723 "#723: /connect command should allow to connect by network name"
+  [590]: /issues/show/590 "#590: Twitter timestamp always wrong"
+  [684]: /issues/show/684 "#684: NullReferenceException in Meebey.SmartIrc4net.WhoInfo.Parse()"
+  [730]: /issues/show/730 "#730: easy join sometimes opens second network tab"
+  [731]: /issues/show/731 "#731: NullReferenceException in ChatView.Close()"
+  [735]: /issues/show/735 "#735: /connect irc.example.com is no longer working"
+  [738]: /issues/show/738 "#738: Focusing the message text view no longer moves the focus to the entry"
