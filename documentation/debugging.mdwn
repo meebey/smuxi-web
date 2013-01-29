@@ -1,5 +1,9 @@
 [[!meta title="Debugging Smuxi"]]
-[[!toc]]
+[[!sidebar content="""
+## Contents ##
+[[!toc startlevel=2 levels=2]]
+[[!inline pages=sidebar]]
+"""]]
 
 Debugging with Mono
 -------------------
