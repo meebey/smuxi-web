@@ -48,8 +48,8 @@ Run! Ok, you don't want to listen. So here is the path of doom:
    * .symfix+ c:\symbols
    * .reload /f
  * Hit _Debug_ -> _Go_ from the application menu
- * Use sexy very hard Smuxi till it explodes with a _Microsoft Visual C++
-   Runtime Library_ error dialog
+ * Use Smuxi very hard till it explodes with a _Microsoft Visual C++ Runtime
+   Library_ error dialog
  * Close error dialog
  * Switch to WinDbg
  * Enter: ~\* kp
