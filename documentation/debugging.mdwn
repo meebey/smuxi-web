@@ -42,20 +42,15 @@ Run! Ok, you don't want to listen. So here is the path of doom:
  * Confirm the Open button
  * Acknowledge _Save information for workspace_ with yes.
  * Enter
-
-    .sympath SRV*c:\symbols*http://msdl.microsoft.com/download/symbols
-    .symfix+ c:\symbols
-    .reload /f
-
+   * .sympath SRV\*c:\symbols\*http://msdl.microsoft.com/download/symbols
+   * .symfix+ c:\symbols
+   * .reload /f
  * Hit _Debug_ -> _Go_ from the application menu
  * Use sexy very hard Smuxi till it explodes with a _Microsoft Visual C++
    Runtime Library_ error dialog
  * Close error dialog
  * Switch to WinDbg
- * Enter
-
-    ~* kp
-
+ * Enter: ~\* kp
  * Copy/paste the complete output into the bugreport
  * Feel tortured
 
