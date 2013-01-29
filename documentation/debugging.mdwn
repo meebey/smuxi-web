@@ -27,3 +27,32 @@ This starts a gdb shell that lets you control the process. Start the process
 by entering:
     
     run
+
+# Debugging Smuxi with Windows Debugger (WinDbg) #
+
+Run! Ok, you don't want to listen. So here is the path of doom:
+
+ * Download and install the [Windows SDK] (you don't need all of the SDK,
+   Debugging Tools are sufficient)
+ * Start WinDbg X86 (not X64!) from the start menu
+ * Hit File -> Open Executable from the application menu
+ * Select smuxi-frontend-gnome.exe from Smuxi's application directory
+   (default install location is C:\Program Files (x86\Smuxi)
+ * Set "start directory" to to Smuxi's application directory
+ * Confirm the Open button
+ * Acknowledge "Save information for workspace" with yes.
+ * Enter
+    .sympath SRV*c:\symbols*http://msdl.microsoft.com/download/symbols
+    .symfix+ c:\symbols
+    .reload /f
+ * Hit Debug -> Go from the application menu
+ * Use sexy very hard Smuxi till it explodes with a "Microsoft Visual C++
+   Runtime Library" error dialog
+ * Close error dialog
+ * Switch to WinDbg
+ * Enter
+    ~* kp
+ * Copy/paste the complete output into the bugreport
+ * Feel tortured
+
+ [Windows SDK]: http://msdn.microsoft.com/en-us/windows/hardware/hh852363.aspx
