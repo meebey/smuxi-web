@@ -2,7 +2,7 @@
 [[!sidebar content="""
 ## Contents ##
 [[!toc startlevel=2 levels=2]]
-[[!inline pages=sidebar]]
+[[!inline pages=sidebar feeds=no raw=yes]]
 """]]
 
 Debugging with Mono
