@@ -35,23 +35,27 @@ Run! Ok, you don't want to listen. So here is the path of doom:
  * Download and install the [Windows SDK] (you don't need all of the SDK,
    Debugging Tools are sufficient)
  * Start WinDbg X86 (not X64!) from the start menu
- * Hit File -> Open Executable from the application menu
- * Select smuxi-frontend-gnome.exe from Smuxi's application directory
-   (default install location is C:\Program Files (x86\Smuxi)
- * Set "start directory" to to Smuxi's application directory
+ * Hit _File_ -> _Open Executable_ from the application menu
+ * Select _smuxi-frontend-gnome.exe_ from Smuxi's application directory
+   (default install location is _C:\Program Files (x86)\Smuxi_)
+ * Set _start directory_ to to Smuxi's application directory
  * Confirm the Open button
- * Acknowledge "Save information for workspace" with yes.
+ * Acknowledge _Save information for workspace_ with yes.
  * Enter
+
     .sympath SRV*c:\symbols*http://msdl.microsoft.com/download/symbols
     .symfix+ c:\symbols
     .reload /f
- * Hit Debug -> Go from the application menu
- * Use sexy very hard Smuxi till it explodes with a "Microsoft Visual C++
-   Runtime Library" error dialog
+
+ * Hit _Debug_ -> _Go_ from the application menu
+ * Use sexy very hard Smuxi till it explodes with a _Microsoft Visual C++
+   Runtime Library_ error dialog
  * Close error dialog
  * Switch to WinDbg
  * Enter
+
     ~* kp
+
  * Copy/paste the complete output into the bugreport
  * Feel tortured
 
