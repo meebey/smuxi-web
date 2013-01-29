@@ -1,3 +1,5 @@
+[[!meta title="Debugging Smuxi"]]
+
 # Debugging Smuxi with Mono #
 
 *bwok* *bwok* *bwok*
