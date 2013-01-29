@@ -13,7 +13,9 @@
 ### Documentation ###
  * [[Server HowTo|documentation/server]]
  * [[Translation HowTo|contribute/translation]]
+ * [[Development builds|documentation/running-from-git]]
  * [[Hacking HowTo|contribute/hacking]]
+ * [[Debugging HowTo|documentation/debugging]]
 
 ### Community ###
  * [[Twitter (News)|http://twitter.com/smuxi]]
