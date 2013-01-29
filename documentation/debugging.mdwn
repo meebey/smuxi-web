@@ -1,4 +1,5 @@
 [[!meta title="Debugging Smuxi"]]
+[[!toc]]
 
 # Debugging Smuxi with Mono #
 
