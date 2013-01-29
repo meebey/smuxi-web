@@ -1,11 +1,13 @@
 [[!meta title="Debugging Smuxi"]]
 [[!toc]]
 
-# Debugging Smuxi with Mono #
+Debugging with Mono
+-------------------
 
 *bwok* *bwok* *bwok*
 
-# Debugging Smuxi with GDB #
+Debugging with GDB
+------------------
 
 If you want to debug like real men, you need to use gdb. gdb is useful when
 Smuxi crashes with a SEGV, as gdb can debug into Mono itself too.
@@ -31,7 +33,8 @@ by entering:
     
     run
 
-# Debugging Smuxi with Windows Debugger (WinDbg) #
+Debugging with Windows Debugger (WinDbg)
+----------------------------------------
 
 Run! Ok, you don't want to listen. So here is the path of doom:
 
