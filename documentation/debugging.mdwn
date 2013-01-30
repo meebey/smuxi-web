@@ -55,12 +55,16 @@ Run! Ok, you don't want to listen. So here is the path of doom:
    * .sympath SRV\*c:\symbols\*http://msdl.microsoft.com/download/symbols
    * .symfix+ c:\symbols
    * .reload /f
+   * .loadby sos clr
  * Hit _Debug_ -> _Go_ from the application menu
  * Use Smuxi very hard till it explodes with a _Microsoft Visual C++ Runtime
    Library_ error dialog
  * Close error dialog
  * Switch to WinDbg
- * Enter: ~\* kp
+ * Enter
+   * ~\* kp
+   * !threads
+   * !dumpstack
  * Copy/paste the complete output into the bugreport
  * Feel tortured
 
