@@ -3,4 +3,4 @@
 Welcome to Smuxi. I have no idea what to type here.
 
 [[!inline pages="./posts/* and !page(./posts/license) and !*/Discussion" show="10"
-actions=no rootpage="posts"]]
+actions=no]]
