@@ -11,7 +11,8 @@
 .sidebar ul li {
     float: left;
     display: block;
-    width: 100px;
+    width: 120px;
+    white-space: nowrap;
 }
 
 .screenshot {
