@@ -9,6 +9,7 @@
 .sidebar ul li {
     float: left;
     display: block;
+    width: 100px;
 }
 
 .screenshot {
