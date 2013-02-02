@@ -1,40 +1,5 @@
-### Main ###
- * [[About]]
- * [[News|posts]]
- * [[News Archive|archives]]
  * [[Features]]
- * [[Screenshots]]
- * [[Download]]
- * [FAQ]
- * [[IRC]]
- * [Known Issues]
- * [Report Bug]
-
-### Documentation ###
- * [[Server HowTo|documentation/server]]
- * [[Translation HowTo|contribute/translation]]
- * [[Development builds|documentation/running-from-git]]
- * [[Hacking HowTo|contribute/hacking]]
- * [[Debugging HowTo|documentation/debugging]]
-
-### Community ###
- * [[Twitter (News)|http://twitter.com/smuxi]]
- * [[Twitter (Developers)|http://twitter.com/smuxi/developers]]
- * [[Twitter (Users)|http://twitter.com/smuxi/users]]
- * [Roadmap]
- * [Hall of Fame]
- * [Browse Source (Redmine)]
- * [[Browse Source (gitweb)|http://git.qnetp.net/?p=smuxi.git]]
- * [[Source Mirror (Gitorious)|http://gitorious.org/smuxi]]
-
-### IRC News ###
- * [[IRC-Junkie|http://www.irc-junkie.org/]]
- * [[IRCReport|http://www.ircreport.com/]]
- * [[Auronia (German)|http://www.auronia.net/]]
-
- [FAQ]: /faq
- [Known Issues]: /issues
- [Report Bug]: /issues/new
- [Roadmap]: /roadmap
- [Hall of Fame]: /fame
- [Browse Source (Redmine)]: /repositories/show/smuxi
+ * [[Get it now|download]]
+ * [[Documentation]]
+ * [[Contribute]]
+ * [[About]]
