@@ -1,3 +1,16 @@
+.sidebar {
+    float: inherit;
+}
+.sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.sidebar ul li {
+    float: left;
+    display: block;
+}
+
 .screenshot {
     float: right;
 }
