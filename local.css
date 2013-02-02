@@ -1,6 +1,7 @@
 .sidebar {
     float: inherit;
     width: auto;
+    margin-top: auto;
 }
 .sidebar ul {
     list-style-type: none;
