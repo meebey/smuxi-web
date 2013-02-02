@@ -1,6 +1,7 @@
 .sidebar {
-    float: inherit;
+    float: right;
     width: auto;
+    border: none;
     margin-top: auto;
 }
 .sidebar ul {
@@ -12,7 +13,9 @@
 .sidebar ul li {
     float: left;
     display: block;
+    border: 1px solid black;
     width: 8em;
+    text-align: center;
     white-space: nowrap;
 }
 
