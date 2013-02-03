@@ -45,10 +45,10 @@
   * Multiple Protocol Support
     * IRC
     * [Twitter]
-    * [Google Talk][] [^preview]
-    * [Facebook Chat][] [^preview]
-    * [Jabber][] [^preview]
-    * XMPP [^preview]
+    * [Google Talk] [^gtalk fn]
+    * [Facebook Chat] [^fb fn]
+    * [Jabber] [^jabber fn]
+    * XMPP [^xmpp fn]
 
 #### IRC Features
   * Stripping Colors and/or Formattings from Messages
@@ -90,7 +90,10 @@
 
 #### Planned features for the next release
 
-[^preview]: Preview feature which is in early stage of development
+[^gtalk fn]: Google Talk support is in early stage of development
+[^fb fn]: Facebook Chat support is in early stage of development
+[^jabber fn]: Jabber support is in early stage of development
+[^xmpp fn]: XMPP support is in early stage of development
 
   [Ayatana project]: https://wiki.ubuntu.com/MessagingMenu
   [Caret-Mode]: http://www.smuxi.org/ezfaq/show/smuxi?faq_id=7
