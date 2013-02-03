@@ -45,9 +45,9 @@
   * Multiple Protocol Support
     * IRC
     * [Twitter]
-    * [Google Talk] [^preview]
-    * [Facebook Chat] [^preview]
-    * [Jabber] [^preview]
+    * [Google Talk][] [^preview]
+    * [Facebook Chat][] [^preview]
+    * [Jabber][] [^preview]
     * XMPP [^preview]
 
 #### IRC Features
@@ -90,6 +90,8 @@
 
 #### Planned features for the next release
 
+[^preview]: Preview feature which is in early stage of development
+
   [Ayatana project]: https://wiki.ubuntu.com/MessagingMenu
   [Caret-Mode]: http://www.smuxi.org/ezfaq/show/smuxi?faq_id=7
   [Browse Mode]: http://www.smuxi.org/ezfaq/show/smuxi?faq_id=24
@@ -102,4 +104,3 @@
   [Google Talk]: /screencasts/gtalk/
   [Facebook Chat]: /screencasts/facebook-chat/
   [Jabber]: /screencasts/jabber/
-  [^preview]: Preview feature in early stage of development
