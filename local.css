@@ -27,6 +27,15 @@
     display: none;
 }
 
+/* hide tags of inlined posts */
+.inlinepage .tags {
+    display: none;
+}
+/* hide license footers of inlined posts */
+.inlinepage .pagelicense {
+    display: none;
+}
+
 pre {
     margin: 15px;
     padding: 15px;
