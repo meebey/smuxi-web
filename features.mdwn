@@ -1,3 +1,5 @@
+[[!meta title="Features"]]
+
 ### Smuxi currently supports the following features
 
 #### User Interface Features
