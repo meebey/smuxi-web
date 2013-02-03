@@ -1,3 +1,0 @@
-This page will show all comments made to posts in my [[blog|index]].
-
-[[!inline pages="./posts/*/Discussion or internal(./posts/*/comment_*)"]]

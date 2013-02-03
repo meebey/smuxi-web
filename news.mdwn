@@ -1,2 +1,2 @@
-[[!inline pages="page(posts/*) and !page(posts/license) and !*/Discussion"
+[[!inline pages="page(news/*) and !page(news/license) and !*/Discussion"
 show="10" actions=no]]
