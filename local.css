@@ -27,12 +27,15 @@
     display: none;
 }
 
-/* hide tags of inlined posts */
+.inlinepage {
+    overflow: visible;
+}
 .inlinepage .tags {
+    /* hide tags of inlined posts */
     display: none;
 }
-/* hide license footers of inlined posts */
 .inlinepage .pagelicense {
+    /* hide license footers of inlined posts */
     display: none;
 }
 
