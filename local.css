@@ -46,6 +46,7 @@
 
 #footer .pagecopyright, .pagelicense, .pagedate {
     font-size: .8em;
+    margin-top: 0;
 }
 #footer .pagecopyright p {
     margin: 0;
