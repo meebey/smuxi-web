@@ -1,4 +1,5 @@
-[[!meta title="News Feed"]]                      
+[[!meta title="News Feed"]]
+[[!meta date="2011-11-29 02:15:37 CET"]]
 [[!tag planet-feed]]
 
 Smuxi now comes with a built-in news feed which keeps you up to date about
