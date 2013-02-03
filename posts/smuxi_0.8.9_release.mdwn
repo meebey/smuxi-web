@@ -17,7 +17,7 @@ development -> test cycle is important to keep the project going
 quickly. At some point I have received requests if the project is dead while
 it was more active than ever. The lack of new releases (for about 15 months)
 lead to this wrong impression. Thus Smuxi can be obtained from
-[development builds] now. This includes [daily builds][#504] for
+[development builds] now. This includes [daily builds][504] for
 Debian (Squeeze, Wheezy, Sid),
 Ubuntu (Lucid, Maverick, Natty, Oneiric, Precise) and Windows. Thanks goes to
 Hannes Tismer for providing the Windows autobuilder and to Canonical for the
@@ -38,7 +38,7 @@ With the help of Steven McGrath (Steve\[cug\]) who created the initial Mac OS X
 installer for Smuxi we now have official support for Mac OS X. The
 [download page] contains the instructions how to obtain and install Smuxi on
 Mac OS X. This makes the 4th platform where Smuxi can be used on besides
-Windows, Linux and *BSD.
+Windows, Linux and \*BSD.
 
 For now Smuxi 0.8.9 doesn't feel as native as it could as it relies on the GTK+
 port. We are looking into [enhancing the experience][osx-port] though, just
@@ -91,18 +91,18 @@ Everyone with a laptop knows how annoying it can be to suspend and resume when
 network based applications suddenly go crazy because they have lost the
 connection and either spew errors or take forever to get back in shape. Smuxi
 will now detect the network state right away with the help of the new
-[Network Manager support][#205]. It automatically reconnects when needed right
+[Network Manager support][205]. It automatically reconnects when needed right
 away for you.
 
 ### Next Generation Internet Support ###
-You can now connect to IRC servers using the [IPv6 protocol][#22]
+You can now connect to IRC servers using the [IPv6 protocol][22]
 
 ### Enhanced Find Group Chat Support ###
 Users had real issues to find out how to search for channels, thus Bianca Mix
-added a neat feature. The [/list command][#536] will now simply open the
+added a neat feature. The [/list command][536] will now simply open the
 Find Group Chat dialog for you. This way everyone used to IRC will find it in
 no time. Searching for channels on freenode wasn't working correctly, this is
-now [fixed][#655]. Smuxi also supports the [SAFELIST feature][#548] of the IRC
+now [fixed][655]. Smuxi also supports the [SAFELIST feature][548] of the IRC
 protocol now which allows to retrieve a full channel list and do client side
 search which makes consecutive searches much faster.
 
@@ -110,52 +110,52 @@ search which makes consecutive searches much faster.
 For a long time you could not use Smuxi with the latest GTK# version of 2.12.10
 on Windows. The issue was that Smuxi relied on SVG support which 2.12.10 no
 longer had. Smuxi is no longer using SVG instead it uses pre-scaled PNG images
-thus it works just fine with [GTK# 2.12.10 on Windows][#619] now. At the same
+thus it works just fine with [GTK# 2.12.10 on Windows][619] now. At the same
 time the issue that the maximized state of the main window was left when
-restoring from task bar is [fixed][#619] with GTK# 2.12.10.
+restoring from task bar is [fixed][619] with GTK# 2.12.10.
 
 [[!img screenshots/fixedsys-vs-consolas.png size="200x"
        alt="Screenshot of Fixed-Sys vs Consolas font" class="screenshot"]]
 Smuxi used by default the FixedSys font on Windows to give it the typical IRC
 look most people are used to. Since Windows Vista there is a better
 console-like font available called Consolas. Smuxi will now
-[use the Consolas font][#216] instead on Windows Vista or later.
+[use the Consolas font][216] instead on Windows Vista or later.
 
 Another important enhancement is that Smuxi no longer has issues with
-[multiple GTK+ installs][#551] on the same computer, which was getting more
+[multiple GTK+ installs][551] on the same computer, which was getting more
 common with more popular ported GTK+ applications such as GIMP or Pidgin.
 
 ### SSL for IRC fixed ###
 IRC with SSL was only working with the default port of 6697. Thanks to Jo
-Shields now [any port can be used with SSL][#549].
+Shields now [any port can be used with SSL][549].
 
 ### Crash Related Issues ###
-[Desktop notifications][#512] could [crash Smuxi][#574] [in case][#630]
-[of errors][#533] related to the notification system or an
-[absent notification daemon][#507]. There was a chance that the
-[crash dialog simply disappeared][#638] which made reporting bugs more
-difficult no longer happens. [Rapid use of ctrl+w][#518],
-[/window close][#523] (Jimmie Elvenmark) and
-[opening the Find Group Chat dialog][#532] on the Smuxi tab do no longer crash.
-Also [number-only network names][#573], [/network switch freenode][#610] and
-[GTK+ install without SVG support][#304] no longer lead into a crash.
+[Desktop notifications][512] could [crash Smuxi][574] [in case][630]
+[of errors][533] related to the notification system or an
+[absent notification daemon][507]. There was a chance that the
+[crash dialog simply disappeared][638] which made reporting bugs more
+difficult no longer happens. [Rapid use of ctrl+w][518],
+[/window close][523] (Jimmie Elvenmark) and
+[opening the Find Group Chat dialog][532] on the Smuxi tab do no longer crash.
+Also [number-only network names][573], [/network switch freenode][610] and
+[GTK+ install without SVG support][304] no longer lead into a crash.
 
 ### Enhanced Notice Handling ###
-[Notices will no longer open query tabs][#494] for you instead it will
-[show them on tabs you share with the person][#38] who sent it with the server
-tab as fallback. This also avoids [ChanServ, NickServ][#554] and spammy IRCop
+[Notices will no longer open query tabs][494] for you instead it will
+[show them on tabs you share with the person][38] who sent it with the server
+tab as fallback. This also avoids [ChanServ, NickServ][554] and spammy IRCop
 tabs.
 
 ### Twitter fixes ###
 Twitter made some changes to their API which broke the Twitter support of
-Smuxi 0.8. This was taken care of and also [a][#623] [few][#644] [other][#464]
-[issues][#649] were solved allowing Smuxi 0.8.9 to work smoothly with Twitter
+Smuxi 0.8. This was taken care of and also [a][623] [few][644] [other][464]
+[issues][649] were solved allowing Smuxi 0.8.9 to work smoothly with Twitter
 again.
 
 ### Extended Keybindings ###
-Smuxi allows now to use the [ctrl+tab / ctrl+shift+tab][#659] and
-[ctrl+n / ctrl+p][#505] keys to switch tabs. The keybindings still work even
-with a [hidden menu bar][#462] now.
+Smuxi allows now to use the [ctrl+tab / ctrl+shift+tab][659] and
+[ctrl+n / ctrl+p][505] keys to switch tabs. The keybindings still work even
+with a [hidden menu bar][462] now.
 
 ### Smuxi Server specific highlights ####
 
@@ -164,7 +164,7 @@ When connecting to a smuxi-server you had to wait till Smuxi finished the
 synchronization before you could use the interface. Also you could not tell how
 far the synchronization was and just had to wait till it was completed.
 With Smuxi 0.8.9 the connect just takes a few seconds and all chats are
-synchronized in the background with [a progress bar][#624] so you can use the
+synchronized in the background with [a progress bar][624] so you can use the
 interface from the first moment on and know how far it is. The speed how much
 it takes to synchronize all chats also reduced drastictly by 400%!
 
@@ -172,7 +172,7 @@ it takes to synchronize all chats also reduced drastictly by 400%!
 
 #### More background communication ####
 When using a smuxi-server the interface sometimes had load times like when
-[opening the preferences][#597] or when using the [nickname completion][#616]
+[opening the preferences][597] or when using the [nickname completion][616]
 (Andrew Kannan). These operations are done in the background and no longer
 blocks the interface. Also when the communication is lost to the smuxi-server
 the frontend will now automatically reconnect to it in the background.
@@ -181,7 +181,7 @@ the frontend will now automatically reconnect to it in the background.
 When it comes to mobile internet connectivity such as UMTS/HSDPA, Edge and GRPS
 it can be a real pain to connect to the smuxi-server as it has to transfer all
 the messages over that. If you just want to ask someone you know then you don't
-need any old messages to do that. With the ["Low Bandwidth Mode"][#591] you can
+need any old messages to do that. With the ["Low Bandwidth Mode"][591] you can
 now connect to the smuxi-server without loading old messages which makes the
 connect very quick. You find this option in the engine connect dialog.
 
@@ -191,11 +191,11 @@ release, but as it turned out the 0.8 protocol was good enough to still use
 it and for that reason Smuxi 0.8.9 is still compatible with 0.8. The 0.8
 protocol will see no breakages, instead the next protocol will be on-top or
 opt-in of the current one. This means future Smuxi versions
-[stay compatible][#600] with it.
+[stay compatible][600] with it.
 
 #### Shutdown Command ####
 You can now shutdown the smuxi-server if you like using the
-[/shutdown command][#647]. It it safe to use the command, it will do a clean
+[/shutdown command][647]. It it safe to use the command, it will do a clean
 shutdown sequence for you. For example it makes sure all messages are written
 to disk in the case of enabled persistent message buffers. If you have your
 smuxi-server daemon monitored (e.g. with runit) it can also automatically be
@@ -204,7 +204,7 @@ restarted and upgraded this way.
 #### Built-in SSH Keyfile Support ####
 It is no longer needed to fiddle with the .ssh/config file or pagent to get
 SSH key authorization working. You can now simply tell Smuxi which
-[SSH keyfile][#653] you want to use to connect to your smuxi-server.
+[SSH keyfile][653] you want to use to connect to your smuxi-server.
 
 
 ### Updated Translations ###
@@ -269,45 +269,45 @@ this smexy stuff!
   [28C3]: http://events.ccc.de/congress/2011/wiki/Main_Page
   [no nerd left behind]: http://events.ccc.de/congress/2011/wiki/No_nerd_left_behind
   [STFL]: http://www.clifford.at/stfl/
-  [#22]: /issues/show/22 "#22: IPv6 support"
-  [#38]: /issues/show/38 "#38: send notices from users to channels and querys where useful"
-  [#216]: /issues/show/216 "#216: Consolas font for Windows"
-  [#494]: /issues/show/494 "#494: Notices shouldn't open a query"
-  [#429]: /issues/show/429 "#429: Using database for logging"
-  [#472]: /issues/show/472 "#472: Theme sensitive application icon"
-  [#205]: /issues/show/205 "#205: NetworkManager Support"
-  [#574]: /issues/show/574 "#574: Smuxi crashes with \"0 is not a valid notification ID\""
-  [#590]: /issues/show/590 "#590: Twitter timestamp always wrong"
-  [#619]: /issues/show/619 "#619: Maximizing on Windows"
-  [#655]: /issues/show/655 "#655: Find group chat not working correctly on freenode"
-  [#504]: /issues/show/504 "#504: PPA with daily snapshots"
-  [#548]: /issues/show/548 "#548: Support for SAFELIST (RPL_ISUPPORT)"
-  [#551]: /issues/show/551 "#551: Set PATH before starting Smuxi on Windows"
-  [#554]: /issues/show/554 "#554: Hide Chanserv and Nickserv messages"
-  [#591]: /issues/show/554 "#554: Low Bandwidth Mode"
-  [#597]: /issues/show/597 "#597: Sync config cache when connecting to smuxi-server"
-  [#600]: /issues/show/600 "#600: smuxi-server should not need to perform a version check"
-  [#616]: /issues/show/616 "#616: Engine-less nickname completion"
-  [#624]: /issues/show/624 "#624: Count and show still pending chats which need to be synchronized"
-  [#644]: /issues/show/644 "#644: New Twitter API key with Direct Messages permission"
-  [#647]: /issues/show/647 "#647: Shutdown sequence for persistent message buffers"
-  [#653]: /issues/show/653 "#653: SSH key authorization support"
-  [#659]: /issues/show/659 "#659: Imitate mIRC channel window change (with CTRL+TAB)"
-  [#505]: /issues/show/505 "#505: Move on to the next/previous window when pressing ctrl+n and p respectively."
-  [#623]: /issues/show/623 "#623: Smuxi no longer shows Direct Messages of Twitter"
-  [#464]: /issues/show/464 "#464: Twitter pin command should be more forgiving"
-  [#649]: /issues/show/649 "#649: Verify Twitter OAuth tokens, invalidate and re-request when needed"
-  [#638]: /issues/show/638 "#638: Crash dialog closes without user interaction"
-  [#507]: /issues/show/507 "#507: Crash on startup when no Notification Daemon is running"
-  [#512]: /issues/show/512 "#512: Smuxi crashes when spamming the notification daemon"
-  [#518]: /issues/show/518 "#518: Crash when closing multiple chats using ctrl+w"
-  [#523]: /issues/show/523 "#523: Crash when executing /window close on Smuxi tab"
-  [#532]: /issues/show/532 "#532: Crashed on Ubuntu 10.04"
-  [#533]: /issues/show/533 "#533: Crash at startup (notification related)"
-  [#573]: /issues/show/573 "#573: Use of number in network name make the server crash"
-  [#610]: /issues/show/610 "#610: Crash with /network switch freenode"
-  [#630]: /issues/show/630 "#630: Crash on highlight"
-  [#304]: /issues/show/304 "#304: Startup Crash on OpenSUSE: GLib.GException: Unrecognized image file format"
-  [#462]: /issues/show/462 "#462: Keybinds doesn't work when hiding menubar"
-  [#536]: /issues/show/536 "#536: /list command should open the Find Group Chat dialog"
-  [#549]: /issues/show/549 "#549: Cannot configure/connect to an IRC server with SSL on a port other than 6697 via GUI"
+  [22]: /issues/show/22 "#22: IPv6 support"
+  [38]: /issues/show/38 "#38: send notices from users to channels and querys where useful"
+  [216]: /issues/show/216 "#216: Consolas font for Windows"
+  [494]: /issues/show/494 "#494: Notices shouldn't open a query"
+  [429]: /issues/show/429 "#429: Using database for logging"
+  [472]: /issues/show/472 "#472: Theme sensitive application icon"
+  [205]: /issues/show/205 "#205: NetworkManager Support"
+  [574]: /issues/show/574 "#574: Smuxi crashes with \"0 is not a valid notification ID\""
+  [590]: /issues/show/590 "#590: Twitter timestamp always wrong"
+  [619]: /issues/show/619 "#619: Maximizing on Windows"
+  [655]: /issues/show/655 "#655: Find group chat not working correctly on freenode"
+  [504]: /issues/show/504 "#504: PPA with daily snapshots"
+  [548]: /issues/show/548 "#548: Support for SAFELIST (RPL_ISUPPORT)"
+  [551]: /issues/show/551 "#551: Set PATH before starting Smuxi on Windows"
+  [554]: /issues/show/554 "#554: Hide Chanserv and Nickserv messages"
+  [591]: /issues/show/554 "#554: Low Bandwidth Mode"
+  [597]: /issues/show/597 "#597: Sync config cache when connecting to smuxi-server"
+  [600]: /issues/show/600 "#600: smuxi-server should not need to perform a version check"
+  [616]: /issues/show/616 "#616: Engine-less nickname completion"
+  [624]: /issues/show/624 "#624: Count and show still pending chats which need to be synchronized"
+  [644]: /issues/show/644 "#644: New Twitter API key with Direct Messages permission"
+  [647]: /issues/show/647 "#647: Shutdown sequence for persistent message buffers"
+  [653]: /issues/show/653 "#653: SSH key authorization support"
+  [659]: /issues/show/659 "#659: Imitate mIRC channel window change (with CTRL+TAB)"
+  [505]: /issues/show/505 "#505: Move on to the next/previous window when pressing ctrl+n and p respectively."
+  [623]: /issues/show/623 "#623: Smuxi no longer shows Direct Messages of Twitter"
+  [464]: /issues/show/464 "#464: Twitter pin command should be more forgiving"
+  [649]: /issues/show/649 "#649: Verify Twitter OAuth tokens, invalidate and re-request when needed"
+  [638]: /issues/show/638 "#638: Crash dialog closes without user interaction"
+  [507]: /issues/show/507 "#507: Crash on startup when no Notification Daemon is running"
+  [512]: /issues/show/512 "#512: Smuxi crashes when spamming the notification daemon"
+  [518]: /issues/show/518 "#518: Crash when closing multiple chats using ctrl+w"
+  [523]: /issues/show/523 "#523: Crash when executing /window close on Smuxi tab"
+  [532]: /issues/show/532 "#532: Crashed on Ubuntu 10.04"
+  [533]: /issues/show/533 "#533: Crash at startup (notification related)"
+  [573]: /issues/show/573 "#573: Use of number in network name make the server crash"
+  [610]: /issues/show/610 "#610: Crash with /network switch freenode"
+  [630]: /issues/show/630 "#630: Crash on highlight"
+  [304]: /issues/show/304 "#304: Startup Crash on OpenSUSE: GLib.GException: Unrecognized image file format"
+  [462]: /issues/show/462 "#462: Keybinds doesn't work when hiding menubar"
+  [536]: /issues/show/536 "#536: /list command should open the Find Group Chat dialog"
+  [549]: /issues/show/549 "#549: Cannot configure/connect to an IRC server with SSL on a port other than 6697 via GUI"
