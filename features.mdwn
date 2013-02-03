@@ -7,6 +7,7 @@
   * Desktop Notifications (with full support of actions, icons, updates, append
     and sound)
   * Messaging Menu / Indicators (as provided by Ubuntu's [Ayatana project][])
+  * Integrated Spell Checking (Linux-only)
   * Unified Nickname Colors (identical color across channels and networks)
   * [Caret-Mode][] (keyboard navigation through messages)
   * [Browse Mode][] (allows to navigate through tabs without moving the markerline)
@@ -15,15 +16,17 @@
   * Message / Command History
   * Configurable Command Character
   * Quick Connect Dialog (simply connect to any server)
-  * Open / Join Chat Dialog
+  * [Join Bar][] (easily connect/join to servers/chats)
   * Find Group Chat Dialog
   * Sorted and Reoderable Tabs
+  * Favicons for Server Tabs
   * Colors are checked and adjusted for optimium contrast
   * Clickable URLs
   * Word Wrapping
+  * Indention of multi-line messages
   * Configurable Highlight Words
   * Markerlines which divide old messages from new messages
-  * Toggle-able menubar
+  * Toggle-able menubar / status bar
   * Full screen mode
   * Themeing Support
     * Configurable Font
@@ -38,9 +41,14 @@
   * Configurable Encoding (ISO-8859-1/15, UTF-8, etc)
   * HTTP / SOCKS Proxy Support
   * SSL Support (with optional certificate validation)
-  * Multiple Network Protocols
-    * IRC Support
-    * Twitter Support
+  * IPv6 Support
+  * Multiple Protocol Support
+    * IRC
+    * [Twitter]
+    * [Google Talk] [^preview]
+    * [Facebook Chat] [^preview]
+    * [Jabber] [^preview]
+    * XMPP [^preview]
 
 #### IRC Features
   * Stripping Colors and/or Formattings from Messages
@@ -81,7 +89,6 @@
     * Swedish 
 
 #### Planned features for the next release
-  * IPv6 Support
 
   [Ayatana project]: https://wiki.ubuntu.com/MessagingMenu
   [Caret-Mode]: http://www.smuxi.org/ezfaq/show/smuxi?faq_id=7
@@ -90,4 +97,9 @@
   [Channel List / Search]: http://www.smuxi.org/ezfaq/show/smuxi?faq_id=27
   [On Connect Commands]: http://www.smuxi.org/ezfaq/show/smuxi?faq_id=26
   [Filters]: http://www.smuxi.org/ezfaq/show/smuxi?faq_id=13
-
+  [Join Bar]: /screencasts/quick-join/
+  [Twitter]: /screencasts/twitter/
+  [Google Talk]: /screencasts/gtalk/
+  [Facebook Chat]: /screencasts/facebook-chat/
+  [Jabber]: /screencasts/jabber/
+  [^preview]: Preview feature in early stage of development
