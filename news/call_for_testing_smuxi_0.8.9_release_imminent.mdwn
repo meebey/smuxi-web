@@ -1,5 +1,6 @@
 [[!meta title="Call for Testing - Smuxi 0.8.9 Release Imminet"]]
 [[!meta date="2012-01-01 17:04:07 CET"]]
+[[!meta updated="2012-01-01 17:04:07 CET"]]
 [[!tag planet-feed]]
 
 Smuxi development build users please upgrade your Smuxi version now. The

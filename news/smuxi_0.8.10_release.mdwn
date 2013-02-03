@@ -1,5 +1,6 @@
 [[!meta title="""Smuxi 0.8.10 "Tracy" Release"""]]
 [[!meta date="2012-08-21 22:08:45 CEST"]]
+[[!meta updated="2012-08-21 22:08:45 CEST"]]
 
 As longingly awaited I am very happy to announce Smuxi **0.8.10** codenamed
 **"Tracy"**. During the development [8 bug reports][bugs] and [15 feature
