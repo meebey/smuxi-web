@@ -36,6 +36,13 @@
     display: none;
 }
 
+#footer .pagecopyright, .pagelicense, .pagedate {
+    font-size: .8em;
+}
+#footer .pagelicense p {
+    margin: 0;
+}
+
 pre {
     margin: 15px;
     padding: 15px;
