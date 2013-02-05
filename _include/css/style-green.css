@@ -39,7 +39,7 @@ a:hover { color:#659319;  }
 .top .mainmenu ul li {
   margin-left:0px;
 }
-.top .mainmenu ul li a {
+.top .mainmenu ul li, .top .mainmenu ul li a {
   padding-top:10px;
   padding-bottom:10px;
   padding-left:20px;
