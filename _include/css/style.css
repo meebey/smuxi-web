@@ -370,7 +370,7 @@ small {
   display:block;
   text-decoration:none;
 }
-.top .mainmenu ul li.active a {
+.top .mainmenu ul li.active a, .top .mainmenu ul li.selflink {
   display:block;
   text-decoration:none;
 }
