@@ -16,9 +16,9 @@ jQuery(document).ready(function() {
           // Twitter Js
           $(".tweet").tweet({
             join_text: "auto",
-            username: "bogdanspn",
+            username: "smuxi",
             avatar_size: 0,
-            count: 2,
+            count: 3,
             auto_join_text_default: "we said,",
             auto_join_text_ed: "we",
             auto_join_text_ing: "we were",
