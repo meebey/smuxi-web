@@ -39,7 +39,7 @@ a:hover { color:#659319;  }
 .top .mainmenu ul li {
   margin-left:0px;
 }
-.top .mainmenu ul li, .top .mainmenu ul li a {
+.top .mainmenu ul li {
   padding-top:10px;
   padding-bottom:10px;
   padding-left:20px;
@@ -47,6 +47,10 @@ a:hover { color:#659319;  }
   font-size:16px;
   color:#797979;
   text-shadow: 1px 1px #ffffff;
+}
+.top .mainmenu ul li a {
+  font-size:16px;
+  color:#797979;
 }
 .top .mainmenu ul li a:hover {
   font-size:16px;
