@@ -474,9 +474,9 @@ small {
 }
 
 /* general header styles */
-.header { height:466px; position:relative; z-index:2; overflow:hidden; }
-.header p.limit { height:65px; overflow:hidden; }
-.header .faded-to-left, .header .faded-to-right, .header hr { clear:both; }
+.header-general { height:466px; position:relative; z-index:2; overflow:hidden; }
+.header-general p.limit { height:65px; overflow:hidden; }
+.header-general .faded-to-left, .header-general .faded-to-right, .header-general hr { clear:both; }
 
 /* header version with main image bang on center */
 .header-center {  height: 466px; overflow:hidden; font-size:14px;  line-height:21px;  }
