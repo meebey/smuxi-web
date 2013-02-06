@@ -125,6 +125,17 @@
     <![endif]-->
     <!-- End Load -->
 
+    <!-- Initialize active <li> in mainmenu -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var element = $('.mainmenu').find('.selflink');
+            if (element != null) {
+                element.parentNode.addClass('active');
+            }
+        });
+    </script>
+    <!-- End Initialize -->
+
     <!-- Load google Analytics -->
     <script type="text/javascript">
         var _gaq = _gaq || [];
