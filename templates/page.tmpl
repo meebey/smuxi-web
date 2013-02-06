@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
 <head profile="http://gmpg.org/xfn/11">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<TMPL_IF DYNAMIC>
 		<TMPL_IF FORCEBASEURL>
 			<base href="<TMPL_VAR FORCEBASEURL>" />
@@ -9,8 +10,15 @@
 		</TMPL_IF>
 	</TMPL_IF>
 	<title><TMPL_VAR TITLE></title>
-    <link rel="shortcut icon" href="/_include/images/icons/favicon.ico" type="image/x-icon" />
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <TMPL_IF FAVICON>
+        <link rel="icon" href="<TMPL_VAR BASEURL><TMPL_VAR FAVICON>" type="image/x-icon" />
+    </TMPL_IF>
+    <link rel="stylesheet" href="<TMPL_VAR BASEURL>style.css" type="text/css" />
+    <TMPL_IF LOCAL_CSS>
+        <link rel="stylesheet" href="<TMPL_VAR BASEURL><TMPL_VAR LOCAL_CSS>" type="text/css" />
+    <TMPL_ELSE>
+        <link rel="stylesheet" href="<TMPL_VAR BASEURL>local.css" type="text/css" />
+    </TMPL_IF>
 	<TMPL_IF FEEDLINKS>
 		<TMPL_VAR FEEDLINKS>
 	</TMPL_IF>
