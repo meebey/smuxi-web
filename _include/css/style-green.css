@@ -35,11 +35,10 @@ a:hover { color:#659319;  }
 .top .mainmenu ul {
   bottom:0px;
   right:10px;
+  border-right:1px solid #d0d0d0; /* for the last item */
 }
 .top .mainmenu ul li {
   margin-left:0px;
-}
-.top .mainmenu ul li {
   padding-top:10px;
   padding-bottom:10px;
   padding-left:20px;
@@ -64,26 +63,17 @@ a:hover { color:#659319;  }
   font-size:16px;
   color:#659319;
 }
-.top .mainmenu ul {
-  border-right:1px solid #d0d0d0; /* for the last item */
-}
 .top .mainmenu ul li {
   background: #efefef url(../images/backgrounds/gradient-main-menu-tab-off.gif) no-repeat left bottom;
   border-left:1px solid #d0d0d0;
   border-top:1px solid #d0d0d0;
   border-bottom:1px solid #d0d0d0;
 }
-.top .mainmenu ul li a:hover {
-  background: #efefef url(../images/backgrounds/gradient-main-menu-tab-off.gif) no-repeat left bottom;
-}
 .top .mainmenu ul li.active {
   background: #ffffff url(../images/backgrounds/gradient-main-menu-tab-on.gif) repeat-x top;
   border-left:1px solid #d0d0d0;
   border-top:1px solid #d0d0d0;
   border-bottom:1px solid #ffffff;
-}
-.top .mainmenu ul li.active a:hover {
-  background: #ffffff url(../images/backgrounds/gradient-main-menu-tab-on.gif) repeat-x top;
 }
 .top .utility {
    text-shadow: 1px 1px #2d2d2d;
