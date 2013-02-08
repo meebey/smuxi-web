@@ -89,6 +89,10 @@
     <script src="/_include/js/roundies.js" type="text/javascript"></script>
     <!-- End Load -->
 
+    <!-- Load jQuery jFeed -->
+    <script src="/_include/js/jquery.jfeed.js" type="text/javascript"></script>
+    <!-- End Load -->
+
     <!-- Load Jquery Twitter -->
     <script src="/_include/js/jquery.tweet.js" type="text/javascript"></script>
     <!-- End Load -->
@@ -191,15 +195,28 @@
     <div class="footer-big">
         <div class="full-width">
             <div class="one-fourth footer-panel">
-               <h3>Nunc vulputate interädum</h3>
-               <ul>
-                    <li><a href="#">Phasellus a neque</a></li>
-                    <li><a href="#">Nunc vulputate interdum vitae</a></li>
-                    <li><a href="#">Quis justo entesque</a></li>
-                    <li><a href="#">Culputate interdum vitae</a></li>
-                    <li><a href="#">Nunc vulputate interdum vitae</a></li>
-                    <li><a href="#">Quis justo entesque</a></li>
-               </ul>
+                <h3>Latest News</h3>
+                <div id="latest_news" />
+                <script type="text/javascript">
+                    jQuery(function() {
+                        jQuery.getFeed({
+                            url: '/news/index.rss',
+                            success: function(feed) {
+                                var html = '<ul>';
+                                for (var i = 0; i < feed.items.length && i < 5; i++) {
+                                    var item = feed.items[i];
+                                    html += '<li>' +
+                                        '<a href="' + item.link + '">' +
+                                        item.title +
+                                        '</a>' +
+                                        '</li>';
+                                }
+                                html += '</ul>';
+                                jQuery('#latest_news').append(html);
+                            }
+                        });
+                    });
+                </script>
             </div>
             <div class="one-fourth footer-panel">
                <h3>Latest Tweets</h3>
