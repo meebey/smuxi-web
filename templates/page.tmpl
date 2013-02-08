@@ -140,6 +140,29 @@
     </script>
     <!-- End Initialize -->
 
+    <!-- Load latest news feed -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            jQuery.getFeed({
+                url: '/news/index.rss',
+                success: function(feed) {
+                    var html = '<ul>';
+                    for (var i = 0; i < feed.items.length && i < 5; i++) {
+                        var item = feed.items[i];
+                        html += '<li>' +
+                            '<a href="' + item.link + '">' +
+                            item.title +
+                            '</a>' +
+                            '</li>';
+                    }
+                    html += '</ul>';
+                    $('#latest_news').append(html);
+                }
+            });
+        });
+    </script>
+    <!-- End Load -->
+
     <!-- Load google Analytics -->
     <script type="text/javascript">
         var _gaq = _gaq || [];
@@ -196,27 +219,7 @@
         <div class="full-width">
             <div class="one-fourth footer-panel">
                 <h3>Latest News</h3>
-                <div id="latest_news" />
-                <script type="text/javascript">
-                    jQuery(function() {
-                        jQuery.getFeed({
-                            url: '/news/index.rss',
-                            success: function(feed) {
-                                var html = '<ul>';
-                                for (var i = 0; i < feed.items.length && i < 5; i++) {
-                                    var item = feed.items[i];
-                                    html += '<li>' +
-                                        '<a href="' + item.link + '">' +
-                                        item.title +
-                                        '</a>' +
-                                        '</li>';
-                                }
-                                html += '</ul>';
-                                jQuery('#latest_news').append(html);
-                            }
-                        });
-                    });
-                </script>
+                <div id="latest_news"><!--  --></div>
             </div>
             <div class="one-fourth footer-panel">
                <h3>Latest Tweets</h3>
