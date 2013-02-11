@@ -112,7 +112,7 @@ Building Smuxi from source requires the following packages being installed:
 
 [smuxi-0.8.10.1.tar.gz][]
 
-<script type="text/javascript" async src="//www.ohloh.net/p/15257/widgets/project_basic_stats.js"></script>
+<script type="text/javascript" src="//www.ohloh.net/p/15257/widgets/project_basic_stats.js"></script>
 
   [Smuxi 0.8.10 Release Notes]: /blog/show/Smuxi_0810_Release
   [log4net]: http://logging.apache.org/log4net/
