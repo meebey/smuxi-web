@@ -27,6 +27,10 @@
     display: none;
 }
 
+.feedlink {
+    display: none;
+}
+
 .footnote {
     font-size: 0.6em;
     vertical-align: super;
