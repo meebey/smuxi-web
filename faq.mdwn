@@ -2,4 +2,4 @@
 
 Frequently Asked Questions
 ==========================
-[[!inline pages="faq/*/*" feeds=no]]
+[[!inline pages="faq/*/*" raw=yes feeds=no]]
