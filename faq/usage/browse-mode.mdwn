@@ -1,0 +1,11 @@
+[[!template id=faqentry
+question="Browse Mode, what is special about it?"
+answer="""
+Imagine you want to have a look into another tab without the markerline to move.
+Or you want to scroll through the tabs without the tab status to change (remove
+highlight text color). 
+The _Browse Mode_ allows you to check tabs without interrupting any of the
+activity features. This way you will no longer tamper with your highlights.
+
+This features is included in version 0.8.0 and greater
+"""]]
