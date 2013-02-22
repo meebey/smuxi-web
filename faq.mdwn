@@ -1,0 +1,5 @@
+[[!meta title="Download"]]
+
+Frequently Asked Questions
+==========================
+[[!inline pages="faq/*/*" feeds=no]]
