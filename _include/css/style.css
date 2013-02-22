@@ -164,15 +164,32 @@ body {
 
 a {  text-decoration:none; }
 a:hover {   }
+a img {
+        border: none;
+}
 p {
         margin-top: 0px;
         margin-bottom: 20px;
 }
 strong {
-        font-weight: bold;
+        display: inline-block;
+        padding-left: 2px;
+        padding-right: 2px;
+        background: #b8e5ff;
+        color: #327cba;
 }
-a img {
-        border: none;
+em {
+        color: #327cba;
+}
+.highlight1 {
+        display: inline-block;
+        padding-left: 2px;
+        padding-right: 2px;
+}
+.highlight2 {
+        display: inline-block;
+        padding-left: 2px;
+        padding-right: 2px;
 }
 .rel {
         position: relative;
@@ -190,16 +207,6 @@ a img {
 }
 .fr {
         float: right;
-}
-.highlight1 {
-  display:inline-block;
-  padding-left:2px;
-  padding-right:2px;
-}
-.highlight2 {
-  display:inline-block;
-  padding-left:2px;
-  padding-right:2px;
 }
 .mt10 {        margin-top: 10px !important; }
 .mb10 {        margin-bottom: 10px !important;}
