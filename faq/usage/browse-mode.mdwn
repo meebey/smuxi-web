@@ -1,4 +1,4 @@
-[[!template id=faqentry.tmpl
+[[!template id=faqitem.tmpl
 question="Browse Mode, what is special about it?"
 answer="""
 Imagine you want to have a look into another tab without the markerline to move.
