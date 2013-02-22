@@ -1,0 +1,11 @@
+[[!template id=faqitem.tmpl
+question="Where can I find the channel list?"
+answer="""
+The channel list can be opened from the menu _Chat_ -> _Find Group Chat_.
+
+As of Smuxi 0.8.9 you can also enter
+
+    /list
+
+and it will show the _Find Group Chat_.
+"""]]
