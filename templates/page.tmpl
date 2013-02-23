@@ -147,8 +147,9 @@
 		$(window).on('hashchange', function() {
 			var hash = location.hash;
 			if (hash != '') {
-				var id = '#faq-item-faq/' + hash.slice(1).replace('_', '\\/');
-				var span = $(id);
+				var id = '#faq-item-faq/' + hash.slice(1).replace('_', '/');
+				var selector = id.replace('/', '\\/');
+				var span = $(selector);
 				if (span != null) {
 					span.trigger('click');
 				}
