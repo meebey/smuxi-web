@@ -14,7 +14,7 @@ If you would like to use another language you could start Smuxi like this:
 
     LANG=fr_FR.UTF-8 smuxi-frontend-gnome
 
-Replace the _fr\_FR.UTF-8_ part with the appropriate one for your language.
+Replace the _fr__FR.UTF-8_ part with the appropriate one for your language.
 
 Why is Smuxi still not starting in the selected language?
 
@@ -22,3 +22,4 @@ Why is Smuxi still not starting in the selected language?
 2) Make sure your system is not overriding the selection
 
   [Transifex]: https://www.transifex.com/projects/p/smuxi/
+"""]]
