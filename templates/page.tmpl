@@ -145,6 +145,15 @@
 	</script>
 	<!-- End Initialize -->
 
+	<script type="text/javascript">
+		$(window).on('hashchange', function() {
+			var hash = location.hash;
+			if (hash != '') {
+				$('#faq-item-faq/' + hash.slice(1)).trigger('click');
+			}
+		});
+	</script>
+
 	<!-- Load latest news feed -->
 	<script type="text/javascript">
 		$(document).ready(function () {
