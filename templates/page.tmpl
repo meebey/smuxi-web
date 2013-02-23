@@ -148,7 +148,7 @@
 			var hash = location.hash;
 			if (hash != '') {
 				var id = '#faq-item-faq/' + hash.slice(1).replace(/_/g, '/');
-				var selector = id.replace('/', '\\/');
+				var selector = id.replace(/\//g, '\\/');
 				var span = $(selector);
 				if (span != null) {
 					span.trigger('click');
