@@ -2,4 +2,7 @@
 
 Frequently Asked Questions
 ==========================
+
+<div class="accordion-faq">
 [[!inline pages="faq/*/*" raw=yes feeds=no]]
+</div>
