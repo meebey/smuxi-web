@@ -147,7 +147,11 @@
 		$(window).on('hashchange', function() {
 			var hash = location.hash;
 			if (hash != '') {
-				$('#faq-item-faq/' + hash.slice(1)).trigger('click');
+				var id = '#faq-item-faq/' + hash.slice(1).replace('_', '/');
+				var span = $(id);
+				if (span != null) {
+					span.trigger('click');
+				}
 			}
 		});
 	</script>
