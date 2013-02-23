@@ -6,7 +6,7 @@ jQuery(document).ready(function() {
           $(".scrollable").scrollable();
           // Jquery Tools Accordions
           $(".accordion").tabs(".pane", {tabs: 'h2', effect: 'slide'});
-          $(".accordion-faq").tabs(".pane", {tabs: 'span', effect: 'slide'});
+          $(".accordion-faq").tabs(".pane", {tabs: 'span', effect: 'slide', initialIndex: -1});
           // Optional Image Captions
      	  $('img.captify').captify({});
           // External links open in new windows
