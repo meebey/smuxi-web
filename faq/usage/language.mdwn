@@ -17,6 +17,7 @@ If you would like to use another language you could start Smuxi like this:
 Replace the _fr\_FR.UTF-8_ part with the appropriate one for your language.
 
 Why is Smuxi still not starting in the selected language?
+
 1. Make sure you have installed the respective locale
 2. Make sure your system is not overriding the selection
 
