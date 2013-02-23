@@ -285,23 +285,15 @@ small {
   float:left;
   display:block;
 }
-.top .mainmenu ul li a {
-  display:block;
-  text-decoration:none;
+.top .mainmenu ul li a, .top .mainmenu ul li span {
+  display: block;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
-.top .mainmenu ul li a:hover {
-  display:block;
-  text-decoration:none;
-}
-.top .mainmenu ul li span {
-  display:block;
-  text-decoration:none;
-}
-.top .mainmenu ul li.active a {
-  display:block;
-  text-decoration:none;
-}
-.top .mainmenu ul li.active a:hover {
+.top .mainmenu ul li.active a, .top .mainmenu ul li.active span {
   display:block;
   text-decoration:none;
 }
