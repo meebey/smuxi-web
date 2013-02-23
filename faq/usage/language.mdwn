@@ -1,0 +1,24 @@
+[[!template id=faqitem.tmpl
+question="How do I start Smuxi with another language?"
+answer="""
+Smuxi uses per default your OS language if it is available for Smuxi.
+
+If you want to start Smuxi with another language, please have a look at
+[Transifex] whether the language you would like to have is already available.
+
+On Linux/\*BSD this would start Smuxi in English:
+
+    LANG=C smuxi-frontend-gnome
+
+If you would like to use another language you could start Smuxi like this:
+
+    LANG=fr_FR.UTF-8 smuxi-frontend-gnome
+
+Replace the _fr\_FR.UTF-8_ part with the appropriate one for your language.
+
+Why is Smuxi still not starting in the selected language?
+
+1) Make sure you have installed the respective locale
+2) Make sure your system is not overriding the selection
+
+  [Transifex]: https://www.transifex.com/projects/p/smuxi/
