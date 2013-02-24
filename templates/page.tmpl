@@ -143,23 +143,6 @@
 	</script>
 	<!-- End Initialize -->
 
-	<script type="text/javascript">
-		$(window).on('hashchange', function() {
-			var hash = location.hash;
-			if (hash != '') {
-				var id = '#faq-item-' + hash.slice(1);
-				var selector = id.replace(/\//g, '\\/');
-				var span = $(selector);
-				if (span != null) {
-					span.trigger('click');
-				}
-			}
-		});
-		$(document).ready(function() {
-			$(window).trigger('hashchange');
-		});
-	</script>
-
 	<!-- Load latest news feed -->
 	<script type="text/javascript">
 		$(document).ready(function () {
