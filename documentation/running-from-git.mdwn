@@ -28,7 +28,7 @@ On **Ubuntu** you can use the [daily APT repository][PPA] by running:
     sudo apt-get update
     sudo apt-get install smuxi
 
-On **Ubuntu Server you** can use the [daily APT repository][PPA] by running:
+On **Ubuntu Server** you can use the [daily APT repository][PPA] by running:
 
     sudo apt-get install python-software-properties
     sudo add-apt-repository ppa:meebey/smuxi-daily
@@ -36,7 +36,9 @@ On **Ubuntu Server you** can use the [daily APT repository][PPA] by running:
     sudo apt-get install smuxi
 
 ### Arch Linux ###
-On **Arch Linux** you can install a development build of Smuxi from [AUR][]. Download the PKGBUILD, run [makepkg][] and install the resulting package with pacman, using the following commands:
+On **Arch Linux** you can install a development build of Smuxi from [AUR][].
+Download the PKGBUILD, run [makepkg][] and install the resulting package with
+pacman, using the following commands:
 
     mkdir -p ~/builds; cd ~/builds
     wget http://aur.archlinux.org/packages/sm/smuxi-git/smuxi-git.tar.gz
@@ -52,23 +54,16 @@ snapshot which you can find [[here|http://smuxi.fragstore.net/smuxi/]].
 ## Building Smuxi from Git Source Repository ##
 
 ### Debian / Ubuntu ###
-On **Debian** and **Ubuntu** it should be as simple as running the following commands:
+
+On **Debian** and **Ubuntu** it should be as simple as running the following
+commands:
 
 	sudo apt-get build-dep smuxi
 	sudo apt-get install git
-	git clone git://git.qnetp.net/smuxi.git
+	git://github.com/meebey/smuxi.git
 	cd smuxi
-	./autogen.sh
+	./autogen.sh MCS=/usr/bin/mono-csc
 	make run
-
-On **Ubuntu 11.10 (Oneiric Ocelot) or newer** the compiler has to be dmcs using this command:
-
-    ./autogen.sh MCS=/usr/bin/dmcs
-
-On older Debian systems (like Debian 5.0 / Lenny) you need to install the build
-dependencies by hand using this command:
-
-	sudo apt-get install build-essential pkg-config mono-devel lsb-release gettext intltool libtool autoconf automake autotools-dev
 
  [PPA]: https://launchpad.net/~meebey/+archive/smuxi-daily
  [AUR]: http://aur.archlinux.org/packages.php?ID=56733
