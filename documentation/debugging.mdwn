@@ -65,6 +65,7 @@ Run! Ok, you don't want to listen. So here is the path of doom:
  * Switch to WinDbg
  * Enter
    * ~\* kp
+   * !PrintException
    * !threads
    * !dumpstack
  * Copy/paste the complete output into the bugreport
