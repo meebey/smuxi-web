@@ -56,6 +56,8 @@ Run! Ok, you don't want to listen. So here is the path of doom:
    * .symfix+ c:\symbols
    * .reload /f
    * .loadby sos clr
+   * or
+   * .load C:\Windows\Microsoft.NET\Framework\v4.0.30319\sos.dll
  * Hit _Debug_ -> _Go_ from the application menu
  * Use Smuxi very hard till it explodes with a _Microsoft Visual C++ Runtime
    Library_ error dialog
