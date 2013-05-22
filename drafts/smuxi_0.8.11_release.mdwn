@@ -41,6 +41,8 @@ Search nicks in person list #567
 
 Pass unknown ctrl-keys to GTK+ for Emacs binding support (Carlos)
 
+Messaging Menu for Ubuntu >= 12.10
+
 ### Mac OS X Enhancements ####
 
     [Frontend-GNOME] Mac OS X love
@@ -97,8 +99,6 @@ Contact list
 Configurable priorities with /priority command
 
 Highlight support (Mirco Bauer)
-
-### Messaging Menu for Ubuntu >= 12.10 ###
 
 ### Updated Translations ###
   * French (Clément Bourgeois)
