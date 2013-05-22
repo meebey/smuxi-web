@@ -10,14 +10,6 @@ a major feature and minor bugfix release.
 
 Notable highlights in this release are:
 
-Travis CI builds?
-
-Better VisualStudio support, msbuild-preprocess.ps1 (Will Johansson)
-
-Varoius memory leak fixes #667
-
-Switched Windows builds to GTK# 2.12.20 and .NET 4.5
-
 ### Enhanced User Interface ###
 
 Implemented new menu interface as designed by Georgi Karavasilev (me4oslav)
@@ -99,6 +91,16 @@ Contact list
 Configurable priorities with /priority command
 
 Highlight support (Mirco Bauer)
+
+### Development News ###
+
+Travis CI builds?
+
+Better VisualStudio support, msbuild-preprocess.ps1 (Will Johansson)
+
+Varoius memory leak fixes #667
+
+Switched Windows builds to GTK# 2.12.20 and .NET 4.5
 
 ### Updated Translations ###
   * French (Clément Bourgeois)
