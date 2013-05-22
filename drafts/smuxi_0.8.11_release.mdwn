@@ -11,8 +11,11 @@ a major feature and minor bugfix release.
 Notable highlights in this release are:
 
 Travis CI builds?
+
 Better VisualStudio support, msbuild-preprocess.ps1 (Will Johansson)
+
 Varoius memory leak fixes #667
+
 Switched Windows builds to GTK# 2.12.20 and .NET 4.5
 
 ### Enhanced User Interface ###
@@ -21,16 +24,22 @@ Implemented new menu interface as designed by Georgi Karavasilev (me4oslav)
 Toolbar, me4oslav luv! Show Windows, Linux and Mac OS X before and after
 
 Reply to persons by clicking on their nickname
-Join bar follows current network #780, ctrl+x switched network
-/exec -c #276 /exec -o #277
-User resizable and auto growing input entry #831 (Oliver Schneider)
-Auto shrinking and growing topic (Oliver Schneider)
-New tab cycle completion (Ondřej Hošek)
-Accept IRC invites 
-Reconnect entry in server tab menu
-Search nicks in person list #567
-Pass unknown ctrl-keys to GTK+ for Emacs binding support (Carlos)
 
+Join bar follows current network #780, ctrl+x switched network
+
+/exec -c #276 /exec -o #277
+
+User resizable and auto growing input entry #831 (Oliver Schneider)
+
+Auto shrinking and growing topic (Oliver Schneider)
+
+New tab cycle completion (Ondřej Hošek)
+
+Reconnect entry in server tab menu
+
+Search nicks in person list #567
+
+Pass unknown ctrl-keys to GTK+ for Emacs binding support (Carlos)
 
 ### Mac OS X Enhancements ####
 
@@ -55,14 +64,19 @@ Pass unknown ctrl-keys to GTK+ for Emacs binding support (Carlos)
 Use Menlo and fallback to Monaco font on OS X by default
 
 Install Faenza-Smuxi icons for OS X
+
 Install Faenza-Smuxi icons for Windows
 
 ### Text Frontend Enhancements ###
 
 Show message, event and highlight activity in navigation bar
+
 /window close command
+
 nickname completion #841
+
 Better xterm detection (Calvin B)
+
 /config get/set/list command
 
 ### Campfire Support ###
@@ -72,12 +86,17 @@ Carlos luv!
 
 ### XMPP Enhancements ###
 
-/contact command
-/roster command
-Contact list
-Configurable priorities with /priority command
-Highlight support (Mirco Bauer)
 Oliver luv!
+
+/contact command
+
+/roster command
+
+Contact list
+
+Configurable priorities with /priority command
+
+Highlight support (Mirco Bauer)
 
 ### Messaging Menu for Ubuntu >= 12.10 ###
 
