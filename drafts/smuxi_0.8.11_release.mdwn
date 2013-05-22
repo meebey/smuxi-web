@@ -1,0 +1,103 @@
+[[!meta title="""Smuxi 0.8.11 "???" Release"""]]
+
+As longingly awaited I am very happy to announce Smuxi **0.8.11** codenamed
+**"???"**. During the development [10 bug reports][bugs] and [14 feature
+requests][features] in [366 commits][commits] were worked on making this release
+a major feature and minor bugfix release.
+
+[[!img screenshots/smuxi-0.8.11-main-window.png size="800x"
+    alt="Screenshot of Smuxi 0.8.11 in action"]]
+
+Notable highlights in this release are:
+
+Travis CI builds?
+Better VisualStudio support, msbuild-preprocess.ps1 (Will Johansson)
+Varoius memory leak fixes #667
+Switched Windows builds to GTK# 2.12.20 and .NET 4.5
+
+### Enhanced User Interface ###
+
+Implemented new menu interface as designed by Georgi Karavasilev (me4oslav)
+Toolbar, me4oslav luv! Show Windows, Linux and Mac OS X before and after
+
+Reply to persons by clicking on their nickname
+Join bar follows current network #780, ctrl+x switched network
+/exec -c #276 /exec -o #277
+User resizable and auto growing input entry #831 (Oliver Schneider)
+Auto shrinking and growing topic (Oliver Schneider)
+New tab cycle completion (Ondřej Hošek)
+Accept IRC invites 
+Reconnect entry in server tab menu
+Search nicks in person list #567
+Pass unknown ctrl-keys to GTK+ for Emacs binding support (Carlos)
+
+
+### Mac OS X Enhancements ####
+
+    [Frontend-GNOME] Mac OS X love
+    
+    This OS X love patch brings:
+    - Global Menu
+    - IRC URL handler
+    - Quit application handler
+    - Reopen main window handler
+    - Command key keyboard short cuts instead of alt key
+    - Command + Up / Down / { / } to switch chat windows
+    - Command + H short cut to minimize the main window
+    - Command + W on last chat window will minimize the main window
+    - File menu renamed to Smuxi
+    
+    Inspired by changes described here:
+    https://live.gnome.org/Smuxi/Porting/Mac
+    
+    Kudos to Jonathan Pryor and Michael Lutonsky for OS X guidance and testing
+
+Use Menlo and fallback to Monaco font on OS X by default
+
+Install Faenza-Smuxi icons for OS X
+Install Faenza-Smuxi icons for Windows
+
+### Text Frontend Enhancements ###
+
+Show message, event and highlight activity in navigation bar
+/window close command
+nickname completion #841
+Better xterm detection (Calvin B)
+/config get/set/list command
+
+### Campfire Support ###
+
+TODO: List features
+Carlos luv!
+
+### XMPP Enhancements ###
+
+/contact command
+/roster command
+Contact list
+Configurable priorities with /priority command
+Highlight support (Mirco Bauer)
+Oliver luv!
+
+### Messaging Menu for Ubuntu >= 12.10 ###
+
+### Updated Translations ###
+  * French (Clément Bourgeois)
+  * German (Bianca Mix)
+  * Chinese Simp (Dean Lee)
+  * Danish (Joe Hansen)
+  * Swedish (Jimmie Elvenmark)
+  * Finnish (partial) (Kalle Kaitala)
+
+### Contributors ####
+Contributors to this release are the following people:
+
+Thank you very much for your contributions to Smuxi!
+
+Already horny? Go [here][download page] and get some!
+
+  [download page]: /page/Download
+  [roadmap]: /versions/show/23
+  [bugs]: /projects/smuxi/issues?fixed_version_id=23&set_filter=1&tracker_id=1&status_id=5
+  [features]: /projects/smuxi/issues?fixed_version_id=23&set_filter=1&tracker_id=2&status_id=5
+  [commits]: https://github.com/meebey/smuxi/compare/0.8.10.2...0.8.11
