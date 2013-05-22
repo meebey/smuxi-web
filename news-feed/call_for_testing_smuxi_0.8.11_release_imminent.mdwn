@@ -1,0 +1,13 @@
+[[!meta title="Call for Testing - Smuxi 0.8.11 Release Imminet"]]
+
+The release of Smuxi 0.8.11 is imminent and needs final testing. Smuxi
+development build users please upgrade your Smuxi version now. If you run from
+git please upgrade to at least 211a619 (2013-05-21), if you run daily builds
+from the PPA please upgrade to at least ~240 or if you run Windows or Mac OS X
+please upgrade to at least 2013-05-21 from [here][snapshots]. You can also
+ugprade your Smuxi version by using the release-candiates named
+smuxi-0.8.11~rc\* from [here][rc]. Please report any issue you find on the
+#smuxi IRC channel. Thank you for your participation!
+
+  [snapshots]: /documentation/running-from-git/
+  [rc]: /jaws/data/files/
