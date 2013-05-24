@@ -18,6 +18,6 @@ re-logon)** your Windows!
 After you have installed both packages, you can start Smuxi from the
 Windows Start Menu.
 
-  [.NET]: https://www.microsoft.com/en-us/download/details.aspx?id=17113
+  [.NET]: http://www.microsoft.com/en-us/download/details.aspx?id=17113
   [GTK#]: /jaws/data/files/gtk-sharp-2.12.20.win32.msi
   [smuxi-0.8.10.2-1-win32-setup.exe]: /download.php?file=smuxi-0.8.10.2-1-win32-setup.exe
