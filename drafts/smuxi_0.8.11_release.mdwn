@@ -1,9 +1,9 @@
 [[!meta title="""Smuxi 0.8.11 "???" Release"""]]
 
-As longingly awaited I am very happy to announce Smuxi **0.8.11** codenamed
-**"???"**. During the development [10 bug reports][bugs] and [14 feature
-requests][features] in [366 commits][commits] were worked on making this release
-a major feature and minor bugfix release.
+It's finally here! We're proud to announce the new version of Smuxi, release
+0.8.11 "***???***." During the development, [10 bug report][bugs] and
+[14 feature requests][features] in [366 commits][commits] were worked on making
+ this release a major feature and minor bugfix release.
 
 [[!img screenshots/smuxi-0.8.11-main-window.png size="800x"
     alt="Screenshot of Smuxi 0.8.11 in action"]]
@@ -12,48 +12,31 @@ Notable highlights in this release are:
 
 ### Enhanced User Interface ###
 
-Implemented new menu interface as designed by Georgi Karavasilev (me4oslav)
-Toolbar, me4oslav luv! Show Windows, Linux and Mac OS X before and after
+ * UI overhaul: Massively revampled menus and toolbars as designed by Georgi
+   Karavasilev (me4oslav) Show Windows, Linux and Mac OS X before and after
+ * Quick clicks: You can now query people by clicking on their nickname.
+ * Join bar follows the current network (#780), ctrl+x switched network
+ * The /exec command is now supported, so now you can execute commands right
+   from Smuxi. (/exec -c #276, /exec -o #277)
+ * Size matters: The entry grows and shrinks automatically or manually, and the
+   topic bar changes size too. Say goodbye to pointless scrollbars! (entry #831
+   , Oliver Schneider)
+ * Little things: New tab completion cycling, (Ondřej Hošek) reconnect menu
+   entry in a server tab context menu, search from the person list, (#567)
+   better support for Emacs key binds in GTK+, (Carlos) better Messaging Menu
+   support for newer Ubuntu.
 
-Reply to persons by clicking on their nickname
+### Mac OS X Enhancements ###
 
-Join bar follows current network #780, ctrl+x switched network
+Massive OS X improvements were brought into this release.
 
-/exec -c #276 /exec -o #277
+ * IRC URL handler: Clicking on irc:// links can bring up Smuxi.
+ * Behaviour: Smuxi has Macintosh menus (including global menu) and behaviour.
+ * Shortcuts: Smuxi has fully functional keyboard shortcuts on Mac.
 
-User resizable and auto growing input entry #831 (Oliver Schneider)
+Inspired by changes described here: https://live.gnome.org/Smuxi/Porting/Mac
 
-Auto shrinking and growing topic (Oliver Schneider)
-
-New tab cycle completion (Ondřej Hošek)
-
-Reconnect entry in server tab menu
-
-Search nicks in person list #567
-
-Pass unknown ctrl-keys to GTK+ for Emacs binding support (Carlos)
-
-Messaging Menu for Ubuntu >= 12.10
-
-### Mac OS X Enhancements ####
-
-    [Frontend-GNOME] Mac OS X love
-    
-    This OS X love patch brings:
-    - Global Menu
-    - IRC URL handler
-    - Quit application handler
-    - Reopen main window handler
-    - Command key keyboard short cuts instead of alt key
-    - Command + Up / Down / { / } to switch chat windows
-    - Command + H short cut to minimize the main window
-    - Command + W on last chat window will minimize the main window
-    - File menu renamed to Smuxi
-    
-    Inspired by changes described here:
-    https://live.gnome.org/Smuxi/Porting/Mac
-    
-    Kudos to Jonathan Pryor and Michael Lutonsky for OS X guidance and testing
+Kudos to Jonathan Pryor and Michael Lutonsky for OS X guidance and testing!
 
 Use Menlo and fallback to Monaco font on OS X by default
 
@@ -63,52 +46,48 @@ Install Faenza-Smuxi icons for Windows
 
 ### Text Frontend Enhancements ###
 
-Show message, event and highlight activity in navigation bar
-
-/window close command
-
-nickname completion #841
-
-Better xterm detection (Calvin B)
-
-/config get/set/list command
+ * Colour: The navigation bar displays colour for windows just like the GNOME
+   frontend does.
+ * The Basics: Nickname completion, window closing, config management through
+   /config, and better Xterm detection support are all in here.
 
 ### Campfire Support ###
 
-TODO: List features
-Carlos luv!
+Smuxi isn't just an IRC client, now Campfire is now supported!
 
-### XMPP Enhancements ###
+TODO: List features Carlos luv!
 
-Oliver luv!
+### XMPP Support ###
 
-/contact command
+There are massive XMPP enhancements. Thanks to Oliver, we now have:
 
-/roster command
-
-Contact list
-
-Configurable priorities with /priority command
-
-Highlight support (Mirco Bauer)
-
-### Development News ###
-
-Travis CI builds?
-
-Better VisualStudio support, msbuild-preprocess.ps1 (Will Johansson)
-
-Varoius memory leak fixes #667
-
-Switched Windows builds to GTK# 2.12.20 and .NET 4.5
+ * /contact command
+ * /roster command
+ * Contact list
+ * Configurable priorities with /priority command
+ * Highlight support (Mirco Bauer)
 
 ### Updated Translations ###
-  * French (Clément Bourgeois)
-  * German (Bianca Mix)
-  * Chinese Simp (Dean Lee)
-  * Danish (Joe Hansen)
-  * Swedish (Jimmie Elvenmark)
-  * Finnish (partial) (Kalle Kaitala)
+
+Smuxi should now be in your language, including:
+
+ * French (Clément Bourgeois)
+ * German (Bianca Mix)
+ * Chinese Simp (Dean Lee)
+ * Danish (Joe Hansen)
+ * Swedish (Jimmie Elvenmark)
+ * Finnish (partial) (Kalle Kaitala)
+
+### Build system ###
+
+ * Travis CI: It's easy to know what broke the build as commits will be built
+   as soon as they get pushed.
+ * Better Visual Studio support: msbuild-preprocess.ps1 (Will Johansson)
+
+### Behind the Scenes ###
+
+ * Various memory leak fixes (#667)
+ * Switched Windows builds to GTK# 2.12.20 and .NET 4.5
 
 ### Contributors ####
 Contributors to this release are the following people:
