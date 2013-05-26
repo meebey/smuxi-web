@@ -1,7 +1,7 @@
-[[!meta title="""Smuxi 0.8.11 "???" Release"""]]
+[[!meta title="""Smuxi 0.8.11 "The Line" Release"""]]
 
 It's finally here! We're proud to announce the new version of Smuxi, release
-0.8.11 "***???***." During the development, [10 bug report][bugs] and
+0.8.11 "***The Line***." During the development, [10 bug report][bugs] and
 [14 feature requests][features] in [366 commits][commits] were worked on making
  this release a major feature and minor bugfix release.
 
