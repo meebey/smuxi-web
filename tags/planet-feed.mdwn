@@ -1,4 +1,4 @@
 [[!meta title="pages tagged planet-feed"]]
 
 [[!inline pages="tagged(planet-feed)" actions="no" archive="yes"
-feedshow=10]]
+feedshow=4]]
