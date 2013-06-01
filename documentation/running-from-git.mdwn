@@ -13,7 +13,7 @@ On **Debian 6.0 (squeeze)** you can use the [daily APT repository][PPA] by runni
     sudo apt-get update
     sudo apt-get install smuxi
 
-On **Debian 7.0 (wheezy) and Testing/Unstable** you can use the [daily APT repository][PPA] by running:
+On **Debian 7.0 (wheezy)** and **Testing/Unstable** you can use the [daily APT repository][PPA] by running:
 
     sudo -s bash -c 'echo "deb http://ppa.launchpad.net/meebey/smuxi-daily/ubuntu precise main" >> /etc/apt/sources.list'
     gpg --keyserver keyserver.ubuntu.com --recv-keys FC6D77D5
