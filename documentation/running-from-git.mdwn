@@ -51,6 +51,10 @@ pacman, using the following commands:
 On Windows it is even simpler and you just need to install a development
 snapshot which you can find [[here|http://smuxi.fragstore.net/smuxi/]].
 
+### Mac OS X ###
+On Mac OS X you nedd to install Mono 2.10 or great and then install a
+development snapshpt from [[here|http://smuxi.fragstore.net/smuxi/]].
+
 ## Building Smuxi from Git Source Repository ##
 
 ### Debian / Ubuntu ###
