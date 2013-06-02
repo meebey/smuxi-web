@@ -87,11 +87,11 @@ Build Smuxi:
 
 Run STFL frontend:
 
-    make run-stfl
+    gmake run-stfl
 
 Run server:
 
-    make run-server
+    gmake run-server
 
 
  [PPA]: https://launchpad.net/~meebey/+archive/smuxi-daily
