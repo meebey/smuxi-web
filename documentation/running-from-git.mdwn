@@ -64,7 +64,7 @@ commands:
 
 	sudo apt-get build-dep smuxi
 	sudo apt-get install git
-	git://github.com/meebey/smuxi.git
+	git clone --recursive git://github.com/meebey/smuxi.git
 	cd smuxi
 	./autogen.sh MCS=/usr/bin/mono-csc
 	make run
