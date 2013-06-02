@@ -69,6 +69,31 @@ commands:
 	./autogen.sh MCS=/usr/bin/mono-csc
 	make run
 
+### OpenBSD ###
+Install the build dependencies with the following cmmands:
+
+    pkg_add autotools automake libtool gmake bash git stfl mono
+
+TODO: how to build and install log4net and nini
+
+Get source:
+
+    git clone --recursive git://github.com/meebey/smuxi.git
+
+Build Smuxi:
+
+    AUTOMAKE_VERSION=1.13 AUTOCONF_VERSION=2.69 CONFIG_SHELL="env bash" ./autogen.sh
+    gmake
+
+Run STFL frontend:
+
+    make run-stfl
+
+Run server:
+
+    make run-server
+
+
  [PPA]: https://launchpad.net/~meebey/+archive/smuxi-daily
  [AUR]: http://aur.archlinux.org/packages.php?ID=56733
  [makepkg]: https://wiki.archlinux.org/index.php/Makepkg#Usage
