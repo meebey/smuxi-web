@@ -2,7 +2,7 @@
 
 It's finally here! We're proud to announce the new version of Smuxi, release
 0.8.11 "***The Line***." During the development, [10 bug report][bugs] and
-[14 feature requests][features] in [366 commits][commits] were worked on making
+[14 feature requests][features] in [295 commits][commits] were worked on making
  this release a major feature and minor bugfix release.
 
 [[!img screenshots/smuxi-0.8.11-main-window.png size="800x"
@@ -13,18 +13,21 @@ Notable highlights in this release are:
 ### Enhanced User Interface ###
 
  * UI overhaul: Massively revampled menus and toolbars as designed by Georgi
-   Karavasilev (me4oslav) Show Windows, Linux and Mac OS X before and after
- * Quick clicks: You can now query people by clicking on their nickname.
- * Join bar follows the current network (#780), ctrl+x switched network
+   Karavasilev (me4oslav)
+   TODO: Show Windows, Linux and Mac OS X before and after
+
+ * [Quick replies][771]: You can now query people by clicking on their nickname.
+ * [Join bar follows the current network][780], ctrl+x switches the network
  * The /exec command is now supported, so now you can execute commands right
-   from Smuxi. (/exec -c #276, /exec -o #277)
- * Size matters: The entry grows and shrinks automatically or manually, and the
-   topic bar changes size too. Say goodbye to pointless scrollbars! (entry #831
-   , Oliver Schneider)
- * Little things: New tab completion cycling, (Ondřej Hošek) reconnect menu
-   entry in a server tab context menu, search from the person list, (#567)
-   better support for Emacs key binds in GTK+, (Carlos) better Messaging Menu
-   support for newer Ubuntu.
+   from Smuxi. ([/exec -c][276], [/exec -o][277])
+ * Size matters: The entry grows and shrinks automatically or [manually][831], and the
+   topic bar changes size too. Say goodbye to pointless scrollbars! (Oliver Schneider)
+ * Little things: New tab completion cycling (Ondřej Hošek), reconnect menu
+   entry in a server tab context menu, [search from the person list][567],
+   better support for Emacs key binds in GTK+ (Carlos), better Messaging Menu
+   support for newer Ubuntu versions. No more hanging gnome-shell for a few
+   seconds when a notification is shown.
+ * The Windows and Mac OS X package now ship an Faenza icon theme by default.
 
 ### Mac OS X Enhancements ###
 
@@ -34,22 +37,20 @@ Massive OS X improvements were brought into this release.
  * Behaviour: Smuxi has Macintosh menus (including global menu) and behaviour.
  * Shortcuts: Smuxi has fully functional keyboard shortcuts on Mac.
 
-Inspired by changes described here: https://live.gnome.org/Smuxi/Porting/Mac
-
+Inspired by changes described [here][https://live.gnome.org/Smuxi/Porting/Mac].
 Kudos to Jonathan Pryor and Michael Lutonsky for OS X guidance and testing!
 
 Use Menlo and fallback to Monaco font on OS X by default
 
-Install Faenza-Smuxi icons for OS X
-
-Install Faenza-Smuxi icons for Windows
+[smuxi-server launch script][828] is now included in the Mac package.
 
 ### Text Frontend Enhancements ###
 
- * Colour: The navigation bar displays colour for windows just like the GNOME
+ * Color: The navigation bar displays color for windows just like the GNOME
    frontend does.
- * The Basics: Nickname completion, window closing, config management through
-   /config, and better Xterm detection support are all in here.
+ * The Basics: Nickname completion, window closing, config management through a
+   new /config command, and better Xterm detection support are all in here.
+ * More stable
 
 ### Campfire Support ###
 
@@ -59,13 +60,18 @@ TODO: List features Carlos luv!
 
 ### XMPP Support ###
 
-There are massive XMPP enhancements. Thanks to Oliver, we now have:
+There are massive XMPP enhancements. Thanks to Oliver Schneider, we now have:
 
+ * Contact list
  * /contact command
  * /roster command
- * Contact list
- * Configurable priorities with /priority command
+ * Configurable priorities (away and available) with /priority command
  * Highlight support (Mirco Bauer)
+
+### IRC Enhacenments ###
+
+Optimized for laptops by reducing the CPU wakeup/s drastically.
+Added GeekShed to default networks.
 
 ### Updated Translations ###
 
@@ -83,14 +89,31 @@ Smuxi should now be in your language, including:
  * Travis CI: It's easy to know what broke the build as commits will be built
    as soon as they get pushed.
  * Better Visual Studio support: msbuild-preprocess.ps1 (Will Johansson)
+ * Fixed configure failure on Slackware/Frugalware
 
 ### Behind the Scenes ###
 
- * Various memory leak fixes (#667)
+ * [Various memory leak fixes][667]
  * Switched Windows builds to GTK# 2.12.20 and .NET 4.5
+ * Upgraded Twitterizer library to 2.4.1
+ * Upgraded Newtonsoft.Json library to 4.5.8
 
 ### Contributors ####
 Contributors to this release are the following people:
+
+ * Mirco Bauer (298 commits)
+ * Oliver Schneider (32 commits)
+ * Carlos Martín Nieto (16 commits)
+ * Will Johansson (4 commits)
+ * Clément Bourgeois (3 commits, translations)
+ * Ondřej Hošek (2 commits)
+ * Calvin B (1 commit)
+ * George Karavasilev (artwork)
+ * Kalle Kaitala (translations)
+ * Joe Hansen (translations)
+ * Jimmie Elvenmark (translations)
+ * Dean Lee (translations)
+ * Bianca Mix (translations)
 
 Thank you very much for your contributions to Smuxi!
 
@@ -101,3 +124,11 @@ Already horny? Go [here][download page] and get some!
   [bugs]: /projects/smuxi/issues?fixed_version_id=23&set_filter=1&tracker_id=1&status_id=5
   [features]: /projects/smuxi/issues?fixed_version_id=23&set_filter=1&tracker_id=2&status_id=5
   [commits]: https://github.com/meebey/smuxi/compare/0.8.10.2...0.8.11
+  [276]: /issues/show/276 "#276: /exec -c command executing the output as command"
+  [277]: /issues/show/277 "#277: /exec -o command sending the output as message"
+  [771]: /issues/show/771 "#771: Clicking a nickname in message area should type the nick for you"
+  [780]: /issues/show/780 "#780: Network selection of join bar should follow current active network"
+  [831]: /issues/show/831 "#831: Input field should have pane grab handle"
+  [567]: /issues/show/567 "#567: Search support in person/nick list"
+  [828]: /issues/show/828 "#828: Mac OS X package should ship a smuxi-server script"
+  [667]: /issues/show/667 "#667: GNOME frontend leaks memory"
