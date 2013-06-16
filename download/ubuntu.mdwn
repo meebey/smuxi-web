@@ -2,7 +2,7 @@
 
 [[!img logos/ubuntu.png link=no alt="Ubuntu Logo" class="distrologo"]]
 
-**Ubuntu**  users can install Smuxi from this [PPA], just run the following
+Ubuntu users can install Smuxi from this [PPA], just run the following
 commands:
 
     sudo add-apt-repository ppa:meebey/ppa
