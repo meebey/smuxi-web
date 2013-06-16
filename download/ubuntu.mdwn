@@ -11,4 +11,7 @@ commands:
 
 Now you can start Smuxi from the GNOME or KDE menu.
 
+[[!img screenshots/smuxi-0.8.11-dev-unity-main-window.png size="400x"
+       alt="Screenshot of Smuxi on Ubuntu"]]
+
   [PPA]: https://launchpad.net/~meebey/+archive/ppa
