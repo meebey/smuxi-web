@@ -9,7 +9,7 @@ commands:
     sudo apt-get update
     sudo apt-get install smuxi
 
-Now you can start Smuxi from the GNOME or KDE menu.
+Now you can start Smuxi from the Unity Dash.
 
 [[!img screenshots/smuxi-0.8.11-dev-unity-main-window.png size="400x"
        alt="Screenshot of Smuxi on Ubuntu"]]
