@@ -36,7 +36,7 @@ the official Debian repository, just run the following command:
 
     apt-get install smuxi
 
-Now you can start Smuxi from the GNOME or KDE menu.
+Now you can start Smuxi from the GNOME Activities Overview or KDE menu.
 
 ### Unofficial Debian Repositories
 **In case the official repositories from above are not providing the
