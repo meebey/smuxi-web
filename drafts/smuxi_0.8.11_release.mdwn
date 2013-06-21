@@ -62,7 +62,7 @@ Kudos to Jonathan Pryor and Michael Lutonsky for OS X guidance and testing!
 
 ### Campfire Support (Beta) ###
 
-IRC, Twitter and XMPP wasn't sufficient to Carlos Martín Nieto thus he added
+IRC, Twitter and XMPP weren't sufficient to Carlos Martín Nieto, so he added
 Campfire, a completely new protocol to Smuxi.
 
 The Campfire engine supports:
