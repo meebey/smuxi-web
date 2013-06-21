@@ -9,7 +9,7 @@ Notable highlights in this release are:
 
 ### Enhanced User Interface ###
 
- * UI overhaul: Massively revampled menus and toolbars as designed by Georgi
+ * UI overhaul: Massively revamped menus and toolbars as designed by Georgi
    Karavasilev (me4oslav)
 
 [[!img screenshots/smuxi-0.8.11-linux-gnome-main-window.png size="200x"
@@ -59,24 +59,35 @@ Kudos to Jonathan Pryor and Michael Lutonsky for OS X guidance and testing!
    new /config command, and better Xterm detection support are all in here.
  * More stable
 
-[[!img screenshots/smuxi-0.8.11-stfl-main-window.png size="200x"
+[[!img screenshots/smuxi-0.8.11-linux-stfl-main-window.png size="200x"
        alt="Screenshot of Smuxi 0.8.11's text frontend" class="screenshot"]]
 
-### Campfire Support ###
+### Campfire Support (Beta) ###
 
-Smuxi isn't just an IRC client, now Campfire is now supported!
+IRC, Twitter and XMPP wasn't sufficient to Carlos Martín Nieto thus he added
+Campfire, a completely new protocol to Smuxi.
 
-TODO: List features Carlos luv!
+The Campfire engine supports:
+
+ * Automatically opens active rooms on connect
+ * List and search of available rooms using the Find Group Chat dialog
+ * /join command: opens rooms
+ * /topic command: changes topic of a room
+ * /upload command: retrieves uploads
 
 ### XMPP Support ###
 
-There are massive XMPP enhancements. Thanks to Oliver Schneider, we now have:
+There are massive XMPP enhancements. Thanks to Oliver Schneider (ker), we now
+have:
 
  * Contact list
  * /contact command
  * /roster command
  * Configurable priorities (away and available) with /priority command
  * Highlight support (Mirco Bauer)
+
+[[!img screenshots/smuxi-0.8.11-xmpp-contact-list.png size="200x"
+       alt="Screenshot of Smuxi 0.8.11's XMPP contact list" class="screenshot"]]
 
 ### IRC Enhacenments ###
 
