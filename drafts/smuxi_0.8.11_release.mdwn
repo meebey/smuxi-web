@@ -29,8 +29,9 @@ Notable highlights in this release are:
  * [Join bar follows the current network][780], ctrl+x switches the network.
  * The /exec command is now supported, so now you can execute commands right
    from Smuxi. ([/exec -c][276], [/exec -o][277])
- * Size matters: The entry grows and shrinks automatically or [manually][831], and the
-   topic bar changes size too. Say goodbye to pointless scrollbars! (Oliver Schneider)
+ * Size matters: The entry grows and shrinks automatically or [manually][831],
+   and the topic bar changes size too. Say goodbye to pointless scrollbars!
+   (Oliver Schneider)
  * Little things: New tab completion cycling (Ondřej Hošek), reconnect menu
    entry in a server tab context menu, [search from the person list][567],
    better support for Emacs key bindings in GTK+ (Carlos), better Messaging Menu
@@ -77,8 +78,6 @@ The Campfire engine supports:
  * /topic command: changes topic of a room
  * /upload command: retrieves uploads
 
-[[!img screenshots/smuxi-0.8.11-xmpp-contact-list.png size="200x"
-       alt="Screenshot of Smuxi 0.8.11's XMPP contact list" class="screenshot"]]
 ### XMPP (Beta) Enhacenments ###
 
 There are massive XMPP enhancements. Thanks to Oliver Schneider (ker), we now
