@@ -5,16 +5,21 @@ It's finally here! We're proud to announce the new version of Smuxi, release
 [14 feature requests][features] in [295 commits][commits] were worked on making
  this release a major feature and minor bugfix release.
 
-[[!img screenshots/smuxi-0.8.11-main-window.png size="800x"
-    alt="Screenshot of Smuxi 0.8.11 in action"]]
-
 Notable highlights in this release are:
 
 ### Enhanced User Interface ###
 
  * UI overhaul: Massively revampled menus and toolbars as designed by Georgi
    Karavasilev (me4oslav)
-   TODO: Show Windows, Linux and Mac OS X before and after
+
+[[!img screenshots/smuxi-0.8.11-linux-gnome-main-window.png size="200x"
+       alt="Screenshot of Smuxi 0.8.11 on GNOME3"]]
+[[!img screenshots/smuxi-0.8.11-linux-unity-main-window.png size="200x"
+       alt="Screenshot of Smuxi 0.8.11 on Ubuntu Unity"]]
+[[!img screenshots/smuxi-0.8.11-win7-main-window.png size="200x"
+       alt="Screenshot of Smuxi 0.8.11 on Windows 7"]]
+[[!img screenshots/smuxi-0.8.11-3-osx-main-window.png size="200x"
+       alt="Screenshot of Smuxi 0.8.11 on Mac OS X"]]
 
  * [Quick replies][771]: You can now query people by clicking on their nickname.
  * [Join bar follows the current network][780], ctrl+x switches the network
@@ -36,14 +41,16 @@ Massive OS X improvements were brought into this release.
  * IRC URL handler: Clicking on irc:// links can bring up Smuxi.
  * Behaviour: Smuxi has Macintosh menus (including global menu) and behaviour.
  * Shortcuts: Smuxi has fully functional keyboard shortcuts on Mac.
+ * Font: Uses Menlo and fallbacks to Monaco font by default.
 
 Inspired by changes described [here][https://live.gnome.org/Smuxi/Porting/Mac].
 Kudos to Jonathan Pryor and Michael Lutonsky for OS X guidance and testing!
 
-Use Menlo and fallback to Monaco font on OS X by default
-
 [smuxi-server launch script][828] is now included in the Mac package.
 
+[[!img screenshots/smuxi-0.8.11-3-osx-main-window.png size="200x"
+       alt="Screenshot of Smuxi 0.8.11 on Mac OS X" class="screenshot"]]
+       
 ### Text Frontend Enhancements ###
 
  * Color: The navigation bar displays color for windows just like the GNOME
@@ -51,6 +58,9 @@ Use Menlo and fallback to Monaco font on OS X by default
  * The Basics: Nickname completion, window closing, config management through a
    new /config command, and better Xterm detection support are all in here.
  * More stable
+
+[[!img screenshots/smuxi-0.8.11-stfl-main-window.png size="200x"
+       alt="Screenshot of Smuxi 0.8.11's text frontend" class="screenshot"]]
 
 ### Campfire Support ###
 
@@ -70,8 +80,9 @@ There are massive XMPP enhancements. Thanks to Oliver Schneider, we now have:
 
 ### IRC Enhacenments ###
 
-Optimized for laptops by reducing the CPU wakeup/s drastically.
-Added GeekShed to default networks.
+ * Optimized for laptops by reducing the CPU wakeup/s drastically which saves
+   battery power.
+ * Added GeekShed to default networks.
 
 ### Updated Translations ###
 
@@ -99,6 +110,7 @@ Smuxi should now be in your language, including:
  * Upgraded Newtonsoft.Json library to 4.5.8
 
 ### Contributors ####
+
 Contributors to this release are the following people:
 
  * Mirco Bauer (298 commits)
@@ -117,7 +129,7 @@ Contributors to this release are the following people:
 
 Thank you very much for your contributions to Smuxi!
 
-Already horny? Go [here][download page] and get some!
+Want this? Go [here][download page] and grab it right now!
 
   [download page]: /page/Download
   [roadmap]: /versions/show/23
