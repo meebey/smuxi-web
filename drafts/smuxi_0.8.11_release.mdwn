@@ -1,7 +1,7 @@
 [[!meta title="""Smuxi 0.8.11 "The Line" Release"""]]
 
 It's finally here! We're proud to announce the new version of Smuxi, release
-0.8.11 "***The Line***." During the development, [10 bug report][bugs] and
+0.8.11 "***The Line***." During the development, [10 bug reports][bugs] and
 [14 feature requests][features] in [295 commits][commits] were worked on making
  this release a major feature and minor bugfix release.
 
@@ -10,7 +10,7 @@ Notable highlights in this release are:
 ### Enhanced User Interface ###
 
  * UI overhaul: Massively revamped menus and toolbars as designed by Georgi
-   Karavasilev (me4oslav)
+   Karavasilev (me4oslav).
 
 [[!img screenshots/smuxi-0.8.11-linux-gnome-main-window.png size="200x"
        alt="Screenshot of Smuxi 0.8.11 on GNOME3"]]
@@ -22,18 +22,20 @@ Notable highlights in this release are:
        alt="Screenshot of Smuxi 0.8.11 on Mac OS X"]]
 
  * [Quick replies][771]: You can now query people by clicking on their nickname.
- * [Join bar follows the current network][780], ctrl+x switches the network
+ * [Join bar follows the current network][780], ctrl+x switches the network.
  * The /exec command is now supported, so now you can execute commands right
    from Smuxi. ([/exec -c][276], [/exec -o][277])
  * Size matters: The entry grows and shrinks automatically or [manually][831], and the
    topic bar changes size too. Say goodbye to pointless scrollbars! (Oliver Schneider)
  * Little things: New tab completion cycling (Ondřej Hošek), reconnect menu
    entry in a server tab context menu, [search from the person list][567],
-   better support for Emacs key binds in GTK+ (Carlos), better Messaging Menu
+   better support for Emacs key bindings in GTK+ (Carlos), better Messaging Menu
    support for newer Ubuntu versions. No more hanging gnome-shell for a few
    seconds when a notification is shown.
  * The Windows and Mac OS X package now ship an Faenza icon theme by default.
 
+[[!img screenshots/smuxi-0.8.11-3-dev-osx-main-window.png size="300x"
+       alt="Screenshot of Smuxi 0.8.11 on Mac OS X" class="screenshot"]]
 ### Mac OS X Enhancements ###
 
 Massive OS X improvements were brought into this release.
@@ -43,24 +45,20 @@ Massive OS X improvements were brought into this release.
  * Shortcuts: Smuxi has fully functional keyboard shortcuts on Mac.
  * Font: Uses Menlo and fallbacks to Monaco font by default.
 
-Inspired by changes described [here][https://live.gnome.org/Smuxi/Porting/Mac].
+Inspired by changes described [here](https://live.gnome.org/Smuxi/Porting/Mac).
 Kudos to Jonathan Pryor and Michael Lutonsky for OS X guidance and testing!
 
 [smuxi-server launch script][828] is now included in the Mac package.
 
-[[!img screenshots/smuxi-0.8.11-3-osx-main-window.png size="200x"
-       alt="Screenshot of Smuxi 0.8.11 on Mac OS X" class="screenshot"]]
-       
-### Text Frontend Enhancements ###
-
- * Color: The navigation bar displays color for windows just like the GNOME
-   frontend does.
- * The Basics: Nickname completion, window closing, config management through a
-   new /config command, and better Xterm detection support are all in here.
- * More stable
-
 [[!img screenshots/smuxi-0.8.11-linux-stfl-main-window.png size="200x"
        alt="Screenshot of Smuxi 0.8.11's text frontend" class="screenshot"]]
+### Text Frontend Enhancements ###
+
+ * Color: The navigation bar displays color for highlights, messages and events
+   just like the GNOME frontend does.
+ * The Basics: Nickname completion, window closing, config management through a
+   new /config command, and better Xterm detection support are all in here.
+ * More stable :-)
 
 ### Campfire Support (Beta) ###
 
@@ -69,13 +67,15 @@ Campfire, a completely new protocol to Smuxi.
 
 The Campfire engine supports:
 
- * Automatically opens active rooms on connect
- * List and search of available rooms using the Find Group Chat dialog
+ * Automatically opens active rooms on connect.
+ * List and search of available rooms using the Find Group Chat dialog.
  * /join command: opens rooms
  * /topic command: changes topic of a room
  * /upload command: retrieves uploads
 
-### XMPP Support ###
+[[!img screenshots/smuxi-0.8.11-xmpp-contact-list.png size="200x"
+       alt="Screenshot of Smuxi 0.8.11's XMPP contact list" class="screenshot"]]
+### XMPP (Beta) Enhacenments ###
 
 There are massive XMPP enhancements. Thanks to Oliver Schneider (ker), we now
 have:
@@ -85,9 +85,6 @@ have:
  * /roster command
  * Configurable priorities (away and available) with /priority command
  * Highlight support (Mirco Bauer)
-
-[[!img screenshots/smuxi-0.8.11-xmpp-contact-list.png size="200x"
-       alt="Screenshot of Smuxi 0.8.11's XMPP contact list" class="screenshot"]]
 
 ### IRC Enhacenments ###
 
