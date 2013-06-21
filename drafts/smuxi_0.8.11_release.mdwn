@@ -18,7 +18,7 @@ Notable highlights in this release are:
        alt="Screenshot of Smuxi 0.8.11 on Ubuntu Unity"]]
 [[!img screenshots/smuxi-0.8.11-win7-main-window.png size="200x"
        alt="Screenshot of Smuxi 0.8.11 on Windows 7"]]
-[[!img screenshots/smuxi-0.8.11-3-osx-main-window.png size="200x"
+[[!img screenshots/smuxi-0.8.11-3-dev-osx-main-window.png size="200x"
        alt="Screenshot of Smuxi 0.8.11 on Mac OS X"]]
 
  * [Quick replies][771]: You can now query people by clicking on their nickname.
