@@ -3,7 +3,7 @@
 It's finally here! We're proud to announce the new version of Smuxi, release
 0.8.11 "***The Line***." During the development, [10 bug reports][bugs] and
 [14 feature requests][features] in [295 commits][commits] were worked on making
- this release a major feature and minor bugfix release.
+this release a major feature and minor bugfix release.
 
 Notable highlights in this release are:
 
@@ -13,13 +13,17 @@ Notable highlights in this release are:
    Karavasilev (me4oslav).
 
 [[!img screenshots/smuxi-0.8.11-linux-gnome-main-window.png size="200x"
-       alt="Screenshot of Smuxi 0.8.11 on GNOME3"]]
+       alt="Screenshot of Smuxi 0.8.11 on GNOME3"
+       title="Smuxi on GNOME3"]]
 [[!img screenshots/smuxi-0.8.11-linux-unity-main-window.png size="200x"
-       alt="Screenshot of Smuxi 0.8.11 on Ubuntu Unity"]]
+       alt="Screenshot of Smuxi 0.8.11 on Ubuntu Unity"
+       title="Smuxi on Ubuntu Unity"]]
 [[!img screenshots/smuxi-0.8.11-win7-main-window.png size="200x"
-       alt="Screenshot of Smuxi 0.8.11 on Windows 7"]]
+       alt="Screenshot of Smuxi 0.8.11 on Windows 7"
+       title="Smuxi on Windows 7"]]
 [[!img screenshots/smuxi-0.8.11-3-dev-osx-main-window.png size="200x"
-       alt="Screenshot of Smuxi 0.8.11 on Mac OS X"]]
+       alt="Screenshot of Smuxi 0.8.11 on Mac OS X"
+       title="Smuxi on Mac OS X"]]
 
  * [Quick replies][771]: You can now query people by clicking on their nickname.
  * [Join bar follows the current network][780], ctrl+x switches the network.
