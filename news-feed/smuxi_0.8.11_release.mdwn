@@ -1,0 +1,11 @@
+[[!meta title="""Smuxi 0.8.11 "The Line" Release"""]]
+
+Smuxi 0.8.11 with user-interface overhaul, better Mac OS X integration, improved
+text frontend, new Campfire support, improved XMPP support and reduced power
+usage is available. Packages are available for Windows, Mac OS X, Debian (Sid)
+and Ubuntu (Lucid, Precise, Quantal, Raring and Saucy). Here you can read the
+[full release announcement][1]. For users running a development build of Smuxi
+it is recommended to simply upgrade to the newest [development build][2].
+
+  [1]: http://www.smuxi.org/blog/show/Smuxi_0811_Release
+  [2]: http://smuxi.im/documentation/running-from-git/
