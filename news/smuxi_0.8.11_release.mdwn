@@ -39,7 +39,7 @@ Notable highlights in this release are:
    seconds when a notification is shown.
  * The Windows and Mac OS X package now ship an Faenza icon theme by default.
 
-[[!img screenshots/smuxi-0.8.11-3-dev-osx-main-window.png size="300x"
+[[!img screenshots/smuxi-0.8.11-3-dev-osx-main-window.png size="200x"
        alt="Screenshot of Smuxi 0.8.11 on Mac OS X" class="screenshot"]]
 ### Mac OS X Enhancements ###
 
