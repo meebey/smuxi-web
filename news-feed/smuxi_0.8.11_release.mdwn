@@ -1,4 +1,5 @@
 [[!meta title="""Smuxi 0.8.11 "The Line" Release"""]]
+[[!tag planet-feed]]
 
 Smuxi 0.8.11 with user-interface overhaul, better Mac OS X integration, improved
 text frontend, new Campfire support, improved XMPP support and reduced power
