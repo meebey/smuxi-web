@@ -1,3 +1,7 @@
+[[!meta title="About"]]
+
+# About #
+
 Smuxi is an open-source, powerful, flexible, and user-friendly chat client
 created by Mirco Bauer and developed by other contributers. Inspired by the
 combination of [screen][] and [irssi][], Smuxi has a detachable server (or like a
@@ -14,7 +18,7 @@ leaving connected, it didn't integrate with the desktop well. Smuxi was
 developed to fit this need, with irssi being a major influence into the way it
 behaves.
 
-## Backend ##
+## Technology ##
 
 Smuxi is powered by C# and Mono. The libraries used include SmartIrc4net,
 Newtonsoft.Json, ServiceStack, Twitterizer, Jabber-Net, STFL, GTK#, and many
