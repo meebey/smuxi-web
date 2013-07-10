@@ -1,0 +1,25 @@
+Smuxi is an open-source, powerful, flexible, and user-friendly chat client
+created by Mirco Bauer and developed by other contributers. Inspired by the
+combination of [screen][] and [irssi][], Smuxi has a detachable server (or like a
+"normal" client) that stays connected when you aren't, and can allow multiple
+Smuxi frontends (like the GNOME frontend, or STFL text-based frontend) to be
+connected and in sync. This is similar to screen+irssi or IRC bouncers, but more
+elegant and powerful.
+
+## History ##
+
+Smuxi was created in 2004 when [Mirco Bauer][meebey] could not find a client
+quite like irssi running in a screen session. Although this was ideal for
+leaving connected, it didn't integrate with the desktop well. Smuxi was
+developed to fit this need, with irssi being a major influence into the way it
+behaves.
+
+## Backend ##
+
+Smuxi is powered by C# and Mono. The libraries used include SmartIrc4net,
+Newtonsoft.Json, ServiceStack, Twitterizer, Jabber-Net, STFL, GTK#, and many
+more.
+
+  [meebey]: https://wwww.meebey.net/
+  [screen]: https://en.wikipedia.org/wiki/GNU_Screen
+  [irssi]: https://en.wikipedia.org/wiki/Irssi
