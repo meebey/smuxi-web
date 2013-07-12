@@ -1,3 +1,30 @@
 [[!meta description="Smuxi - the user-friendly and cross-platform IRC client for sophisticated users for GNOME / GTK+"]]
 
-Welcome to Smuxi. I have no idea what to type here.
+# Be Anywhere
+
+(image of GTK and Windows UIs on many platforms, cascading, showing off 
+cross-platform)
+
+Smuxi can be detached. Start a server, and connect to it from any computer, 
+anywhere. Resuming is seamless and changes are updated on all computers, so 
+you can check what was going on while you were away.
+
+# Be Everywhere
+
+(image of IRC, XMPP, and Twitter tabs)
+
+Smuxi doesn't do just IRC, it can also handle Twitter and XMPP natively.
+
+# Be Aware
+
+(image of notification with messaging menu in view)
+
+Smuxi integrates with Ubuntu's messaging menu and has full notification 
+support.
+
+# Be In Control
+
+(image of STFL UI, nerds dig TUI)
+
+Smuxi has powerful features, configuration and automation options, making it 
+an ideal power-user client while still being easy for any newbie to use..
