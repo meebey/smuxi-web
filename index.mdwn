@@ -2,7 +2,7 @@
 
 ## Be Anywhere ##
 
-[[!img screenshots/smuxi-0.8.11-linuix-gnome-main-window.png size="250x"
+[[!img screenshots/smuxi-0.8.11-linux-gnome-main-window.png size="250x"
        alt="Screenshot of Smuxi on GNOME3"
        title="Smuxi on GNOME3"]]
 [[!img screenshots/smuxi-0.8.11-linux-unity-main-window.png size="250x"
