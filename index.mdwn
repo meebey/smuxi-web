@@ -2,19 +2,22 @@
 
 ## Be Anywhere ##
 
-[[!img screenshots/smuxi-0.8.11-linux-gnome-main-window.png size="200x"
+[[!img screenshots/smuxi-0.8.11-linuix-gnome-main-window.png size="250x"
        alt="Screenshot of Smuxi on GNOME3"
        title="Smuxi on GNOME3"]]
-[[!img screenshots/smuxi-0.8.11-linux-unity-main-window.png size="200x"
+[[!img screenshots/smuxi-0.8.11-linux-unity-main-window.png size="250x"
        alt="Screenshot of Smuxi on Ubuntu Unity"
        title="Smuxi on Ubuntu Unity"]]
-[[!img screenshots/smuxi-0.8.11-win7-main-window.png size="200x"
+[[!img screenshots/smuxi-0.8.11-win7-main-window.png size="250x"
        alt="Screenshot of Smuxi on Windows 7"
        title="Smuxi on Windows 7"]]
-[[!img screenshots/smuxi-0.8.11-3-dev-osx-main-window.png size="200x"
+[[!img screenshots/smuxi-0.8.10-win8-main-window.png size="250x"
+       alt="Screenshot of Smuxi on Windows 8"
+       title="Smuxi on Windows 8"]]
+[[!img screenshots/smuxi-0.8.11-3-dev-osx-main-window.png size="250x"
        alt="Screenshot of Smuxi on Mac OS X"
        title="Smuxi on Mac OS X"]]
-[[!img screenshots/smuxi-0.8.11-linux-stfl-main-window.png size="200x"
+[[!img screenshots/smuxi-0.8.11-linux-stfl-main-window.png size="250x"
        alt="Screenshot of Smuxi 0.8.11's text frontend"
        title="Smuxi's Text Frontend on Linux"]]
 
