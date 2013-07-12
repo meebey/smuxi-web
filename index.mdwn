@@ -1,30 +1,44 @@
 [[!meta description="Smuxi - the user-friendly and cross-platform IRC client for sophisticated users for GNOME / GTK+"]]
 
-# Be Anywhere
+## Be Anywhere ##
 
-(image of GTK and Windows UIs on many platforms, cascading, showing off 
-cross-platform)
+[[!img screenshots/smuxi-0.8.11-linux-gnome-main-window.png size="200x"
+       alt="Screenshot of Smuxi on GNOME3"
+       title="Smuxi on GNOME3"]]
+[[!img screenshots/smuxi-0.8.11-linux-unity-main-window.png size="200x"
+       alt="Screenshot of Smuxi on Ubuntu Unity"
+       title="Smuxi on Ubuntu Unity"]]
+[[!img screenshots/smuxi-0.8.11-win7-main-window.png size="200x"
+       alt="Screenshot of Smuxi on Windows 7"
+       title="Smuxi on Windows 7"]]
+[[!img screenshots/smuxi-0.8.11-3-dev-osx-main-window.png size="200x"
+       alt="Screenshot of Smuxi on Mac OS X"
+       title="Smuxi on Mac OS X"]]
+[[!img screenshots/smuxi-0.8.11-linux-stfl-main-window.png size="200x"
+       alt="Screenshot of Smuxi 0.8.11's text frontend"
+       title="Smuxi's Text Frontend on Linux"]]
 
 Smuxi can be detached. Start a server, and connect to it from any computer, 
 anywhere. Resuming is seamless and changes are updated on all computers, so 
 you can check what was going on while you were away.
 
-# Be Everywhere
+## Be Everywhere ##
 
 (image of IRC, XMPP, and Twitter tabs)
 
 Smuxi doesn't do just IRC, it can also handle Twitter and XMPP natively.
 
-# Be Aware
+## Be Aware ##
 
 (image of notification with messaging menu in view)
 
 Smuxi integrates with Ubuntu's messaging menu and has full notification 
 support.
 
-# Be In Control
+## Be In Control ##
 
 (image of STFL UI, nerds dig TUI)
 
 Smuxi has powerful features, configuration and automation options, making it 
-an ideal power-user client while still being easy for any newbie to use..
+an ideal power-user client while still being easy for any newbie to use.
+
