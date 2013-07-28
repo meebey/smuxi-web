@@ -1,8 +1,13 @@
 # Smuxi's Screenshot Policy #
 
+ * Default Smuxi settings
+   * Minimum: top tabs position
  * Default OS Theme
  * Visible window border
- * Visible OS taskbar/menu
+ * Visible OS "status bar"
+   * GNOME3: Top Bar
+   * Windows: Superbar
+   * OS X: Menu Bar
  * Join #ubuntu @ freenode
  * Wait till the chat buffer is completely populated with messages
  * Take screenshot @ 1080x730
