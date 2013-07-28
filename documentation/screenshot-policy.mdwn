@@ -10,6 +10,9 @@
    * Windows: Superbar
    * OS X: Menu Bar
  * Join #ubuntu @ freenode
+ * Make #ubuntu the _first_ visible tab after the freenode tab if there are
+   other visible tabs, like this: Smuxi | IRC Freenode | #ubuntu | other tabs...
+ * The tab scroll position must be way to the left
  * Wait till the chat buffer is completely populated with messages
  * Take screenshot @ 1080x730
  * PNG file format
