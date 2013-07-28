@@ -11,7 +11,7 @@
 [[!img screenshots/smuxi-0.8.11-win7-main-window.png size="250x"
        alt="Screenshot of Smuxi on Windows 7"
        title="Smuxi on Windows 7"]]
-[[!img screenshots/smuxi-0.8.10-win8-main-window.png size="250x"
+[[!img screenshots/smuxi-0.8.11-win8-main-window.png size="250x"
        alt="Screenshot of Smuxi on Windows 8"
        title="Smuxi on Windows 8"]]
 [[!img screenshots/smuxi-0.8.11-3-dev-osx-main-window.png size="250x"
