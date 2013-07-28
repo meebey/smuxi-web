@@ -1,0 +1,9 @@
+# Smuxi's Screenshot Policy #
+
+ * Default OS Theme
+ * Visible window border
+ * Visible OS taskbar/menu
+ * Join #ubuntu @ freenode
+ * Wait till the chat buffer is completely populated with messages
+ * Take screenshot @ 1080x730
+ * PNG file format
