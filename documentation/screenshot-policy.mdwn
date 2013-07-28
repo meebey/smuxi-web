@@ -2,7 +2,8 @@
 
  * Default Smuxi settings
    * Minimum: top tabs position
- * Default OS Theme
+ * Default OS Icon/Window Theme
+   * Except on GNOME3: Faenza Icon Theme or Smuxi Symbolic / Numic Theme
  * Visible window border
  * Visible OS "status bar"
    * GNOME3: Top Bar
