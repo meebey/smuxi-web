@@ -114,6 +114,24 @@ Building Smuxi from source requires the following packages being installed:
 
 <script type="text/javascript" src="//www.ohloh.net/p/15257/widgets/project_basic_stats.js"></script>
 
+<!-- facebook conversion tracking -->
+<script type="text/javascript">
+var fb_param = {};
+fb_param.pixel_id = '6010411638083';
+fb_param.value = '0.00';
+fb_param.currency = 'USD';
+(function(){
+  var fpw = document.createElement('script');
+  fpw.async = true;
+  fpw.src = '//connect.facebook.net/en_US/fp.js';
+  var ref = document.getElementsByTagName('script')[0];
+  ref.parentNode.insertBefore(fpw, ref);
+})();
+</script>
+<noscript>
+  <img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/offsite_event.php?id=6010411638083&amp;value=0&amp;currency=USD" />
+</noscript>
+
   [Smuxi 0.8.11 Release Notes]: /news/smuxi_0.8.11_release/
   [log4net]: http://logging.apache.org/log4net/
   [Nini]: http://nini.sourceforge.net/
