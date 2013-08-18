@@ -1,4 +1,5 @@
 [[!meta title="Call for Testing - Smuxi 0.9 Release Imminent"]]
+[[!tag planet-feed]]
 
 The release of [Smuxi 0.9][roadmap] is imminent and needs final testing.  Smuxi
 development build users please upgrade your Smuxi version now. If you run from
