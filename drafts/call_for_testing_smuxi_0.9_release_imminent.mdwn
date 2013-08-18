@@ -1,0 +1,15 @@
+[[!meta title="Call for Testing - Smuxi 0.9 Release Imminent"]]
+
+The release of [Smuxi 0.9][roadmap] is imminent and needs final testing.  Smuxi
+development build users please upgrade your Smuxi version now. If you run from
+git please upgrade to at least [c517493][gh] (2013-08-16), if you run daily
+builds from the PPA please upgrade to at least ~288 or if you run Windows or Mac
+OS X please upgrade to at least 2013-08-16 from [here][snapshots]. You can also
+upgrade your Smuxi version by using the release-candiates named smuxi-0.9~rc\*
+from [here][rc]. Please report any issue you find on the \#smuxi IRC channel.
+Thank you for your participation!
+
+  [roadmap]: /versions/show/19
+  [gh]: https://github.com/meebey/smuxi/tree/c517493
+  [snapshots]: /documentation/running-from-git/
+  [rc]: /jaws/data/files/
