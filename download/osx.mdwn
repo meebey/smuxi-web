@@ -2,7 +2,7 @@
 
 [[!img logos/osx.png link=no alt="Mac OS X" class="distrologo"]]
 
-**Download: [smuxi-0.9-1-osx.zip]** [.asc][]
+**Download: [smuxi-0.9-1-osx.zip]** ([.asc][])
 
 Mac OS X users can download this experimental package. You have to download and
 install first the Mono runtime though:

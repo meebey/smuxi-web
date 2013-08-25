@@ -110,7 +110,7 @@ Building Smuxi from source requires the following packages being installed:
 - [log4net][]
 - [Nini][]
 
-[smuxi-0.9.tar.gz][] [.asc][]
+[smuxi-0.9.tar.gz][] ([.asc][])
 
 <script type="text/javascript" src="//www.ohloh.net/p/15257/widgets/project_basic_stats.js"></script>
 
