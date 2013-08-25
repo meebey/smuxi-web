@@ -3,7 +3,7 @@
  * Default Smuxi settings
    * Minimum: top tabs position
  * Default OS Icon/Window Theme
-   * Except on GNOME3: Faenza Icon Theme or Smuxi Symbolic / Numic Theme
+   * Except on GNOME3: Faenza Icon Theme or Smuxi Symbolic / Numix Theme
  * Visible window border
  * Visible OS "status bar"
    * GNOME3: Top Bar
@@ -14,5 +14,5 @@
    other visible tabs, like this: Smuxi | IRC Freenode | #ubuntu | other tabs...
  * The tab scroll position must be way to the left
  * Wait till the chat buffer is completely populated with messages
- * Take screenshot @ 1080x730
+ * Take screenshot @ 1920x1080 (16:9)
  * PNG file format
