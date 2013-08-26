@@ -1,0 +1,112 @@
+[[!meta title="""Smuxi 0.9 "The Fix" Release"""]]
+
+It's finally here! We're proud to announce the new version of Smuxi, release
+0.9 "***The Fix***". During the development, [19 bug reports][bugs] and
+[8 feature requests][features] in [235 commits][commits] were worked on making
+this release a major feature and major bugfix release.
+
+Notable highlights in this release are:
+
+### Enhanced User Interface ###
+
+ * Smuxi Symbolic Icon Theme (George Karavasilev)
+ * [smarter nick completion][558]: prefere last active nicks for tab completion
+   (Ondrej Hošek)
+ * [smarter nicklist][432]: predict and set useful width for the nicklist
+ * Mac OS X: [fixed copy/paste command key shortcuts][845]
+
+[[!img screenshots/smuxi-0.8.11-linux-gnome-main-window.png size="400x"
+       alt="Screenshot of Smuxi 0.8.11 on GNOME3"
+       title="Smuxi on GNOME3"]]
+[[!img screenshots/smuxi-0.8.11-linux-unity-main-window.png size="400x"
+       alt="Screenshot of Smuxi 0.8.11 on Ubuntu Unity"
+       title="Smuxi on Ubuntu Unity"]]
+[[!img screenshots/smuxi-0.8.11-win7-main-window.png size="400x"
+       alt="Screenshot of Smuxi 0.8.11 on Windows 7"
+       title="Smuxi on Windows 7"]]
+[[!img screenshots/smuxi-0.8.11-3-dev-osx-main-window.png size="400x"
+       alt="Screenshot of Smuxi 0.8.11 on Mac OS X"
+       title="Smuxi on Mac OS X"]]
+
+[[!img screenshots/smuxi-0.8.11-linux-stfl-main-window.png size="200x"
+       alt="Screenshot of Smuxi 0.8.11's text frontend" class="screenshot"]]
+### Text Frontend Enhancements ###
+
+ * STFL frontend on OpenBSD
+ * [STFL Topic Support][844] (Ondrej Hošek)
+ * [STFL proper line wrapping][849] (Ondrej Hošek)
+ * STFL color support
+
+### JabbR Support ###
+
+ * [SignalR's JabbR Support][843]
+   * /join command, highlight support
+
+### Twitter Enhancements ###
+
+ * [Twitter v1.1][872]: Twitter removed their v1 API on the 11th June which
+   broke Smuxi and many other Twitter application from that date on. Smuxi works
+   with Twitter again after porting it to the v1.1 API.
+
+### XMPP (Beta) Enhacenments ###
+
+ * XMPP/Jabber Contacts
+   * Contacts can be renamed from context menu
+ * [XMPP Rewrite][819] (Oliver Schneider)
+ * Added favicon mappings of famous Jabber servers: jabber.org, jabber.de,
+   jabber.at, jabber.ccc.de and jabber.gmx.net
+
+### IRC Enhancements ###
+
+ * [IRC passive channel sync][787]
+ * [IRC UTF-8 recode][288]: automatic recode of UTF-8 characters when needed
+   (Ondrej Hošek)
+ * [IRC channel usermodes][161]: Owner, Half-Op and Admin modes support
+   (Ondrej Hošek)
+
+### Updated Translations ###
+
+Smuxi should now be in your language, including:
+
+ * Initial complete Portuguese (Brazil) (Leonardo Pires Felix)
+ * Initial complete Finnish (Kalle Kaitala)
+ * French (Clément Bourgeois)
+ * Czech (Ondřej Hošek)
+ * Chinese Simp (Dean Lee)
+ * Swedish (Jimmie Elvenmark)
+ * Danish (Joe Hansen)
+ * German (Bianca Mix)
+
+### Behind the Scenes ###
+
+ * Mono 3.0 Support
+
+### Contributors ####
+
+Contributors to this release are the following people:
+
+ * Mirco Bauer (193 commits)
+ * Oliver Schneider (59 commits)
+ * Ondřej Hošek (13 commits, translations)
+ * Jason Papakostas (2 commits)
+ * Carlos Martín Nieto (1 commit)
+ * Andrés G. Aragoneses (1 commit)
+ * George Karavasilev (artwork)
+ * Leonardo Pires Felix (translations)
+ * Kalle Kaitala (translations)
+ * Joe Hansen (translations)
+ * Jimmie Elvenmark (translations)
+ * Dean Lee (translations)
+ * Clément Bourgeois (translations)
+ * Bianca Mix (translations)
+
+Thank you very much for your contributions to Smuxi!
+
+Want this? Go [here][download page] and grab it right now!
+
+  [download page]: /page/Download
+  [roadmap]: /versions/show/
+  [bugs]: /projects/smuxi/issues?query_id=4
+  [features]: /projects/smuxi/issues?fixed_version_id=19&set_filter=1&status_id=c
+  [commits]: https://github.com/meebey/smuxi/compare/0.8.11...0.9
+  [667]: /issues/show/667 "#667: GNOME frontend leaks memory"
