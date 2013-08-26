@@ -2,7 +2,7 @@
 
 It's finally here! We're proud to announce the new version of Smuxi, release
 0.9 "***The Fix***". During the development, [19 bug reports][bugs] and
-[8 feature requests][features] in [235 commits][commits] were worked on making
+[10 feature requests][features] in [235 commits][commits] were worked on making
 this release a major feature and major bugfix release.
 
 Notable highlights in this release are:
@@ -107,6 +107,6 @@ Want this? Go [here][download page] and grab it right now!
   [download page]: /page/Download
   [roadmap]: /versions/show/
   [bugs]: /projects/smuxi/issues?query_id=4
-  [features]: /projects/smuxi/issues?fixed_version_id=19&set_filter=1&status_id=c
+  [features]: /projects/smuxi/issues?fixed_version_id=19&set_filter=1&tracker_id=2&status_id=c
   [commits]: https://github.com/meebey/smuxi/compare/0.8.11...0.9
   [667]: /issues/show/667 "#667: GNOME frontend leaks memory"
