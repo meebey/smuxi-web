@@ -109,4 +109,15 @@ Want this? Go [here][download page] and grab it right now!
   [bugs]: /projects/smuxi/issues?query_id=4
   [features]: /projects/smuxi/issues?fixed_version_id=19&set_filter=1&tracker_id=2&status_id=c
   [commits]: https://github.com/meebey/smuxi/compare/0.8.11...0.9
-  [667]: /issues/show/667 "#667: GNOME frontend leaks memory"
+  [558]: /issues/show/558 "#558: prefer last used nicks with tab completion"
+  [432]: /issues/show/432 "#432: Fit width of the nicklist automatically (to the longest nick)"
+  [845]: /issues/show/845 "#845: OS X Client: Command Key Shortcuts for Copy/Cut/Paste Do Not Work"
+  [844]: /issues/show/844 "#844: STFL: display the topic"
+  [849]: /issues/show/849 "#849: STFL: correctly wrap text"
+  [843]: /issues/show/843 "#843: JabbR Engine"
+  [872]: /issues/show/872 "#872: Twitter v1 API was killed, thus v1.1 migration required"
+  [819]: /issues/show/819 "#819: Replace jabber-net with agsXMPP"
+  [787]: /issues/show/787 "#787: Smuxi needlessly sends a WHO command for each user that joins a channel"
+  [288]: /issues/show/288 "#288: automatic character recoding (e.g. latin1 <-> utf8)"
+  [161]: /issues/show/161 "#161: Support for flag/icon of half-ops, admins and services in channels"
+
