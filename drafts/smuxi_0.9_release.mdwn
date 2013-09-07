@@ -1,6 +1,6 @@
-[[!meta title="""Smuxi 0.9 "The Fix" Release"""]]
+[[!meta title="""Smuxi 0.9 with Twitter v1.1, JabbR Support and XMPP rewrite"""]]
 
-It's finally here! We're proud to announce the new version of Smuxi, release
+And here we go again! We're proud to announce the new version of Smuxi, release
 0.9 "***The Fix***". During the development, [19 bug reports][bugs] and
 [10 feature requests][features] in [235 commits][commits] were worked on making
 this release a major feature and major bugfix release.
@@ -9,11 +9,11 @@ Notable highlights in this release are:
 
 ### Enhanced User Interface ###
 
- * Smuxi Symbolic Icon Theme (George Karavasilev)
- * [smarter nick completion][558]: prefere last active nicks for tab completion
+ * Smuxi Symbolic Icon Theme for Windows and Mac OS X (George Karavasilev)
+ * [Nick Completion][558]: prioritize active nicks for tab completion
    (Ondrej Hošek)
- * [smarter nicklist][432]: predict and set useful width for the nicklist
- * Mac OS X: [fixed copy/paste command key shortcuts][845]
+ * [Nicklist][432]: The nicklist automatically resizes to the longest nick.
+ * On Mac OS X the [copy/paste command key shortcuts are now working][845]
 
 [[!img screenshots/smuxi-0.8.11-linux-gnome-main-window.png size="400x"
        alt="Screenshot of Smuxi 0.8.11 on GNOME3"
@@ -21,26 +21,40 @@ Notable highlights in this release are:
 [[!img screenshots/smuxi-0.8.11-linux-unity-main-window.png size="400x"
        alt="Screenshot of Smuxi 0.8.11 on Ubuntu Unity"
        title="Smuxi on Ubuntu Unity"]]
-[[!img screenshots/smuxi-0.8.11-win7-main-window.png size="400x"
-       alt="Screenshot of Smuxi 0.8.11 on Windows 7"
+
+[[!img screenshots/smuxi-0.9-win7-main-window.png size="400x"
+       alt="Screenshot of Smuxi 0.9 on Windows 7"
        title="Smuxi on Windows 7"]]
-[[!img screenshots/smuxi-0.8.11-3-dev-osx-main-window.png size="400x"
-       alt="Screenshot of Smuxi 0.8.11 on Mac OS X"
+[[!img screenshots/smuxi-0.9-osx-main-window.png size="400x"
+       alt="Screenshot of Smuxi 0.9 on Mac OS X"
        title="Smuxi on Mac OS X"]]
 
-[[!img screenshots/smuxi-0.8.11-linux-stfl-main-window.png size="200x"
-       alt="Screenshot of Smuxi 0.8.11's text frontend" class="screenshot"]]
+[[!img screenshots/smuxi-0.9-linux-stfl-main-window.png size="200x"
+       alt="Screenshot of Smuxi 0.9's text frontend" class="screenshot"]]
 ### Text Frontend Enhancements ###
 
- * STFL frontend on OpenBSD
- * [STFL Topic Support][844] (Ondrej Hošek)
- * [STFL proper line wrapping][849] (Ondrej Hošek)
- * STFL color support
+ * [Topic Support][844]: channels are now showing the topic (Ondrej Hošek)
+ * [Line Wrapping][849]: messages longer than the terminal width are now
+   properly wrapped into multiple lines (Ondrej Hošek)
+ * Message/Nick Colors: Nick names and also messages are now shown with
+   their colors, giving a much improved experience.
+ * OpenBSD Support: The STFL frontend now runs on OpenBSD.
 
+[[!img screenshots/smuxi-0.9-linux-gnome-jabbr.png size="200x"
+       alt="Screenshot of Smuxi 0.9 with JabbR" class="screenshot"]]
 ### JabbR Support ###
 
- * [SignalR's JabbR Support][843]
-   * /join command, highlight support
+ * [SignalR's JabbR Support][843]: As if IRC, Twitter, XMPP and Campfire weren't
+   good enough Smuxi is now capable of talking with [SignalR][]'s famous
+   [JabbR][] web chat. If you are looking for support of SignalR, ASP.NET MVC,
+   NancyFx, EntityFramework, NuGet or RavenDB? Then this is the right place for
+   you!
+ * Supported Features:
+   * Join rooms (/join)
+   * Listing available rooms (/list)
+   * Nickname completion
+   * Highlight of own nickname and user defined highlight words
+   * Sending/receiving public and private messages
 
 ### Twitter Enhancements ###
 
@@ -51,17 +65,20 @@ Notable highlights in this release are:
 ### XMPP (Beta) Enhacenments ###
 
  * XMPP/Jabber Contacts
-   * Contacts can be renamed from context menu
+   * Contacts can be renamed from the context menu
  * [XMPP Rewrite][819] (Oliver Schneider)
  * Added favicon mappings of famous Jabber servers: jabber.org, jabber.de,
    jabber.at, jabber.ccc.de and jabber.gmx.net
 
 ### IRC Enhancements ###
 
- * [IRC passive channel sync][787]
- * [IRC UTF-8 recode][288]: automatic recode of UTF-8 characters when needed
-   (Ondrej Hošek)
- * [IRC channel usermodes][161]: Owner, Half-Op and Admin modes support
+ * [passive channel sync][787]: Smuxi no longer needs to send WHO requests for
+   users that join channels. This improves the speed of joining channels
+   drastically but also prevents potential WHO floods when the infamous
+   netsplits occur.
+ * [UTF-8 recode][288]: Messages containing UTF-8 or your fallback encoding will
+   automatically be recoded when needed. (Ondrej Hošek)
+ * [channel usermodes][161]: Owner, Half-Op and Admin modes are now supported.
    (Ondrej Hošek)
 
 ### Updated Translations ###
@@ -109,6 +126,8 @@ Want this? Go [here][download page] and grab it right now!
   [bugs]: /projects/smuxi/issues?query_id=4
   [features]: /projects/smuxi/issues?fixed_version_id=19&set_filter=1&tracker_id=2&status_id=c
   [commits]: https://github.com/meebey/smuxi/compare/0.8.11...0.9
+  [JabbR]: https://jabbr.net/
+  [SignalR]: http://signalr.net/
   [558]: /issues/show/558 "#558: prefer last used nicks with tab completion"
   [432]: /issues/show/432 "#432: Fit width of the nicklist automatically (to the longest nick)"
   [845]: /issues/show/845 "#845: OS X Client: Command Key Shortcuts for Copy/Cut/Paste Do Not Work"
