@@ -46,10 +46,10 @@ Notable highlights in this release are:
 
  * [SignalR's JabbR Support][843]: As if IRC, Twitter, XMPP and Campfire weren't
    good enough Smuxi is now capable of talking with [SignalR][]'s famous
-   [JabbR][] web chat. If you are looking for support of SignalR, ASP.NET MVC,
-   NancyFx, EntityFramework, NuGet or RavenDB? Then this is the right place for
-   you!
- * Supported Features:
+   [JabbR web chat][JabbR]. If you are looking for support of SignalR,
+   ASP.NET MVC, NancyFx, EntityFramework, NuGet, RavenDB or just a real modern
+   and cool web chat? Then this is the right place for you!
+ * Included Features:
    * Join rooms (/join)
    * Listing available rooms (/list)
    * Nickname completion
@@ -96,7 +96,8 @@ Smuxi should now be in your language, including:
 
 ### Behind the Scenes ###
 
- * Mono 3.0 Support
+ * Mono 3.0 Support: This version builds and runs fine on latest versions of
+   Mono.
 
 ### Contributors ####
 
