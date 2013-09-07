@@ -15,8 +15,8 @@ Notable highlights in this release are:
  * [Nicklist][432]: The nicklist automatically resizes to the longest nick.
  * On Mac OS X the [copy/paste command key shortcuts are now working][845]
 
-[[!img screenshots/smuxi-0.8.11-linux-gnome-main-window.png size="400x"
-       alt="Screenshot of Smuxi 0.8.11 on GNOME3"
+[[!img screenshots/smuxi-0.9-linux-gnome-main-window.png size="400x"
+       alt="Screenshot of Smuxi 0.9 on GNOME3"
        title="Smuxi on GNOME3"]]
 [[!img screenshots/smuxi-0.8.11-linux-unity-main-window.png size="400x"
        alt="Screenshot of Smuxi 0.8.11 on Ubuntu Unity"
