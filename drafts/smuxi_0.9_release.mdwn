@@ -1,0 +1,11 @@
+[[!meta title="""Smuxi 0.9 "The Fix" Release"""]]
+
+Smuxi 0.9 with Twitter v1.1, JabbR support, XMPP rewrite, text frontend with
+colors and tuned IRC is available. Packages are available for Windows, Mac OS X,
+Debian (Sid), Ubuntu (Lucid, Precise, Quantal, Raring and Saucy) and Arch Linux.
+Here you can read the [full release announcement][1]. For users running a
+development build of Smuxi it is recommended to simply upgrade to the newest
+[development build][2].
+
+  [1]: https://www.smuxi.org/blog/show/Smuxi_09_Release
+  [2]: https://smuxi.im/documentation/running-from-git/
