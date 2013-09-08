@@ -1,4 +1,5 @@
 [[!meta title="""Smuxi 0.9 "The Fix" Release"""]]
+[[!tag planet-feed]]
 
 Smuxi 0.9 with Twitter v1.1, JabbR support, XMPP rewrite, text frontend with
 colors and tuned IRC is available. Packages are available for Windows, Mac OS X,
