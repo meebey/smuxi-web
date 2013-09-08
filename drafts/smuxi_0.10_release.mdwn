@@ -1,0 +1,108 @@
+[[!meta title="""Smuxi 0.10 with XXX, YYY, ZZZ"""]]
+
+And here we go again! We're proud to announce the new version of Smuxi, release
+0.10 "***Codename***". During the development, [NN bug reports][bugs] and
+[NN feature requests][features] in [NN commits][commits] were worked on making
+this release a MAJOR_OR_MINOR feature and bugfix release.
+
+Notable highlights in this release are:
+
+### Enhanced User Interface ###
+
+ * Changes here
+ * More changes here
+ * And even more changes here
+
+[[!img screenshots/smuxi-0.9-linux-gnome-main-window.png size="400x"
+       alt="Screenshot of Smuxi 0.9 on GNOME3"
+       title="Smuxi on GNOME3"]]
+[[!img screenshots/smuxi-0.9-linux-unity-main-window.png size="400x"
+       alt="Screenshot of Smuxi 0.9 on Ubuntu Unity"
+       title="Smuxi on Ubuntu Unity"]]
+
+[[!img screenshots/smuxi-0.9-win7-main-window.png size="400x"
+       alt="Screenshot of Smuxi 0.9 on Windows 7"
+       title="Smuxi on Windows 7"]]
+[[!img screenshots/smuxi-0.9-osx-main-window.png size="400x"
+       alt="Screenshot of Smuxi 0.9 on Mac OS X"
+       title="Smuxi on Mac OS X"]]
+
+[[!img scrVeenshots/smuxi-0.9-linux-stfl-main-window.png size="200x"
+       alt="Screenshot of Smuxi 0.9's text frontend" class="screenshot"]]
+### Text Frontend Enhancements ###
+
+ * Changes here
+ * More changes here
+ * And even more changes here
+
+### IRC Enhancements ###
+
+ * Changes here
+ * More changes here
+ * And even more changes here
+
+### XMPP (Beta) Enhacenments ###
+
+ * Changes here
+ * More changes here
+ * And even more changes here
+
+### Twitter Enhancements ###
+
+ * Changes here
+ * More changes here
+ * And even more changes here
+
+### JabbR (Beta) Enhancements ###
+
+ * Message History: Opening chats will now load and show the previous messages
+   from the JabbR server.
+
+### Updated Translations ###
+
+Smuxi should now be in your language, including:
+
+ * Initial complete LANGUAGE (FULL_NAME)
+ * French (Clément Bourgeois)
+ * Czech (Ondřej Hošek)
+ * Chinese Simp (Dean Lee)
+ * Swedish (Jimmie Elvenmark)
+ * Danish (Joe Hansen)
+ * German (Bianca Mix)
+
+### Behind the Scenes ###
+
+ * Changes here
+ * More changes here
+ * And even more changes here
+
+### Contributors ####
+
+Contributors to this release are the following people:
+
+ * Mirco Bauer (193 commits)
+ * Oliver Schneider (59 commits)
+ * Ondřej Hošek (13 commits, translations)
+ * Jason Papakostas (2 commits)
+ * Carlos Martín Nieto (1 commit)
+ * Andrés G. Aragoneses (1 commit)
+ * George Karavasilev (artwork)
+ * Leonardo Pires Felix (translations)
+ * Kalle Kaitala (translations)
+ * Joe Hansen (translations)
+ * Jimmie Elvenmark (translations)
+ * Dean Lee (translations)
+ * Clément Bourgeois (translations)
+ * Bianca Mix (translations)
+
+Thank you very much for your contributions to Smuxi!
+
+Want this? Go [here][download page] and grab it right now!
+
+  [download page]: /page/Download
+  [roadmap]: /versions/show/16
+  [bugs]: /projects/smuxi/issues?fixed_version_id=16&set_filter=1&tracker_id=1&status_id=c
+  [features]: /projects/smuxi/issues?fixed_version_id=16&set_filter=1&tracker_id=2&status_id=c
+  [commits]: https://github.com/meebey/smuxi/compare/0.9...HEAD
+  [NNN]: /issues/show/NNN "#NNN: TITLE"
+
