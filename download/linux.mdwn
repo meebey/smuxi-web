@@ -6,6 +6,7 @@
 
 This package contains only the source code of Smuxi. These libraries have to be
 installed before you can compile and install Smuxi:
+
  * [Mono][] >= 2.6
  * [log4net][]
  * [Nini][] >= 1.1
