@@ -42,7 +42,7 @@ Notable highlights in this release are:
 
 [[!img screenshots/smuxi-0.9-linux-gnome-jabbr.png size="200x"
        alt="Screenshot of Smuxi 0.9 with JabbR" class="screenshot"]]
-### JabbR Support ###
+### JabbR (Beta) Support ###
 
  * [SignalR's JabbR Support][843]: As if IRC, Twitter, XMPP, and Campfire
    weren't enough Smuxi is now capable of talking with [SignalR][]'s famous
