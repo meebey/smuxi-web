@@ -1,4 +1,4 @@
-[[!meta title="""Smuxi 0.9 with Twitter v1.1, JabbR Support and XMPP rewrite"""]]
+[[!meta title="""Smuxi 0.9 with Twitter v1.1, JabbR support and XMPP rewrite"""]]
 
 And here we go again! We're proud to announce the new version of Smuxi, release
 0.9 "***The Fix***". During the development, [19 bug reports][bugs] and
