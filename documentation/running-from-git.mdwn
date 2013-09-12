@@ -49,11 +49,11 @@ pacman, using the following commands:
 
 ### Windows ###
 On Windows it is even simpler and you just need to install a development
-snapshot which you can find [[here|http://smuxi.fragstore.net/smuxi/]].
+snapshot which you can find [here][daily-builds].
 
 ### Mac OS X ###
 On Mac OS X you need to install Mono 2.10 or great and then install a
-development snapshpt from [[here|http://smuxi.fragstore.net/smuxi/]].
+development snapshpt from [here][daily-builds].
 
 ## Building Smuxi from Git Source Repository ##
 
@@ -97,3 +97,4 @@ Run server:
  [PPA]: https://launchpad.net/~meebey/+archive/smuxi-daily
  [AUR]: http://aur.archlinux.org/packages.php?ID=56733
  [makepkg]: https://wiki.archlinux.org/index.php/Makepkg#Usage
+ [daily-builds]: http://smuxi.fragstore.net/smuxi/
