@@ -77,8 +77,8 @@ Install the build dependencies with the following commands:
 Install and build requirements log4net and nini:
 
 #### Nini ####
-Just download the latest zipball from the website and copy the `.dll` for Mono
-into `/usr/local/lib/nini` and make the file `/usr/local/lib/pkgconfig/nini.pc`
+Just download the latest zipball from the website and copy the _.dll_ for Mono
+into _/usr/local/lib/nini_ and make the file _/usr/local/lib/pkgconfig/nini.pc_
 contain:
 
     prefix=/usr/local
@@ -90,12 +90,14 @@ contain:
     Version: 1.1.0
     Libs: -r:${libdir}/nini/Nini.dll
 
-Run `gacutil -i /usr/local/lib/nini/Nini.dll`.
+Run:
+
+    gacutil -i /usr/local/lib/nini/Nini.dll
 
 #### log4net ####
 
-Clone the latest log4net and run `nant` to build it. Copy the DLL into
-`/usr/local/lib/log4net` and make the file `/usr/local/lib/pkgconfig/log4net.pc`
+Clone the latest log4net and run _nant_ to build it. Copy the DLL into
+_/usr/local/lib/log4net_ and make the file _/usr/local/lib/pkgconfig/log4net.pc_
 contain:
 
     prefix=/usr/local
@@ -107,7 +109,9 @@ contain:
     Version: 1.2.10
     Libs: -r:${libdir}/log4net/log4net.dll
 
-Run `gacutil -i /usr/local/lib/log4net/log4net.dll`.
+Run:
+
+    gacutil -i /usr/local/lib/log4net/log4net.dll
 
 Get source:
 
