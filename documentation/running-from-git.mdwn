@@ -1,6 +1,8 @@
+[[!meta title="Running Smuxi from Git"]]
+
 If you like living on the bleeding edge and can't wait for the latest features
 and bugfixes, then you can install a development build or build Smuxi from the
-git source repository.
+[git source repository][git-repo].
 
 ## Installing Development Builds ##
 
@@ -136,4 +138,5 @@ Run server:
  [PPA]: https://launchpad.net/~meebey/+archive/smuxi-daily
  [AUR]: http://aur.archlinux.org/packages.php?ID=56733
  [makepkg]: https://wiki.archlinux.org/index.php/Makepkg#Usage
+ [git-repo]: https://github.com/meebey/smuxi
  [daily-builds]: http://smuxi.fragstore.net/smuxi/
