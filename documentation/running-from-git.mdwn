@@ -82,7 +82,7 @@ Get source:
 
 Build Smuxi:
 
-    AUTOMAKE_VERSION=1.13 AUTOCONF_VERSION=2.69 CONFIG_SHELL="env bash" ./autogen.sh
+    AUTOMAKE_VERSION=1.13 AUTOCONF_VERSION=2.69 CONFIG_SHELL="env bash" ./autogen.sh MCS=$(which dmcs)
     gmake
 
 Run STFL frontend:
