@@ -70,11 +70,44 @@ commands:
 	make run
 
 ### OpenBSD ###
-Install the build dependencies with the following cmmands:
+Install the build dependencies with the following commands:
 
-    pkg_add autotools automake libtool intltool gmake bash git stfl mono
+    pkg_add autotools automake libtool intltool gmake bash git stfl mono nant
 
-TODO: how to build and install log4net and nini
+Install and build requirements log4net and nini:
+
+#### Nini ####
+Just download the latest zipball from the website and copy the `.dll` for Mono
+into `/usr/local/lib/nini` and make the file `/usr/local/lib/pkgconfig/nini.pc`
+contain:
+
+    prefix=/usr/local
+    exec_prefix=${prefix}
+    libdir=${exec_prefix}/lib
+
+    Name: nini
+    Description: Nini - CLI library for managing configuration files
+    Version: 1.1.0
+    Libs: -r:${libdir}/nini/Nini.dll
+
+Run `gacutil -i /usr/local/lib/nini/Nini.dll`.
+
+#### log4net ####
+
+Clone the latest log4net and run `nant` to build it. Copy the DLL into
+`/usr/local/lib/log4net` and make the file `/usr/local/lib/pkgconfig/log4net.pc`
+contain:
+
+    prefix=/usr/local
+    exec_prefix=${prefix}
+    libdir=${exec_prefix}/lib/
+    
+    Name: Log4net
+    Description: Log4net - Logging library for C# and VB.NET
+    Version: 1.2.10
+    Libs: -r:${libdir}/log4net/log4net.dll
+
+Run `gacutil -i /usr/local/lib/log4net/log4net.dll`.
 
 Get source:
 
