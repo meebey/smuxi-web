@@ -76,7 +76,7 @@ Install the build dependencies with the following commands:
 
 Install and build requirements log4net and nini:
 
-#### Nini ####
+#### Build Nini ####
 Just download the latest zipball from the website and copy the _.dll_ for Mono
 into _/usr/local/lib/nini_ and make the file _/usr/local/lib/pkgconfig/nini.pc_
 contain:
@@ -94,7 +94,7 @@ Run:
 
     gacutil -i /usr/local/lib/nini/Nini.dll
 
-#### log4net ####
+#### Build log4net ####
 
 Clone the latest log4net and run _nant_ to build it. Copy the DLL into
 _/usr/local/lib/log4net_ and make the file _/usr/local/lib/pkgconfig/log4net.pc_
@@ -112,6 +112,8 @@ contain:
 Run:
 
     gacutil -i /usr/local/lib/log4net/log4net.dll
+
+#### Build Smuxi ####
 
 Get source:
 
