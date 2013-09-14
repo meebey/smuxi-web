@@ -72,11 +72,16 @@ commands:
 	make run
 
 ### OpenBSD ###
-Install the build dependencies with the following commands:
+Install the required build dependencies with the following commands:
 
-    pkg_add autotools automake libtool intltool gmake bash git stfl mono nant
+    pkg_add autotools automake libtool intltool gmake bash coreutils git stfl mono nant
 
-Install and build requirements log4net and nini:
+If you want to use the GNOME/GTK+ frontend on OpenBSD you can install these
+optional build dependency:
+
+    pkg_add mono-gtk2
+
+Install and build the required log4net and Nini library:
 
 #### Build Nini ####
 Just download the latest zipball from the website and copy the _.dll_ for Mono
@@ -123,7 +128,7 @@ Get source:
 
 Build Smuxi:
 
-    AUTOMAKE_VERSION=1.13 AUTOCONF_VERSION=2.69 CONFIG_SHELL="env bash" ./autogen.sh MCS=$(which dmcs)
+    AUTOMAKE_VERSION=1.13 AUTOCONF_VERSION=2.69 CONFIG_SHELL="env bash" INSTALL=$(which ginstall) ./autogen.sh MCS=$(which dmcs)
     gmake
 
 Run STFL frontend:
