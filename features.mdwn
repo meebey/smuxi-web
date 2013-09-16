@@ -38,19 +38,22 @@
 
 #### Connectivity Features
   * Multiple Server Support (you can connect to more than one server)
-  * Configurable Encoding (ISO-8859-1/15, UTF-8, etc)
   * HTTP / SOCKS Proxy Support
   * SSL Support (with optional certificate validation)
   * IPv6 Support
   * Multiple Protocol Support
     * IRC
-    * [Twitter]
-    * [Google Talk] [^gtalk fn]
-    * [Facebook Chat] [^fb fn]
-    * [Jabber] [^jabber fn]
-    * XMPP [^xmpp fn]
+    * [Twitter] (since 0.7)
+    * [Google Talk] [^gtalk fn] (since 0.8.9)
+    * [Facebook Chat] [^fb fn] (since 0.8.9)
+    * [Jabber] [^jabber fn] (since 0.8.9)
+    * XMPP [^xmpp fn] (since 0.8.9)
+    * Campfire (since 0.8.11)
+    * SignalR JabbR (since 0.9)
 
 #### IRC Features
+  * Configurable Encoding (ISO-8859-1/15, UTF-8, etc)
+  * Automatic UTF-8 recode
   * Stripping Colors and/or Formattings from Messages
   * Showing mIRC Colors
   * Splitting oversized messages
@@ -62,10 +65,27 @@
 
 #### Twitter Features
   * OAuth authentication
+  * Twitter v1.1 API
   * Reading and Posting Tweets
   * Friends Timeline
   * Replies
   * Direct Messages
+  * Highlight support
+
+#### XMPP Features
+  * Contact List: show and rename online contacts, Invite To Menu,
+    /contact command
+  * Configurable priorities
+  * Highlight support
+
+#### Campfire Features
+  * Automatically opens active rooms on connect
+  * List and search of available rooms using the Find Group Chat dialog
+
+#### SignalR JabbR Features
+  * Automatically opens active rooms on connect
+  * List and search of available rooms using the Find Group Chat dialog
+  * Sending/receiving public and private messages
 
 #### Automatization
   * Auto Connect (automatically connect to defined servers)
