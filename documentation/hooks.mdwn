@@ -1,4 +1,4 @@
-# Smuxi Hooks #
+[[!meta title="Smuxi Hooks"]]
 
 ## Location ##
 
