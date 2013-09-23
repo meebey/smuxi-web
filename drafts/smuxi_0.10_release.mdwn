@@ -43,9 +43,8 @@ Notable highlights in this release are:
 
 ### XMPP (Beta) Enhacenments ###
 
- * Changes here
- * More changes here
- * And even more changes here
+ * Pretty chat states: you can now see if your chat peer is composing a message
+   with a pretty design (Oliver Schneider / George Karavasilev)
 
 ### Twitter Enhancements ###
 

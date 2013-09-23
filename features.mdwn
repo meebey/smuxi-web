@@ -77,6 +77,7 @@
     /contact command
   * Configurable priorities
   * Highlight support
+  * Showing chat states (0.10-dev)
 
 #### Campfire Features
   * Automatically opens active rooms on connect
