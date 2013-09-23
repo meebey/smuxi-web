@@ -1,28 +1,28 @@
 # Smuxi Hooks #
 
 ## Location ##
-Location: $XDG_DATA_HOME/smuxi/hooks
-Linux: $HOME/.local/share/smuxi/hooks
-Windows: 
-Mac OS X: 
+
+ * Linux: $HOME/.local/share/smuxi/hooks
+ * Windows: 
+ * Mac OS X: 
 
 ## Environment Variables ##
 
 All variables are prefixed with SMUXI\_ to prevent clash with other environtment
 variables.
 
-* CHAT_ID
-* CHAT_NAME
-* CHAT_TYPE: Session, Protocol, Person, Group
-* MSG
-* MSG_TIMESTAMP_UNIX
-* MSG_TIMESTAMP_ISO_UTC
-* MSG_TIMESTAMP_ISO_LOCAL
-* PROTOCOL_MANAGER_PROTOCOL
-* PROTOCOL_MANAGER_NETWORK
-* PROTOCOL_MANAGER_HOST
-* PROTOCOL_MANAGER_PORT
-* PROTOCOL_MANAGER_ME_ID
+ * CHAT_ID
+ * CHAT_NAME
+ * CHAT_TYPE: Session, Protocol, Person, Group
+ * MSG
+ * MSG_TIMESTAMP_UNIX
+ * MSG_TIMESTAMP_ISO_UTC
+ * MSG_TIMESTAMP_ISO_LOCAL
+ * PROTOCOL_MANAGER_PROTOCOL
+ * PROTOCOL_MANAGER_NETWORK
+ * PROTOCOL_MANAGER_HOST
+ * PROTOCOL_MANAGER_PORT
+ * PROTOCOL_MANAGER_ME_ID
 
 ## Hooks ##
 
