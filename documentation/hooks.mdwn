@@ -15,6 +15,7 @@ variables.
  * CHAT_NAME
  * CHAT_TYPE: Session, Protocol, Person, Group
  * MSG
+ * MSG_TYPE: Normal, Event, ChatState{Composing,Paused,Reset}
  * MSG_TIMESTAMP_UNIX
  * MSG_TIMESTAMP_ISO_UTC
  * MSG_TIMESTAMP_ISO_LOCAL
