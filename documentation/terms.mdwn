@@ -1,3 +1,10 @@
+[[!meta title="Terms"]]
+
+Terms used in Smuxi
+===================
+
+<div class="accordion-faq">
+
 [[!template id=faqitem.tmpl
 question="smux, smuxed, smuxed (verb)"
 answer="""
@@ -11,3 +18,5 @@ answer="""
 a Smuxi message
 Example: Send me a smux with the link.
 """]]
+
+</div>
