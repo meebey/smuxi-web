@@ -9,6 +9,7 @@ Terms used in Smuxi
 question="smux, smuxed, smuxed (verb)"
 answer="""
 sending a message on Smuxi
+
 Example: Just smux me later.
 """]]
 
@@ -16,6 +17,7 @@ Example: Just smux me later.
 question="a smux (noun)"
 answer="""
 a Smuxi message
+
 Example: Send me a smux with the link.
 """]]
 
