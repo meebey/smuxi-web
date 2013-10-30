@@ -19,21 +19,27 @@ variables.
  * MSG_TIMESTAMP_UNIX
  * MSG_TIMESTAMP_ISO_UTC
  * MSG_TIMESTAMP_ISO_LOCAL
+ * SENDER
+ * RECEIVER
  * PROTOCOL_MANAGER_PROTOCOL
  * PROTOCOL_MANAGER_NETWORK
  * PROTOCOL_MANAGER_HOST
  * PROTOCOL_MANAGER_PORT
  * PROTOCOL_MANAGER_ME_ID
+ * CMD
+ * CMD_PARAMETER
 
 ## Hooks ##
 
-### protocol-manager/on-connected ###
+### engine/protocol-manager/on-connected ###
 
-### protocol-manager/on-disconnected ###
+### engine/protocol-manager/on-disconnected ###
 
-### protocol-manager/on-message-sent ###
+### engine/protocol-manager/on-message-sent ###
 
-### protocol-manager/on-message-received ###
+### engine/protocol-manager/on-message-received ###
+
+### frontend/command-manager/command-$cmd ###
 
 ## Hook Commands ##
 
