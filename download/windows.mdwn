@@ -20,5 +20,5 @@ Windows Start Menu.
 
   [.NET]: http://www.microsoft.com/en-us/download/details.aspx?id=17113
   [GTK#]: /jaws/data/files/gtk-sharp-2.12.22.msi
-  [smuxi-0.9-1-win32-setup.exe]: /download.php?file=smuxi-0.9-2-win32-setup.exe
+  [smuxi-0.9-2-win32-setup.exe]: /download.php?file=smuxi-0.9-2-win32-setup.exe
   [.asc]: /jaws/data/files/smuxi-0.9-2-win32-setup.exe.asc "PGP signature"
