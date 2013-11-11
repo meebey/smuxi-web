@@ -2,7 +2,7 @@
 
 [[!img logos/windows.png link=no alt="Microsoft Windows Logo" class="distrologo"]]
 
-**Download: [smuxi-0.9-1-win32-setup.exe][]** ([.asc][])
+**Download: [smuxi-0.9-2-win32-setup.exe][]** ([.asc][])
 
 Windows XP / Vista / 7 users (32-bit and 64-bit) can download the
 installer (as listed above). The installer automatically downloads the
@@ -10,7 +10,7 @@ needed requirements if missing. If the auto install fails for some
 reason, you can download the components from here.
 
 * [Microsoft .NET Framework 4.0][.NET]
-* [GTK\# 2.12.20 for Microsoft .NET package][GTK#]
+* [GTK\# 2.12.22 for Microsoft .NET package][GTK#]
 
 After you have installed GTK\# 2.12 for .NET manually you **must reboot (or
 re-logon)** your Windows!
@@ -19,6 +19,6 @@ After you have installed both packages, you can start Smuxi from the
 Windows Start Menu.
 
   [.NET]: http://www.microsoft.com/en-us/download/details.aspx?id=17113
-  [GTK#]: /jaws/data/files/gtk-sharp-2.12.20.win32.msi
-  [smuxi-0.9-1-win32-setup.exe]: /download.php?file=smuxi-0.9-1-win32-setup.exe
-  [.asc]: /jaws/data/files/smuxi-0.9-1-win32-setup.exe.asc "PGP signature"
+  [GTK#]: /jaws/data/files/gtk-sharp-2.12.22.msi
+  [smuxi-0.9-1-win32-setup.exe]: /download.php?file=smuxi-0.9-2-win32-setup.exe
+  [.asc]: /jaws/data/files/smuxi-0.9-2-win32-setup.exe.asc "PGP signature"
