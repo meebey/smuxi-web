@@ -2,7 +2,7 @@
 
 [[!img logos/osx.png link=no alt="Mac OS X" class="distrologo"]]
 
-**Download: [smuxi-0.9-1-osx.zip]** ([.asc][])
+**Download: [smuxi-0.10-2-osx.zip]** ([.asc][])
 
 Mac OS X users can download this experimental package. You have to download and
 install first the Mono runtime though:
@@ -15,5 +15,5 @@ install first the Mono runtime though:
 
   [Mono X86]: /jaws/data/files/MonoFramework-MRE-2.10.8.1_2.macos10.xamarin.x86.dmg
   [Mono PowerPC]: http://ftp.novell.com/pub/mono/archive/2.10.2/macos-10-ppc/5.4/MonoFramework-MRE-2.10.2_5.4.macos10.novell.ppc.dmg
-  [smuxi-0.9-1-osx.zip]: /download.php?file=smuxi-0.9-1-osx.zip
-  [.asc]: /jaws/data/files/smuxi-0.9-1-osx.zip.asc "PGP signature"
+  [smuxi-0.10-2-osx.zip]: /download.php?file=smuxi-0.10-2-osx.zip
+  [.asc]: /jaws/data/files/smuxi-0.10-2-osx.zip.asc "PGP signature"
