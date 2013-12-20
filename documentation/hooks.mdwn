@@ -29,7 +29,7 @@ variables.
  * CMD
  * CMD_PARAMETER
 
-## Hooks ##
+## Hook Points ##
 
 ### engine/protocol-manager/on-connected ###
 
