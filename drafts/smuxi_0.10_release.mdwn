@@ -1,98 +1,178 @@
-[[!meta title="""Smuxi 0.10 with XXX, YYY, ZZZ"""]]
+[[!meta title="""Smuxi 0.10 with new navigation, scripting support and enhanced Twitter"""]]
 
 And here we go again! We're proud to announce the new version of Smuxi, release
-0.10 "***Codename***". During the development, [NN bug reports][bugs] and
-[NN feature requests][features] in [NN commits][commits] were worked on making
-this release a MAJOR_OR_MINOR feature and bugfix release.
+0.10 "***Unexpected***". During the development, [12 bug reports][bugs] and
+[7 feature requests][features] in [259 commits][commits] were worked on making.
 
 Notable highlights in this release are:
 
-### Enhanced User Interface ###
+### GNOME Frontend Enhancements ###
 
- * Changes here
- * More changes here
- * And even more changes here
+ * [Tabs replaced with chat list][282]
+ * manpage for smuix-frontend-gnome (Calvin Buckley)
+ * /window command now cycles through tabs with same name (Oliver Schneider)
+ * The Windows installer was switched to GTK# 2.12.22 which is more stable than
+   the previous used 2.12.20 version.
 
-[[!img screenshots/smuxi-0.9-linux-gnome-main-window.png size="400x"
-       alt="Screenshot of Smuxi 0.9 on GNOME3"
+[[!img screenshots/smuxi-0.10-linux-gnome-main-window.png size="400x"
+       alt="Screenshot of Smuxi 0.10 on GNOME3"
        title="Smuxi on GNOME3"]]
-[[!img screenshots/smuxi-0.9-linux-unity-main-window.png size="400x"
-       alt="Screenshot of Smuxi 0.9 on Ubuntu Unity"
+[[!img screenshots/smuxi-0.10-linux-unity-main-window.png size="400x"
+       alt="Screenshot of Smuxi 0.10 on Ubuntu Unity"
        title="Smuxi on Ubuntu Unity"]]
 
-[[!img screenshots/smuxi-0.9-win7-main-window.png size="400x"
-       alt="Screenshot of Smuxi 0.9 on Windows 7"
+[[!img screenshots/smuxi-0.10-win7-main-window.png size="400x"
+       alt="Screenshot of Smuxi 0.10 on Windows 7"
        title="Smuxi on Windows 7"]]
-[[!img screenshots/smuxi-0.9-osx-main-window.png size="400x"
-       alt="Screenshot of Smuxi 0.9 on Mac OS X"
+[[!img screenshots/smuxi-0.10-osx-main-window.png size="400x"
+       alt="Screenshot of Smuxi 0.10 on Mac OS X"
        title="Smuxi on Mac OS X"]]
 
-[[!img scrVeenshots/smuxi-0.9-linux-stfl-main-window.png size="200x"
+[[!img screenshots/smuxi-0.9-linux-stfl-main-window.png size="200x"
        alt="Screenshot of Smuxi 0.9's text frontend" class="screenshot"]]
 ### Text Frontend Enhancements ###
 
- * Changes here
- * More changes here
- * And even more changes here
+ * Messages no longer sometimes get sent multiple times
+ * Rare crashes with scrolling were fixed
+ * smuxi-frontend-stfl comes now with a manpage (Calvin Buckley)
+
+### Smuxi Hooks / Scripts / Plugins Support ###
+
+After years of waiting we are more than happy to finally announce the added
+scripting support in Smuxi! You are probably thinking right now "so which
+scripting language is it?! C#? VB.NET? JavaScript? Perl? Python? Ruby? or maybe
+even PHP?" and here comes the best part: ALL OF THEM AND MORE!
+
+#### "How is this possible?" ####
+
+It's Magic! No, just kidding. This is pure Unix technology taken from the 70s
+ported to a powerful messaging client. If you are know what [Git hooks][] or
+[Nagios checks/plugins][nagios plugins] are, then you already know what Smuxi
+hooks are, if you don't then continue reading this paragraph. Any executable
+program in a [special location (hook points)][hook points] will be executed when
+a specific event happens, like receiving a message. This program gets all
+information passed as environment variables, like who send the message (SENDER),
+what was the message (MSG), when was it received (MSG\_TIMESTAMP\_UNIX) etc.
+This program is also able to execute Smuxi commands by writing [hook commands][]
+to the standard output.
+
+Currently there are 2 main types of Smuxi hooks:
+
+ * protocol-manager hooks: these are mainly events like message-received/sent
+   that the various protocol managers (IRC, Twitter, XMPP, etc) can raise
+ * command hooks: these are added Smuxi commands running in the frontend, so you
+   can add /some_cool_command to Smuxi
+
+Smuxi hooks are maintained in the [smuxi-hooks git repository][smuxi-hooks.git].
+So if you want to share your written hook simply create a pull request against
+that repository on GitHub, other Smuxi users will be very thankful! Right now
+thre are only 2 proof-of-concept hooks available:
+
+ * [now-playing][]: adds a /np command to Smuxi which shows the currently
+   playing song/video of Banshee using MPRIS2 on D-Bus or YouTube (Chrome only).
+ * [tinyurl-resolver][]: resolves all shortened URLs of t.co, bit.ly, etc to the
+   full URL. This was originally an irssi plugin written in Perl.
+
+#### Installing Hooks ####
+
+"Wow, I am completely amazed, but how can I install hooks?" For now you will
+need to either download the files of the hook into the same location into
+$HOME/.local/share/smuxi/hooks or by cloning the git repository and symlinking
+the files. Here is an example for each method:
+
+##### Download Method #####
+
+    mkdir -p $HOME/.local/share/smuxi/hooks/frontend/command-manager/command-np/
+    cd $HOME/.local/share/smuxi/hooks/frontend/command-manager/command-np/
+    wget https://raw.github.com/meebey/smuxi-hooks/master/now-playing/frontend/command-manager/command-np/now-playing.sh
+    chmod +x now-playing.sh
+
+##### Git Clone Method #####
+
+    cd $HOME
+    git clone https://github.com/meebey/smuxi-hooks.git
+    mkdir -p $HOME/.local/share/smuxi/hooks/frontend/command-manager/command-np/
+    cd $HOME/.local/share/smuxi/hooks/frontend/command-manager/command-np/
+    ln -s $HOME/smuxi-hooks/now-playing/frontend/command-manager/command-np/now-playing.sh
 
 ### IRC Enhancements ###
 
- * Changes here
- * More changes here
- * And even more changes here
+ * [mIRC color reset control codes no longer eat characters][882]
 
-### XMPP (Beta) Enhacenments ###
+### XMPP (Beta) Enhancements ###
 
  * Pretty chat states: you can now see if your chat peer is composing a message
    with a pretty design (Oliver Schneider / George Karavasilev)
+ * Find Group Chats support for chat rooms on own server (Oliver Schneider)
 
+[[!img screenshots/smuxi-0.10-linux-gnome-twitter-menu.png size="200x"
+       alt="Screenshot of Smuxi 0.10's Twitter menu" class="screenshot"]]
 ### Twitter Enhancements ###
 
- * Changes here
- * More changes here
- * And even more changes here
+ * [/retweet command][480]
+ * [/reply command][384]
+ * /search command
+ * /timeline command
+ * /follow and /unfollow command
+ * Twitter context menu
 
 ### JabbR (Beta) Enhancements ###
 
  * Message History: Opening chats will now load and show the previous messages
    from the JabbR server.
+ * Added automatic and manual reconnect support.
+
+### Campfire (Beta) Enhancements ###
+
+  * Fixed an issue that can lead to a DoS behavior when the session becomes
+    invalid. (Carlos Martín Nieto)
 
 ### Updated Translations ###
 
 Smuxi should now be in your language, including:
 
  * Initial complete LANGUAGE (FULL_NAME)
+ * Initial partial Persian (Behrooz Amoozad)
+ * Initial partial Telugu (Praveen Illa)
  * French (Clément Bourgeois)
  * Czech (Ondřej Hošek)
  * Chinese Simp (Dean Lee)
- * Swedish (Jimmie Elvenmark)
+ * Swedish (Martin Bagge)
  * Danish (Joe Hansen)
  * German (Bianca Mix)
+ * Spanish (Matías Bellone)
+
+ * Partial Turkish (Umut Albayrak)
+ * Partial Finnish (Kalle Kaitala)
+ * Partial Portuguese (Brazil) (Leonardo Pires Felix)
 
 ### Behind the Scenes ###
 
- * Changes here
- * More changes here
- * And even more changes here
+ * The #smuxi-devel IRC channel has moved from OFTC to freenode, everyone
+   interested in Smuxi's development is invited to join.
 
 ### Contributors ####
 
 Contributors to this release are the following people:
 
- * Mirco Bauer (193 commits)
- * Oliver Schneider (59 commits)
- * Ondřej Hošek (13 commits, translations)
- * Jason Papakostas (2 commits)
- * Carlos Martín Nieto (1 commit)
- * Andrés G. Aragoneses (1 commit)
- * George Karavasilev (artwork)
+ * ?Mirco Bauer (193 commits)
+ * ?Oliver Schneider (59 commits)
+ * ?Ondřej Hošek (13 commits, translations)
+ * ?Jason Papakostas (2 commits)
+ * ?Carlos Martín Nieto (1 commit)
+ * ?Andrés G. Aragoneses (1 commit)
+ * ?George Karavasilev (artwork)
  * Leonardo Pires Felix (translations)
  * Kalle Kaitala (translations)
  * Joe Hansen (translations)
- * Jimmie Elvenmark (translations)
+ * Martin Bagge (translations)
  * Dean Lee (translations)
  * Clément Bourgeois (translations)
  * Bianca Mix (translations)
+ * Matías Bellone (translations)
+ * Umut Albayrak (translations)
+ * Behrooz Amoozad (translations)
+ * Praveen Illa (translations)
 
 Thank you very much for your contributions to Smuxi!
 
@@ -102,6 +182,17 @@ Want this? Go [here][download page] and grab it right now!
   [roadmap]: /versions/show/16
   [bugs]: /projects/smuxi/issues?fixed_version_id=16&set_filter=1&tracker_id=1&status_id=c
   [features]: /projects/smuxi/issues?fixed_version_id=16&set_filter=1&tracker_id=2&status_id=c
-  [commits]: https://github.com/meebey/smuxi/compare/0.9...HEAD
+  [commits]: https://github.com/meebey/smuxi/compare/0.9...0.10
+  [git hooks]: https://www.kernel.org/pub/software/scm/git/docs/githooks.html
+  [nagios plugins]: http://www.nagios.org/projects/nagiosplugins
+  [hook points]: https://smuxi.im/documentation/hooks/#hookpoints
+  [hook variables]: https://smuxi.im/documentation/hooks/#environmentvariables
+  [hook commands]: https://smuxi.im/documentation/hooks/#hookcommands
+  [smuxi-hooks.git]: https://github.com/meebey/smuxi-hooks
+  [now-playing]: https://github.com/meebey/smuxi-hooks/tree/master/now-playing
+  [tinyurl-resolver]: https://github.com/meebey/smuxi-hooks/tree/master/tinyurl-resolver
   [NNN]: /issues/show/NNN "#NNN: TITLE"
-
+  [292]: /issues/show/292 "#292: treeview server/channel list"
+  [384]: /issues/show/384 "#384: Replying to Tweets"
+  [480]: /issues/show/480 "#480: Proper retweets"
+  [882]: /issues/show/882 "#882: smuxi color parser incorrect"
