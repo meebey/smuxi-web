@@ -21,6 +21,7 @@ variables.
  * MSG_TIMESTAMP_ISO_LOCAL
  * SENDER
  * RECEIVER
+ * TODO: PROTOCOL_MANAGER_TYPE
  * PROTOCOL_MANAGER_PROTOCOL
  * PROTOCOL_MANAGER_NETWORK
  * PROTOCOL_MANAGER_HOST
@@ -43,6 +44,32 @@ variables.
 
 ## Hook Commands ##
 
-### Session.Command ###
+### Session.Command $cmd $cmd_params... ###
 
-### ProtocolManager.Command ####
+Supported session commands can be found [here][session commands].
+
+Example:
+
+    echo "Session.Command /echo I am a hook!"
+
+### ProtocolManager.Command $cmd $cmd\_params... ####
+
+Supported protocol manager commands fully depends on the protocol manager
+implementation/type, thus you need to check the PROTOCOL_MANAGER_PROTOCOL
+environment variable first! Here you can find a list for [IRC][irc commands],
+[Twitter][twitter commands], [XMPP][xmpp commands], [JabbR][jabbr commands] and
+[Campfire][campfire commands].
+
+Example:
+
+    if [ "$SMUXI_PROTOCOL_MANAGER_PROTOCOL" = "IRC" ]; then
+        echo "ProtocolManager.Command /topic This is the new topic"
+    fi
+
+
+  [session commands]: https://github.com/meebey/smuxi/blob/master/src/Engine/Session.cs#L411 "Session.Command() method on GitHub"
+  [irc commands]: https://github.com/meebey/smuxi/blob/master/src/Engine-IRC/Protocols/Irc/IrcProtocolManager.cs#L721 "IrcProtocolManager.Command() method on GitHub"
+  [twitter commands]: https://github.com/meebey/smuxi/blob/master/src/Engine-Twitter/Protocols/Twitter/TwitterProtocolManager.cs#L628 "TwitterProtocolManager.Command() method on GitHub"
+  [xmpp commands]: https://github.com/meebey/smuxi/blob/master/src/Engine-XMPP/Protocols/Xmpp/XmppProtocolManager.cs#L672 "XmppProtocolManager.Command() method on GitHub"
+  [jabbr commands]: https://github.com/meebey/smuxi/blob/master/src/Engine-JabbR/JabbrProtocolManager.cs#L77 "JabbrProtocolManager.Command() method on GitHub"
+  [campfire commands]: https://github.com/meebey/smuxi/blob/master/src/Engine-Campfire/Protocols/Campfire/CampfireProtocolManager.cs#L280 "CampfireProtocolManager.Command() method on GitHub"
