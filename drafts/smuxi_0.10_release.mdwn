@@ -8,7 +8,9 @@ Notable highlights in this release are:
 
 ### GNOME Frontend Enhancements ###
 
- * [Tabs replaced with chat list][282]
+ * [Tabs replaced with chat list][282]. The list is grouped by server and sorted
+   alphabetically. Private (person to person) chats are sorted after public
+   (group) chats.
  * manpage for smuix-frontend-gnome (Calvin Buckley)
  * /window command now cycles through tabs with same name (Oliver Schneider)
  * The Windows installer was switched to GTK# 2.12.22 which is more stable than
@@ -41,7 +43,7 @@ Notable highlights in this release are:
 After years of waiting we are more than happy to finally announce the added
 scripting support in Smuxi! You are probably thinking right now "so which
 scripting language is it?! C#? VB.NET? JavaScript? Perl? Python? Ruby? or maybe
-even PHP?" and here comes the best part: ALL OF THEM AND MORE!
+even PHP?" and here comes the best part: **ALL OF THEM AND MORE!**
 
 #### "How is this possible?" ####
 
@@ -104,6 +106,10 @@ the files. Here is an example for each method:
  * Pretty chat states: you can now see if your chat peer is composing a message
    with a pretty design (Oliver Schneider / George Karavasilev)
  * Find Group Chats support for chat rooms on own server (Oliver Schneider)
+ * When "Use Encryption" is enabled, Smuxi will now force SSL/TLS. If that fails
+   it will no longer silently downgrade to unencrypted. If you can suddenly no
+   longer connect, check if "Use Encryption" is correctly configured for that
+   server (as not all XMPP servers support SSL/TLS).
 
 [[!img screenshots/smuxi-0.10-linux-gnome-twitter-menu.png size="200x"
        alt="Screenshot of Smuxi 0.10's Twitter menu" class="screenshot"]]
@@ -150,6 +156,8 @@ Smuxi should now be in your language, including:
 
  * The #smuxi-devel IRC channel has moved from OFTC to freenode, everyone
    interested in Smuxi's development is invited to join.
+ * The C# 4.0 compiler dmcs will now automatically be used and no longer needs
+   an MCS=/usr/bin/dmcs override with the configure script.
 
 ### Contributors ####
 
