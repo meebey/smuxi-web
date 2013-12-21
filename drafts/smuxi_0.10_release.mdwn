@@ -104,7 +104,7 @@ the files. Here is an example for each method:
 
  * [mIRC color reset control codes no longer eat characters][882]
  * Codepage WINDOWS 1251 is now available as encoding needed for Cyrillic
-   support. [GH-81][] [#474][474]
+   support. ([GH-81][], [#474][474])
 
 ### XMPP (Beta) Enhancements ###
 
