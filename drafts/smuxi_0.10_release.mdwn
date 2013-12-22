@@ -2,9 +2,8 @@
 
 And here we go again! We're proud to announce the new version of Smuxi, release
 0.10 "***Unexpected***". During the development, [12 bug reports][bugs] and
-[8 feature requests][features] in [259 commits][commits] were worked on.
-
-Notable highlights in this release are:
+[8 feature requests][features] in [259 commits][commits] were worked on. Notable
+highlights in this release are:
 
 ### GNOME Frontend Enhancements ###
 
