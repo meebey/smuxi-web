@@ -10,7 +10,7 @@ highlights in this release are:
  * [Tabs replaced with chat list][292]. The list is grouped by server and sorted
    alphabetically. Private (person to person) chats are sorted after public
    (group) chats.
- * manpage for smuix-frontend-gnome (Calvin Buckley)
+ * Man pages included for smuix-frontend-gnome (Calvin Buckley)
  * /window command now cycles through tabs with same name (Oliver Schneider)
  * The Windows installer was switched to GTK# 2.12.22 which is more stable than
    the previous used 2.12.20 version.
@@ -36,13 +36,13 @@ highlights in this release are:
 
  * Messages no longer sometimes get sent multiple times
  * Rare crashes with scrolling were fixed
- * smuxi-frontend-stfl comes now with a manpage (Calvin Buckley)
+ * Man pages included for smuxi-frontend-stfl (Calvin Buckley)
 
 ### Smuxi Hooks / Scripts / Plugins Support ###
 
 After years of waiting we are more than happy to finally announce the added
 scripting support in Smuxi! You are probably thinking right now "so which
-scripting language is it?! C#? VB.NET? JavaScript? Perl? Python? Ruby? or maybe
+scripting language is it?! C#? VB.NET? JavaScript? Perl? Python? Ruby? Maybe
 even PHP?" and here comes the best part: **ALL OF THEM AND MORE!** More? What
 else there would be... well, if you really want you can write Smuxi hooks in C,
 C++ or even assembler ;)
@@ -50,15 +50,15 @@ C++ or even assembler ;)
 #### "How is this possible?" ####
 
 It's Magic! No, just kidding. This is pure Unix technology taken from the 70s
-ported to a powerful messaging client. If you are know what [Git hooks][] or
-[Nagios checks/plugins][nagios plugins] are, then you already know what Smuxi
-hooks are, if you don't then continue reading this paragraph. Any executable
-program in a [special location (hook points)][hook points] will be executed when
-a specific event happens, like receiving a message. This program gets all
-information passed as [environment variables][hook variables], like who send the
-message (SENDER), what was the message (MSG), when was it received
-(MSG\_TIMESTAMP\_UNIX) etc.  This program is also able to execute Smuxi commands
-by writing [hook commands][] to the standard output.
+ported to a powerful messaging client. If you are know how [Git hooks][],
+[Nagios checks/plugins][nagios plugins] or CGI scripts work, then you already
+know how Smuxi hooks work, if you don't then continue reading this paragraph.
+Any executable program in a [special location (hook points)][hook points] will
+be executed when a specific event happens, like receiving a message. This
+program gets all information passed as [environment variables][hook variables],
+like who send the message (SENDER), what was the message (MSG), when was it
+received (MSG\_TIMESTAMP\_UNIX) etc.  This program is also able to execute Smuxi
+commands by writing [hook commands][] to the standard output.
 
 Currently there are 2 main types of Smuxi hooks:
 
@@ -149,6 +149,7 @@ the files. Here is an example for each method:
 
   * The server will now cleanly shutdown on SIGINT and SIGTERM signals.
     (Christopher James Halse Rogers)
+  * Man pages included for smuxi-server (Calvin Buckley)
 
 ### Updated Translations ###
 
