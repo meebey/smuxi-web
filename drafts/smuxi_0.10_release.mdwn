@@ -121,7 +121,7 @@ the files. Here is an example for each method:
  * Annoying FeatureNotImplemented messages are no longer visible.
  * Added translations.
 
-[[!img screenshots/smuxi-0.10-linux-gnome-twitter-menu.png size="200x"
+[[!img screenshots/smuxi-0.10-twitter-menu.png size="200x"
        alt="Screenshot of Smuxi 0.10's Twitter menu" class="screenshot"]]
 ### Twitter Enhancements ###
 
