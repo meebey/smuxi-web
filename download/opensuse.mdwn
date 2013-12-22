@@ -2,7 +2,7 @@
 
 [[!img logos/opensuse.jpg link=no alt="openSUSE Logo" class="distrologo"]]
 
-Users of openSUSE 11.3 and later can install Smuxi from the
+Users of openSUSE 12.1 and later can install Smuxi from the
 [official openSUSE repositories][repo].
 
  [repo]: http://software.opensuse.org/package/smuxi
