@@ -41,7 +41,7 @@ Notable highlights in this release are:
  * More changes here
  * And even more changes here
 
-### XMPP (Beta) Enhacenments ###
+### XMPP (Beta) Enhancements ###
 
  * Changes here
  * More changes here
