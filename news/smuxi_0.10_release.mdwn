@@ -10,7 +10,7 @@ highlights in this release are:
  * [Tabs replaced with chat list][292]. The list is grouped by server and sorted
    alphabetically. Private (person to person) chats are sorted after public
    (group) chats.
- * Man pages included for smuix-frontend-gnome (Calvin Buckley)
+ * Man pages included for smuxi-frontend-gnome (Calvin Buckley)
  * /window command now cycles through tabs with same name (Oliver Schneider)
  * The Windows installer was switched to GTK# 2.12.22 which is more stable than
    the previous used 2.12.20 version.
