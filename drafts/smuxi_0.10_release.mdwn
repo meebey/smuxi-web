@@ -226,6 +226,7 @@ Want this? Go right [here][download page], right now!
   [smuxi-hooks.git]: https://github.com/meebey/smuxi-hooks
   [now-playing]: https://github.com/meebey/smuxi-hooks/tree/master/now-playing
   [tinyurl-resolver]: https://github.com/meebey/smuxi-hooks/tree/master/tinyurl-resolver
+  [github repo]: https://github.com/meebey
   [gnome repo]: https://git.gnome.org/browse/smuxi
   [HACKING]: https://github.com/meebey/smuxi/blob/master/HACKING
   [NNN]: /issues/show/NNN "#NNN: TITLE"
