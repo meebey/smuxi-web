@@ -156,6 +156,7 @@ the files. Here is an example for each method:
 ### Updated Translations ###
 
 Smuxi should now be in your language, including:
+
  * Initial partial Persian (Behrooz Amoozad)
  * Initial partial Telugu (Praveen Illa)
  * French (Clément Bourgeois)
