@@ -168,7 +168,7 @@ Smuxi should now be in your language, including:
  * German (Bianca Mix)
  * Spanish (Matías Bellone)
 
- 
+&nbsp; 
 
  * Partial Turkish (Umut Albayrak)
  * Partial Finnish (Kalle Kaitala)
