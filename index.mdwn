@@ -8,16 +8,16 @@
 [[!img screenshots/smuxi-0.10-linux-unity-main-window.png size="250x"
        alt="Screenshot of Smuxi on Ubuntu Unity"
        title="Smuxi on Ubuntu Unity"]]
-[[!img screenshots/smuxi-0.10-win7-main-window.png size="250x"
-       alt="Screenshot of Smuxi on Windows 7"
-       title="Smuxi on Windows 7"]]
+[[!img screenshots/smuxi-0.10-osx-main-window.png size="250x"
+       alt="Screenshot of Smuxi on Mac OS X"
+       title="Smuxi on Mac OS X"]]
 
 [[!img screenshots/smuxi-0.10-win8-main-window.png size="250x"
        alt="Screenshot of Smuxi on Windows 8"
        title="Smuxi on Windows 8"]]
-[[!img screenshots/smuxi-0.10-osx-main-window.png size="250x"
-       alt="Screenshot of Smuxi on Mac OS X"
-       title="Smuxi on Mac OS X"]]
+[[!img screenshots/smuxi-0.10-win7-main-window.png size="250x"
+       alt="Screenshot of Smuxi on Windows 7"
+       title="Smuxi on Windows 7"]]
 [[!img screenshots/smuxi-0.9-linux-stfl-main-window.png size="250x"
        alt="Screenshot of Smuxi's text frontend"
        title="Smuxi's Text Frontend on Linux"]]
