@@ -1,0 +1,11 @@
+[[!meta title="""Smuxi 0.10 "Unexpected" Release"""]]
+
+Smuxi 0.10 with new navigation, language agnostic scripting support, and
+enhanced Twitter and XMPP is available. Packages are available for Windows, Mac
+OS X, Debian (Sid) and Ubuntu (Lucid, Precise, Quantal, Raring and Saucy).  Here
+you can read the [full release announcement][1]. For users running a development
+build of Smuxi it is recommended to simply upgrade to the newest
+[development build][2].
+
+  [1]: https://www.smuxi.org/blog/show/Smuxi_010_Release
+  [2]: https://smuxi.im/documentation/running-from-git/
