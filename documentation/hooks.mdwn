@@ -29,6 +29,7 @@ variables.
  * PROTOCOL_MANAGER_ME_ID
  * CMD
  * CMD_PARAMETER
+ * FRONTEND_VERSION (command-manager only)
 
 ## Hook Points ##
 
