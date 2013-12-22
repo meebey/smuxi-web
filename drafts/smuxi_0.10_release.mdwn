@@ -121,10 +121,10 @@ the files. Here is an example for each method:
  * Annoying FeatureNotImplemented messages are no longer visible.
  * Added translations.
 
-[[!img screenshots/smuxi-0.10-twitter-menu.png size="120x"
-       alt="Screenshot of Smuxi 0.10's Twitter menu" class="screenshot"]]
 ### Twitter Enhancements ###
 
+[[!img screenshots/smuxi-0.10-twitter-menu.png size="120x" link=no
+       alt="Screenshot of Smuxi 0.10's Twitter menu" class="screenshot"]]
  * [/retweet command][480] and [/reply command][384]. Both commands need a
    short id as parameter so Smuxi knows which tweet you want to retweet or reply
    to. The short ids are shown in brackets like _\[42\]_ before each tweet.
@@ -167,6 +167,7 @@ Smuxi should now be in your language, including:
  * German (Bianca Mix)
  * Spanish (Matías Bellone)
 
+ 
 
  * Partial Turkish (Umut Albayrak)
  * Partial Finnish (Kalle Kaitala)
