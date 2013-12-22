@@ -50,11 +50,11 @@ pacman, using the following commands:
     su -c "pacman -U smuxi-git-*.tar.xz"
 
 To follow other branches (like stable) append the source line in the PKGBUILD
-with #branch=<branchname> e.g.:
+with #branch=&lt;branchname&gt; e.g.:
 
     source=('git://github.com/meebey/smuxi#branch=stable')
 
-To checkout a specific commit append #commit=<commit-id>
+To checkout a specific commit append #commit=&lt;commit-id&gt;
 
 ### Windows ###
 On Windows you can simply to download and install the newest development
