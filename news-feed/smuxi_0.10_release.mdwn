@@ -1,4 +1,5 @@
 [[!meta title="""Smuxi 0.10 "Unexpected" Release"""]]
+[[!tag planet-feed]]
 
 Smuxi 0.10 with new navigation, language agnostic scripting support, and
 enhanced Twitter and XMPP is available. Packages are available for Windows, Mac
