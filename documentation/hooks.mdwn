@@ -31,6 +31,15 @@ variables.
  * CMD_PARAMETER
  * FRONTEND_VERSION (command-manager only)
 
+## Hook State ##
+
+Hooks are executed when the event occurs and have to exit so further processing
+can be done. If hooks need to retain state they can write their state to files
+of the current directory ($PWD). Each hook has its own state directory and can
+be found in $HOME/.local/share/smuxi/hook-state/$HOOK\_PATH. The hook does
+*not* need to change to or create the state directory, as the hook runner will
+do this for the hook, guaranteed.
+
 ## Hook Points ##
 
 ### engine/protocol-manager/on-connected ###
