@@ -50,15 +50,15 @@ C++ or even assembler ;)
 #### "How is this possible?" ####
 
 It's Magic! No, just kidding. This is pure Unix technology taken from the 70s
-ported to a powerful messaging client. If you are know how [Git hooks][],
-[Nagios checks/plugins][nagios plugins] or CGI scripts work, then you already
-know how Smuxi hooks work, if you don't then continue reading this paragraph.
-Any executable program in a [special location (hook points)][hook points] will
-be executed when a specific event happens, like receiving a message. This
-program gets all information passed as [environment variables][hook variables],
-like who send the message (SENDER), what was the message (MSG), when was it
-received (MSG\_TIMESTAMP\_UNIX) etc.  This program is also able to execute Smuxi
-commands by writing [hook commands][] to the standard output.
+ported to a powerful messaging client. If you know what [Git hooks][], [Nagios
+checks/plugins][nagios plugins] or CGI scripts are, then you already know what
+Smuxi hooks are, if you don't then continue reading this paragraph.  Any
+executable program in a [special location (hook points)][hook points] will be
+executed when a specific event happens, like receiving a message. This program
+gets all information passed as [environment variables][hook variables], like who
+send the message (SENDER), what was the message (MSG), when was it received
+(MSG\_TIMESTAMP\_UNIX) etc.  This program is also able to execute Smuxi commands
+by writing [hook commands][] to the standard output.
 
 Currently there are 2 main types of Smuxi hooks:
 
