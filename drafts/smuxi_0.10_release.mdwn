@@ -167,9 +167,6 @@ Smuxi should now be in your language, including:
  * Danish (Joe Hansen)
  * German (Bianca Mix)
  * Spanish (Matías Bellone)
-
-&nbsp; 
-
  * Partial Turkish (Umut Albayrak)
  * Partial Finnish (Kalle Kaitala)
  * Partial Portuguese (Brazil) (Leonardo Pires Felix)
