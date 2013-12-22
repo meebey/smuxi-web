@@ -225,7 +225,7 @@ Want this? Go right [here][download page], right now!
   [github repo]: https://github.com/meebey
   [gnome repo]: https://git.gnome.org/browse/smuxi
   [HACKING]: https://github.com/meebey/smuxi/blob/master/HACKING
-  [twitter menu]: /screenshots/smuxi-0.10-twitter-menu.png "Screenshot of Smuxi 0.10's Twitter menu""
+  [twitter menu]: /screenshots/smuxi-0.10-twitter-menu.png "Screenshot of Smuxi 0.10's Twitter menu"
   [NNN]: /issues/show/NNN "#NNN: TITLE"
   [292]: /issues/show/292 "#292: treeview server/channel list"
   [384]: /issues/show/384 "#384: Replying to Tweets"
