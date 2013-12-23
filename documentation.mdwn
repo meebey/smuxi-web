@@ -1,7 +1,10 @@
 [[!meta title="Documentation"]]
 
-* [[Running from git]]
+Documentation
+=============
+
+* [[Running from git|running-from-git]]
 * [[Hooks]] (scripting / plugins)
 * [[Debugging]] (scripting / plugins)
 * [[Terms]]
-* [[Screenshot Policy]]
+* [[Screenshot Policy|screenshot-policy]]
