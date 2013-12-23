@@ -3,8 +3,13 @@
 Documentation
 =============
 
-* [[Running from git|running-from-git]]
-* [[Hooks]] (scripting / plugins)
-* [[Debugging]] (scripting / plugins)
+## Using Smuxi ##
+
 * [[Terms]]
+* [[Running from git|running-from-git]]
+
+## Developing Smuxi ##
+
+* [[Hooks]] (scripting / plugins)
+* [[Debugging]]
 * [[Screenshot Policy|screenshot-policy]]
