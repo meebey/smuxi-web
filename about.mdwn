@@ -21,7 +21,7 @@ behaves.
 ## Technology ##
 
 Smuxi is powered by C# and Mono. The libraries used include SmartIrc4net,
-Newtonsoft.Json, ServiceStack, Twitterizer, Jabber-Net, STFL, GTK#, and many
+Newtonsoft.Json, ServiceStack, Twitterizer, agsXMPP, STFL, GTK#, and many
 more.
 
   [meebey]: https://www.meebey.net/
