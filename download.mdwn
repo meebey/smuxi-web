@@ -6,7 +6,7 @@
 </script>
 
 ## Release Notes
-**[Smuxi 0.9 Release Notes][]**
+**[Smuxi 0.10 Release Notes][]**
 
 ## Binary Packages
 <div id="distro-selector" style="overflow: hidden; display: block;">
@@ -132,7 +132,7 @@ fb_param.currency = 'USD';
   <img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/offsite_event.php?id=6010411638083&amp;value=0&amp;currency=USD" />
 </noscript>
 
-  [Smuxi 0.9 Release Notes]: /news/smuxi_0.9_release/
+  [Smuxi 0.10 Release Notes]: /news/smuxi_0.10_release/
   [log4net]: http://logging.apache.org/log4net/
   [Nini]: http://nini.sourceforge.net/
   [smuxi-0.10.tar.gz]: /download.php?file=smuxi-0.10.tar.gz
