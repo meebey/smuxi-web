@@ -27,8 +27,8 @@ variables.
  * PROTOCOL_MANAGER_HOST
  * PROTOCOL_MANAGER_PORT
  * PROTOCOL_MANAGER_ME_ID
- * CMD
- * CMD_PARAMETER
+ * CMD (command-manager only)
+ * CMD_PARAMETER (command-manager only)
  * FRONTEND_VERSION (command-manager only)
 
 ## Hook State ##
