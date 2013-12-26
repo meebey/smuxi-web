@@ -3,7 +3,9 @@
 ## Location ##
 
  * Linux: $HOME/.local/share/smuxi/hooks
- * Windows: 
+ * Windows:
+   * Vista/7/8: %LOCALAPPDATA%\smuxi\hooks
+   * XP: %USERPROFILE%\Local Settings\Application Data\smuxi\hooks
  * Mac OS X: 
 
 ## Environment Variables ##
