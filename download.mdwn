@@ -2,7 +2,7 @@
 
 <script type="text/javascript" src="selector.js"></script>
 <script>
-    setDistros('opensuse debian ubuntu gentoo archlinux foresight rasypberrypi linux freebsd windows osx');
+    setDistros('opensuse debian ubuntu gentoo archlinux foresight raspberrypi linux freebsd windows osx');
 </script>
 
 ## Release Notes
