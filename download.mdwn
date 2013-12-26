@@ -2,7 +2,7 @@
 
 <script type="text/javascript" src="selector.js"></script>
 <script>
-    setDistros('opensuse debian ubuntu gentoo archlinux foresight linux freebsd windows osx');
+    setDistros('opensuse debian ubuntu gentoo archlinux foresight rasypberrypi linux freebsd windows osx');
 </script>
 
 ## Release Notes
@@ -87,7 +87,7 @@
     [[!inline pages="download/foresight" feeds=no]]
 """]]
 
-[[!toggleable  id="download-raspberry-stable" text="""
+[[!toggleable  id="download-raspberrypi-stable" text="""
     [[!inline pages="download/raspberry-pi" feeds=no]]
 """]]
 
