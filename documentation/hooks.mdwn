@@ -8,7 +8,7 @@
 
 ## Environment Variables ##
 
-All variables are prefixed with SMUXI\_ to prevent clash with other environtment
+All variables are prefixed with SMUXI\_ to prevent clash with other environment
 variables.
 
  * CHAT_ID
