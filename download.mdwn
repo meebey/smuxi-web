@@ -39,6 +39,10 @@
   <img src="/logos/foresight_small.png" />
   Foresight
 </div>
+<div onclick="selectDistro('raspberrypi')" id="button-raspberrypi" class="button button-select">
+  <img src="/logos/raspberry-pi_small.jpg" />
+  Raspberry Pi
+</div>
 <div onclick="selectDistro('linux')" id="button-linux" class="button button-select">
   <img src="/logos/linux_small.jpg" />
   GNU/Linux
@@ -81,6 +85,10 @@
 
 [[!toggleable  id="download-foresight-stable" text="""
     [[!inline pages="download/foresight" feeds=no]]
+"""]]
+
+[[!toggleable  id="download-raspberry-stable" text="""
+    [[!inline pages="download/raspberry-pi" feeds=no]]
 """]]
 
 [[!toggleable  id="download-linux-stable" text="""

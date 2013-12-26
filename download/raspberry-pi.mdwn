@@ -1,0 +1,17 @@
+[[!meta robots="noindex, nofollow"]]
+
+[[!img logos/raspberry-pi.png link=no alt="Raspberry Pi Logo" class="distrologo"]]
+
+Raspberry Pi users running Raspbian can install Smuxi from this [release PPA],
+just run the following commands:
+
+    sudo sudo -s bash -c 'echo "deb http://ppa.launchpad.net/meebey/ppa/ubuntu precise main" >> /etc/apt/sources.list'
+    gpg --keyserver keyserver.ubuntu.com --recv-keys FC6D77D5
+    gpg --export --armor FC6D77D5 | sudo apt-key add -
+    sudo apt-get update
+    sudo apt-get install smuxi-engine
+
+Now you can start the smuxi-server from a shell, for more details see the [server how to].
+
+  [release PPA]: https://launchpad.net/~meebey/+archive/ppa
+  [server how to]: https://www.smuxi.org/page/ServerHowTo
