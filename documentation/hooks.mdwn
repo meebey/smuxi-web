@@ -118,6 +118,12 @@ do this for the hook, guaranteed.
 
 ### engine/protocol-manager/on-message-received ###
 
+### engine/session/on-group-chat-person-added ###
+
+### engine/session/on-group-chat-person-removed ###
+
+### engine/session/on-group-chat-person-updated ###
+
 ### frontend/command-manager/command-$cmd ###
 
 ## Hook Commands ##
