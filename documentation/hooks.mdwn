@@ -92,7 +92,7 @@ variables.
  * PROTOCOL_MANAGER_HOST
  * PROTOCOL_MANAGER_PORT
  * PROTOCOL_MANAGER_ME_ID
- * PROTOCOL_MANAGER_PRESENCE_STATUS (>= 0.11)
+ * PROTOCOL_MANAGER_PRESENCE_STATUS: Unknown, Offline, Online, Away (>= 0.11)
  * CMD (command-manager only, >= 0.10.1)
  * CMD_PARAMETER (command-manager only, >= 0.10.1)
  * CMD_CHARACTER (command-manager only, >= 0.10.1)
