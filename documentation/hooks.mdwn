@@ -96,6 +96,7 @@ variables.
  * CMD_PARAMETER (command-manager only, >= 0.10.1)
  * CMD_CHARACTER (command-manager only, >= 0.10.1)
  * FRONTEND_VERSION (command-manager only)
+ * ENGINE_VERSION (protocol-manager only)
 
 ## Hook State ##
 
