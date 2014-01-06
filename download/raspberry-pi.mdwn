@@ -5,7 +5,7 @@
 Raspberry Pi users running Raspbian can install Smuxi from this [release PPA],
 just run the following commands:
 
-    sudo sudo -s bash -c 'echo "deb http://ppa.launchpad.net/meebey/ppa/ubuntu precise main" >> /etc/apt/sources.list'
+    sudo -s bash -c 'echo "deb http://ppa.launchpad.net/meebey/ppa/ubuntu precise main" >> /etc/apt/sources.list'
     gpg --keyserver keyserver.ubuntu.com --recv-keys FC6D77D5
     gpg --export --armor FC6D77D5 | sudo apt-key add -
     sudo apt-get update
