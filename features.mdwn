@@ -20,8 +20,8 @@
   * Quick Connect Dialog (simply connect to any server)
   * [Join Bar][] (easily connect/join to servers/chats)
   * Find Group Chat Dialog
-  * Sorted and Reoderable Tabs
-  * Favicons for Server Tabs
+  * Alphabetically sorted chats grouped by network
+  * Favicons for Server chats
   * Colors are checked and adjusted for optimium contrast
   * Clickable URLs
   * Word Wrapping
@@ -68,10 +68,12 @@
 #### Twitter Features
   * OAuth authentication
   * Twitter v1.1 API
-  * Reading and Posting Tweets
-  * Friends Timeline
-  * Replies
-  * Direct Messages
+  * Reading and posting tweets
+  * Searching, retweeting and replying to tweets (since 0.10)
+  * Reading timelines of other users (since 0.10)
+  * Home Timeline view
+  * Replies view
+  * Direct Messages view
   * Highlight support
 
 #### XMPP Features
@@ -79,7 +81,8 @@
     /contact command
   * Configurable priorities
   * Highlight support
-  * Showing chat states (0.10-dev)
+  * Showing chat states (since 0.10)
+  * Show chat roots on own server (since 0.10)
 
 #### Campfire Features
   * Automatically opens active rooms on connect
@@ -87,6 +90,7 @@
 
 #### SignalR JabbR Features
   * Automatically opens active rooms on connect
+  * Message History (since 0.10)
   * List and search of available rooms using the Find Group Chat dialog
   * Sending/receiving public and private messages
 
@@ -96,22 +100,34 @@
   * [On Connect Commands][] (when connecting to a server)
   * Logging Support
   * [Fully customizable filters][Filters] (to ignore messages or events)
+  * [[Smuxi Hooks|/documentation/hooks]] / Scripting / Plugin Support
+    * All programming and scripting languages supported
 
 #### Localization
-  * Translations
-    * British English
-    * Czech
+  * [Translations][]
+    * British English (partial)
     * Catalan (partial)
+    * Chinese Simp
+    * Croatian (partial)
+    * Czech
     * Danish
+    * Dutch
     * Finnish (partial)
     * French
     * German
-    * Italian
+    * Italian (partial)
+    * Persian (partial)
+    * Polish (partial)
     * Portuguese
-    * Spanish (partial)
-    * Swedish 
-
-#### Planned features for the next release
+    * Portuguese Brazil (partial)
+    * Russian (partial)
+    * Slovak (partial)
+    * Spanish
+    * Spanish Argentina (partial)
+    * Swedish
+    * Telugu (partial)
+    * Turkish (partial)
+    * Urdu (partial)
 
 [^gtalk fn]: Google Talk support is in early stage of development
 
@@ -133,3 +149,4 @@
   [Google Talk]: /screencasts/gtalk/
   [Facebook Chat]: /screencasts/facebook-chat/
   [Jabber]: /screencasts/jabber/
+  [Translations]: https://www.transifex.com/projects/p/smuxi/
