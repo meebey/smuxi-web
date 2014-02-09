@@ -40,6 +40,7 @@
 
 #### Connectivity Features
   * Multiple Server Support (you can connect to more than one server)
+  * [NetworkManager][] Support (automatically reconnects to servers on laptop resume)
   * HTTP / SOCKS Proxy Support
   * SSL Support (with optional certificate validation)
   * IPv6 Support
@@ -144,6 +145,7 @@
   [Channel List / Search]: http://www.smuxi.org/ezfaq/show/smuxi?faq_id=27
   [On Connect Commands]: http://www.smuxi.org/ezfaq/show/smuxi?faq_id=26
   [Filters]: http://www.smuxi.org/ezfaq/show/smuxi?faq_id=13
+  [NetworkManager]: https://wiki.gnome.org/Projects/NetworkManager
   [Join Bar]: /screencasts/quick-join/
   [Twitter]: /screencasts/twitter/
   [Google Talk]: /screencasts/gtalk/
