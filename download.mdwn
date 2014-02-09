@@ -1,4 +1,4 @@
-[[!meta title="Smuxi: Download"]]
+[[!meta title="Download - Smuxi"]]
 
 <script type="text/javascript" src="selector.js"></script>
 <script>

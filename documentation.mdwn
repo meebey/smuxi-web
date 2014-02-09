@@ -1,4 +1,4 @@
-[[!meta title="Smuxi: Documentation"]]
+[[!meta title="Documentation - Smuxi"]]
 
 Documentation
 =============

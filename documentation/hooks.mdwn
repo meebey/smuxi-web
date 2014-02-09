@@ -1,4 +1,4 @@
-[[!meta title="Smuxi: Hooks"]]
+[[!meta title="Hooks - Smuxi"]]
 
 # Smuxi Hooks / Scripts / Plugins ##
 
