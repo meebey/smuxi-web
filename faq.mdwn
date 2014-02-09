@@ -1,4 +1,4 @@
-[[!meta title="FAQ"]]
+[[!meta title="Smuxi: FAQ"]]
 
 Frequently Asked Questions
 ==========================

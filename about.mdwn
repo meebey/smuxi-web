@@ -1,4 +1,4 @@
-[[!meta title="About"]]
+[[!meta title="Smuxi: About"]]
 
 # About #
 

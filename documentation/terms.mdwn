@@ -1,4 +1,4 @@
-[[!meta title="Terms"]]
+[[!meta title="Smuxi: List of Used Terms"]]
 
 Terms used in Smuxi
 ===================
