@@ -1,4 +1,4 @@
-[[!meta title="Debugging Smuxi"]]
+[[!meta title="Debugging - Smuxi"]]
 [[!sidebar content="""
 ## Contents ##
 [[!toc startlevel=2 levels=2]]

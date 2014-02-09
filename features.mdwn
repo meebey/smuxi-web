@@ -1,4 +1,4 @@
-[[!meta title="Smuxi: Features"]]
+[[!meta title="Features - Smuxi"]]
 
 # Features #
 
