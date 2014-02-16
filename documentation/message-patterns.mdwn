@@ -6,7 +6,7 @@
 
 Everybody knows text can be boring because it is all just text. Nothing can
 sidetrack you except reading that bare text. Text often have recurring patterns
-that could be used as information to create something useful from and it make
+that could be used as information to create something useful from it and make
 the text more interactive. For example someone writes:
 
     Hey meebey, do you know RFC2812?
@@ -39,7 +39,7 @@ By default Smuxi comes with built-in message patterns for:
     GNOME, KDE, Xfce, Debian, Redhat, Novell, Xamarin, openSUSE, Mozilla, Samba,
     SourceForge, CPAN, boost, Claws and Smuxi)
 
-If you now more general patterns useful for others, please [report][]!
+If you know more general patterns useful for others, please [report][]!
 
   [report]: /issues/new
 
