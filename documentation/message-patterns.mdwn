@@ -4,6 +4,9 @@
 
 ## Intro ##
 
+**TL;DR**: check the bug tracker example [here][#examples]. In case you don't
+grok the example, continue reading the intro.
+
 Everybody knows text can be boring because it is all just text. Nothing can
 sidetrack you except reading that bare text. Text often have recurring patterns
 that could be used as information to create something useful from it and make
