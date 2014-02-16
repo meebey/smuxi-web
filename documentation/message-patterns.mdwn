@@ -1,0 +1,118 @@
+[[!meta title="Message Patterns - Smuxi"]]
+
+# Smuxi Message Patterns #
+
+## Intro ##
+
+Everybody knows text can be boring because it is all just text. Nothing can
+sidetrack you except reading that bare text. Text often have recurring patterns
+that could be used as information to create something useful from and it make
+the text more interactive. For example someone writes:
+
+    Hey meebey, do you know RFC2812?
+
+RFCs are a recurring pattern with a distinct number behind it and are real
+references to something in the internet (collection of protocol specifictions).
+
+So usually I would now fire up a browser tab, copy/paste or typing RFC2812 into
+my favorite search engine and click the first hit and then reply to that
+question. But with Smuxi's message patterns it turns RFC2812 into a link for
+you which you can simple click and it point you to the right document on the
+right website.
+
+Wow this is very cool, but isn't this already happening with http URLs and email
+addresses? Exactly! Why shouldn't more information be used to create useful
+things from it? Smuxi message patterns allow you to define text patterns that
+are transformed into clickable links. This can be used for RFCs, CVEs, bug
+report numbers (#XXX), git commit hashes and much more, make good use of your
+creativity.
+
+By default Smuxi comes with built-in message patterns for:
+
+  * URLs
+  * heuristic URLs (not starting with http:// etc)
+  * email addresses
+  * RFCs
+  * CVEs
+  * Debian Security Advisories (DSA)
+  * Many popular bug trackers (GNU, GCC, kernel, Launchpad, freedesktop,
+    GNOME, KDE, Xfce, Debian, Redhat, Novell, Xamarin, openSUSE, Mozilla, Samba,
+    SourceForge, CPAN, boost, Claws and Smuxi)
+
+If you now more general patterns useful for others, please [report][]!
+
+  [report]: /issues/new
+
+## Define a Message Pattern ##
+
+As message patterns are an advanced feature of Smuxi they are only exposed using
+the the internal settings interface, which is the /config command.
+
+First you need to create/assign a new ID for your pattern, you can search for
+existing IDs using this command:
+
+    /config get MessagePatterns
+
+Now pick an unused number from that output. The pattern ID is the number after
+*MessagePatterns/*.
+
+Decide which pattern you want to match for. This has to be a valid regex
+(regular expression). If you do not know what a regex is, you will have to ask
+someone or learn regex. [This][regexpal] a useful website to create and test
+your regex before you add it to Smuxi. Now you can add that regex with the free
+ID obtained from above like this:
+
+    /config set MessagePatterns/0/MessagePartPattern=#([0-9]+)
+
+0 is the free ID, which is the first one you can see when there are no patterns
+yet.
+
+MessagePartPattern is your regex: #([0-9]+) which will match text of any number
+with any length that start with a #. This is typically used for bug report
+numbers.
+
+Next we need to tell what do we want to do with that matched text, typically we
+want to convert it into a link thus we set:
+
+    /config set MessagePatterns/0/MessagePartType=url
+
+**Important**: you _have_ to use _0_ as ID here again, because MessagePartType
+is a parameter for the same message pattern as above!
+
+So we told it to match #([0-9]+) and convert that into a link, but to where?
+This is done using LinkFormat like this:
+
+    /config set MessagePatterns/1/LinkFormat=https://www.smuxi.org/issues/show/{1}
+
+Any valid URI would work in LinkFormat, but you need to pass the captured value
+from the regex, which is the number in this case (0-9 after the #). {0} is the
+matched text, {1} the captured value inside the ()s.
+
+Now you should be able to send or receive a message containing #1234 for example
+and it should convert into a link for you. To make this change _persistent_ you
+*must* save it using this command:
+
+    /config save
+
+If you restart Smuxi now it will still remember your added pattern. Have fun!
+
+  [regexpal]: http://regexpal.com/
+
+## Examples ##
+
+### Bug Report / Ticket Numbers ###
+
+To turn #XXXX into a link for yor favorite bug tracker you could do that like
+this:
+
+    /config set MessagePatterns/0/MessagePartPattern=#([0-9]+)
+    /config set MessagePatterns/0/MessagePartType=url
+    /config set MessagePatterns/0/LinkFormat=https://www.smuxi.org/issues/show/{1}
+    /config save
+
+### Examples in Smuxi ###
+
+You can find many examples in Smuxi's source code [here][].
+
+  [here]: https://github.com/meebey/smuxi/blob/d48c9bcdeb06868d883e177738db64d4ceb6726d/src/Engine/Config/MessageBuilderSettings.cs#L120
+
