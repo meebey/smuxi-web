@@ -89,7 +89,7 @@ This is done using LinkFormat like this:
 
 Any valid URI would work in LinkFormat, but you need to pass the captured value
 from the regex, which is the number in this case (0-9 after the #). {0} is the
-matched text, *(1}* the captured value inside the *()*s.
+matched text and *{1}* the captured value inside the *()*s.
 
 Now you should be able to send or receive a message containing #1234 for example
 and it should convert into a link for you. To make this change _persistent_ you
