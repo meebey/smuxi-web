@@ -95,6 +95,7 @@ Get source:
 
 Build Smuxi:
 
+    # If you don't want the GTK frontend (e.g: for servers) append --disable-frontend-gnome
     INSTALL=$(which ginstall) ./autogen.sh --enable-frontend-stfl
     gmake
 
@@ -167,6 +168,7 @@ Get source:
 
 Build Smuxi:
 
+    # If you don't want the GTK frontend (e.g: for servers) append --disable-frontend-gnome
     AUTOMAKE_VERSION=1.13 AUTOCONF_VERSION=2.69 CONFIG_SHELL="env bash" INSTALL=$(which ginstall) ./autogen.sh --enable-frontend-stfl
     gmake
 
