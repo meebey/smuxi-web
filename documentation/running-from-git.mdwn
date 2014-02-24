@@ -77,7 +77,7 @@ commands:
 	sudo apt-get install git
 	git clone --recursive git://github.com/meebey/smuxi.git
 	cd smuxi
-	./autogen.sh MCS=/usr/bin/mono-csc
+	./autogen.sh
 	make run
 
 ### FreeBSD ###
