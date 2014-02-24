@@ -167,8 +167,12 @@ Get source:
 
 Build Smuxi:
 
-    AUTOMAKE_VERSION=1.13 AUTOCONF_VERSION=2.69 CONFIG_SHELL="env bash" INSTALL=$(which ginstall) ./autogen.sh MCS=$(which dmcs)
+    AUTOMAKE_VERSION=1.13 AUTOCONF_VERSION=2.69 CONFIG_SHELL="env bash" INSTALL=$(which ginstall) ./autogen.sh --enable-frontend-stfl
     gmake
+
+Run GNOME frontend:
+
+    gmake run-gnome
 
 Run STFL frontend:
 
