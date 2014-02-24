@@ -15,7 +15,7 @@ the text more interactive. For example someone writes:
     Hey meebey, do you know RFC2812?
 
 RFCs are a recurring pattern with a distinct number behind it and are real
-references to something in the internet (collection of protocol specifictions).
+references to something in the internet (collection of protocol specifications).
 
 So usually I would now fire up a browser tab, copy/paste or typing RFC2812 into
 my favorite search engine and click the first hit and then reply to that
