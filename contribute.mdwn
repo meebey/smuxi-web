@@ -37,3 +37,34 @@ everyone needs of course, but one can only judge this by trying or considering
 it at least! So if someone rants about his volatile IRC client, the horrible
 Twitter web app or the infamous Facebook web chat, point them to
 [[https://smuxi.im]]
+
+## Run Upcoming Versions ##
+
+One important step before a new Smuxi version is released, is to test the new
+version before the final release with the release announcement. Why? Assume
+newly written code would be released without good testing. This could lead to
+nightmares of every software like broken features or even application crashes!
+The only way to prevent this is by continuously testing development versions or
+at least by testing release candiate before the final release.
+
+If you run into an issue in the new version it is important to report the issue
+using Smuxi's bug tracker mentioned in the *Provide Feedback* section above.
+
+*So where do I get release candidates?* Release candidates are usually announced
+on the #smuxi-devel @ freenode IRC channel, [Smuxi planet feed][planet-feed]
+([RSS version][planet-feed-rss]) and inside the Smuxi itself in the Smuxi
+home chat showing Smuxi news. You can also seek for release candidates in this
+[web directory][rcs]. All release candidates have a *~rc* suffix in their
+filename.
+
+ [planet-feed]: /tags/planet-feed/
+ [planet-feed-rss]: /tags/planet-feed/index.rss
+ [rcs]: /jaws/data/files/?C=M;O=D
+
+*OK, release candidates are good, but where do I get the still bleeding stuff?*
+Daily development builds/snapshots of Smuxi are currently only provided as
+source code via Git, binary packages for Debian and Ubuntu or only by request
+for Mac OS X and Windows. More details can be found in the
+[running from git documentation][running-from-git].
+
+ [running-from-git]: /documentation/running-from-git
