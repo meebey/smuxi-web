@@ -1,0 +1,151 @@
+[[!meta title="""Smuxi 0.X with XXX, YYY, ZZZ"""]]
+
+And here we go again! We're proud to announce the new version of Smuxi, release
+0.X "***Codename***". During the development, [NN bug reports][bugs] and
+[NN feature requests][features] in [NN commits][commits] were worked on making
+this release a MAJOR_OR_MINOR feature and bugfix release.
+
+Notable highlights in this release are:
+
+### Enhanced User Interface ###
+
+[[!img screenshots/smuxi-0.9-linux-gnome-main-window.png size="400x"
+       alt="Screenshot of Smuxi 0.9 on GNOME3"
+       title="Smuxi on GNOME3"]]
+[[!img screenshots/smuxi-0.9-linux-unity-main-window.png size="400x"
+       alt="Screenshot of Smuxi 0.9 on Ubuntu Unity"
+       title="Smuxi on Ubuntu Unity"]]
+
+[[!img screenshots/smuxi-0.9-win7-main-window.png size="400x"
+       alt="Screenshot of Smuxi 0.9 on Windows 7"
+       title="Smuxi on Windows 7"]]
+[[!img screenshots/smuxi-0.9-osx-main-window.png size="400x"
+       alt="Screenshot of Smuxi 0.9 on Mac OS X"
+       title="Smuxi on Mac OS X"]]
+
+[[!img scrVeenshots/smuxi-0.9-linux-stfl-main-window.png size="200x"
+       alt="Screenshot of Smuxi 0.9's text frontend" class="screenshot"]]
+### Text Frontend Enhancements ###
+
+ * Changes here
+ * More changes here
+ * And even more changes here
+
+### Message Patterns ###
+
+Everybody knows text can be boring because it is all just text. Nothing can
+sidetrack you except reading that bare text. Text often have recurring patterns
+that could be used as information to create something useful from it and make
+the text more interactive. For example someone writes:
+
+    Hey meebey, do you know RFC2812?
+
+RFCs are a recurring pattern with a distinct number behind it and are real
+references to something in the internet (collection of protocol specifications).
+
+So usually I would now fire up a browser tab, copy/paste or typing RFC2812 into
+my favorite search engine and click the first hit and then reply to that
+question. But with Smuxi's message patterns it turns RFC2812 into a link for
+you which you can simple click and it point you to the right document on the
+right website.
+
+Wow this is very cool, but isn't this already happening with http URLs and email
+addresses? Exactly! Why shouldn't more information be used to create useful
+things from it? Smuxi message patterns allow you to define text patterns that
+are transformed into clickable links. This can be used for RFCs, CVEs, bug
+report numbers (#XXX), git commit hashes and much more, make good use of your
+creativity.
+
+By default Smuxi comes with built-in message patterns for:
+
+  * URLs
+  * heuristic URLs (not starting with http:// etc)
+  * email addresses
+  * RFCs
+  * CVEs
+  * Debian Security Advisories (DSA)
+  * Many popular bug trackers (GNU, GCC, kernel, Launchpad, freedesktop,
+    GNOME, KDE, Xfce, Debian, Redhat, Novell, Xamarin, openSUSE, Mozilla, Samba,
+    SourceForge, CPAN, boost, Claws and Smuxi)
+
+If you know more general patterns useful for others, please [report][]!
+
+  [report]: /issues/new
+
+For a full list of built-in message patterns or how to add your own patterns,
+head over to the [message pattern documentation][msg patterns].
+
+### Hooks Enhancements ###
+
+ * A bug was fixed that prevented hooks from issuing more than one command
+ * New hook points:
+   * engine/session/on-group-chat-person-added
+   * engine/session/on-group-chat-person-removed
+   * engine/session/on-group-chat-person-updated
+
+### IRC Enhancements ###
+
+ * Changes here
+ * More changes here
+ * And even more changes here
+
+### XMPP (Beta) Enhancements ###
+
+ * Changes here
+ * More changes here
+ * And even more changes here
+
+### Twitter Enhancements ###
+
+ * Changes here
+ * More changes here
+ * And even more changes here
+
+### JabbR (Beta) Enhancements ###
+
+ * Changes here
+ * More changes here
+ * And even more changes here
+
+### Updated Translations ###
+
+Smuxi should now be in your language, including:
+
+ * Initial complete Dutch (Jeroen Baten)
+
+### Behind the Scenes ###
+
+ * Changes here
+ * More changes here
+ * And even more changes here
+
+### Contributors ####
+
+Contributors to this release are the following people:
+
+ * Mirco Bauer (193 commits)
+ * Oliver Schneider (59 commits)
+ * Ondřej Hošek (13 commits, translations)
+ * Jason Papakostas (2 commits)
+ * Carlos Martín Nieto (1 commit)
+ * Andrés G. Aragoneses (1 commit)
+ * George Karavasilev (artwork)
+ * Leonardo Pires Felix (translations)
+ * Kalle Kaitala (translations)
+ * Joe Hansen (translations)
+ * Jimmie Elvenmark (translations)
+ * Dean Lee (translations)
+ * Clément Bourgeois (translations)
+ * Bianca Mix (translations)
+
+Thank you very much for your contributions to Smuxi!
+
+Want this? Go [here][download page] and grab it right now!
+
+  [download page]: /page/Download
+  [roadmap]: /versions/show/
+  [bugs]: /projects/smuxi/issues?query_id=4
+  [features]: /projects/smuxi/issues?fixed_version_id=19&set_filter=1&tracker_id=2&status_id=c
+  [commits]: https://github.com/meebey/smuxi/compare/0.8.11...0.9
+  [NNN]: /issues/show/NNN "#NNN: TITLE"
+  [msg patterns]: /documentation/message-patterns
