@@ -28,3 +28,12 @@ you provide and tune the ticket when needed.
  [new account]: /account/register
  [new issue]: /issures/new
 
+## Talk About It ##
+
+You like Smuxi and know people who suffer from bad messaging apps? Do them a
+favor and tell them about how Smuxi works for you. They possibly would have a
+better messaging experience by using Smuxi. Smuxi is not the right app for
+everyone needs of course, but one can only judge this by trying or considering
+it at least! So if someone rants about his volatile IRC client, the horrible
+Twitter web app or the infamous Facebook web chat, point them to
+[[https://smuxi.im]]
