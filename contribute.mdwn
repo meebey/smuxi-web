@@ -48,7 +48,8 @@ The only way to prevent this is by continuously testing development versions or
 at least by testing release candidate before the final release.
 
 If you run into an issue in the new version it is important to report the issue
-using Smuxi's bug tracker mentioned in the *Provide Feedback* section above.
+using Smuxi's bug tracker mentioned in the
+*[Provide Feedback](#providefeedback)* section above.
 
 <br/>
 
