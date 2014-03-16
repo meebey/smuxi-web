@@ -73,3 +73,22 @@ for Mac OS X and Windows. More details can be found in the
 [running from git documentation][running-from-git].
 
  [running-from-git]: /documentation/running-from-git
+
+## Translate ##
+
+Smuxi is using the [Transifex][] translation project to coordinate and maintain
+the translations. If you want to submit or update translations, just visit the
+Smuxi project on Transifex [here][Transifex-Smuxi]. If the language is not
+present yet simply request a language team and we will approve it. After your
+team was approved you can start translating Smuxi to a new language.
+
+ [Transifex]: https://www.transifex.com/ 
+ [Transifex-Smuxi]: https://www.transifex.com/projects/p/smuxi/
+
+<br/>
+
+*How does Transifex work?* Take a look at this
+[Transifex guide on YouTube][https://www.youtube.com/watch?v=_fG44h4iwuY].
+
+*Which languages are already translated and which need work?*
+[[!img https://www.transifex.com/projects/p/smuxi/chart/image_png]]
