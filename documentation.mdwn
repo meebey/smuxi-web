@@ -10,7 +10,7 @@ Documentation
 
 ## Extending Smuxi ##
 
-* [[Message Patterns]]
+* [[Message Patterns|message-patterns]]
 * [[Hooks]] (scripting / plugins)
 
 ## Developing Smuxi ##
