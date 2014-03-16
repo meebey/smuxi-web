@@ -21,7 +21,7 @@ name if you don't like, but don't use names that look like you are a spammer ;).
 After your account was approved (usually within a day, if not poking meebey on
 IRC can help) you are good to create your first bug report or feature request
 from [here][new issue]. If you are not sure if you do the right thing in the
-tracker, don't histate to submit it anthow. We are thankful for every feedback
+tracker, don't hesitate to submit it anyhow. We are thankful for every feedback
 you provide and tune the ticket when needed.
 
  [redmine]: /issues
@@ -45,7 +45,7 @@ version before the final release with the release announcement. Why? Assume
 newly written code would be released without good testing. This could lead to
 nightmares of every software like broken features or even application crashes!
 The only way to prevent this is by continuously testing development versions or
-at least by testing release candiate before the final release.
+at least by testing release candidate before the final release.
 
 If you run into an issue in the new version it is important to report the issue
 using Smuxi's bug tracker mentioned in the *Provide Feedback* section above.
