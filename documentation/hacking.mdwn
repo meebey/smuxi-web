@@ -1,0 +1,286 @@
+# Hacking HowTo
+
+You like Smuxi and want to make it even better? Just grab the source code and
+spread your love!
+
+## Software Requirements
+
+First you will need to install a few development tools and libraries
+
+  * Version Control System: git
+  * Development Platform: Mono
+  * Development Environment: MonoDevelop
+  * Libraries
+    * GTK#
+    * Notify#
+    * Indicate#
+    * DBus# / NDesk.DBus
+
+Depending on your operating system and favorite distribution the installation
+of the listed applications varies. For Debian based distributions it's just a
+matter of the following commands:
+
+    apt-get install git-core mono-devel monodevelop
+    apt-get build-dep smuxi
+    apt-get install libndesk-dbus-glib1.0-cil-dev libndesk-dbus1.0-cil-dev
+
+## Getting Source
+
+Now you can obtain the source code of Smuxi using git. Git is a great tool to
+manage the source code. If this is the first time for you using git, you need
+to tell about yourself to git first using the following commands:
+
+    git config --global user.name "Your Name"
+    git config --global user.email youremail@example.com
+
+Now you are ready to clone the Smuxi source repository. This means you
+download a full copy of the Smuxi source code with full history of all source
+code changes ever done to Smuxi. You don't need to be afraid, thanks to git
+this is just 17 MB of disk space (after compile about 50 MB) :-) Just run the
+following command:
+
+    git clone https://github.com/meebey/smuxi.git
+
+He we go, the Smuxi source code is now ready to be used in the directory
+called "smuxi".
+
+## Preparing Source
+
+Before you can do anything with the code you need to initialize the build-
+system at least once. The build-system is the standard Linux one which
+consists of different tools called: autoconf, automake, intltool and libtool.
+Don't worry if none of them sound familiar to you, most of the time you will
+not need to deal with them. In order to prepare the source code now run the
+following command:
+
+    cd smuxi
+    ./autogen.sh
+
+Yes, the command generated lots of output, but nothing of that needs to be
+bothered about.
+
+## Compiling Source
+
+Now you have 2 options to compile the source code. Either compile the source
+by using the autotools build-system or by using the MonoDevelop development
+environment. If you are not experienced with autotools, I recommend to use
+MonoDevelop.
+
+#### Compiling Source using MonoDevelop
+
+Start the MonoDevelop application from your desktop menu: Applications ->
+Programming -> MonoDevelop
+
+Open the Smuxi solution in MonoDevelop: File -> Open -> Browse to the "smuxi"
+directory, open "src" directory, select "smuxi.mds", click "Open" button
+
+Change the active configuration from "Release" to "Debug" (this is very
+important)
+
+Show time! Build -> Build All
+
+The build should take about 30 seconds. If the status bar says: "Build: 0
+errors, XXX warnings" then all went fine!
+
+## Running Compile Result
+
+#### Running Compile Result using MonoDevelop
+
+Starting the compiled Smuxi with MonoDevelop is very easy just do:
+
+Run -> Run
+
+## Modifying Source
+
+Alright, now it's getting interesting. Making modifications to the Smuxi
+source code! Remember the version control system called git we used earlier in
+this howto? Now we need to tell git that we will be doing changes to the
+source.
+
+Explaining the details of git or version control systems in general would
+overflow this howto, so I will reduce to what's really needed.
+
+Before we change something you need to create a new so called "topic branch".
+A topic branch basically means a change that is limited to one "topic", say a
+single feature or a single bugfix. Topic branches are used to make small and
+distinct changes which can simply be merged (included) into the official Smuxi
+source repository.
+
+Now we are going to create a topic to make a change. I will use changing the
+red color of the "Welcome to Smuxi" message to blue on the Smuxi tab as
+example. Why blue? Because I like blue :-D
+
+#### Creating a Topic Branch
+
+Before you create a topic branch you should make sure you are using the latest
+version of the source code. You can update your source code by running:
+
+    git pull
+
+Now we are ready to create the topic branch by running:
+
+    git checkout -b feature/blue_welcome_message
+
+The above command will create a new branch called
+"feature/blue_welcome_message" and also automatically switches to it.
+
+#### Changing the Source Code
+
+Now it's time to make the actual change in the lovely Smuxi source code.
+
+In MonoDevelop open the "Session.cs" using the Solution pad on the left side:
+smuxi -> Engine -> Session.cs
+
+Go to line 158 where it says:
+
+                  msg.MessageParts.Add(
+                        new TextMessagePartModel(new TextColor(0xFF0000), null, false,
+                                true, false, _("Welcome to Smuxi")));
+
+And change:
+
+    new TextColor(0xFF0000)
+
+To:
+
+    new TextColor(0x0000FF)
+
+The 0x###### is a hex number and specifies the color in RGB (red, green,
+blue).
+
+Now save the source change using File -> Save
+
+#### Test the modified Source Code
+
+Ok, we are ready to test the change by compiling and starting Smuxi. Just hit
+**Run -> Run** from the MonoDevelop menu or execute **make run** from a
+terminal.
+
+Now you should see Smuxi with a blue welcome message.
+
+You just made your first successful change to Smuxi! \o/
+
+#### Commiting the modified Source Code
+
+After testing your modification we are ready to commit the change to git. This
+means we tell the version control system about the change so it becomes part
+of the source repository.
+
+To see the current status of the repository run this command:
+
+    git status
+
+Now it should look like this:
+
+    # On branch feature/blue_welcome_message
+    # Changed but not updated:
+    #   (use "git add <file>..." to update what will be committed)
+    #   (use "git checkout -- <file>..." to discard changes in working directory)
+    #   (commit or discard the untracked or modified content in submodules)
+    #
+    #    modified:   lib/Newtonsoft.Json (untracked content)
+    #    modified:   lib/Twitterizer (untracked content)
+    #    modified:   po/Makefile.in.in
+    #    modified:   src/Engine/Session.cs
+    #
+    no changes added to commit (use "git add" and/or "git commit -a")
+
+The output is very descriptive, git is pretty good at showing the current
+situation and giving hints how to proceed. There are 4 modified listed items,
+while we only changed one of them. This can be a bit distracting but is not
+doing any harm and is nothing to worry about. The 4. "modified" line is the
+interesting one, as that is the file we have modified above.
+
+To tell git to include that modification in the upcoming command just run the
+following command:
+
+    git add src/Engine/Session.cs
+
+Now we are ready to make the commit, simply execute:
+
+    git commit -v
+
+Git will now open your default console text editor and shows the changes we
+are going to commit in the bottom area. It should show line you have changed
+like this:
+
+    -                    new TextMessagePartModel(new TextColor(0xFF0000), null, false,
+    +                    new TextMessagePartModel(new TextColor(0x0000FF), null, false,
+
+The "-" line means that line was removed, "+" means that line was added.
+
+As the change looks good, we can go ahead and specify a commit message. The
+commit message has to be placed in the beginning area (first few lines before
+the "#" lines).
+
+A commit message should explain what was changed ans possibly why it was
+changed. This way the source code history can be used to understand changes
+which is not always visible from the changed code itself.
+
+For this example use the following as commit message:
+
+Changed the color of the welcome message from red to blue because I like blue
+
+After that you need to save the file and leave the text editor. Git will
+automatically pick up the commit message from that text file and does the
+actual commit for you.
+
+## Submitting Source Modifications
+
+Before you can publish your work you need:
+
+  * Public Git Repository
+    * GitHub
+    * Gitorious
+    * etc
+  * Account for Smuxi's Redmine
+
+There are many free git hosters available, I can recommend
+[GitHub](https://www.github.com/) as it's easy to use and free. So sign up and
+create an empty repository there.
+
+You will also need a redmine account if you don't have already for Smuxi's
+ticket system. For that just sign up
+[here](/account/register).
+
+#### Verify Work
+
+Before you submit a change for inclusion in the official source repository of
+Smuxi you should check that the modifications in the right state.
+
+As you have already committed the changes in the last step you can verify your
+work using the following git command:
+
+    git show
+
+The git show command shows the last commit you have made and you should check
+your name, email and also the source change itself if everything is correct.
+
+#### Publish Work
+
+Now it's time to publish your work so other can make use of it. To push the
+changes to your public git repository use the following command:
+
+    git push $repo feature/blue_welcome_message
+
+The push command uploads changes from your repository to another one. $repo
+should be the name of your public repository. The name gets chosen when adding
+the repository using the "git remote add" command.
+
+#### File Merge Request
+
+Now your work is available on the internet, but I do not know about it (yet).
+For that reason you need to inform me in some way that a change should be
+merged into the official repository. This is called a "merge request" as I
+will merge your changes. The recommended route is to use the ticket system of
+Smuxi to do this. Just open (or create if it doesn't exist yet) the ticket for
+your changes and add a new comment that contains your public repository URL
+and also the branch name. I will then check your changes and merge them or
+give feedback if the changes need further adjustments. As I am not developing
+Smuxi as full-time, please be patient for my merges :-) a couple of days is
+the usual timeframe though.
+
+## Happy Hacking
+
+You are done! Enjoy your Smuxi hacking and thanks for your contributions in
+advance!
