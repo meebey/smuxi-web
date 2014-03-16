@@ -8,6 +8,8 @@ want to give something back then you can contribute to Smuxi in many different
 ways. You don't have to a programmer and neither need to become one to
 contribute!
 
+ [volunteers]: /fame
+
 ## Provide Feedback ##
 
 If you run into an issue or miss something that feels important to you and
