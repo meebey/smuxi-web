@@ -91,3 +91,16 @@ team was approved you can start translating Smuxi to a new language.
 *Which languages are already translated and which need work?*
 
 ![Smuxi translation statistics at Transifex](/translation-stats.php)
+
+## Write Code ##
+
+You knew this was coming! Obviously you can also contribute by writing code.
+Smuxi is written in sexy C# and a nice Smuxi hacking how-to can be found over
+[here][hacking howto]. For inspiration what to hack on, check out the [bug
+reports][] and [feature requests][]. [Here][low hanging fruits] you can also
+find a list of "low hanging fruits" to get familiar with Smuxi's code base.
+
+ [hacking howto]: /documentation/hacking
+ [bug reports]:  /projects/smuxi/issues?set_filter=1&tracker_id=1
+ [feature requests]: /projects/smuxi/issues?set_filter=1&tracker_id=2
+ [low hanging fruits]: /projects/smuxi/issues?set_filter=1&tracker_id=2&cf_2=low
