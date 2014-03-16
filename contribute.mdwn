@@ -85,12 +85,8 @@ team was approved you can start translating Smuxi to a new language.
  [Transifex]: https://www.transifex.com/ 
  [Transifex-Smuxi]: https://www.transifex.com/projects/p/smuxi/
 
-<br/>
-
 *How does Transifex work?* Take a look at this
 [Transifex guide on YouTube](https://www.youtube.com/watch?v=_fG44h4iwuY).
-
-<br/>
 
 *Which languages are already translated and which need work?*
 
