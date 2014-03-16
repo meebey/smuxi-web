@@ -16,5 +16,6 @@ Documentation
 
 ## Developing Smuxi ##
 
+* [[Hacking]]
 * [[Debugging]]
 * [[Screenshot Policy|screenshot-policy]]
