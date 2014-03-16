@@ -5,7 +5,7 @@ Documentation
 
 ## Using Smuxi ##
 
-* [[Frequently Asked Questions|/faq]
+* [[Frequently Asked Questions|/faq]]
 * [[Terms]]
 * [[Running from git|running-from-git]]
 
