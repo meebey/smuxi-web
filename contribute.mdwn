@@ -94,4 +94,4 @@ team was approved you can start translating Smuxi to a new language.
 
 *Which languages are already translated and which need work?*
 
-![Smuxi translation statistics at Transifex](https://www.transifex.com/projects/p/smuxi/chart/image_png)
+![Smuxi translation statistics at Transifex](/translation-stats.php)
