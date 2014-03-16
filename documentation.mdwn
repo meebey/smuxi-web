@@ -8,8 +8,12 @@ Documentation
 * [[Terms]]
 * [[Running from git|running-from-git]]
 
+## Extending Smuxi ##
+
+* [[Message Patterns]]
+* [[Hooks]] (scripting / plugins)
+
 ## Developing Smuxi ##
 
-* [[Hooks]] (scripting / plugins)
 * [[Debugging]]
 * [[Screenshot Policy|screenshot-policy]]
