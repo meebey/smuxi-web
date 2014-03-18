@@ -36,8 +36,8 @@ Smuxi doesn't do just IRC, it can also handle Twitter and XMPP natively.
 
 (image of notification with messaging menu in view)
 
-Smuxi integrates with Ubuntu's messaging menu and has full notification 
-support.
+Smuxi as full GNOME desktop notification and also integrates with Ubuntu's
+messaging menu.
 
 ## Be In Control ##
 
@@ -46,3 +46,14 @@ support.
 Smuxi has powerful features, configuration and automation options, making it 
 an ideal power-user client while still being easy for any newbie to use.
 
+## Be Ahead ##
+
+Smuxi does the ordinary things extraordinarily well and supports all usual
+features but also bringing a fresh breeze into messaging by developing
+innovative features not seen in other messaging applications. Smuxi contains
+innovative features like always-on server mode with a detachable frontend,
+unified nick colors, perfect color contrast, server favicons, join bar,
+[language agnostic scripting][hooks] and [much more][features].
+
+ [hooks]: /documentation/hooks
+ [features]: /features
