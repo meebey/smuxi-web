@@ -5,9 +5,6 @@
     setDistros('opensuse debian ubuntu gentoo archlinux foresight raspberrypi linux freebsd windows osx');
 </script>
 
-## Release Notes
-**[Smuxi 0.10 Release Notes][]**
-
 ## Binary Packages
 <div id="distro-selector" style="overflow: hidden; display: block;">
 <div style="float: top">
@@ -119,6 +116,11 @@ Building Smuxi from source requires the following packages being installed:
 - [Nini][]
 
 [smuxi-0.10.tar.gz][] ([.asc][])
+
+## Release Notes
+**[Smuxi 0.10 Release Notes][]**
+
+<br/>
 
 <script type="text/javascript" src="//www.ohloh.net/p/15257/widgets/project_basic_stats.js"></script>
 
