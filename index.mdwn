@@ -1,4 +1,4 @@
-[[!meta description="Smuxi - the user-friendly and cross-platform IRC client for sophisticated users for GNOME / GTK+"]]
+[[!meta description="Smuxi - free, distributed and user-friendly IRC / Twitter / XMPP client for Linux, Windows and Mac OS X"]]
 
 ## Be Anywhere ##
 
@@ -28,32 +28,36 @@ you can check what was going on while you were away.
 
 ## Be Everywhere ##
 
-(image of IRC, XMPP, and Twitter tabs)
+Smuxi doesn't do just IRC, it can also handle [Twitter][], [Facebook Chat][FB],
+[Google Talk][GTalk], Jabber / XMPP, Campfire and SignalR's JabbR natively.
 
-Smuxi doesn't do just IRC, it can also handle Twitter and XMPP natively.
+ [Twitter]: /screencasts/twitter/
+ [FB]: /screencasts/facebook-chat/
+ [GTalk]: /screencasts/gtalk/
 
 ## Be Aware ##
 
-(image of notification with messaging menu in view)
+Smuxi has full [GNOME desktop notifications][notify-osd] and also integrates
+with [Ubuntu's messaging menu][messaging menu].
 
-Smuxi as full GNOME desktop notification and also integrates with Ubuntu's
-messaging menu.
+ [notify-osd]: https://wiki.ubuntu.com/NotifyOSD#Bubble_appearance_and_layout
+ [messaging-menu]: https://wiki.ubuntu.com/MessagingMenu/
 
 ## Be In Control ##
 
-(image of STFL UI, nerds dig TUI)
-
 Smuxi has powerful features, configuration and automation options, making it 
-an ideal power-user client while still being easy for any newbie to use.
+an ideal power-user client while still being user-friendly for day-to-day use.
 
 ## Be Ahead ##
 
 Smuxi does the ordinary things extraordinarily well and supports all usual
 features but also bringing a fresh breeze into messaging by developing
 innovative features not seen in other messaging applications. Smuxi contains
-innovative features like always-on server mode with a detachable frontend,
-unified nick colors, perfect color contrast, server favicons, join bar,
-[language agnostic scripting][hooks] and [much more][features].
+innovative features like [always-on server mode][smuxi-server] with a detachable
+frontend, unified nick colors, perfect color contrast, server favicons,
+[join bar][], [language agnostic scripting][hooks] and [much more][features].
 
+ [smuxi-server]: /screencasts/smuxi-server-connect/
  [hooks]: /documentation/hooks
  [features]: /features
+ [join bar]: /screencasts/quick-join/
