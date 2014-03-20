@@ -41,7 +41,7 @@ Smuxi has full [GNOME desktop notifications][notify-osd] and also integrates
 with [Ubuntu's messaging menu][messaging menu].
 
  [notify-osd]: https://wiki.ubuntu.com/NotifyOSD#Bubble_appearance_and_layout
- [messaging-menu]: https://wiki.ubuntu.com/MessagingMenu/
+ [messaging menu]: https://wiki.ubuntu.com/MessagingMenu/
 
 ## Be In Control ##
 
