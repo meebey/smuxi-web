@@ -5,7 +5,8 @@
 ### Smuxi currently supports the following features
 
 #### User Interface Features
-  * Detachable Frontend (frontend can be detached from a smuxi-server)
+  * [Detachable Frontend][smuxi-server] (frontend can be detached from a
+    smuxi-server)
   * Desktop Notifications (with full support of actions, icons, updates, append
     and sound)
   * Messaging Menu / Indicators (as provided by Ubuntu's [Ayatana project][])
@@ -147,6 +148,7 @@
   [Filters]: http://www.smuxi.org/ezfaq/show/smuxi?faq_id=13
   [NetworkManager]: https://wiki.gnome.org/Projects/NetworkManager
   [Join Bar]: /screencasts/quick-join/
+  [smuxi-server]: /screencasts/smuxi-server-connect/
   [Twitter]: /screencasts/twitter/
   [Google Talk]: /screencasts/gtalk/
   [Facebook Chat]: /screencasts/facebook-chat/
