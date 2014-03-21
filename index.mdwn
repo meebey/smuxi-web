@@ -1,4 +1,4 @@
-[[!meta description="Smuxi - free, distributed and user-friendly IRC / Twitter / XMPP client for Linux, Windows and Mac OS X"]]
+[[!meta description="free, distributed and user-friendly IRC / Twitter / XMPP client for Linux, Windows and Mac OS X based on GNOME / GTK+"]]
 
 ## Be Anywhere ##
 
