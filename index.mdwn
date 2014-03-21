@@ -37,8 +37,8 @@ Smuxi doesn't do just IRC, it can also handle [Twitter][], [Facebook Chat][FB],
 
 ## Be Aware ##
 
-Smuxi has full [GNOME desktop notifications][notify-osd] and also integrates
-with [Ubuntu's messaging menu][messaging menu].
+Smuxi has full [GNOME desktop notifications][notify-osd] support and also
+integrates with [Ubuntu's messaging menu][messaging menu].
 
  [notify-osd]: https://wiki.ubuntu.com/NotifyOSD#Bubble_appearance_and_layout
  [messaging menu]: https://wiki.ubuntu.com/MessagingMenu/
