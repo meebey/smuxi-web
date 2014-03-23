@@ -9,10 +9,9 @@ parts was done directly in C\#, now I am using Glade\# for templates like
 channel, query and serverpage. After this rewrite is finished I will do another
 rewrite for the 0.4 release, this time it will be the OO design of Gnosmirc.
 Since its my first GUI project I ever made I am learning alot of how things go
-and not go ![face-smile.png ][] So keep an eye on this site, I am not sure yet
-if 0.3 or 0.4 will be an official release. I only want to release useable
-programs, I don't like half-finished just put it out releases, it's not fair to
-the users.... I will post it here when the time is ready!
+and not go :) So keep an eye on this site, I am not sure yet if 0.3 or 0.4 will
+be an official release. I only want to release useable programs, I don't like
+half-finished just put it out releases, it's not fair to the users.... I will
+post it here when the time is ready!
 
   [Jaws project]: http://jaws-project.sf.net
-  [face-smile.png ]: https://www.smuxi.org/jaws/plugins/Emoticons/images/face-smile.png
