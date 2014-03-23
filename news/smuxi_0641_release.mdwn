@@ -1,0 +1,53 @@
+[[!meta title="""Smuxi 0.6.4.1 Release"""]]
+[[!meta date="2009-10-15 00:10:19"]]
+
+2 months after releasing Smuxi 0.6.4 I am proud to announce the first bugfix
+release, 0.6.4.1 codenamed 'Claire'. This version fixes all bugs that were
+reported since the release of 0.6.4.
+
+The most notable change is the optimized nickname color feature which has been
+redesigned to select colors which will look good on your screen. The algorithm
+is based on the Web Content Accessibility Guidelines published by the W3C. This
+feature is now enabled by default for new installs. Existing users are
+encouraged to visit the preferences to enable the feature. To assist in tracking
+your conversations, nicknames in your replies will now be colored too.
+
+The default font for Windows was changed from Monospace to FixedSys which should
+give a much improved experience.
+
+A full list of changes is included below.
+
+**New features:**
+
+-   Feature \#192: Allow adding options to the ssh command.
+-   Feature \#199: Use nick-colors for mode changes
+-   Feature \#200: Detect nicknames in replies and replace with colors
+-   Feature \#202: Include translations in the windows installer
+-   Feature \#208: SSH password support for plink
+-   Feature \#210: Use better default font on Windows
+-   Feature \#193: Include plink.exe in the Windows installer
+
+**Bugfixes:**
+
+-   Bug \#153: Configured tab colors are lost after restart
+-   Bug \#189: Font and color settings are not applied to userlist and topic
+-   Bug \#194: Clicking an http:// link will crash the application if it fails
+    to start the browser
+-   Bug \#197: nick colors sometime gives very bad contrast
+-   Bug \#203: Day change line is not honoring the local timezone
+-   Bug \#204: Highlight gets cleared by regular messages
+-   Bug \#206: Topic can trigger highlights
+-   Bug \#207: Engine -\> Add Remote Engine is doing nothing
+-   Bug \#209: output of /names is unsorted
+-   Bug \#190: Hide plink.exe window on Windows
+-   Bug \#195: Windows installer thinks GTK\# 2.12.9 is older than 2.12.9
+
+**Updated translations:**
+
+-   German translation
+
+(Smuxi is seeking for translators!)
+
+Smuxi is available for download from [here][].
+
+  [here]: http://www.smuxi.org/page/Download

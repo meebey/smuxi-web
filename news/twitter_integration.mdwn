@@ -1,0 +1,17 @@
+[[!meta title="""Twitter Integration"""]]
+[[!meta date="2009-11-04 02:32:10"]]
+
+After a successful hacking weekend I am happy to announce that Smuxi has a cool
+new feature. With the next Smuxi release you will be able to receive and send
+tweets from/to [Twitter][]. For those who don't know yet what Twitter is, it's a
+micro-blogging tool which I am using heavily for the past few weeks/months.
+Smuxi supports the friends timeline, replies view and direct messages. Check out
+[this screenshot][] which shows this feature in action. I am planning to add
+avatar and reply-mode support at some point later.
+
+PS: If you want to follow me on Twitter: [http://twitter.com/meebey][]
+
+  [Twitter]: http://twitter.com/ "Twitter"
+  [this screenshot]: http://www.smuxi.org/jaws/data/phoo/2009_11_02/smuxi-twitter.png
+  [http://twitter.com/meebey]: http://twitter.com/meebey "meebey on
+    twitter"

@@ -1,0 +1,25 @@
+[[!meta title="""Engine and Frontend Update / Screenshots"""]]
+[[!meta date="2005-05-20 23:06:24"]]
+
+Ok, after a few days (4 continues days, to be more accurate) I have a first
+working smuxi frontend!
+
+Like I said in an earlier post it's the Gtk/Gnome frontend. I can spawn the
+engine (smuxi-engine.dll) with the frontend, or standalone (smuxi-server.exe).
+Then I can spawn one or many frontends (like smuxi-gtkgnome.exe) and connect to
+the engine and then go IRC chatting. I can quit the frontend, the engine stays
+alive and continues doing all IRC work, then I can start later again a frontend
+and I got the same state as it was!
+
+Now I am focusing to get the frontend user friendly, it lakes some GUI windows
+yet, like the IRC server manager, engine manager and preferences. Those GUIs are
+passed by writing directly the INI file :-P that is more for testing though, but
+it is possible to not use the GUI to configure or use smuxi at all ;-)
+
+This alpha version is limited to known alpha testers, no public release. When
+the missing GUIs are added and I made some optimizations then smuxi is ready for
+a beta release, which will be public and with source! If you want to be alpha
+tester, please join #smuxi on irc.freenode.org and idle there, thanks!
+
+Oh I almost forgot :-P. I uploaded 2 screenshots of smuxi with the detachble
+frontend feature in action, just check the screenshot section out!

@@ -1,0 +1,38 @@
+[[!meta title="""Getting Close to the Public Beta 0.6 Release"""]]
+[[!meta date="2007-12-02 21:50:56"]]
+
+If you wondered what's happening, the beta release is very close. I plan to
+release smuxi beta (0.6) this month. Smuxi made good steps forward regarding
+stability and API design. I've been using smuxi as my primary IRC client almost
+a year already and it's fun.
+
+Also the GNOME frontend is not the only one anymore ![face-smile.png ][] I made
+proof-of-concept frontends using different UI toolkits like [Curses][] /
+[STFL][] and [WinForms (native Windows)][]. The WinForms frontend was started
+and is maintained by Zhila. The proof-of-concept frontends will be a very good
+base for other developers wanting to contribute to the smuxi project. The
+different frontends was needed to find possible API design flaws, and I found
+some but those were minor issues.
+
+That's not all yet I need to blog! The IRC protocol implementation was always
+made in modular fashion. It is only an implementation of a protocol manager
+interface. But I never managed to implement a different protocol (no time, no
+real interest) but some months ago I got hot trying the XMPP / Jabber protocol,
+as many of my friends are using different protocols (like ICQ, AIM, MSN). Jabber
+supports gateways to other protocols, so I thought with Jabber I could kill all
+protocol holes with one stone. And that was a big success, smuxi has now
+experimental Jabber support too, supporting person and group chats (no presence
+/ contacts though). Too much text already? Then check this [screenshot][]. On
+that screenshot you can see me connected to a Jabber server, chatting to
+iamthejaymann through the Jabber server over the AIM gateway ![face-smile.png
+][] I think that's enough news for now, it's getting hot in here ![face-wink.png
+][]
+
+Stay tuned, it's worth it!
+
+  [face-smile.png ]: https://www.smuxi.org/jaws/plugins/Emoticons/images/face-smile.png
+  [Curses]: http://www.meebey.net/temp/smuxi-frontend-curses.png
+  [STFL]: http://www.meebey.net/temp/smuxi-frontend-stfl.png
+  [WinForms (native Windows)]: http://www.meebey.net/temp/smuxi-frontend-swf_on_mono.png
+  [screenshot]: http://www.meebey.net/temp/smuxi-jabber-aim.png
+  [face-wink.png ]: https://www.smuxi.org/jaws/plugins/Emoticons/images/face-wink.png

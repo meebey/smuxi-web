@@ -1,0 +1,44 @@
+[[!meta title="""Smuxi 0.7.1 Release"""]]
+[[!meta date="2010-02-01 04:36:20"]]
+
+About 3 weeks after releasing Smuxi 0.7 I am proud to announce the first bugfix
+release, **0.7.1** codenamed 'Heidi'.  This version fixes all bugs that were
+reported since the release of 0.7.
+
+Notable changes are: important crash fixes, seen and unseen highlights are now
+remembered when reconnecting to the smuxi-server, improved error tolerance for
+temporarly Twitter issues, fixed /join command and adaptive excess flood
+handling.
+
+A full list of changes is included below.****
+
+**Bugfixes:**
+
+-   Bug \#290: Twitter hostname and port can be configured in settings
+-   Bug \#293: Crash when using numeric passwords
+-   Bug \#294: Smuxi needs to tolerate temporarly Twitter issues
+-   Bug \#297: NullReferenceException on start with auto-connecting Twitter
+    account
+-   Bug \#299: /server and /connect \$server crashes with NullReferenceException
+-   Bug \#301: Highlights are not shown when connecting to remote engine
+-   Bug \#302: First message after opening a new query tab is not highlighted
+-   Bug \#303: Reconnect loop with bouncers (irssi-proxy)
+-   Bug \#307: Adding Server crashes with NullReferenceException
+-   Bug \#308: Netsplit triggers â€œexcess floodâ€? kick cycle on Freenode
+-   Bug \#311: /join suddenly stops working
+-   Bug \#312: Random Startup / Connect Crash: NullReferenceException
+-   Bug \#314: Tarball contains binaries
+-   Bug \#320: Smuxi crashes when trying to add a server with an
+    invalid/unsupported protocol
+-   Bug \#321: Show away-messages only once does not work
+-   Bug \#323: Partial self triggered highlights
+-   Bug \#326: /topic command can trigger highlights
+-   Bug \#327: Using /rejoin on an unconnected channel blocks, gives error msg
+
+**New translations:**
+
+-   Partial Catalan translation (Siegfried-Angel Gevatter Pujals)
+
+Smuxi is available for download from [here][].
+
+  [here]: http://www.smuxi.org/page/Download

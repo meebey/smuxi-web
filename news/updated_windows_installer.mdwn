@@ -1,0 +1,15 @@
+[[!meta title="""Updated Windows Installer"""]]
+[[!meta date="2009-10-18 03:33:51"]]
+
+I uploaded a new version (0.6.4.1-2) of the Windows installer, as the SSH
+support was broken spitting out the following error message each time you try to
+connect:
+
+    plink: unknown option "-auto_store_key_in_cache"
+
+This issue was caused by the wrong included plink version (an application part
+of the putty tools) used for the SSH tunnel. Also the installer no longer
+requires a reboot after the automatic GTK\# install, which should make new users
+happy. :-)
+
+Linux users don't have to update anything, no issues or changes there.

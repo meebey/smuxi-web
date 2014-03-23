@@ -1,0 +1,30 @@
+[[!meta title="""Smuxi goes FreeBSD - join our growing community"""]]
+[[!meta date="2010-06-05 18:13:49"]]
+
+We have good news for [FreeBSD][] users. Thanks to the work of [Romain
+Tartière][] Smuxi is now available in the official FreeBSD ports tree.
+Installation instructions can be found on the [download page][].
+
+This is an important step for the cross-platform spirit of Smuxi -- now covering
+3 different operating systems: GNU/Linux, FreeBSD and Windows. And don't worry,
+this won't be the last one! Mac OSX is high on our priority list but we don't
+have the resources yet to make this happen. We are looking forward to see
+Smuxi's community growing so it can reach even more users regardless of their
+operating system, language or origin.
+
+Everyone is invited to join the community! If you are interested and have some
+spare time, Smuxi is looking for help in many areas:
+
+-   artwork: layout, logo, icons
+-   translations
+-   documentation: how-to, built-in help, tooltips
+-   installer / packages: Mac OSX, RPM (Fedora / Red Hat)
+-   programming: features, bugfixes, ports, further protocols (Jabber, MSN, etc)
+-   distribution: articles (wikipedia), reviews, news, download sites, etc
+
+The easiest way to get in touch with us is to join the \#smuxi IRC channel on
+OFTC (irc.oftc.net)
+
+  [FreeBSD]: http://www.freebsd.org
+  [Romain Tartière]: http://romain.blogreen.org/
+  [download page]: /page/Download

@@ -1,0 +1,52 @@
+[[!meta title="""Smuxi 0.6.2 Release"""]]
+[[!meta date="2008-08-26 00:35:28"]]
+
+Here it is, the second bugfix release of the 0.6 series!
+
+New features:
+
+-   German translation (please contribute other translations, see \*.pot files).
+    ([trac\#94][] [trac\#95][])
+-   Window size and position is now restored after startup. ([trac\#91][])
+-   Timestamps can be disabled now. ([trac\#84][])
+-   Timestamp format variables are now explained. ([trac\#102][])
+-   Nick-colors now tries to avoid colors that give a bad contrast depending on
+    the background color.
+-   Added Next/Previous Chat entry to menu (so the shortcut is visble now).
+-   Logging date format is much more human readable now.
+
+Bug fixes:
+
+-   Adding servers with the same hostname is now prevented. ([trac\#100][])
+-   Switching between local engine and remote engine without restart works now.
+    ([trac\#106][])
+-   Quick connect dialog doesn't just close if a server is selected using double
+    click. ([trac\#80][])
+-   Chats are now sorted correctly if there is no next protocol chat tab
+    available. ([trac\#87][])
+-   mIRC clear color character wasn't honored correctly. ([trac\#89][])
+-   /quit command is working now. ([trac\#92][])
+-   Reconnect is not breaking open person chats anymore. ([trac\#99][])
+-   First message of a person chat is now triggering a highlight again.
+
+OK thats it from the 0.6.2 front, just head to the [download page][] and get the
+real stuff!
+
+PS: Smuxi is now available in [Debian/Unstable][] and [ArchLinux][] (thanks goes
+to Jense for the ArchLinux package)!
+
+  [trac\#94]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/94
+  [trac\#95]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/95
+  [trac\#91]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/91
+  [trac\#84]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/84
+  [trac\#102]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/102
+  [trac\#100]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/100
+  [trac\#106]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/106
+  [trac\#80]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/80
+  [trac\#87]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/87
+  [trac\#89]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/89
+  [trac\#92]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/92
+  [trac\#99]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/99
+  [download page]: http://smuxi.meebey.net/jaws/?page/Download
+  [Debian/Unstable]: http://packages.debian.org/sid/smuxi
+  [ArchLinux]: http://aur.archlinux.org/packages.php?ID=19247

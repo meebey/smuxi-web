@@ -1,0 +1,9 @@
+[[!meta title="""IRC channel moved to OFTC"""]]
+[[!meta date="2006-12-31 03:20:25"]]
+
+The #smuxi IRC channel moved from freenode to OFTC, I was annoyed again today
+when I was sending an private message to a smuxi alpha tester and he didn't get
+my message. Enough is enough. The pm "spam-filtering" is just idiotic, I got
+more spam from lilo than spam via private messages. Also the CTCP or color
+filtering, specially when testing smuxi is not that useful, so we moved. Now you
+can reach us on #smuxi on irc.oftc.net, see you there.

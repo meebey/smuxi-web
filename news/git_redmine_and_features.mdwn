@@ -1,0 +1,53 @@
+[[!meta title="""GIT, Redmine and Features"""]]
+[[!meta date="2009-03-29 17:23:30"]]
+
+You might have wondered what happened since the 0.6.3 release? The simple answer
+is: lots! :-)
+
+Code-wise not so much changed but project structure  wise. For example we
+switched the the Version Control System from Subversion to GIT. Why? Because GIT
+allows us developers to simply develop new features without destablizing the
+main code base by using feature-branches. Subversion has also support for
+branches, but they are difficult to merge and maintain. So you can now find the
+Smuxi source for browsing at: [http://git.qnetp.net/?p=smuxi.git][] And for
+development at: git://git.qnetp.net/smuxi.git
+
+We migrated from the ticket and release planning tool TRAC to Redmine. The main
+reason for that switch was that TRAC has no decent GIT support out of the box.
+Don't worry, all submitted tickets are imported to Redmine, nothing was lost!
+And here it is Smuxi on Redmine:
+[http://projects.qnetp.net/projects/show/smuxi][]
+
+Ok, all this fancy stuff for the developers now, but what for the users? Smuxi
+has now support for clickable URLs, colors and multi-line in topics, like this:
+
+[![Topic in Action][]][]
+
+Also when the day changes between a message it will now show that day change
+with the date. That way you can see which day it was (not just which time) for
+older messages in the backlog.
+
+Those 2 new features are already merged into the [master][] branch, if someone
+wants to try them out (by building from source).
+
+Last but not least a 3rd feature is on it's way: pure usage of the GTK+
+libraries. We continuously have issues with getting Smuxi running on Windows
+correctly. The problem there is that the GTK\# installers are not shipping GNOME
+components and thus we have to ship them which causes all kinds of version
+issues. Smuxi only uses the GNOME library to provide the assistants like"Add new
+Engine". GTK+ includes since version 2.10 an assistant API which we are porting
+to. With this step Smuxi will run on Windows by just installing MS .NET 2.0 +
+GTK\# 2.10 and it works (this time) :-D And we also get Mac OSX support with
+this change, as the Mono project offers an GTK\# installer for it! So this step
+is really worth it. But don't worry, Smuxi (smuxi-frontend-gnome) will still
+have it's focus to integrate perfectly into your GNOME experience even though we
+are not using the said GNOME library to do that.
+
+Allright, thats it for now, stay tuned!
+
+  [http://git.qnetp.net/?p=smuxi.git]: http://git.qnetp.net/?p=smuxi.git
+  [http://projects.qnetp.net/projects/show/smuxi]: http://projects.qnetp.net/projects/show/smuxi
+  [Topic in Action]: http://www.smuxi.org/jaws/data/phoo/2009_03_29/medium/smuxi-0.6.4-dev-topic.png
+    "Topic in Action"
+  [![Topic in Action][]]: http://www.smuxi.org/jaws/data/phoo/2009_03_29/smuxi-0.6.4-dev-topic.png
+  [master]: http://git.qnetp.net/?p=smuxi.git;a=shortlog;h=refs/heads/master

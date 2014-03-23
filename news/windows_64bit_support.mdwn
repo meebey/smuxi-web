@@ -1,0 +1,13 @@
+[[!meta title="""Windows 64-bit Support"""]]
+[[!meta date="2009-05-31 21:11:08"]]
+
+I have good news to our Windows users. The new installer (0.6.4-4-dev) of Smuxi
+now supports Windows 64-bit. This was tested on Windows Vista and Windows 7 RC1.
+Smuxi is not running in 64-bit execution mode (yet) but in 32-bit mode because
+GTK+ is not yet fully ported for Windows 64-bit. Windows XP 64-bit should also
+work, if not please write me an [email][] or join our [IRC channel][]. You can
+get Smuxi 0.6.4-4-dev from the [download page][].
+
+  [email]: mailto:meebey@meebey.net
+  [IRC channel]: /page/IRC
+  [download page]: /page/Download

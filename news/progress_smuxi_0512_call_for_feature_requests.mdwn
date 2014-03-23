@@ -1,0 +1,15 @@
+[[!meta title="""Progress: Smuxi 0.5.12, Call for Feature Requests"""]]
+[[!meta date="2006-10-03 13:25:45"]]
+
+Some of you may believe nothing is happening with smuxi, but this is not true. I
+am working on implementing missing features and fixing bugs found by smuxi alpha
+testers. Smuxi supports now colors and formattings on MOTD, channels and
+queries. Colors and formattings can also be stripped with a setting for the
+ASCII-printable fans :-P
+I also plan to add support for stripping UTF-8 chars and replace them with "?"
+(like irssi does for example).
+The current alpha version (0.5.12) also runs on Windows just as it does on
+Linux, using Microsoft .NET + Gtk# 2.7.1 for MS .NET.
+
+If you want some special feature that is missing in other IRC clients, please
+write a quick comment to this post.

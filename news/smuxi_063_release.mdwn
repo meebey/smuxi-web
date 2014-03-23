@@ -1,0 +1,57 @@
+[[!meta title="""Smuxi 0.6.3 Release"""]]
+[[!meta date="2009-01-01 21:31:59"]]
+
+Just in time, with the beginning of 2009 we are proud to announce the release of
+Smuxi 0.6.3! This release is the 3rd bugfix release of the 0.6 series but also
+contains as usual new features for your joy of upgrading to the new version.
+
+New features:
+
+-   Full tray icon support. (trac\#55 and trac\#137)
+-   Configurable line wrapping. (trac\#5)
+-   Events such as join/part/quit now use a different color in the tab label.
+    (trac\#66)
+-   When connecting to a smuxi-server previous highlights will not be
+    highlighted again. (trac\#97)
+-   Messages can now be sent to all chats by using the /amsg, /anotice and /ame
+    commands. (trac\#109)
+-   The find group chats feature now indicates an active search by using a busy
+    mouse cursor symbol. (trac\#115)
+-   Passwords are now hidden by default but can be shown by using a "show
+    password" button. (trac\#116)
+-   Nicknames can now be listed by using the /names command. (trac\#120)
+
+Bugfixes:
+
+-   Find group chat dialog will no longer freeze the interface when the IRC
+    server (e.g. OFTC) uses non-RFC compliant reply codes. (trac\#104)
+-   /notice \#somechannel will no longer crash. (trac\#108)
+-   A private notice will no longer trigger a highlight. (trac\#45)
+-   URLs can now be clicked while a nickname is selected on the userlist.
+    (trac\#112)
+-   Server no longer crashes when a frontend doesn't cleanly disconnect.
+    (trac\#117)
+-   Quitting smuxi using the window close button (X) will now store the last
+    used window size and position. (trac\#121)
+-   Validation now requires a nickname be set in the preferences. (trac\#123)
+-   URL matching is now case-insensitive. (trac\#131)
+-   /quit command will no longer reconnect. (trac\#139)
+-   Username and password are now correctly used in the quick connect dialog.
+    (trac\#141)
+-   When disconnecting from a server, all chats will now be closed. (trac\#144)
+
+New translations:
+
+-   French translation contributed by Clement BOURGEOIS (trac\#113)
+-   Italian translation contributed by David Paleino
+-   Spanish translation contributed by Juan Miguel Carrero
+
+As you can see, we have applied lots of love to this release :-D Now head to the
+[download page][] and enjoy this great new version!
+
+There are now also packages available for openSUSE (thanks to Andrew Jorgensen)
+and [Ubuntu][] (thanks to Stefan Ebner). The [download page][] contains
+explanations how to install those.
+
+  [download page]: http://www.smuxi.org/page/Download
+  [Ubuntu]: http://packages.ubuntu.com/smuxi

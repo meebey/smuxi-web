@@ -1,0 +1,48 @@
+[[!meta title="""Smuxi 0.6.4 Release"""]]
+[[!meta date="2009-08-24 17:55:15"]]
+
+I am happy to announce the 0.6.4 release of Smuxi. This release contains
+important changes for supporting Windows and Mac OS X as it no longer requires
+the GNOME\# library. The SSH-support for the communication between the server
+and the frontend is now official and has been integrated into the GUI. This
+means Smuxi can safely be used now with NAT and port-based firewalls. For a
+detailed list of changes, please read the feature and bugfix list below.
+
+**New features:**
+
+-   Feature \#1: support (clickable) URLs in topic
+-   Feature \#15: add date stamps between days like irssi
+-   Feature \#28: support mIRC colors in topic
+-   Feature \#63: replace GNOME\# API calls with GTK\# API
+-   Feature \#64: Remove dependency on TCP ports for 2-way communication
+    (passive mode)
+
+**Bugfixes:**
+
+-   Bug \#129: configuration error dialog [win32]
+-   Bug \#145: SSH tunnel setup failed: Bad configuration option:     
+    ExitOnForwardFailure
+-   Bug \#148: SSH tunnel is not killed when quitting Smuxi
+-   Bug \#150: Connecting to smuxi-server fails via SSH when using passwords
+-   Bug \#151: configure should check for nini.pc
+-   Bug \#158: Minimises when switching workspace
+-   Bug \#159: Cannot restore from notification icon
+-   Bug \#160: smuxi crashes when opening an URL which GNOME can't handle
+-   Bug \#163: bad network connection causes random nicks to be used
+-   Bug \#164: TaskQueue might leak resources
+-   Bug \#169: Crashed with Smuxi.Frontend.Gnome.Entry -     
+    System.InvalidOperationException: out of sync
+-   Bug \#183: Leaking FrontendManager threads
+-   Bug \#184: InvalidOperationException when adding an existing server
+-   Bug \#185: Output area is not showing own messages (with GTK+ 2.17)
+-   Bug \#187: Changing nick to an existing one will result in a fallback nick
+
+**Updated translations:**
+
+-   German translation
+-   Spanish translation updated by Streinleght Rivenlock
+-   British translation updated by Ryan Smith-Evans
+
+Smuxi is available for download from [here][].
+
+  [here]: /page/Download

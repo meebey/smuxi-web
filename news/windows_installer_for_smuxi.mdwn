@@ -1,0 +1,22 @@
+[[!meta title="""Windows Installer for Smuxi"""]]
+[[!meta date="2009-05-31 16:13:06"]]
+
+Smuxi has now a full featured installer for Windows! Sebastian Schnur
+\<ikkerus@ikkerus.net\> was so nice and contributed a NSIS installer script for
+Smuxi. The old "installer" (just a simple zip file) has been replaced on the
+download page with this one already. I couldn't resist and enhanced the
+installer script to automatically download and install the software requirements
+when needed, which is MSI 3.1, Microsoft .NET 2.0 and GTK\# 2.12. The installer
+works perfectly (tested) under Windows XP and Windows 7. At this time only 32bit
+is supported as GTK+/\# isn't ready yet for 64bit on Windows. I read that you
+can run GTK\# apps in 32bit mode on 64bit Windows, but the application and
+library files have to be masked somehow, but I could not find out yet how to do
+that using Linux.
+
+Are you running  Windows and want to give it a try? Just grab it from the
+[download page][]! (if you wonder why the version is 0.6.4-dev for the Windows
+build, I made a development release which includes the
+[feature/\#63\_drop\_gnome-sharp][] branch)
+
+  [download page]: http://www.smuxi.org/page/Download
+  [feature/\#63\_drop\_gnome-sharp]: http://git.qnetp.net/?p=smuxi.git;a=shortlog;h=refs/heads/feature/%2363_drop_gnome-sharp

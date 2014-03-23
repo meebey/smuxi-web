@@ -1,0 +1,33 @@
+[[!meta title="""Smuxi 0.6.0 Release"""]]
+[[!meta date="2008-07-19 09:50:24"]]
+
+Yep, you read correctly the title, finally smuxi 0.6.0 is released!
+
+After 3 years of development here it is, the flexible and cross-platform IRC
+client (actually it's multi-protocol, but the 0.6 only includes IRC support).
+
+So here a feature list of what the 0.6 release includes:
+
+-   multi-server support
+-   multi-protocol support (currently only IRC  included)
+-   detachable frontend (limitation: requires TCP ports in both directions -\>
+    not NAT safe (yet))
+-   basic theming
+-   server manager
+-   find group chat (channels)
+-   quick connect to servers
+-   configurable interface
+-   on startup commands
+-   on connect commands (global and per server)
+-   nickname completion (normal and bash-style)
+
+So here it is, in all proud and glory:
+
+[![Screenshot of Smuxi 0.6 in action](/jaws/data/phoo/2008_07_19/medium/smuxi-find-group-chat.png)](/jaws/data/phoo/2008_07_19/smuxi-find-group-chat.png)
+
+Are you hot already? Get smuxi now as long it's steaming hot!
+
+For binary tarball, source tarball, packages for Debian/Ubuntu and Windows just
+head to the [download page][].
+
+  [download page]: /page/Download

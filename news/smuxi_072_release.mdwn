@@ -1,0 +1,68 @@
+[[!meta title="""Smuxi 0.7.2 Release"""]]
+[[!meta date="2010-07-23 00:31:29"]]
+
+[29 bugfixes][] and [13 features][] later I am happy to announce the second
+bugfix release, **0.7.2** codenamed **'Lovegood'**. This version fixes all bugs
+that were reported since the release of 0.7.1 but also introduces some very sexy
+new features!
+
+As the codename suggests, this release contains both love and goods. There are
+new features that everybody loves such as: [file logging][], [configurable
+highlight words][] (Chris Le Sueur), [fully customizable filters to ignore
+messages or events][], [markerlines which divide old messages from new
+messages][], [enhanced network status and window title format][], and
+[extended][] [CTCP support][]. Too good to be true? It's real!  The feedback I
+received from [FOSDEM 2010][] has spurred development and attracted [new
+developers][] and translators.
+
+Smuxi news can also be retrieved by following the [official Smuxi Twitter
+account][].
+
+New languages includes: Portuguese (Americo Monteiro), Danish (Joe Hansen),
+partially Finnish (Kalle Kaitala), and partially Catalan (Siegfried-Angel
+Gevatter Pujals). Updated languages includes: French (ClÃ©ment BOURGEOIS),
+German (Bianca Mix), Italian (Vincenzo Campanella), Czech (Michal Simunek),
+Swedish (Martin Bagge), and British (Ryan Smith-Evans).
+
+Going forward, translations will be coordinated and maintained by using
+[Transifex][]. If you wish to submit or update translations, simply visit the
+[Smuxi project on Transifex][]. You can find out how Transifex works by reading
+our [Translation HowTo][].
+
+All bugfixes and features can be found on the [completed 0.7.2 roadmap][].
+
+Already keen on this release? Grab 0.7.2 from the [download page][]!
+
+**Update:** [**0.7.2** **crashes on start**][] for new installations and
+existing installations that don't have remote engines defined. ~~I will push a
+0.7.2.1 emergency release ASAP!~~ Smuxi **0.7.2.1 fixes the crash** and is
+available for download.
+
+**Update:** **0.7.2.1** contained a few annoying bugs such as: [crash when
+saving configuration changes with remote engines][], [bug in the new markerline
+feature][], [message pattern field of filters never matched][] and [missing
+IRCnet server in default settings][], which were all fixed in the **0.7.2.2**
+bugfix-only release, available for download.
+
+  [29 bugfixes]: http://www.smuxi.org/projects/smuxi/issues?fixed_version_id=12&set_filter=1&tracker_id=1&status_id=c
+  [13 features]: http://www.smuxi.org/projects/smuxi/issues?fixed_version_id=12&set_filter=1&tracker_id=2&status_id=c
+  [file logging]: http://www.smuxi.org/issues/show/62
+  [configurable highlight words]: http://www.smuxi.org/issues/show/78
+  [fully customizable filters to ignore messages or events]: http://www.smuxi.org/issues/show/86
+  [markerlines which divide old messages from new messages]: http://www.smuxi.org/issues/show/400
+  [enhanced network status and window title format]: http://www.smuxi.org/issues/show/370
+  [extended]: http://www.smuxi.org/issues/show/386
+  [CTCP support]: http://www.smuxi.org/issues/show/372
+  [FOSDEM 2010]: http://www.fosdem.org/2010/schedule/events/mono_smuxi
+  [new developers]: http://twitter.com/smuxi/developers
+  [official Smuxi Twitter account]: http://twitter.com/smuxi
+  [Transifex]: http://www.transifex.net/
+  [Smuxi project on Transifex]: http://www.transifex.net/projects/p/smuxi/c/master/
+  [Translation HowTo]: http://www.smuxi.org/page/TranslationHowTo
+  [completed 0.7.2 roadmap]: http://www.smuxi.org/versions/show/12
+  [download page]: http://www.smuxi.org/page/Download
+  [**0.7.2** **crashes on start**]: http://www.smuxi.org/issues/show/405
+  [crash when saving configuration changes with remote engines]: http://www.smuxi.org/issues/show/409
+  [bug in the new markerline feature]: http://www.smuxi.org/issues/show/413
+  [message pattern field of filters never matched]: http://www.smuxi.org/issues/show/410
+  [missing IRCnet server in default settings]: http://www.smuxi.org/issues/show/420

@@ -1,0 +1,24 @@
+[[!meta title="""GUI Rewrite, UTF8 fix, Next Steps (GUI queue rewrite, Theme Support)"""]]
+[[!meta date="2004-10-24 01:32:59"]]
+
+So, whats the status of Gnosmirc? The GUI rewrite is completed and code design
+problems are solved. Less Gtk# code, more glade widgets.
+Also the config class of Gnosmirc got a big change, I got a patch by Giacomo Di
+Ciocco aka Deffie who was so nice to work on the config abstraction layer. The
+configuration data is now stored in a thread-safe hashtable, this allows much
+easier and safer access.
+The topic is now shown, if a topic exists.
+The command history has now a managed size and will not grow forever ;-)
+The umlauts problem is finally solved! I search hours for UTF8 convertion
+because Gtk+ expects UTF8 as input, and I found that it was a nasty bug in Gt# <
+1.0.2 that caused this problems. So if you need umlauts use Gtk# >= 1.0.2!
+The next tasks will be checking the GUI queue, maybe a different design will
+give us cleaner code and more performance, I noticed when I connect to a BNC
+with lots of channel and Gnosmirc has alot to do, it hangs sometimes for a few
+seconds and then showing the finished GUI. I think this happen because on every
+wrapped GUI command I trigger the main loop (via ThreadNotify) this can be
+easily a few thousands calls to the main loop.
+Feature-wise I plan to add some theme support, so some users get eyecandy stuff
+;-) I know not all users like minimal stuff :-P but the default look of Gnosmirc
+will stay very minimal and straight (performance and simplicity reasons), so
+don't worry.

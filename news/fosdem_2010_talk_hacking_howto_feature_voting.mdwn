@@ -1,0 +1,29 @@
+[[!meta title="""FOSDEM 2010 Talk, Hacking HowTo, Feature Voting"""]]
+[[!meta date="2010-10-24 15:11:20"]]
+
+#### FOSDEM 2010 Talk
+
+Early this year I was giving an [introduction talk of Smuxi at FOSDEM 2010][] in
+Brussels.  In case you haven't watched it yet, you can watch it on YouTube
+[here][].
+
+#### Hacking HowTo
+
+On the \#smuxi IRC channel new people are asking how to get started with Smuxi
+development. If you are interested in enhancing Smuxi by programming, then this
+new [Smuxi Hacking HowTo][] is a must read for you.
+
+#### Feature Voting
+
+Even if you are not a programmer and also not planning to become one you can
+still get your favorite features faster by voting for them! Just head to
+[Smuxi's ticket system][], login or signup an account, open the feature ticket
+you would like to have and hit the green vote button. When I am deciding which
+feature to implement next, I will check which feature has the most votes and
+pick that one over others! So keep voting for your favorite features, or file a
+new feature request if it doesn't exist yet.
+
+  [introduction talk of Smuxi at FOSDEM 2010]: http://archive.fosdem.org/2010/schedule/events/mono_smuxi
+  [here]: http://www.youtube.com/watch?v=iHu5zCXSPAg "Smuxi Talk at FOSDEM 2010"
+  [Smuxi Hacking HowTo]: http://www.smuxi.org/page/HackingHowto
+  [Smuxi's ticket system]: http://www.smuxi.org/issues

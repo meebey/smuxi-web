@@ -1,0 +1,23 @@
+[[!meta title="""Detachable Frontend (Core Rewrite) / UML / Windows Port (kicking Glade)"""]]
+[[!meta date="2004-12-25 20:49:41"]]
+
+Yes, I am doing already big steps splitting Gnosmirc into 2 parts, engine and
+frontend. The engine contains all Gnosmirc application logic and features, and
+the frontend displays the current messages/states of that engine. The base for
+this will be .NET Remoting, I am already testing alot how I can use it for
+Gnosmirc. Some tests were already a big success.
+
+Within this testphase I am writing UML diagrams for Gnosmirc, I really don't
+wanna do another another rewrite because I forgot to look at the big picture, I
+bet every developer understands this who outgrow on their projects.
+
+Since this core rewrite is going on, I am planing on writing myself now all
+layouts instead of using Glade. Glade is great but it does not give me the
+flexibility I need for making a flexible IRC GUI client, it limits me in object
+design which is a PITA. The Windows port of Gnosmirc was almost working, but
+glade stopped this. Reason is I used a newer glade version for development on my
+linux workstation than the windows version of glade (shipped with Gtk# for
+windows). So it failed on that, hardly, mostly all places produced crashes.
+Means after kicking glade, Gnosmirc will run on Windows too! Don't get me wrong
+though, Glade is a cool GUI tool, but it's not a solution for everything,
+allright stay tuned ;)

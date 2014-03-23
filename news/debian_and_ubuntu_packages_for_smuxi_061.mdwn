@@ -1,0 +1,14 @@
+[[!meta title="""Debian and Ubuntu Packages for Smuxi 0.6.1"""]]
+[[!meta date="2008-07-30 00:07:39"]]
+
+As promised here are the Debian and Ubuntu packages for the 0.6.1 release of
+smuxi!
+
+How to install them, just head to the [download page][].
+
+For Linux package maintainers out there, I welcome very much smuxi packages for
+other Linux distributions like OpenSUSE, Gentoo, ArchLinux, ForeSight and so on!
+Visit me on IRC \#smuxi @ OFTC or [write me an email][].
+
+  [download page]: https://smuxi.meebey.net/jaws/?page/Download
+  [write me an email]: mailto:meebey@meebey.net

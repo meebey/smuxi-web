@@ -1,0 +1,115 @@
+[[!meta title="""Smuxi 0.7 Release"""]]
+[[!meta date="2010-01-14 01:48:25"]]
+
+I am pleased to announce that Smuxi 0.7 'Bianca' is out NOW! This is the most
+exciting release since the initial public release in 2008.
+
+This release contains 4 major highlights in addition to many other enhancements
+and fixes: Initial support for Twitter has been implemented. This will allow you
+to send and receive tweets to the Twitter microblogging service. It supports the
+friends timeline, replies view, and direct messages. The character counter,
+Reply-To feature, and avatar support will follow in later releases.
+
+Smuxi is now able to flawlessly handle network connections with high latency
+which are common with UMTS, WLAN, and busy DSL and cable lines. All
+communication between the Smuxi frontend and the Smuxi server is now done as a
+background task using threads. This gives Smuxi a very responsive feel - just
+like a normal, locally running application - even with difficult network
+conditions
+
+The IRC experience has been significantly improved.  Smuxi will now send all
+unrecognized commands transparently to the IRC server and will show the reply
+directly to the user. In addition, the userlist and query menu have been
+extended to include common CTCP actions.
+
+Smuxi now ensures that the text colors used in the tabs are easily readable,
+regardless of your GTK theme.  It does this by using the proven-reliable
+color-contrast algorithm used by Smuxi 0.6.4.1 to generate nick colors.
+
+A full list of changes is included below.
+
+**New features:**
+
+-   Feature \#228: Twitter integration
+-   Feature \#20: more colors for message types
+-   Feature \#259: Split too long IRC messages into smaller messages
+-   Feature \#25: Pass unknown commands to protocol manager as fallback.
+-   Feature \#29: show away-msg only once per query (David Paleino)
+-   Feature \#46: nickname completion on private chat (David Paleino)
+-   Feature \#71: Add popup menu to links in the chat/channel window
+-   Feature \#146: Please add right-click menu to queries (Clément Bourgeois)
+-   Feature \#147: Please add CTCP to on-nick right-click menu (Clément
+    Bourgeois)
+-   Feature \#225: Use colors with good contrast for tab label
+-   Feature \#235: Smuxi Server Manager (Clément Bourgeois)
+-   Feature \#236: Process "On Connect Commands" for Quick Connect
+-   Feature \#242: Entry Command Queue
+-   Feature \#243: SSH tunnel setup needs to check the local forwarding port
+-   Feature \#248: stray SSH tunnel checker
+-   Feature \#256: Show unknown IRC replies to the user
+-   Feature \#258: Optimize SSH on difficult networks
+-   Feature \#269: Show CTCP replies on query tabs (Clément Bourgeois)
+-   Feature \#270: Find Group Chat should show colored IRC topics (David
+    Paleino)
+-   Feature \#273: Support context-menu key in user list
+-   Feature \#274: Make URLs copyable with a context menu
+
+**Bugfixes:**
+
+-   Bug \#149: Highlights are not always remembered
+-   Bug \#183: Leaking FrontendManager threads
+-   Bug \#198: Missing dictionary on WIndows
+-   Bug \#211: /names command takes ages on big channels
+-   Bug \#223: Many beeps when connecting to a smuxi-server on Windows
+-   Bug \#224: "Find Group Chat" might block forever
+-   Bug \#232: Client throws unhandled exceptions upon network connection loss
+    (Windows)
+-   Bug \#233: Switching between tabs is not instantaneous on slow connections
+    to remote servers
+-   Bug \#234: crash on open
+-   Bug \#240: excess flood caused by joining many channels at once
+-   Bug \#241: Marking topic text (grab-focus kicks in)
+-   Bug \#244: Transition remote -\> remote fails with connection refused on
+    localhost:7689/SessionManager
+-   Bug \#245: Status bar too short short for german language
+-   Bug \#246: two remote engines with the same name
+-   Bug \#247: Highlight is triggered by self-written messages
+-   Bug \#249: /reconnect crashes after failed connect attempt
+-   Bug \#250: default IRCnet server entry is wrong
+-   Bug \#251: /join is sometimes not doing anything at all
+-   Bug \#252: not showing failed attempts when joining a channel
+-   Bug \#253: &chans have wrong tab colors
+-   Bug \#260: /server command throws exception
+-   Bug \#261: Closing a channel tab shows ErrorNotOnChannel
+-   Bug \#262: Remote engine connection check might block the GUI
+-   Bug \#263: Find group chat should use wildcard by default (David Paleino)
+-   Bug \#268: configure.ac error, Twitter engine is controlled by "engine-msnp"
+    macro... (David Paleino)
+-   Bug \#281: Race condition in PangoTools.ToMarkup (David Paleino)
+-   Bug \#283: GroupChatView.cs missing \_Logger protection
+-   Bug \#285: Almost all IRC commands might suffer from a race condition
+
+**Big thanks goes to the reviewers of the english messages strings done on
+debian-l10n-english @ lists.debian.org:**
+
+-   Justin B Rye
+-   Esko Arajärvi
+
+**New translations:**
+
+-   Czech translation (Michal Simunek)
+-   Swedish translation (Martin Bagge)
+-   Argentinian translation (Damian Kleiman)
+
+**Updated translations:**
+
+-   German translation (Bianca Mix)
+-   French translation (Clément Bourgeois)
+-   Italian translation (Vincenzo Campanella)
+-   British English translation (Ryan Smith-Evans)
+
+Thank you everyone who contributed to this release!
+
+Smuxi is available for download from [here][].
+
+  [here]: http://www.smuxi.org/page/Download

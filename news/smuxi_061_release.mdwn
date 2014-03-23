@@ -1,0 +1,61 @@
+[[!meta title="""Smuxi 0.6.1 Release + Windows Support"""]]
+[[!meta date="2008-07-28 00:33:27"]]
+
+So one week after 0.6.0, here we go, the first minor bugfix/feature release of
+the 0.6 series!
+
+I received a lot of feedback from smuxi users, thanks goes to all smuxi users
+for that. This helps me making smuxi a great IRC client. So what does this
+bugfix release include? Well, it contains some bugfixes but there was no major
+bugs like crashes or anything, seems like someone tested smuxi very well :-P
+
+As it didn't contain much bugs, I also added some smaller features, here the
+list:
+
+New features:
+
+-   Group chats behind their protocol chat. ([trac \#54][])
+-   Added Whois to popup menu in channels. ([trac \#57][])
+-   Added Kick+Ban to popup menu in channels. ([trac \#58][])
+-   Reduced logging from debug to info level, to get debug level -d can be
+    passed as argument to smuxi-server and smuxi-frontend-gnome. ([trac \#59][]
+    [trac \#60][])
+-   Tabs can be re-ordered now, but only with GTK\# 2.10, the order will not be
+    retained though after restart. ([trac \#68][])
+-   Multiple users can be selected in channels now to do actions. ([trac
+    \#73][])
+
+Bug fixes:
+
+-   Changing topic and user list position will now be applied without
+    restarting. ([trac \#56][])
+-   Fixed "make check" ([trac \#53][])
+-   Fixed "/window close" command and ctrl+w hotkey ([trac \#67][])
+
+So what are you waiting for? Get smuxi 0.6.1 from the [download page][]!
+
+Please keep giving me feedback by submitting TRAC tickets, joining on IRC or
+writing emails! That's what make me going ;)
+
+**Attention to Windows users:** with the 0.6.1 release I made a win32 package
+that will run if you follow the "Windows Install" instructions from the download
+page!
+
+Tomorrow I will try to get Debian and Ubuntu packages done for Smuxi. For some
+odd reason I couldn't get 0.6.0 packages building because autofoo failed on
+Debian/Etch not finding install-sh while it was there...
+
+**Update:**the source tarball of smuxi 0.6.1 and smartirc4net have been updated!
+Smuxi builds from source cleanly now, check the [download page][].
+
+  [trac \#54]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/54
+  [trac \#57]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/57
+  [trac \#58]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/58
+  [trac \#59]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/59
+  [trac \#60]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/60
+  [trac \#68]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/68
+  [trac \#73]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/73
+  [trac \#56]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/56
+  [trac \#53]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/53
+  [trac \#67]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/67
+  [download page]: http://smuxi.meebey.net/jaws/?page/Download

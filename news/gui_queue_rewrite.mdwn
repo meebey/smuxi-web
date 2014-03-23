@@ -1,0 +1,19 @@
+[[!meta title="""GUI queue rewrite"""]]
+[[!meta date="2004-10-28 12:45:41"]]
+
+Yes, I am working on it already. The problematic GUI queue based on
+Gtk.ThreadNotify is being replaced by GLib.IdleHandler. The concept is much
+different, when Gtk has nothing to do (no draws, no updates etc) then the
+IdleHandler  will be called. In that IdleHandler method  it will work on the
+queue (GUI changes that are pending, like showing new IRC messages to the
+channel pages) and does the actual work. This means when gtk is "done" or
+"ready" for making new changes to  the GUI, then Gnosmirc will process his
+changes. In practice this should give a much more interactive GUI programm (when
+its under load). The GUI hangs should not happen anymore this way, since if gtk
+has alot to do (making new pages, updates userslists etc) then no further GUI
+changes are done (from the queue) till gtk has finished first the current
+pending work. Also what I like about this approach is, I wrap the IRC callbacks
+into the gtk main thread, so I don't have to create containers for each GUI
+change (that was a real PITA)! The rewrite is not completed yet, the svn repo is
+inconsistent now, so be careful if you svn update ;-)
+Allright thats it for now...

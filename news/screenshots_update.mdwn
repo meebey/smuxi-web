@@ -1,0 +1,7 @@
+[[!meta title="""Screenshots Update"""]]
+[[!meta date="2005-07-03 20:15:19"]]
+
+After some work on smuxi I made new screenshots, you will notice that there is
+the engine manager and preferences GUI now. IRC server manager is still missing
+though, that will be one of the next things I will work on.
+Head over the screenshots and take a look!

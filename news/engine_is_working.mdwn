@@ -1,0 +1,13 @@
+[[!meta title="""Engine is working!"""]]
+[[!meta date="2005-04-25 10:14:51"]]
+
+OMG, after hacking hours on the engine, I finally got the engine running the
+first time with 2 text frontends using 2 different users! I have to fine tune
+some stuff yet but the base of the engine works like it should.
+
+So now I can actually start implementate the Gtk/GNOME frontend for Smuxi. Some
+things in the engine are not yet strictly defined, I will have to make some more
+think-about-the-big-picture-sessions while I am hacking the frontend. Currently
+the text frontend is just a test yet to see what the engine tries for debugging.
+
+Stay tuned ;-)

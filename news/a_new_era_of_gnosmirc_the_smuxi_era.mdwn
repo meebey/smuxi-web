@@ -1,0 +1,10 @@
+[[!meta title="""A new era of Gnosmirc, the smuxi era!"""]]
+[[!meta date="2005-03-27 15:18:29"]]
+
+Since I am working heavily on the new codebase which will give us the detachable
+frontend feature, I found the name Gnosmirc does not fit anymore for a few
+reasons. When I started Gnosmirc I focused the Gnome GUI toolkit, with this new
+feature, Gnome will be just one frontend of many. Also users could see an
+association with the name of "mIRC" which I do not like at all. So a new project
+name was born: smuxi - Smart MUltipleXed Irc. Smuxi reflects exactly the main
+feature of it which is pretty unique to almost all IRC clients. So lets smuxing!
