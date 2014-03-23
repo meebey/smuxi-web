@@ -150,7 +150,7 @@
 				url: '/news/index.rss',
 				success: function(feed) {
 					var html = '<ul>';
-					for (var i = 0; i < feed.items.length && i < 5; i++) {
+					for (var i = 0; i < feed.items.length && i < 3; i++) {
 						var item = feed.items[i];
 						html += '<li>' +
 							'<a href="' + item.link + '">' +
