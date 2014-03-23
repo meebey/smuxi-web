@@ -34,8 +34,7 @@
   * Themeing Support
     * Configurable Font
     * Foreground / Background Color
-    * Userlist Position
-    * Tab Colors / Position
+    * Chat Activity Colors
     * Configurable Timestamps
     * Configurable Tray-Icon Support
 
