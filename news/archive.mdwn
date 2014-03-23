@@ -1,3 +1,4 @@
-[[!meta title="News Archive - Smuxi"]]
+[[!meta title="News Archive"]]
+[[!meta date="1970-01-01 00:00:00"]]
 [[!inline pages="page(news/*) and !page(news/license) and !*/Discussion"
 actions="no" feeds="yes"]]
