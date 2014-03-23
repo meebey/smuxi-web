@@ -1,0 +1,3 @@
+[[!meta title="News Archive - Smuxi"]]
+[[!inline pages="page(news/*) and !page(news/license) and !*/Discussion"
+actions="no" feeds="yes"]]
