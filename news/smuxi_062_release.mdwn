@@ -35,18 +35,18 @@ real stuff!
 PS: Smuxi is now available in [Debian/Unstable][] and [ArchLinux][] (thanks goes
 to Jense for the ArchLinux package)!
 
-  [trac\#94]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/94
-  [trac\#95]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/95
-  [trac\#91]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/91
-  [trac\#84]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/84
-  [trac\#102]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/102
-  [trac\#100]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/100
-  [trac\#106]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/106
-  [trac\#80]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/80
-  [trac\#87]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/87
-  [trac\#89]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/89
-  [trac\#92]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/92
-  [trac\#99]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/99
+  [trac\#94]: /issues/show/94
+  [trac\#95]: /issues/show/95
+  [trac\#91]: /issues/show/91
+  [trac\#84]: /issues/show/84
+  [trac\#102]: /issues/show/102
+  [trac\#100]: /issues/show/100
+  [trac\#106]: /issues/show/106
+  [trac\#80]: /issues/show/80
+  [trac\#87]: /issues/show/87
+  [trac\#89]: /issues/show/89
+  [trac\#92]: /issues/show/92
+  [trac\#99]: /issues/show/99
   [download page]: /page/Download/
   [Debian/Unstable]: http://packages.debian.org/sid/smuxi
   [ArchLinux]: http://aur.archlinux.org/packages.php?ID=19247

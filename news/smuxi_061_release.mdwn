@@ -48,14 +48,14 @@ Debian/Etch not finding install-sh while it was there...
 **Update:**the source tarball of smuxi 0.6.1 and smartirc4net have been updated!
 Smuxi builds from source cleanly now, check the [download page][].
 
-  [trac \#54]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/54
-  [trac \#57]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/57
-  [trac \#58]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/58
-  [trac \#59]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/59
-  [trac \#60]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/60
-  [trac \#68]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/68
-  [trac \#73]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/73
-  [trac \#56]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/56
-  [trac \#53]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/53
-  [trac \#67]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/67
+  [trac \#54]: /issues/show/54
+  [trac \#57]: /issues/show/57
+  [trac \#58]: /issues/show/58
+  [trac \#59]: /issues/show/59
+  [trac \#60]: /issues/show/60
+  [trac \#68]: /issues/show/68
+  [trac \#73]: /issues/show/73
+  [trac \#56]: /issues/show/56
+  [trac \#53]: /issues/show/53
+  [trac \#67]: /issues/show/67
   [download page]: /page/Download/
