@@ -47,7 +47,7 @@ Allright, thats it for now, stay tuned!
 
   [http://git.qnetp.net/?p=smuxi.git]: http://git.qnetp.net/?p=smuxi.git
   [http://projects.qnetp.net/projects/show/smuxi]: http://projects.qnetp.net/projects/show/smuxi
-  [Topic in Action]: http://www.smuxi.org/jaws/data/phoo/2009_03_29/medium/smuxi-0.6.4-dev-topic.png
+  [Topic in Action]: /jaws/data/phoo/2009_03_29/medium/smuxi-0.6.4-dev-topic.png
     "Topic in Action"
-  [![Topic in Action][]]: http://www.smuxi.org/jaws/data/phoo/2009_03_29/smuxi-0.6.4-dev-topic.png
+  [![Topic in Action][]]: /jaws/data/phoo/2009_03_29/smuxi-0.6.4-dev-topic.png
   [master]: http://git.qnetp.net/?p=smuxi.git;a=shortlog;h=refs/heads/master

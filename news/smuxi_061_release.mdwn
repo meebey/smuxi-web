@@ -58,4 +58,4 @@ Smuxi builds from source cleanly now, check the [download page][].
   [trac \#56]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/56
   [trac \#53]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/53
   [trac \#67]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/67
-  [download page]: http://smuxi.meebey.net/jaws/?page/Download
+  [download page]: /page/Download/

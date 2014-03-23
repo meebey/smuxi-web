@@ -50,4 +50,4 @@ A full list of changes is included below.
 
 Smuxi is available for download from [here][].
 
-  [here]: http://www.smuxi.org/page/Download
+  [here]: /page/Download

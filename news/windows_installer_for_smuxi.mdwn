@@ -18,5 +18,5 @@ Are you running  Windows and want to give it a try? Just grab it from the
 build, I made a development release which includes the
 [feature/\#63\_drop\_gnome-sharp][] branch)
 
-  [download page]: http://www.smuxi.org/page/Download
+  [download page]: /page/Download
   [feature/\#63\_drop\_gnome-sharp]: http://git.qnetp.net/?p=smuxi.git;a=shortlog;h=refs/heads/feature/%2363_drop_gnome-sharp

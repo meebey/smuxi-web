@@ -47,6 +47,6 @@ to Jense for the ArchLinux package)!
   [trac\#89]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/89
   [trac\#92]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/92
   [trac\#99]: http://smuxi.meebey.net/cgi-bin/trac/trac.cgi/ticket/99
-  [download page]: http://smuxi.meebey.net/jaws/?page/Download
+  [download page]: /page/Download/
   [Debian/Unstable]: http://packages.debian.org/sid/smuxi
   [ArchLinux]: http://aur.archlinux.org/packages.php?ID=19247

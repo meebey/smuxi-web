@@ -10,5 +10,5 @@ For Linux package maintainers out there, I welcome very much smuxi packages for
 other Linux distributions like OpenSUSE, Gentoo, ArchLinux, ForeSight and so on!
 Visit me on IRC \#smuxi @ OFTC or [write me an email][].
 
-  [download page]: https://smuxi.meebey.net/jaws/?page/Download
+  [download page]: /page/Download/
   [write me an email]: mailto:meebey@meebey.net

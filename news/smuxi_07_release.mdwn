@@ -112,4 +112,4 @@ Thank you everyone who contributed to this release!
 
 Smuxi is available for download from [here][].
 
-  [here]: http://www.smuxi.org/page/Download
+  [here]: /page/Download

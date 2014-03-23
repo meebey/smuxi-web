@@ -25,5 +25,5 @@ new feature request if it doesn't exist yet.
 
   [introduction talk of Smuxi at FOSDEM 2010]: http://archive.fosdem.org/2010/schedule/events/mono_smuxi
   [here]: http://www.youtube.com/watch?v=iHu5zCXSPAg "Smuxi Talk at FOSDEM 2010"
-  [Smuxi Hacking HowTo]: http://www.smuxi.org/page/HackingHowto
-  [Smuxi's ticket system]: http://www.smuxi.org/issues
+  [Smuxi Hacking HowTo]: /page/HackingHowto
+  [Smuxi's ticket system]: /issues

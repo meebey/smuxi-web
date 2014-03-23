@@ -44,25 +44,25 @@ feature][], [message pattern field of filters never matched][] and [missing
 IRCnet server in default settings][], which were all fixed in the **0.7.2.2**
 bugfix-only release, available for download.
 
-  [29 bugfixes]: http://www.smuxi.org/projects/smuxi/issues?fixed_version_id=12&set_filter=1&tracker_id=1&status_id=c
-  [13 features]: http://www.smuxi.org/projects/smuxi/issues?fixed_version_id=12&set_filter=1&tracker_id=2&status_id=c
-  [file logging]: http://www.smuxi.org/issues/show/62
-  [configurable highlight words]: http://www.smuxi.org/issues/show/78
-  [fully customizable filters to ignore messages or events]: http://www.smuxi.org/issues/show/86
-  [markerlines which divide old messages from new messages]: http://www.smuxi.org/issues/show/400
-  [enhanced network status and window title format]: http://www.smuxi.org/issues/show/370
-  [extended]: http://www.smuxi.org/issues/show/386
-  [CTCP support]: http://www.smuxi.org/issues/show/372
+  [29 bugfixes]: /projects/smuxi/issues?fixed_version_id=12&set_filter=1&tracker_id=1&status_id=c
+  [13 features]: /projects/smuxi/issues?fixed_version_id=12&set_filter=1&tracker_id=2&status_id=c
+  [file logging]: /issues/show/62
+  [configurable highlight words]: /issues/show/78
+  [fully customizable filters to ignore messages or events]: /issues/show/86
+  [markerlines which divide old messages from new messages]: /issues/show/400
+  [enhanced network status and window title format]: /issues/show/370
+  [extended]: /issues/show/386
+  [CTCP support]: /issues/show/372
   [FOSDEM 2010]: http://www.fosdem.org/2010/schedule/events/mono_smuxi
   [new developers]: http://twitter.com/smuxi/developers
   [official Smuxi Twitter account]: http://twitter.com/smuxi
   [Transifex]: http://www.transifex.net/
   [Smuxi project on Transifex]: http://www.transifex.net/projects/p/smuxi/c/master/
-  [Translation HowTo]: http://www.smuxi.org/page/TranslationHowTo
-  [completed 0.7.2 roadmap]: http://www.smuxi.org/versions/show/12
-  [download page]: http://www.smuxi.org/page/Download
-  [**0.7.2** **crashes on start**]: http://www.smuxi.org/issues/show/405
-  [crash when saving configuration changes with remote engines]: http://www.smuxi.org/issues/show/409
-  [bug in the new markerline feature]: http://www.smuxi.org/issues/show/413
-  [message pattern field of filters never matched]: http://www.smuxi.org/issues/show/410
-  [missing IRCnet server in default settings]: http://www.smuxi.org/issues/show/420
+  [Translation HowTo]: /page/TranslationHowTo
+  [completed 0.7.2 roadmap]: /versions/show/12
+  [download page]: /page/Download
+  [**0.7.2** **crashes on start**]: /issues/show/405
+  [crash when saving configuration changes with remote engines]: /issues/show/409
+  [bug in the new markerline feature]: /issues/show/413
+  [message pattern field of filters never matched]: /issues/show/410
+  [missing IRCnet server in default settings]: /issues/show/420

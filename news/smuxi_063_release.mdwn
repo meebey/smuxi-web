@@ -53,5 +53,5 @@ There are now also packages available for openSUSE (thanks to Andrew Jorgensen)
 and [Ubuntu][] (thanks to Stefan Ebner). The [download page][] contains
 explanations how to install those.
 
-  [download page]: http://www.smuxi.org/page/Download
+  [download page]: /page/Download
   [Ubuntu]: http://packages.ubuntu.com/smuxi

@@ -53,4 +53,4 @@ now. Just head to the [download page][here] to get these fixes!
   [Ayatana project]: https://wiki.ubuntu.com/Ayatana
   [Smuxi is available on Flattr]: https://flattr.com/thing/51924/Smuxi-IRC-Client
   [Flattr-FOSS project]: http://raphaelhertzog.com/2010/09/01/free-software-to-flattr-sep-2010/
-  [here]: http://www.smuxi.org/page/Download
+  [here]: /page/Download
