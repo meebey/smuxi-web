@@ -1,5 +1,9 @@
 @import "/local.css";
 
+h2#binarypackages {
+    margin-top: 0px
+}
+
 div.button {
     border:1px solid lightgrey;
     cursor:pointer;
