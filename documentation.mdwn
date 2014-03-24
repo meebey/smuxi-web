@@ -3,6 +3,10 @@
 Documentation
 =============
 
+## General ##
+
+* [IRC Tutorial][]
+
 ## Using Smuxi ##
 
 * [[Frequently Asked Questions|/faq]]
@@ -19,3 +23,5 @@ Documentation
 * [[Hacking]]
 * [[Debugging]]
 * [[Screenshot Policy|screenshot-policy]]
+
+ [IRC Tutorial]: http://www.irchelp.org/irchelp/irctutorial.html
