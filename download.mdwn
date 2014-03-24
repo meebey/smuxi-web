@@ -115,7 +115,7 @@ Building Smuxi from source requires the following packages being installed:
 - [log4net][]
 - [Nini][]
 
-[smuxi-0.10.tar.gz][] ([.asc][])
+[smuxi-0.11.tar.gz][] ([.asc][])
 
 ## Release Notes
 **[Smuxi 0.10 Release Notes][]**
@@ -145,5 +145,5 @@ fb_param.currency = 'USD';
   [Smuxi 0.10 Release Notes]: /news/smuxi_0.10_release/
   [log4net]: http://logging.apache.org/log4net/
   [Nini]: http://nini.sourceforge.net/
-  [smuxi-0.10.tar.gz]: /download.php?file=smuxi-0.10.tar.gz
+  [smuxi-0.11.tar.gz]: /download.php?file=smuxi-0.11.tar.gz
   [.asc]: /jaws/data/files/smuxi-0.10.tar.gz.asc "PGP signature"
