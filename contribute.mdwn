@@ -26,7 +26,7 @@ you provide and tune the ticket when needed.
 
  [redmine]: /issues
  [new account]: /account/register
- [new issue]: /issures/new
+ [new issue]: /issues/new
 
 ## Talk About It ##
 
