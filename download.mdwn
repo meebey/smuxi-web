@@ -12,6 +12,18 @@
 </div>
 
 <!-- Distro Selectors -->
+<div onclick="selectDistro('windows')" id="button-windows" class="button button-select">
+  <img src="/logos/windows_small.png" />
+  Windows
+</div>
+<div onclick="selectDistro('osx')" id="button-osx" class="button button-select">
+  <img src="/logos/osx_small.png" />
+  OS X
+</div>
+<div onclick="selectDistro('linux')" id="button-linux" class="button button-select">
+  <img src="/logos/linux_small.jpg" />
+  GNU/Linux
+</div>
 <div onclick="selectDistro('debian')" id="button-debian" class="button button-select">
   <img src="/logos/debian_small.png" />
   Debian
@@ -40,21 +52,9 @@
   <img src="/logos/raspberry-pi_small.jpg" />
   Raspberry Pi
 </div>
-<div onclick="selectDistro('linux')" id="button-linux" class="button button-select">
-  <img src="/logos/linux_small.jpg" />
-  GNU/Linux
-</div>
 <div onclick="selectDistro('freebsd')" id="button-freebsd" class="button button-select">
   <img src="/logos/freebsd_small.png" />
   FreeBSD
-</div>
-<div onclick="selectDistro('windows')" id="button-windows" class="button button-select">
-  <img src="/logos/windows_small.png" />
-  Windows
-</div>
-<div onclick="selectDistro('osx')" id="button-osx" class="button button-select">
-  <img src="/logos/osx_small.png" />
-  OS X
 </div>
 </div>
 
