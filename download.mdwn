@@ -60,6 +60,18 @@
 
 <!-- Distro Items -->
 <div id="distro-items">
+[[!toggleable  id="download-windows-stable" text="""
+    [[!inline pages="download/windows" feeds=no]]
+"""]]
+
+[[!toggleable  id="download-osx-stable" text="""
+    [[!inline pages="download/osx" feeds=no]]
+"""]]
+
+[[!toggleable  id="download-linux-stable" text="""
+    [[!inline pages="download/linux" feeds=no]]
+"""]]
+
 [[!toggleable  id="download-debian-stable" text="""
     [[!inline pages="download/debian" feeds=no]]
 """]]
@@ -88,20 +100,8 @@
     [[!inline pages="download/raspberry-pi" feeds=no]]
 """]]
 
-[[!toggleable  id="download-linux-stable" text="""
-    [[!inline pages="download/linux" feeds=no]]
-"""]]
-
 [[!toggleable  id="download-freebsd-stable" text="""
     [[!inline pages="download/freebsd" feeds=no]]
-"""]]
-
-[[!toggleable  id="download-windows-stable" text="""
-    [[!inline pages="download/windows" feeds=no]]
-"""]]
-
-[[!toggleable  id="download-osx-stable" text="""
-    [[!inline pages="download/osx" feeds=no]]
 """]]
 </div>
 
