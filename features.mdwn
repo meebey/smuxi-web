@@ -40,6 +40,8 @@
 
 #### Connectivity Features
   * Multiple Server Support (you can connect to more than one server)
+  * [Multiple Identities][]: each server can have different nick and real name
+    (since 0.11)
   * [NetworkManager][] Support (automatically reconnects to servers on laptop resume)
   * HTTP / SOCKS Proxy Support
   * SSL Support (with optional certificate validation)
@@ -145,6 +147,7 @@
   [Channel List / Search]: http://www.smuxi.org/ezfaq/show/smuxi?faq_id=27
   [On Connect Commands]: http://www.smuxi.org/ezfaq/show/smuxi?faq_id=26
   [Filters]: http://www.smuxi.org/ezfaq/show/smuxi?faq_id=13
+  [Multiple Identities]: /issues/show/428
   [NetworkManager]: https://wiki.gnome.org/Projects/NetworkManager
   [Join Bar]: /screencasts/quick-join/
   [smuxi-server]: /screencasts/smuxi-server-connect/
