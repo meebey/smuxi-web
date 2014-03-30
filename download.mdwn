@@ -146,4 +146,4 @@ fb_param.currency = 'USD';
   [log4net]: http://logging.apache.org/log4net/
   [Nini]: http://nini.sourceforge.net/
   [smuxi-0.11.tar.gz]: /download.php?file=smuxi-0.11.tar.gz
-  [.asc]: /jaws/data/files/smuxi-0.10.tar.gz.asc "PGP signature"
+  [.asc]: /jaws/data/files/smuxi-0.11.tar.gz.asc "PGP signature"
