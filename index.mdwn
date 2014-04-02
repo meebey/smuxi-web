@@ -1,4 +1,4 @@
-[[!meta description="free, distributed and user-friendly IRC / Twitter / XMPP client for Linux, Windows and Mac OS X based on GNOME / GTK+"]]
+[[!meta description="free and user-friendly IRC client with Twitter and XMPP support for Linux, Windows and Mac OS X based on GNOME / GTK"]]
 [[!meta robots="noodp"]]
 
 ## Be Anywhere ##
