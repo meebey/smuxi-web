@@ -107,20 +107,8 @@ Download
 """]]
 </div>
 
-## Source Tarball
-This tarball contains only the source code of Smuxi and is intended for package
-maintainers of Unix-like operating systems as it requires you to compile Smuxi
-and the needed components yourself.
-
-Building Smuxi from source requires the following packages being installed:
-
-- [log4net][]
-- [Nini][]
-
-[smuxi-0.11.tar.gz][] ([.asc][])
-
 ## Release Notes
-**[Smuxi 0.10 Release Notes][]**
+**[Smuxi 0.10 Release Notes] (/news/smuxi_0.10_release/)**
 
 <br/>
 
@@ -143,9 +131,3 @@ fb_param.currency = 'USD';
 <noscript>
   <img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/offsite_event.php?id=6010411638083&amp;value=0&amp;currency=USD" />
 </noscript>
-
-  [Smuxi 0.10 Release Notes]: /news/smuxi_0.10_release/
-  [log4net]: http://logging.apache.org/log4net/
-  [Nini]: http://nini.sourceforge.net/
-  [smuxi-0.11.tar.gz]: /download.php?file=smuxi-0.11.tar.gz
-  [.asc]: /jaws/data/files/smuxi-0.11.tar.gz.asc "PGP signature"

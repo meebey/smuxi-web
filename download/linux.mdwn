@@ -2,10 +2,13 @@
 
 [[!img logos/linux.png link=no alt="GNU/Linux Logo" class="distrologo"]]
 
-**Download: [smuxi-0.11.tar.gz][]** ([.asc][])
+### Download: [smuxi-0.11.tar.gz][] ([.asc][]) ###
 
-This package contains only the source code of Smuxi. These libraries have to be
-installed before you can compile and install Smuxi:
+This tarbal contains only the source code of Smuxi and is intended for package
+maintainers and advanced users of Unix-like operating systems as it requires you
+to compile Smuxi and the needed components yourself.
+
+These libraries have to be installed before you can compile and install Smuxi:
 
  * [Mono][] >= 2.6
  * [log4net][]
