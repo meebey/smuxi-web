@@ -67,10 +67,15 @@ head over to the [message pattern documentation][msg patterns].
 ### Hooks Enhancements ###
 
  * A bug was fixed that prevented hooks from issuing more than one command
- * New hook points:
+ * New [hook points](/documentation/hooks/#hookpoints):
    * engine/session/on-group-chat-person-added
    * engine/session/on-group-chat-person-removed
    * engine/session/on-group-chat-person-updated
+ * New [hook variables](/documentation/hooks/#environmentvariables):
+   * CMD
+   * CMD_PARAMETER
+   * CMD_CHARACTER
+   * PROTOCOL_MANAGER_PRESENCE_STATUS: Unknown, Offline, Online, Away
 
 ### Twitter Enhancements ###
 
