@@ -117,9 +117,8 @@ Want this? Go [here][download page] and grab it right now!
 
   [download page]: /download/
   [roadmap]: /versions/show/
-  [bugs]: /projects/smuxi/issues?query_id=4
-  [features]: /projects/smuxi/issues?fixed_version_id=19&set_filter=1&tracker_id=2&status_id=c
+  [bugs]: /projects/smuxi/issues?query_id=6
+  [features]: /projects/smuxi/issues?fixed_version_id=31&set_filter=1&tracker_id=2&status_id=c
   [commits]: https://github.com/meebey/smuxi/compare/0.10...0.11
-  [NNN]: /issues/show/NNN "#NNN: TITLE"
   [msg patterns]: /documentation/message-patterns
   [hooks]: /documentation/hooks
