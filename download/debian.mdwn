@@ -24,25 +24,4 @@ the official Debian repository, just run the following command:
 
 Now you can start Smuxi from the GNOME Activities Overview or KDE menu.
 
-### Unofficial Debian Repositories
-**In case the official repositories from above are not providing the
-latest Smuxi version yet, you can use these instead:**
-
-For **Debian/Testing** and **Debian/Unstable** add the following line to
-your /etc/apt/source.list file:
-
-    deb http://debian.meebey.net/sid/smuxi /
-
-For **Debian 6.0** add the following line to your /etc/apt/source.list
-file:
-
-    deb http://debian.meebey.net/squeeze-backports/smuxi /
-
-After that run:
-
-    apt-get update
-    apt-get install smuxi
-
-Now you can start Smuxi from the GNOME or KDE menu.
-
   [backports.debian.org]: http://backports.debian.org/
