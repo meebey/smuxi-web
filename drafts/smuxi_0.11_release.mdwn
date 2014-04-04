@@ -1,35 +1,24 @@
-[[!meta title="""Smuxi 0.X with XXX, YYY, ZZZ"""]]
+[[!meta title="""Smuxi 0.11 with multi identity support, message patterns, fixed Twitter and new website"""]]
 
 And here we go again! We're proud to announce the new version of Smuxi, release
-0.X "***Codename***". During the development, [NN bug reports][bugs] and
-[NN feature requests][features] in [NN commits][commits] were worked on making
-this release a MAJOR_OR_MINOR feature and bugfix release.
+0.11 "***Distractions***". During the development, [11 bug reports][bugs] and
+[2 feature requests][features] in [112 commits][commits] were worked on. Notable
+highlights in this release are:
 
-Notable highlights in this release are:
+### User Interface Enhancements ###
 
-### Enhanced User Interface ###
+* The chat list can be shrunken, this is especially handy with XMPP/Jabber and
+  long group chat identifiers.
+* The highlight counter is now a separate column which enhances the vertical
+  alignment with other highlights and guarantees to be visible even if the chat
+  name was truncated.
 
-[[!img screenshots/smuxi-0.9-linux-gnome-main-window.png size="400x"
-       alt="Screenshot of Smuxi 0.9 on GNOME3"
-       title="Smuxi on GNOME3"]]
-[[!img screenshots/smuxi-0.9-linux-unity-main-window.png size="400x"
-       alt="Screenshot of Smuxi 0.9 on Ubuntu Unity"
-       title="Smuxi on Ubuntu Unity"]]
+### Multi Identity Support ###
 
-[[!img screenshots/smuxi-0.9-win7-main-window.png size="400x"
-       alt="Screenshot of Smuxi 0.9 on Windows 7"
-       title="Smuxi on Windows 7"]]
-[[!img screenshots/smuxi-0.9-osx-main-window.png size="400x"
-       alt="Screenshot of Smuxi 0.9 on Mac OS X"
-       title="Smuxi on Mac OS X"]]
-
-[[!img scrVeenshots/smuxi-0.9-linux-stfl-main-window.png size="200x"
-       alt="Screenshot of Smuxi 0.9's text frontend" class="screenshot"]]
-### Text Frontend Enhancements ###
-
- * Changes here
- * More changes here
- * And even more changes here
+Smuxi cares for its user feedback. Multi identity support was the
+most voted feature and thus it got implemented! Now you can please your
+schizo^Wdesire to use different nick, user and real names depending on the
+server. Simply edit the server in preferences and change the details.
 
 ### Message Patterns ###
 
@@ -83,29 +72,16 @@ head over to the [message pattern documentation][msg patterns].
    * engine/session/on-group-chat-person-removed
    * engine/session/on-group-chat-person-updated
 
-### IRC Enhancements ###
-
- * Changes here
- * More changes here
- * And even more changes here
-
-### XMPP (Beta) Enhancements ###
-
- * Changes here
- * More changes here
- * And even more changes here
-
 ### Twitter Enhancements ###
 
- * Changes here
- * More changes here
- * And even more changes here
+As of 14 Jan 2014 Twitter disallows unencrypted HTTP requests which broke
+Smuxi's Twitter support. Smuxi is now making exclusively encrypted requests
+(HTTPS) and thus works with Twitter again.
 
 ### JabbR (Beta) Enhancements ###
 
- * Changes here
- * More changes here
- * And even more changes here
+ * Messages now raise [Smuxi hooks][hooks]
+ * The Validate certificate setting is now correctly honored.
 
 ### Updated Translations ###
 
@@ -115,28 +91,19 @@ Smuxi should now be in your language, including:
 
 ### Behind the Scenes ###
 
- * Changes here
- * More changes here
- * And even more changes here
+ * New [Smuxi git repository @ GNOME] (https://git.gnome.org/browse/smuxi)
+ * Cleaner XMPP code (Oliver Schneider)
+ * Smuxi's STFL text frontend is doing a graceful shutdown on quit (Calvin B) 
 
 ### Contributors ####
 
 Contributors to this release are the following people:
 
- * Mirco Bauer (193 commits)
- * Oliver Schneider (59 commits)
- * Ondřej Hošek (13 commits, translations)
- * Jason Papakostas (2 commits)
- * Carlos Martín Nieto (1 commit)
+ * Mirco Bauer (98 commits)
+ * Oliver Schneider (6 commits)
+ * Calvin B (6 commits)
  * Andrés G. Aragoneses (1 commit)
- * George Karavasilev (artwork)
- * Leonardo Pires Felix (translations)
- * Kalle Kaitala (translations)
- * Joe Hansen (translations)
- * Jimmie Elvenmark (translations)
- * Dean Lee (translations)
- * Clément Bourgeois (translations)
- * Bianca Mix (translations)
+ * Jeroen Baten (translations)
 
 Thank you very much for your contributions to Smuxi!
 
@@ -146,6 +113,7 @@ Want this? Go [here][download page] and grab it right now!
   [roadmap]: /versions/show/
   [bugs]: /projects/smuxi/issues?query_id=4
   [features]: /projects/smuxi/issues?fixed_version_id=19&set_filter=1&tracker_id=2&status_id=c
-  [commits]: https://github.com/meebey/smuxi/compare/0.8.11...0.9
+  [commits]: https://github.com/meebey/smuxi/compare/0.10...0.11
   [NNN]: /issues/show/NNN "#NNN: TITLE"
   [msg patterns]: /documentation/message-patterns
+  [hooks]: /documentation/hooks
