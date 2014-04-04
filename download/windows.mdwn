@@ -2,7 +2,7 @@
 
 [[!img logos/windows.png link=no alt="Microsoft Windows Logo" class="distrologo"]]
 
-**Download: [smuxi-0.11-1-win32-setup.exe][]** ([.asc][])
+### Download: [smuxi-0.11-1-win32-setup.exe][] ([.asc][]) ###
 
 Windows XP / Vista / 7 users (32-bit and 64-bit) can download the
 installer (as listed above). The installer automatically downloads the
