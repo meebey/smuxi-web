@@ -94,6 +94,7 @@ Smuxi should now be in your language, including:
  * New [Smuxi git repository @ GNOME](https://git.gnome.org/browse/smuxi)
  * Cleaner XMPP code (Oliver Schneider)
  * Smuxi's STFL text frontend is doing a graceful shutdown on quit (Calvin B) 
+ * New sexy website! We hope you like it :)
 
 ### Contributors ####
 
