@@ -1,11 +1,13 @@
 [[!meta title="Download - Smuxi"]]
 
+Download
+--------
+
 <script type="text/javascript" src="selector.js"></script>
 <script>
     setDistros('opensuse debian ubuntu gentoo archlinux foresight raspberrypi linux freebsd windows osx');
 </script>
 
-## Binary Packages
 <div id="distro-selector" style="overflow: hidden; display: block;">
 <div style="float: top">
 <b>Please select your operating system:</b>
