@@ -1,4 +1,4 @@
-[[!meta description="free and user-friendly IRC client with Twitter and XMPP support for Linux, Windows and Mac OS X based on GNOME / GTK"]]
+[[!meta description="Smuxi is a free and user-friendly IRC client with Twitter and XMPP support for Linux, Windows and Mac OS X based on GNOME / GTK"]]
 [[!meta robots="noodp"]]
 
 ## Be Anywhere ##
