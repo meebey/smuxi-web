@@ -8,27 +8,26 @@
 grok the example, continue reading the intro.
 
 Everybody knows text can be boring because it is all just text. Nothing can
-sidetrack you except reading that bare text. Text often have recurring patterns
-that could be used as information to create something useful from it and make
-the text more interactive. For example someone writes:
+sidetrack you except reading that bare text. Text often has recurring patterns
+from which something useful and interactive can be created. For example, someone
+writes:
 
     Hey meebey, do you know RFC2812?
 
 RFCs are a recurring pattern with a distinct number behind it and are real
 references to something in the internet (collection of protocol specifications).
 
-So usually I would now fire up a browser tab, copy/paste or typing RFC2812 into
-my favorite search engine and click the first hit and then reply to that
-question. But with Smuxi's message patterns it turns RFC2812 into a link for
-you which you can simple click and it point you to the right document on the
-right website.
+So I would usually fire up a browser tab, copy/paste or type RFC2812 into my
+favorite search engine and click the first hit. Then I'd reply to the question
+afterwards. But with Smuxi's message patters, it turns RFC2812 into a link on
+which you can simply click to launch the relevant document.
 
 Wow this is very cool, but isn't this already happening with http URLs and email
 addresses? Exactly! Why shouldn't more information be used to create useful
 things from it? Smuxi message patterns allow you to define text patterns that
 are transformed into clickable links. This can be used for RFCs, CVEs, bug
-report numbers (#XXX), git commit hashes and much more, make good use of your
-creativity.
+report numbers (#XXX), git commit hashes and much more. Make good use of your
+creativity!
 
 By default Smuxi comes with built-in message patterns for:
 
@@ -42,9 +41,9 @@ By default Smuxi comes with built-in message patterns for:
     GNOME, KDE, Xfce, Debian, Redhat, Novell, Xamarin, openSUSE, Mozilla, Samba,
     SourceForge, CPAN, boost, Claws and Smuxi)
 
-If you know more general patterns useful for others, please [report][]!
+If you know more general patterns useful for others, please [submit them][].
 
-  [report]: /issues/new
+  [submit them]: /issues/new
 
 ## Define a Message Pattern ##
 
