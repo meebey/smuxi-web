@@ -1,0 +1,22 @@
+<script type="text/javascript" src="jquery.jcarousel.min.js"></script>
+<script type="text/javascript" src="jcarousel.basic.js"></script>
+
+<div class="jcarousel-wrapper">
+    <div class="jcarousel">
+        <ul>
+            <li><img src="/screenshots/smuxi-0.10-linux-gnome-main-window.png" width="600" height="400" alt=""></li>
+            <li><img src="/screenshots/smuxi-0.10-linux-unity-main-window.png" width="600" height="400" alt=""></li>
+            <li><img src="/screenshots/smuxi-0.10-osx-main-window.png" width="600" height="400" alt=""></li>
+            <li><img src="/screenshots/smuxi-0.10-win8-main-window.png" width="600" height="400" alt=""></li>
+            <li><img src="/screenshots/smuxi-0.10-win7-main-window.png" width="600" height="400" alt=""></li>
+            <li><img src="/screenshots/smuxi-0.9-linux-stfl-main-window.png" width="600" height="400" alt=""></li>
+        </ul>
+    </div>
+
+    <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+    <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+    
+    <p class="jcarousel-pagination">
+        
+    </p>
+</div>
