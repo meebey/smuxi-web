@@ -1,4 +1,5 @@
 @import "/local.css";
+@import "colorbox.css";
 
 .middle ul li {
     background: none;
