@@ -2,7 +2,13 @@
 @import "colorbox.css";
 
 .middle ul li {
-    background: none;
+    background: none !important;
+}
+
+.wrapper {
+    max-width: 620px;
+    padding: 0 20px 40px 20px;
+    margin: auto;
 }
 
 .jcarousel-wrapper {
