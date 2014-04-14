@@ -1,0 +1,52 @@
+<div class="jcarousel-wrapper" style="display: none;">
+    <div class="jcarousel">
+        <ul>
+            <li>
+                <a href="/screenshots/smuxi-0.10-linux-gnome-main-window.png" class="colorbox">
+                    <img src="/screenshots/smuxi-0.10-linux-gnome-main-window.png" width="600" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="/screenshots/smuxi-0.10-linux-unity-main-window.png" class="colorbox">
+                    <img src="/screenshots/smuxi-0.10-linux-unity-main-window.png" width="600" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="/screenshots/smuxi-0.10-osx-main-window.png" class="colorbox">
+                    <img src="/screenshots/smuxi-0.10-osx-main-window.png" width="600" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="/screenshots/smuxi-0.10-win8-main-window.png" class="colorbox">
+                    <img src="/screenshots/smuxi-0.10-win8-main-window.png" width="600" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="/screenshots/smuxi-0.10-win7-main-window.png" class="colorbox">
+                    <img src="/screenshots/smuxi-0.10-win7-main-window.png" width="600" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="/screenshots/smuxi-0.9-linux-stfl-main-window.png" class="colorbox">
+                    <img src="/screenshots/smuxi-0.9-linux-stfl-main-window.png" width="600" alt="">
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+    <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+    
+    <p class="jcarousel-pagination" />
+</div>
+
+<script type="text/javascript" src="jquery.jcarousel.min.js"></script>
+<script type="text/javascript" src="jcarousel.basic.js"></script>
+<script type="text/javascript" src="jquery.colorbox.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $(".jcarousel-wrapper").css("display", "block");
+        $('.colorbox').colorbox({maxWidth:'80%', maxHeight:'80%'});
+    });
+</script>
+
