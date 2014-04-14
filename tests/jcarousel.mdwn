@@ -1,6 +1,11 @@
-<div class="wrapper">
+<div class="wrapper" style="display: none;">
     [[!inline pages="./jcarousel/script" raw=yes feeds=no]]
 </div>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $(".wrapper").css("display", "block");
+    });
+</script>
 
 <noscript>
     [[!inline pages="./jcarousel/noscript" raw=yes feeds=no]]
