@@ -1,3 +1,7 @@
 @import "jcarousel.css";
 @import "colorbox.css";
 @import "/local.css";
+
+.inlineheader, .inlinefooter {
+    display: none;
+}
