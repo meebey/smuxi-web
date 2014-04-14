@@ -108,7 +108,7 @@ Download
 </div>
 
 ## Release Notes
-**[Smuxi 0.10 Release Notes](/news/smuxi_0.10_release/)**
+**[Smuxi 0.11 Release Notes](/news/smuxi_0.11_release/)**
 
 <br/>
 
