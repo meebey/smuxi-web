@@ -13,12 +13,6 @@
 	<TMPL_IF FAVICON>
 		<link rel="icon" href="<TMPL_VAR BASEURL><TMPL_VAR FAVICON>" type="image/x-icon" />
 	</TMPL_IF>
-	<TMPL_IF LOCAL_CSS>
-		<link rel="stylesheet" href="<TMPL_VAR BASEURL><TMPL_VAR LOCAL_CSS>" type="text/css" />
-	<TMPL_ELSE>
-		<link rel="stylesheet" href="<TMPL_VAR BASEURL>local.css" type="text/css" />
-	</TMPL_IF>
-	<link rel="stylesheet" href="<TMPL_VAR BASEURL>style.css" type="text/css" />
 	<TMPL_IF FEEDLINKS>
 		<TMPL_VAR FEEDLINKS>
 	</TMPL_IF>
@@ -59,6 +53,13 @@
 	<![endif]-->
 	<!-- End Load -->
 
+	<link rel="stylesheet" href="<TMPL_VAR BASEURL>style.css" type="text/css" />
+	<TMPL_IF LOCAL_CSS>
+		<link rel="stylesheet" href="<TMPL_VAR BASEURL><TMPL_VAR LOCAL_CSS>" type="text/css" />
+	<TMPL_ELSE>
+		<link rel="stylesheet" href="<TMPL_VAR BASEURL>local.css" type="text/css" />
+	</TMPL_IF>
+	
 	<!-- Load Bubble Tip Stylesheet -->
 	<link rel="stylesheet" href="/_include/css/jquery.bubbletip.css" type="text/css" media="screen" />
 	<!--[if IE]>
