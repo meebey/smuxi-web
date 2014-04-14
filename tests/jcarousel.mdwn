@@ -1,4 +1,6 @@
-[[!inline pages="./jcarousel/script" raw=yes feeds=no]]
+<div class="wrapper">
+    [[!inline pages="./jcarousel/script" raw=yes feeds=no]]
+</div>
 
 <noscript>
     [[!inline pages="./jcarousel/noscript" raw=yes feeds=no]]
