@@ -1,2 +1,2 @@
-[[!inline pages="script" feeds=no]]
-[[!inline pages="noscript" feeds=no]]
+[[!inline pages="jcarousel/script" feeds=no]]
+[[!inline pages="jcarousel/noscript" feeds=no]]
