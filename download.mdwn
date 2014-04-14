@@ -112,14 +112,12 @@ Download
 
 <br/>
 
-<script type="text/javascript" src="//www.ohloh.net/p/15257/widgets/project_basic_stats.js"></script>
-
 <!-- facebook conversion tracking -->
 <script type="text/javascript">
 var fb_param = {};
-fb_param.pixel_id = '6010411638083';
+fb_param.pixel_id = '6013992628006';
 fb_param.value = '0.00';
-fb_param.currency = 'USD';
+fb_param.currency = 'EUR';
 (function(){
   var fpw = document.createElement('script');
   fpw.async = true;
@@ -129,5 +127,7 @@ fb_param.currency = 'USD';
 })();
 </script>
 <noscript>
-  <img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/offsite_event.php?id=6010411638083&amp;value=0&amp;currency=USD" />
+  <img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/offsite_event.php?id=6013992628006&amp;value=0&amp;currency=EUR" />
 </noscript>
+
+<script type="text/javascript" src="//www.ohloh.net/p/15257/widgets/project_basic_stats.js"></script>
