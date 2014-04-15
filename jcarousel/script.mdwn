@@ -40,9 +40,9 @@
     <p class="jcarousel-pagination" />
 </div>
 
-<script type="text/javascript" src="jquery.jcarousel.min.js"></script>
-<script type="text/javascript" src="jcarousel.basic.js"></script>
-<script type="text/javascript" src="jquery.colorbox.min.js"></script>
+<script type="text/javascript" src="/_include/js/jquery.jcarousel.min.js"></script>
+<script type="text/javascript" src="/_include/js/jcarousel.basic.js"></script>
+<script type="text/javascript" src="/_include/js/jquery.colorbox.min.js"></script>
 <script type="text/javascript">
     $(document).ready(function() {
         $('.colorbox').colorbox({maxWidth:'95%', maxHeight:'95%'});
