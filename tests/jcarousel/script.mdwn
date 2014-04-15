@@ -3,32 +3,32 @@
         <ul>
             <li>
                 <a href="/screenshots/irc-client-linux.png" class="colorbox">
-                    <img src="/screenshots/irc-client-linux.png" width="45%" alt="">
+                    <img src="/screenshots/irc-client-linux.png" width="720" alt="">
                 </a>
             </li>
             <li>
                 <a href="/screenshots/irc-client-ubuntu.png" class="colorbox">
-                    <img src="/screenshots/irc-client-ubuntu.png" width="45%" alt="">
+                    <img src="/screenshots/irc-client-ubuntu.png" width="720" alt="">
                 </a>
             </li>
             <li>
                 <a href="/screenshots/irc-client-mac.png" class="colorbox">
-                    <img src="/screenshots/irc-client-mac.png" width="45%" alt="">
+                    <img src="/screenshots/irc-client-mac.png" width="720" alt="">
                 </a>
             </li>
             <li>
                 <a href="/screenshots/irc-client-windows.png" class="colorbox">
-                    <img src="/screenshots/irc-client-windows.png" width="45%" alt="">
+                    <img src="/screenshots/irc-client-windows.png" width="720" alt="">
                 </a>
             </li>
             <li>
                 <a href="/screenshots/irc-client-windows-7.png" class="colorbox">
-                    <img src="/screenshots/irc-client-windows-7.png" width="45%" alt="">
+                    <img src="/screenshots/irc-client-windows-7.png" width="720" alt="">
                 </a>
             </li>
             <li>
                 <a href="/screenshots/irc-client-console.png" class="colorbox">
-                    <img src="/screenshots/irc-client-console.png" width="45%" alt="">
+                    <img src="/screenshots/irc-client-console.png" width="720" alt="">
                 </a>
             </li>
         </ul>
