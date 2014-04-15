@@ -5,12 +5,11 @@
 
 .wrapper {
     max-width: 740px;
-    padding: 0 20px 40px 20px;
     margin: auto;
 }
 
 .jcarousel-wrapper {
-    margin: 20px auto;
+    margin-bottom: 20px;
     position: relative;
     border: 10px solid #fff;
     -webkit-border-radius: 5px;
