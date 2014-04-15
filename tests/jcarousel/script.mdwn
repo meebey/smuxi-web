@@ -2,33 +2,33 @@
     <div class="jcarousel">
         <ul>
             <li>
-                <a href="/screenshots/smuxi-0.10-linux-gnome-main-window.png" class="colorbox">
-                    <img src="/screenshots/smuxi-0.10-linux-gnome-main-window.png" width="45%" alt="">
+                <a href="/screenshots/irc-client-linux.png" class="colorbox">
+                    <img src="/screenshots/irc-client-linux.png" width="45%" alt="">
                 </a>
             </li>
             <li>
-                <a href="/screenshots/smuxi-0.10-linux-unity-main-window.png" class="colorbox">
-                    <img src="/screenshots/smuxi-0.10-linux-unity-main-window.png" width="45%" alt="">
+                <a href="/screenshots/irc-client-ubuntu.png" class="colorbox">
+                    <img src="/screenshots/irc-client-ubuntu.png" width="45%" alt="">
                 </a>
             </li>
             <li>
-                <a href="/screenshots/smuxi-0.10-osx-main-window.png" class="colorbox">
-                    <img src="/screenshots/smuxi-0.10-osx-main-window.png" width="45%" alt="">
+                <a href="/screenshots/irc-client-mac.png" class="colorbox">
+                    <img src="/screenshots/irc-client-mac.png" width="45%" alt="">
                 </a>
             </li>
             <li>
-                <a href="/screenshots/smuxi-0.10-win8-main-window.png" class="colorbox">
-                    <img src="/screenshots/smuxi-0.10-win8-main-window.png" width="45%" alt="">
+                <a href="/screenshots/irc-client-windows.png" class="colorbox">
+                    <img src="/screenshots/irc-client-windows.png" width="45%" alt="">
                 </a>
             </li>
             <li>
-                <a href="/screenshots/smuxi-0.10-win7-main-window.png" class="colorbox">
-                    <img src="/screenshots/smuxi-0.10-win7-main-window.png" width="45%" alt="">
+                <a href="/screenshots/irc-client-windows-7.png" class="colorbox">
+                    <img src="/screenshots/irc-client-windows-7.png" width="45%" alt="">
                 </a>
             </li>
             <li>
-                <a href="/screenshots/smuxi-0.9-linux-stfl-main-window.png" class="colorbox">
-                    <img src="/screenshots/smuxi-0.9-linux-stfl-main-window.png" width="45%" alt="">
+                <a href="/screenshots/irc-client-console.png" class="colorbox">
+                    <img src="/screenshots/irc-client-console.png" width="45%" alt="">
                 </a>
             </li>
         </ul>
