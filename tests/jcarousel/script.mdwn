@@ -45,7 +45,7 @@
 <script type="text/javascript" src="jquery.colorbox.min.js"></script>
 <script type="text/javascript">
     $(document).ready(function() {
-        $('.colorbox').colorbox({maxWidth:'80%', maxHeight:'80%'});
+        $('.colorbox').colorbox({maxWidth:'95%', maxHeight:'95%'});
     });
 </script>
 
