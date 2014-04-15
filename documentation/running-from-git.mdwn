@@ -77,8 +77,39 @@ commands:
 	sudo apt-get install git
 	git clone --recursive git://github.com/meebey/smuxi.git
 	cd smuxi
-	./autogen.sh MCS=/usr/bin/mono-csc
+	./autogen.sh
 	make run
+
+### FreeBSD ###
+Install the required build dependencies with the following commands:
+
+    pkg install mono nini log4net stfl git gmake coreutils bash libtool intltool autoconf automake pkgconf
+
+If you want to use the GNOME/GTK+ frontend on FreeBSD you can install this optional build dependency:
+
+    pkg install gtk-sharp2 
+
+Get source:
+
+    git clone --recursive git://github.com/meebey/smuxi.git
+
+Build Smuxi:
+
+    # If you don't want the GTK frontend (e.g: for servers) append --disable-frontend-gnome
+    INSTALL=$(which ginstall) ./autogen.sh --enable-frontend-stfl
+    gmake
+
+Run GNOME frontend:
+
+    gmake run-gnome
+
+Run STFL frontend:
+
+    gmake run-stfl
+
+Run server:
+
+    gmake run-server
 
 ### OpenBSD ###
 Install the required build dependencies with the following commands:
@@ -137,8 +168,13 @@ Get source:
 
 Build Smuxi:
 
-    AUTOMAKE_VERSION=1.13 AUTOCONF_VERSION=2.69 CONFIG_SHELL="env bash" INSTALL=$(which ginstall) ./autogen.sh MCS=$(which dmcs)
+    # If you don't want the GTK frontend (e.g: for servers) append --disable-frontend-gnome
+    AUTOMAKE_VERSION=1.13 AUTOCONF_VERSION=2.69 CONFIG_SHELL="env bash" INSTALL=$(which ginstall) ./autogen.sh --enable-frontend-stfl
     gmake
+
+Run GNOME frontend:
+
+    gmake run-gnome
 
 Run STFL frontend:
 
