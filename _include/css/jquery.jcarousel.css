@@ -1,9 +1,9 @@
-.middle ul li {
+.jcarousel ul li {
     background: none !important;
     padding: 0px !important;
 }
 
-.wrapper {
+.jcarousel-filler {
     max-width: 740px;
     margin: auto;
 }

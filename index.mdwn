@@ -1,7 +1,7 @@
 [[!meta description="Smuxi is a free and user-friendly IRC client with Twitter and XMPP support for Linux, Windows and Mac OS X based on GNOME / GTK"]]
 [[!meta robots="noodp"]]
 
-<div class="wrapper" style="display: none;">
+<div class="jcarousel-filler" style="display: none;">
     [[!inline pages="jcarousel/script" raw=yes feeds=no]]
 </div>
 <script type="text/javascript">
