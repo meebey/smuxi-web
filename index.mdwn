@@ -6,7 +6,7 @@
 </div>
 <script type="text/javascript">
     $(document).ready(function() {
-        $(".wrapper").css("display", "block");
+        $(".jcarousel-filler").css("display", "block");
     });
 </script>
 
