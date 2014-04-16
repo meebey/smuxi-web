@@ -2,7 +2,7 @@
 [[!meta robots="noodp"]]
 
 <div class="jcarousel-filler" style="display: none;">
-    [[!inline pages="script" raw=yes feeds=no]]
+    [[!inline pages="index/script" raw=yes feeds=no]]
 </div>
 <script type="text/javascript">
     $(document).ready(function() {
@@ -11,7 +11,7 @@
 </script>
 
 <noscript>
-    [[!inline pages="noscript" raw=yes feeds=no]]
+    [[!inline pages="index/noscript" raw=yes feeds=no]]
 </noscript>
 
 ## Be Anywhere ##
