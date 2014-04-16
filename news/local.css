@@ -1,4 +1,4 @@
-@import "/local.css";
+@import "/_include/css/global.css";
 
 .inlinepage {
     border: none;

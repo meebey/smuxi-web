@@ -1,75 +1,7 @@
-.sidebar {
-    float: right;
-    width: auto;
-    border: none;
-    margin-top: auto;
-}
-.sidebar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-.sidebar ul li {
-    float: left;
-    display: block;
-    border: 1px solid black;
-    width: 8em;
-    text-align: center;
-    white-space: nowrap;
-}
+@import "/_include/css/global.css";
+@import "/_include/css/jquery.jcarousel.css";
+@import "/_include/css/jquery.colorbox.css";
 
-.screenshot {
-    float: right;
-}
-
-.actions {
+.inlineheader, .inlinefooter {
     display: none;
-}
-
-.feedlink {
-    display: none;
-}
-
-.footnote {
-    font-size: 0.6em;
-    vertical-align: super;
-}
-
-.inlinepage {
-    overflow: visible;
-}
-.inlinepage .tags {
-    /* hide tags of inlined posts */
-    display: none;
-}
-.inlinepage .pagelicense {
-    /* hide license footers of inlined posts */
-    display: none;
-}
-
-#footer .pagecopyright, .pagelicense, .pagedate {
-    font-size: .8em;
-    margin-top: 0;
-}
-#footer .pagecopyright p {
-    margin: 0;
-}
-#footer .pagelicense p {
-    margin: 0;
-    display: inline;
-}
-#footer .pagedate {
-    margin: 5px 0px;
-}
-
-h2#beanywhere {
-    margin-top: 0px;
-}
-
-#fb-box {
-    position: fixed;
-    top: 170px;
-    background: #fff;
-    right: 0;
 }
