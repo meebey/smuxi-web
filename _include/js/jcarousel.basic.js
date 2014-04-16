@@ -1,6 +1,9 @@
 (function($) {
     $(function() {
         $('.jcarousel')
+            .on('jcarousel:createend', function() {
+                $(this).jcarousel('scroll', 0, true);
+            })
             .jcarousel({
                 wrap: 'last'
             })
