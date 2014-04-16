@@ -1,9 +1,11 @@
 (function($) {
     $(function() {
         $('.jcarousel')
-            .jcarousel()
+            .jcarousel({
+                wrap: 'last'
+            })
             .jcarouselAutoscroll({
-                interval: 3000,
+                interval: 6000,
                 target: '+=1',
                 autostart: true
             });
