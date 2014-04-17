@@ -10,10 +10,10 @@ Documentation
 ## Using Smuxi ##
 
 * Screencasts
-  * [[Connect to Facebook Chat|/screencast/facebook-chat]]
-  * [[Connect to Twitter|/screencast/twitter]]
-  * [[Connect to gTalk|/screencast/gtalk]]
-  * [[Connect to Jabber|/screencast/jabber]]
+  * [[Connect to Facebook Chat|/screencasts/facebook-chat]]
+  * [[Connect to Twitter|/screencasts/twitter]]
+  * [[Connect to gTalk|/screencasts/gtalk]]
+  * [[Connect to Jabber|/screencasts/jabber]]
 * [[Frequently Asked Questions|/faq]]
 * [[Terms]]
 * [[Running from git|running-from-git]]
