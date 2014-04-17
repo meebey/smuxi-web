@@ -69,3 +69,11 @@
     background: #fff;
     right: 0;
 }
+
+@media screen and (min-width: 0px) and (max-width: 1564px) {
+  #fb-box { display: none; }  /* hide it on small screens */
+}
+
+@media screen and (min-width: 1565px) {
+  #fb-box { display: block; }   /* show it elsewhere */
+}
