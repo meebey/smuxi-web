@@ -1,0 +1,10 @@
+[[!meta title="""Smuxi 0.11 "Distractions" Release"""]]
+
+Smuxi 0.11 with multi identity support, message patterns, fixed Twitter and new
+website is available. Packages are available for Windows, Mac OS X, Debian (Sid)
+and Ubuntu (Trusty).  Here you can read the [full release announcement][1]. For
+users running a development build of Smuxi it is recommended to simply upgrade
+to the newest [development build][2].
+
+  [1]: https://smuxi.im/news/smuxi_0.11_release/
+  [2]: https://smuxi.im/documentation/running-from-git/
