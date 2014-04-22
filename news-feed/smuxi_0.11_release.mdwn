@@ -1,4 +1,5 @@
 [[!meta title="""Smuxi 0.11 "Distractions" Release"""]]
+[[!tag planet-feed]]
 
 Smuxi 0.11 with multi identity support, message patterns, fixed Twitter and new
 website is available. Packages are available for Windows, Mac OS X, Debian (Sid)
