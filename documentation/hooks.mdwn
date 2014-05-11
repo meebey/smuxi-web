@@ -124,6 +124,8 @@ do this for the hook, guaranteed.
 
 ### engine/session/on-group-chat-person-updated ###
 
+### engine/session/command-$cmd ###
+
 ### frontend/command-manager/command-$cmd ###
 
 ## Hook Commands ##
