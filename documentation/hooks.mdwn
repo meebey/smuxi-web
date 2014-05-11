@@ -124,7 +124,7 @@ do this for the hook, guaranteed.
 
 ### engine/session/on-group-chat-person-updated ###
 
-### engine/session/command-$cmd ###
+### engine/session/command-$cmd (>= 0.12) ###
 
 ### frontend/command-manager/command-$cmd ###
 
