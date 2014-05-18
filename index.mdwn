@@ -49,9 +49,11 @@ features but also bringing a fresh breeze into messaging by developing
 innovative features not seen in other messaging applications. Smuxi contains
 innovative features like [always-on server mode][smuxi-server] with a detachable
 frontend, unified nick colors, perfect color contrast, server favicons,
-[join bar][], [language agnostic scripting][hooks] and [much more][features].
+[join bar][], [language agnostic scripting][hooks],
+[configurable message patterns][patterns] and [much more][features].
 
  [smuxi-server]: /screencasts/smuxi-server-connect/
  [hooks]: /documentation/hooks
+ [patterns]: /documentation/message-patterns/
  [features]: /features
  [join bar]: /screencasts/quick-join/
