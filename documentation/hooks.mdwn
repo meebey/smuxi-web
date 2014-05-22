@@ -118,6 +118,16 @@ do this for the hook, guaranteed.
 
 ### engine/protocol-manager/on-message-received ###
 
+### engine/protocol-manager/on-presence-status-changed (>= 0.12) ###
+
+Event specific environment variables:
+
+ * PRESENCE_STATUS_CHANGED_OLD_STATUS: for valid values see
+   PROTOCOL_MANAGER_PRESENCE_STATUS
+ * PRESENCE_STATUS_CHANGED_NEW_STATUS: for valid values see
+   PROTOCOL_MANAGER_PRESENCE_STATUS
+ * PRESENCE_STATUS_CHANGED_NEW_MESSAGE
+
 ### engine/session/on-group-chat-person-added ###
 
 ### engine/session/on-group-chat-person-removed ###
