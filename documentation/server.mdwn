@@ -34,15 +34,21 @@ when the running smuxi-server instance stops!
 
 Now you can go ahead and start your smuxi-server.
 
-## Start smuxi-Server ##
+## Start/Stop smuxi-server ##
 
 Starting the smuxi-server is very simple, just run this command in a shell/cmd:
 
     smuxi-server
 
 If you want the smuxi-server to automatically start in the background when your
-system boots, continue reading this section. This is highly dependent of your
+system boots, continue reading the following sections. This is highly dependent of your
 operating system as each system provides its own way to auto start services.
+
+To gracefully stop the running smuxi-server you can use a connected Smuxi
+frontend and simply issue the */shutdown* command.
+
+If you don't have a frontend handy right now, you can kill the smuxi-server
+process using kill on \*nix , the Task Manager on Windows and the like.
 
 ### Debian ###
 
@@ -58,8 +64,6 @@ boots, add this to your /etc/rc.local file:
 ### Mac OS X ###
 
 ### Windows ###
-
-## Stop smuxi-server ##
 
 ## Connect frontend to smuxi-server ##
 
