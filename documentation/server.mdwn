@@ -1,0 +1,65 @@
+[[!meta title="Server - Smuxi"]]
+
+# Smuxi Server #
+
+The Smuxi server (smuxi-server.exe) is a remote engine for a Smuxi frontend.
+Multiple Smuxi frontends can connect and be kept in sync, and when none are
+connected, keeps track and stays connected to chat services.
+
+First connect or go to the system/server were you want to run the
+*smuxi-server*. It should be a system that is always connected to the internet
+and is never powered off. Usually SSH (or VNC for Windows) or your feet will do
+this job for you.
+
+## Configure smuxi-server ##
+
+Before you can use start and use the *smuxi-server* you need to configure a
+username and password. This is the only way the smuxi-server can tell that you
+are allowed to use this smuxi-server so pick something nobody else knows. The
+username is *not* seen anywhere outside of the smuxi-server itself, it has
+nothing to do with the IRC nickname or whatever.
+
+To add the user and set the password run the following command from a shell/cmd
+and replace $myuser and $mypassword with appropriate values:
+
+    smuxi-server --add-user --username=$myuser --password=$mypassword
+
+The smuxi-server should confirm the successful creation like this:
+
+    User "$myuser" successfully added to server.
+
+If you need to make changes later to that username or password, make sure the
+smuxi-server is **not** running at that time. Otherwise the changes will be lost
+when the running smuxi-server instance stops!
+
+Now you can go ahead and start your smuxi-server.
+
+## Start smuxi-Server ##
+
+Starting the smuxi-server is very simple, just run this command in a shell/cmd:
+
+    smuxi-server
+
+If you want the smuxi-server to automatically start in the background when your
+system boots, continue reading this section. This is highly dependent of your
+operating system as each system provides its own way to auto start services.
+
+### Debian ###
+
+### Ubuntu ###
+
+### Other Linux ###
+
+To always start the *smuxi-server* automatically when the Linux server
+boots, add this to your /etc/rc.local file:
+
+    sudo -u your_linux_user bash -c 'nohup smuxi-server > $HOME/smuxi-server.log &'
+
+### Mac OS X ###
+
+### Windows ###
+
+## Stop smuxi-server ##
+
+## Connect frontend to smuxi-server ##
+
