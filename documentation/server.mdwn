@@ -44,6 +44,7 @@ If you want the smuxi-server to automatically start in the background when your
 system boots, continue reading the following sections. This is highly dependent of your
 operating system as each system provides its own way to auto start services.
 
+
 To gracefully stop the running smuxi-server you can use a connected Smuxi
 frontend and simply issue the */shutdown* command.
 
