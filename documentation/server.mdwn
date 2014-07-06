@@ -63,3 +63,7 @@ boots, add this to your /etc/rc.local file:
 
 ## Connect frontend to smuxi-server ##
 
+Tell the frontend to connect to the remote engine by using "Engine -> Add Remote
+Engine" from the frontend's menu. After that quit the frontend and it should ask
+you if you want to start a <Local Engine> or connect to the newly added remote
+one.
