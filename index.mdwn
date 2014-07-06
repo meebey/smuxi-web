@@ -52,7 +52,7 @@ frontend, unified nick colors, perfect color contrast, server favicons,
 [join bar][], [language agnostic scripting][hooks],
 [configurable message patterns][patterns] and [much more][features].
 
- [smuxi-server]: /screencasts/smuxi-server-connect/
+ [smuxi-server]: /documentation/server/
  [hooks]: /documentation/hooks
  [patterns]: /documentation/message-patterns/
  [features]: /features
