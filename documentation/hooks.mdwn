@@ -1,6 +1,6 @@
 [[!meta title="Hooks - Smuxi"]]
 
-# Smuxi Hooks / Scripts / Plugins ##
+# Smuxi Hooks / Scripts / Plugins #
 
 ## Language Support ##
 
