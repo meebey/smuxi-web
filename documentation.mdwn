@@ -17,6 +17,7 @@ Documentation
 * [[Frequently Asked Questions|/faq]]
 * [[Terms]]
 * [[Running from git|running-from-git]]
+* [[Using a smuxi-server|/documentation/server]]
 
 ## Extending Smuxi ##
 
@@ -25,6 +26,7 @@ Documentation
 
 ## Developing Smuxi ##
 
+* [[Architecture]]
 * [[Hacking]]
 * [[Debugging]]
 * [[Screenshot Policy|screenshot-policy]]
