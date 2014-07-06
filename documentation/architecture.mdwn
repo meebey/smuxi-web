@@ -1,0 +1,47 @@
+[[!meta title="Architecture - Smuxi"]]
+
+# Smuxi's Architecture #
+
+Smuxi consists of 3 main components: the engine, a frontend and the server.
+
+## The Smuxi Engine ##
+
+The Smuxi engine includes all logic that is needed to initiate and maintain
+connections to chat services like IRC, Twitter, XMPP/Jabber and so on. All
+message handling, highlights and configuration also happens here. This is what
+makes Smuxi special compared to all other IRC or IM clients. The Smuxi engine is
+separate from the user interface layer. This allows Smuxi to host a engine
+remotely using the smuxi-server (aka remote engine) or to host it in the same
+process as the Smuxi frontend (aka local engine).
+
+## A Smuxi Frontend ##
+
+This is an application that knows how to connect to or spawn a Smuxi engine.  A
+Smuxi remote engine can be used by many frontends at the same time. The idea is
+that you can switch between computers and keep using Smuxi fluently. The Smuxi
+API is used to achieve this.
+
+So far two implementations of a Smuxi frontend exist: the GNOME frontend and the
+STFL frontend.
+
+### The GNOME frontend ##
+
+WRITE ME
+
+### The Text (STFL) frontend ##
+
+WRITE ME
+
+## The Smuxi Server ##
+
+One could think, the smuxi-server must be some complex program, but it really is
+just a 10 lines of code wrapper to spawn a Smuxi engine and provide it to the
+network so frontends can connect to it.
+
+Since the remote engine keeps running inside the smuxi-server while frontends
+can be closed, all chat connections, messages and other state stays alive. When
+a frontend connects to that smuxi-server it will sync/pull all that information
+and it seems like you never closed the frontend.
+
+How a server is configured, started and stopped can be found in the
+[[server documentation|/documentation/server]].
