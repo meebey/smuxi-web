@@ -2,14 +2,20 @@
 
 [[!img logos/debian.png link=no alt="Debian GNU/Linux Logo" class="distrologo"]]
 
-### Debian 7.0 (Stable / Wheezy), Testing and Unstable ###
+### Debian 7.0 (Stable / Wheezy) ###
 
-**Debian/Stable**, **Debian/Testing** and **Debian/Unstable** users can install
-Smuxi from the official Debian repository, just run the following command:
+**Debian 7.0** users can install Smuxi from the [backports.debian.org][]
+repository, just add the following line to your /etc/apt/source.list
+file:
 
-    apt-get install smuxi
+    deb http://backports.debian.org/debian-backports wheezy-backports main
 
-Now you can start Smuxi from the GNOME Activities Overview or KDE menu.
+After that run:
+
+    apt-get update
+    apt-get -t wheezy-backports install smuxi
+
+Now you can start Smuxi from the GNOME or KDE menu.
 
 ### Debian 6.0 (Old Stable / Squeeze) ###
 
@@ -25,5 +31,15 @@ After that run:
     apt-get -t squeeze-backports install smuxi
 
 Now you can start Smuxi from the GNOME or KDE menu.
+
+### Debian Testing and Unstable ###
+
+**Debian/Testing** and **Debian/Unstable** users can install Smuxi from the
+official Debian repository, just run the following command:
+
+    apt-get install smuxi
+
+Now you can start Smuxi from the GNOME Activities Overview or KDE menu.
+
 
   [backports.debian.org]: http://backports.debian.org/
