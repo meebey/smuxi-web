@@ -134,6 +134,8 @@ Event specific environment variables:
 
 ### engine/session/on-group-chat-person-updated ###
 
+### engine/session/on-event-message (>= 0.12) ###
+
 ### engine/session/command-$cmd (>= 0.12) ###
 
 ### frontend/command-manager/command-$cmd ###
