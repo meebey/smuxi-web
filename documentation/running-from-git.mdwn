@@ -186,7 +186,7 @@ Run server:
 
 
  [PPA]: https://launchpad.net/~meebey/+archive/smuxi-daily
- [AUR]: http://aur.archlinux.org/packages.php?ID=56733
+ [AUR]: https://aur.archlinux.org/packages/smuxi-git/
  [makepkg]: https://wiki.archlinux.org/index.php/Makepkg#Usage
  [git-repo]: https://github.com/meebey/smuxi
  [daily-builds]: http://snapshots.smuxi.org/smuxi/
