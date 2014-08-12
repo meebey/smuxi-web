@@ -14,5 +14,5 @@ Bold is ctrl + shift + u then space then 2
 
 Italic is ctrl + shift + u then space then 29
 
-Underline is ctrl + shift + then space then 31
+Underline is ctrl + shift + u then space then 31
 """]]
