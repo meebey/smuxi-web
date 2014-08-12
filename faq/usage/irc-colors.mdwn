@@ -11,6 +11,8 @@ The official (m)IRC colors specification can be found
 [[here|http://www.mirc.com/colors.html]].
 
 Bold is ctrl + shift + u then space then 2
+
 Italic is ctrl + shift + u then space then 29
+
 Underline is ctrl + shift + then space then 31
 """]]
