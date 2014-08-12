@@ -1,0 +1,16 @@
+[[!template id=faqitem.tmpl
+question="How can I type IRC colors or make text bold or italic?"
+answer="""
+The only way to enter IRC colors is by using their raw control codes by pressing
+ctrl + shift + u then space then 3 and then the number of a color.
+
+0 is white for example, a full list of colors can be found
+[[here|https://github.com/meebey/smuxi/blob/cdd9ece50df0adc0c612a70a65b893296faa6120/src/Engine-IRC/Protocols/Irc/IrcMessageBuilder.cs#L219]].
+
+The official (m)IRC colors specification can be found
+[[here|http://www.mirc.com/colors.html]].
+
+Bold is ctrl + shift + u then space then 2
+Italic is ctrl + shift + u then space then 29
+Underline is ctrl + shift + then space then 31
+"""]]
