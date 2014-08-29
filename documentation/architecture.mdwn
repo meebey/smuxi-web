@@ -45,3 +45,23 @@ and it seems like you never closed the frontend.
 
 How a server is configured, started and stopped can be found in the
 [[server documentation|/documentation/server]].
+
+## Configuration Storage ##
+
+Smuxi stores its settings in 2 INI files. INI files contain of sections and
+key/value pairs. All settings that are not related to state of the user
+interface are stored _centrally_ in the Smuxi Engine. This means all frontends
+consume the same settings automatically. This allows the same user experience
+across all Smuxi connected devices.
+
+The location of the INI files is **$HOME/.config/smuxi**
+
+### smuxi-engine.ini ###
+
+This file contains all settings of all Smuxi profiles.
+
+### smuxi-frontend.ini ###
+
+This file contains the settings related to Smuxi remote entries and user
+interface state.
+
