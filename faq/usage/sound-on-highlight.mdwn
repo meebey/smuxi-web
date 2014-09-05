@@ -7,12 +7,18 @@ alone has _3_ different ones). Instead Smuxi relies on GTK/GNOME to play a sound
 when a message with a highlight was received. You can enable this in the GNOME
 sound settings.
 
+<br/>
+
 For GNOME2 you can find this in **System -> Preferences -> Sound** then switch
 to the **Sound Theme tab**, select a sound theme and alert sound from the list.
+
+<br/>
 
 For GNOME3 you can find this in **Your-Name Menu (top right corner) -> Settings
 -> Sound** then switch to Sound Effects tab, set the alert volume to high and
 select the alert sound from the list.
+
+<br/>
 
 For any other desktop environment (like KDE) you will need to make this setting
 using this console command: 
