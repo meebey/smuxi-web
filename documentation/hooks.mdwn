@@ -65,6 +65,12 @@ the files. Here is an example for each method:
 
 ## Location ##
 
+Hooks are automatically activated when they are placed in the right location.
+So after putting them in the hook point location (see see *Hook Points* section)
+you don't need to do anything else.
+
+The base location (without the hook point part) is for
+
  * Linux: $HOME/.local/share/smuxi/hooks
  * Windows:
    * Vista/7/8.x: %LOCALAPPDATA%\smuxi\hooks
