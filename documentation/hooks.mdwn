@@ -67,7 +67,7 @@ the files. Here is an example for each method:
 
  * Linux: $HOME/.local/share/smuxi/hooks
  * Windows:
-   * Vista/7/8: %LOCALAPPDATA%\smuxi\hooks
+   * Vista/7/8.x: %LOCALAPPDATA%\smuxi\hooks
    * XP: %USERPROFILE%\Local Settings\Application Data\smuxi\hooks
  * Mac OS X: 
 
