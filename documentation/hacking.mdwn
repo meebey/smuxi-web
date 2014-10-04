@@ -72,7 +72,7 @@ Start the MonoDevelop application from your desktop menu: Applications ->
 Programming -> MonoDevelop
 
 Open the Smuxi solution in MonoDevelop: File -> Open -> Browse to the "smuxi"
-directory, open "src" directory, select "smuxi.mds", click "Open" button
+directory, open "src" directory, select "*smuxi.sln*", click "Open" button
 
 Change the active configuration from "Release" to "Debug" (this is very
 important)
