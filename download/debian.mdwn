@@ -8,7 +8,7 @@
 repository, just add the following line to your /etc/apt/source.list
 file:
 
-    deb http://backports.debian.org/debian-backports wheezy-backports main
+    deb http://http.debian.net/debian wheezy-backports main
 
 After that run:
 
