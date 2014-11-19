@@ -5,7 +5,7 @@
 Since Smuxi is open-source and free software it is developed by [volunteers][].
 Without these volunteers Smuxi wouldn't exist. If you have some spare time and
 want to give something back then you can contribute to Smuxi in many different
-ways. You don't have to a programmer and neither need to become one to
+ways. You don't have to be a programmer and neither need to become one to
 contribute!
 
  [volunteers]: /fame
