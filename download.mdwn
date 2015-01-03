@@ -117,8 +117,6 @@ Download
     if (navigator.appVersion.indexOf("Win")!=-1) selectDistro('windows');
     // "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:34.0) Gecko/20100101 Firefox/34.0"
     if (navigator.appVersion.indexOf("Mac")!=-1) selectDistro('osx');
-    if (navigator.appVersion.indexOf("X11")!=-1) selectDistro('linux');
-    if (navigator.appVersion.indexOf("Linux")!=-1) selectDistro('linux');
     // "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0"
     if (navigator.appVersion.indexOf("Ubuntu")!=-1) selectDistro('ubuntu');
     // "Mozilla/5.0 (X11; U; Linux ppc; en-US; rv:1.8.1.13) Gecko/20080313 Iceape/1.1.9 (Debian-1.1.9-5)"
@@ -132,6 +130,8 @@ Download
     if (navigator.appVersion.indexOf("FreeBSD")!=-1) selectDistro('freebsd');
     // "Mozilla/5.0 (X11; U; GNU/kFreeBSD i686; en-US; rv:1.8.1.16) Gecko/20080702 Iceape/1.1.11 (Debian-1.1.11-1)"
     if (navigator.appVersion.indexOf("kFreeBSD")!=-1) selectDistro('debian');
+    if (navigator.appVersion.indexOf("X11")!=-1) selectDistro('linux');
+    if (navigator.appVersion.indexOf("Linux")!=-1) selectDistro('linux');
 </script>
 
 <!-- facebook conversion tracking -->
