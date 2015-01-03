@@ -6,6 +6,25 @@ Download
 <script type="text/javascript" src="selector.js"></script>
 <script>
     setDistros('opensuse debian ubuntu gentoo archlinux foresight raspberrypi linux freebsd windows osx');
+    // "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36"
+    if (navigator.appVersion.indexOf("Win")!=-1) selectDistro('windows');
+    // "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:34.0) Gecko/20100101 Firefox/34.0"
+    if (navigator.appVersion.indexOf("Mac")!=-1) selectDistro('osx');
+    if (navigator.appVersion.indexOf("X11")!=-1) selectDistro('linux');
+    if (navigator.appVersion.indexOf("Linux")!=-1) selectDistro('linux');
+    // "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0"
+    if (navigator.appVersion.indexOf("Ubuntu")!=-1) selectDistro('ubuntu');
+    // "Mozilla/5.0 (X11; U; Linux ppc; en-US; rv:1.8.1.13) Gecko/20080313 Iceape/1.1.9 (Debian-1.1.9-5)"
+    if (navigator.appVersion.indexOf("Debian")!=-1) selectDistro('debian');
+    if (navigator.appVersion.indexOf("Gentoo")!=-1) selectDistro('gentoo');//?
+    if (navigator.appVersion.indexOf("ArchLinux")!=-1) selectDistro('archlinux');//?
+    if (navigator.appVersion.indexOf("Foresight")!=-1) selectDistro('foresight');//?
+    if (navigator.appVersion.indexOf("Raspberry")!=-1) selectDistro('raspberrypi');//?
+    if (navigator.appVersion.indexOf("OpenSUSE")!=-1) selectDistro('opensuse');//?
+    // "Mozilla/5.0 (X11; U; FreeBSD i386; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.207.0 Safari/532.0"
+    if (navigator.appVersion.indexOf("FreeBSD")!=-1) selectDistro('freebsd');
+    // "Mozilla/5.0 (X11; U; GNU/kFreeBSD i686; en-US; rv:1.8.1.16) Gecko/20080702 Iceape/1.1.11 (Debian-1.1.11-1)"
+    if (navigator.appVersion.indexOf("kFreeBSD")!=-1) selectDistro('debian');
 </script>
 
 <div id="distro-selector" style="overflow: hidden; display: block;">
