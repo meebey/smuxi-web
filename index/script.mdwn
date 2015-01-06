@@ -3,32 +3,44 @@
         <ul>
             <li>
                 <a href="/screenshots/irc-client-linux.png" class="colorbox">
-                    <img src="/screenshots/irc-client-linux.png" width="720" alt="">
+                    <img src="/screenshots/irc-client-linux.png" width="720"
+                     alt="Screenshot of Smuxi on GNOME3"
+                     title="Smuxi on GNOME3">
                 </a>
             </li>
             <li>
                 <a href="/screenshots/irc-client-ubuntu.png" class="colorbox">
-                    <img src="/screenshots/irc-client-ubuntu.png" width="720" alt="">
+                    <img src="/screenshots/irc-client-ubuntu.png" width="720"
+                     alt="Screenshot of Smuxi on Ubuntu Unity"
+                     title="Smuxi on Ubuntu Unity">
                 </a>
             </li>
             <li>
                 <a href="/screenshots/irc-client-mac.png" class="colorbox">
-                    <img src="/screenshots/irc-client-mac.png" width="720" alt="">
+                    <img src="/screenshots/irc-client-mac.png" width="720"
+                     alt="Screenshot of Smuxi on Mac OS X"
+                     title="Smuxi on Mac OS X">
                 </a>
             </li>
             <li>
                 <a href="/screenshots/irc-client-windows.png" class="colorbox">
-                    <img src="/screenshots/irc-client-windows.png" width="720" alt="">
+                    <img src="/screenshots/irc-client-windows.png" width="720"
+                     alt="Screenshot of Smuxi on Windows 8"
+                     title="Smuxi on Windows 8">
                 </a>
             </li>
             <li>
                 <a href="/screenshots/irc-client-windows-7.png" class="colorbox">
-                    <img src="/screenshots/irc-client-windows-7.png" width="720" alt="">
+                    <img src="/screenshots/irc-client-windows-7.png" width="720"
+                     alt="Screenshot of Smuxi on Windows 7"
+                     title="Smuxi on Windows 7">
                 </a>
             </li>
             <li>
                 <a href="/screenshots/irc-client-console.png" class="colorbox">
-                    <img src="/screenshots/irc-client-console.png" width="720" alt="">
+                    <img src="/screenshots/irc-client-console.png" width="720"
+                     alt="Screenshot of Smuxi's text frontend"
+                     title="Smuxi's Text Frontend on Linux">
                 </a>
             </li>
         </ul>
