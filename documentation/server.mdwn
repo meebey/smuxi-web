@@ -13,7 +13,7 @@ this job for you.
 
 ## Configure smuxi-server ##
 
-Before you can use start and use the *smuxi-server* you need to configure a
+Before you can start and use the *smuxi-server* you need to configure a
 username and password. This is the only way the smuxi-server can tell that you
 are allowed to use this smuxi-server so pick something nobody else knows. The
 username is *not* seen anywhere outside of the smuxi-server itself, it has
