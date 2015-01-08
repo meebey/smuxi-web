@@ -1,0 +1,56 @@
+[[!template id=faqitem.tmpl
+question="""Why do I get "The authentication or decryption has failed" on Linux?"""
+answer="""
+
+You may have issues relating to authentication certificates in Mono resulting in
+an error that looks like this:
+
+    Connection failed! Reason: Could not connect to: irc.freenode.net:7070 The authentication or decryption has failed.
+
+Here are some steps you can take to fix this.
+
+Make sure you have the Mono SDK tools:
+
+    sudo apt-get install mono-devel
+
+Next, import Mozilla's root CA certificates by running (do this as the user who
+is running smuxi-server, not as root):
+
+    mozroots --import --ask-remove
+
+Grab the "intermediate certificate" for the IRC network you're using.  Example:
+
+    certmgr -ssl https://irc.freenode.net:7070
+
+Even though you may see a _*** WARNING: Certificate signature is INVALID ***_,
+this is okay (it is a display bug in Mono's mozroots tool).  Say "y" to import
+this certificate into the CA store.
+
+Now, to work around a [certificate store bug in Mono][bxc#23015] ([Mono's fix
+here][mono-fix]), create these two directories:
+
+    sudo mkdir -p /usr/share/.mono/keypairs
+    sudo mkdir -p /usr/share/.mono/certs
+
+If the first SSL connect works but every connect after that not, then you'll
+need to set an environment variable to keep TLS (the secure connection) from
+caching (fore more details see [ticket #802][802]).  That means prepending
+_MONO_TLS_SESSION_CACHE_TIMEOUT=0_ to the command you use to start Smuxi.  For
+example:
+
+    MONO_TLS_SESSION_CACHE_TIMEOUT=0 nohup smuxi-server &
+
+For the standalone Smuxi without a smuxi-server, you would start Smuxi like this:
+
+    MONO_TLS_SESSION_CACHE_TIMEOUT=0 smuxi-frontend-gnome
+
+Hopefully connecting Smuxi with _Use Encryption_ (SSL/TLS) and _Validate Server
+Certificate_ works now for you. If you still have issues join #smuxi on OFTC or
+Freenode for further assistance (idle there for at least a day so you can read
+the reply!).
+
+  [NNN]: /issues/show/NNN "#NNN: TITLE"
+  [802]: /issues/show/802 "#802: SSL IRC connections usually only work on the first try (local engine)"
+  [bxc#23015]: https://bugzilla.xamarin.com/show_bug.cgi?id=23015
+  [mono-fix]: https://github.com/mono/mono/commit/3552179bdafe770787aaa94949077d04aea317f8
+"""]]
