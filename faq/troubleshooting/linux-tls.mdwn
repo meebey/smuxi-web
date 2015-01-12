@@ -11,12 +11,12 @@ Here are some steps you can take to fix this.
 
 Make sure you have the Mono SDK tools:
 
-    sudo apt-get install mono-devel
+    sudo apt-get install ca-certificates mono-devel
 
 Next, import Mozilla's root CA certificates by running (do this as the user who
 is running smuxi-server, not as root):
 
-    mozroots --import --ask-remove
+    for i in /usr/share/ca-certificates/mozilla/*.crt; do certmgr -add -c Trust "$i"; done
 
 Grab the "intermediate certificate" for the IRC network you're using.  Example:
 
