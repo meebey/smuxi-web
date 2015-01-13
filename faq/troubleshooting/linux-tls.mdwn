@@ -16,7 +16,8 @@ Make sure you have the Mono SDK tools:
 Next, import Mozilla's root CA certificates by running (do this as the user who
 is running smuxi-server, not as root):
 
-    for i in /usr/share/ca-certificates/mozilla/*.crt; do certmgr -add -c Trust "$i"; done
+    for i in $(shopt -s nullglob; echo /usr/local/share/ca-certificates/*.crt \
+        /usr/share/ca-certificates/*/*.crt); do certmgr -add -c Trust $i; done
 
 Grab the "intermediate certificate" for the IRC network you're using.  Example:
 
