@@ -33,6 +33,15 @@ here][mono-fix]), create these two directories:
     sudo mkdir -p /usr/share/.mono/keypairs
     sudo mkdir -p /usr/share/.mono/certs
 
+Another known issue are broken or unsupported CA certificates in the store. They
+can break the certificate chain validation! Run this commands to see if your
+stores are OK or not:
+
+    if certmgr -list -c -m Trust > /dev/null 2>&1; then echo "Your system store seems OK"; else echo "Your system store is BUGGED!"; fi
+    if certmgr -list -c Trust > /dev/null 2>&1; then echo "Your user store sems ok"; else echo "Your user store is BUGGED!"; fi
+
+Both commands return OK for you, then you can go ahead.
+
 If the first SSL connect works but every connect after that not, then you'll
 need to set an environment variable to keep TLS (the secure connection) from
 caching (fore more details see [ticket #802][802]).  That means prepending
