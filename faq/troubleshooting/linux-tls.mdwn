@@ -37,10 +37,19 @@ Another known issue are broken or unsupported CA certificates in the store. They
 can break the certificate chain validation! Run this commands to see if your
 stores are OK or not:
 
-    if certmgr -list -c -m Trust > /dev/null 2>&1; then echo "Your system store seems OK"; else echo "Your system store is BUGGED!"; fi
-    if certmgr -list -c Trust > /dev/null 2>&1; then echo "Your user store sems ok"; else echo "Your user store is BUGGED!"; fi
+    if certmgr -list -c -m Trust > /dev/null 2>&1; then \
+        echo "Your system store seems OK"; else echo "Your system store is BUGGED!"; fi
+    if certmgr -list -c Trust > /dev/null 2>&1; then \
+        echo "Your user store sems OK"; else echo "Your user store is BUGGED!"; fi
 
-Both commands return OK for you, then you can go ahead.
+When both commands return OK, then you can go ahead. If one store says BUGGED
+then you can try this command that should remove all broken/unsupported
+certificates from your stores:
+
+    for i in ~/.config/.mono/certs/Trust/*; do \
+        if ! certmgr -add -c Trust $i > /dev/null 2>&1; then \
+            echo "Removing BUGGY certificate ($i) from user store"; \
+        rm $i; fi; done
 
 If the first SSL connect works but every connect after that not, then you'll
 need to set an environment variable to keep TLS (the secure connection) from
