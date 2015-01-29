@@ -5,7 +5,7 @@
 ### Debian 7.0 (Stable / Wheezy) ###
 
 **Debian 7.0** users can install Smuxi from the [backports.debian.org][]
-repository, just add the following line to your /etc/apt/source.list
+repository, just add the following line to your /etc/apt/sources.list
 file:
 
     deb http://http.debian.net/debian wheezy-backports main
@@ -20,7 +20,7 @@ Now you can start Smuxi from the GNOME or KDE menu.
 ### Debian 6.0 (Old Stable / Squeeze) ###
 
 **Debian 6.0** users can install Smuxi from the [backports.debian.org][]
-repository, just add the following line to your /etc/apt/source.list
+repository, just add the following line to your /etc/apt/sources.list
 file:
 
     deb http://backports.debian.org/debian-backports squeeze-backports-sloppy main
