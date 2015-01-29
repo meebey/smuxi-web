@@ -7,3 +7,10 @@
 		</embed>
 	</object>
 </video>
+
+If you can't get gTalk/XMPP to work then you probably have a 2 factor
+authentication enabled (where you get a SMS with a code). In this case you need
+to create a special password for Smuxi. For more details check this [Google
+support page][google].
+
+ [google]: https://support.google.com/accounts/answer/185833
