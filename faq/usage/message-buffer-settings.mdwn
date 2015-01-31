@@ -1,7 +1,7 @@
 [[!template id=faqitem.tmpl
 question="Message Buffer settings: Buffer Lines, Persistency Type, what?"
 answer="""
-In /Preferences/ -> /Interface/ -> /General/ you find various Message
+In **Preferences** -> **Interface** -> **General** you find various Message
 Buffer settings for Smuxi. This settings tell Smuxi where to store received
 messages you see in every chat. Each continuous text line in Smuxi is a single
 message (line wrapping has no influence).
@@ -38,12 +38,12 @@ By default Smuxi stores all messages in memory (see Volatile).
 
 #### Volatile ####
 
-Originally Smuxi could only keep messages in /memory/, thus many kept messages means high
-memory usage. Also if you restart Smuxi all messages will be gone.
+Originally Smuxi could only keep messages in **memory**, thus many kept messages
+means high memory usage. Also if you restart Smuxi all messages will be gone.
 
 #### Persistent ####
 
-This uses the default /persistent/ backend, which is/was Persistent Db4o.
+This uses the default *persistent* backend, which is/was Persistent Db4o.
 
 #### Persistent (Db4o) ####
 
@@ -51,8 +51,8 @@ This backend uses a object database called Db4o.
 
 <br />
 
-*It is known to have issues with high CPU usage and can crash your Mono
-runtime.* We do not recommend to use it. It is in an experimental state and
+**It is known to have issues with high CPU usage and can crash your Mono
+runtime.** We do not recommend to use it. It is in an experimental state and
 deprecated in favor of the newer SQLite backend (see below).
 
 #### Persistent (SQLite) ####
@@ -62,7 +62,7 @@ but has no known issues.
 
 <br />
 
-*Requires: Smuxi 0.12 or later*
+**Requires: Smuxi 0.12 or later**
 
 ## Volatile Buffer Lines ##
 
