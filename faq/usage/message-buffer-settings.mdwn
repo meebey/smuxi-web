@@ -66,13 +66,13 @@ but has no known issues.
 
 ## Volatile Buffer Lines ##
 
-This setting tells how many messages should be kept in memory if _Persistency
-Type_ was set to _Volatile_
+This setting tells how many messages should be kept in memory per chat if
+_Persistency Type_ was set to _Volatile_
 
 ## Persistent Buffer Lines ##
 
-This setting controls how many messages a disk based / persistent backend should
-retain before it deletes old messages if _Persistency Type_ was set to
-any _Persistent_ option.
+This setting controls how many messages per chat a disk based / persistent
+backend should retain before it deletes old messages if _Persistency Type_ was
+set to any _Persistent_ option.
 
 """]]
