@@ -13,8 +13,8 @@ retain before the oldest messages get removed once it exceeds that value.
 
 <br />
 
-By default Smuxi shows up to 1000 messages per chat before it removes them.
-If you increase this value, keep in mind that it will increase the memory usage!
+By default Smuxi shows up to 500 messages per chat before it removes them. If
+you increase this value, keep in mind that it will increase the memory usage!
 
 ## Engine Buffer Lines ##
 
@@ -69,10 +69,16 @@ but has no known issues.
 This setting tells how many messages should be kept in memory per chat if
 _Persistency Type_ was set to _Volatile_
 
+By default Smuxi keeps up to 200 messages per chat before it removes them. If
+you increase this value, keep in mind that it will increase the memory usage!
+
 ## Persistent Buffer Lines ##
 
 This setting controls how many messages per chat a disk based / persistent
 backend should retain before it deletes old messages if _Persistency Type_ was
 set to any _Persistent_ option.
 
+By default Smuxi stores up to 50,000 messages per chat before it removes them.
+If you increase this value, your memory usage will _not_ increase, but the
+amount of space needed in your harddisk.
 """]]
