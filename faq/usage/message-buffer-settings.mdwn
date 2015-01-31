@@ -6,7 +6,7 @@ Buffer settings for Smuxi. This settings tell Smuxi where to store received
 messages you see in every chat. Each continuous text line in Smuxi is a single
 message (line wrapping has no influence).
 
-### Buffer Lines ###
+## Buffer Lines ##
 
 This setting tells Smuxi's *frontend* how many messages a single chat should
 retain before the oldest messages get removed once it exceeds that value.
@@ -16,7 +16,7 @@ retain before the oldest messages get removed once it exceeds that value.
 By default Smuxi shows up to 1000 messages per chat before it removes them.
 If you increase this value, keep in mind that it will increase the memory usage!
 
-### Engine Buffer Lines ###
+## Engine Buffer Lines ##
 
 This setting tells the Smuxi *frontend* how many messages it should fetch from
 the engine when it connects.
@@ -28,7 +28,7 @@ smuxi-server). By default Smuxi fetches 100 messages per chat when connecting to
 a smuxi-server. If you increase this value, keep in mind that it will increase
 the time needed to sync with the smuxi-server.
 
-### Persistency Type ###
+## Persistency Type ##
 
 This setting controls which backend will be used to store messages.
 
