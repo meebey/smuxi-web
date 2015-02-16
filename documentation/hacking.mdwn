@@ -39,7 +39,7 @@ code changes ever done to Smuxi. You don't need to be afraid, thanks to git
 this is just 17 MB of disk space (after compile about 50 MB) :-) Just run the
 following command:
 
-    git clone https://github.com/meebey/smuxi.git
+    git clone --recursive https://github.com/meebey/smuxi.git
 
 He we go, the Smuxi source code is now ready to be used in the directory
 called "smuxi".
