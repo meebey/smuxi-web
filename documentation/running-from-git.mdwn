@@ -43,11 +43,10 @@ Download the PKGBUILD, run [makepkg][] and install the resulting package with
 pacman, using the following commands:
 
     mkdir -p ~/builds; cd ~/builds
-    wget http://aur.archlinux.org/packages/sm/smuxi-git/smuxi-git.tar.gz
+    wget https://aur.archlinux.org/packages/sm/smuxi-git/smuxi-git.tar.gz
     tar -xaf smuxi-git.tar.gz
     cd smuxi-git
-    makepkg -s
-    su -c "pacman -U smuxi-git-*.tar.xz"
+    makepkg -si
 
 To follow other branches (like stable) append the source line in the PKGBUILD
 with #branch=&lt;branchname&gt; e.g.:
