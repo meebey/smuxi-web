@@ -35,7 +35,7 @@ On **Ubuntu Server** you can use the [daily APT repository][PPA] by running:
     sudo apt-get install python-software-properties
     sudo add-apt-repository ppa:meebey/smuxi-daily
     sudo apt-get update
-    sudo apt-get install smuxi
+    sudo apt-get install smuxi-engine
 
 ### Arch Linux ###
 On **Arch Linux** you can install a development build of Smuxi from [AUR][].
