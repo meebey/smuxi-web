@@ -57,13 +57,11 @@ To checkout a specific commit append #commit=&lt;commit-id&gt;
 
 ### Windows ###
 On Windows you can simply to download and install the newest development
-snapshot from [here][latest-win32] or you can find older snapshots
-[here][daily-builds].
+snapshot from [here][daily-builds].
 
 ### Mac OS X ###
 On Mac OS X you need to install Mono 2.10 or greater and then download the
-newest development snapshpt from [here][latest-osx] or you can find older
-snapshots [here][daily-builds].
+newest development snapshot from [here][daily-builds].
 
 ## Building Smuxi from Git Source Repository ##
 
@@ -188,6 +186,4 @@ Run server:
  [AUR]: https://aur.archlinux.org/packages/smuxi-git/
  [makepkg]: https://wiki.archlinux.org/index.php/Makepkg#Usage
  [git-repo]: https://github.com/meebey/smuxi
- [daily-builds]: http://snapshots.smuxi.org/smuxi/
- [latest-win32]: http://snapshots.smuxi.org/smuxi/smuxi-snapshot-latest-win32-setup.exe
- [latest-osx]: http://snapshots.smuxi.org/smuxi/smuxi-snapshot-latest-osx.zip
+ [daily-builds]: /jaws/data/files/experimental/?C=M;O=D
