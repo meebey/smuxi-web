@@ -2,7 +2,16 @@
 
 [[!img logos/debian.png link=no alt="Debian GNU/Linux Logo" class="distrologo"]]
 
-### Debian 7.0 (Stable / Wheezy) ###
+### Debian 8.0 (Stable / Jessie) ###
+
+**Debian 8.0** users can install Smuxi from the official Debian repository,
+just run the following command:
+
+    apt-get install smuxi
+
+Now you can start Smuxi from the GNOME Activities Overview or KDE menu.
+
+### Debian 7.0 (Old Stable / Wheezy) ###
 
 **Debian 7.0** users can install Smuxi from the [backports.debian.org][]
 repository, just add the following line to your /etc/apt/sources.list
@@ -17,7 +26,7 @@ After that run:
 
 Now you can start Smuxi from the GNOME or KDE menu.
 
-### Debian 6.0 (Old Stable / Squeeze) ###
+### Debian 6.0 (Squeeze) ###
 
 **Debian 6.0** users can install Smuxi from the [backports.debian.org][]
 repository, just add the following line to your /etc/apt/sources.list
