@@ -1,5 +1,5 @@
 [[!template id=faqitem.tmpl
-question="Google Talk / gTalk
+question="Google Talk / gTalk"
 answer="""
 
 Protocol: XMPP
