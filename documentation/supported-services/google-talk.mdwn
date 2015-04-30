@@ -1,0 +1,17 @@
+[[!template id=faqitem.tmpl
+question="Google Talk / gTalk
+answer="""
+
+Protocol: XMPP
+Hostname: talk.google.com
+Port: 5222
+Username: you@gmail.com
+Password: your password or an Google application password
+Use Encryption: checked / enabled
+
+2 factor auth:
+https://support.google.com/accounts/answer/185833?hl=en
+
+plain password auth:
+https://www.google.com/settings/security/lesssecureapps
+"""]]

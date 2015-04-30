@@ -1,0 +1,8 @@
+[[!meta title="List of Supported Services - Smuxi"]]
+
+Supported Services
+==================
+
+<div class="accordion-faq">
+[[!inline pages="supported-services/*" raw=yes feeds=no]]
+</div>
