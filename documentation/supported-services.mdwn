@@ -4,5 +4,5 @@ Supported Services
 ==================
 
 <div class="accordion-faq">
-[[!inline pages="supported-services/*" raw=yes feeds=no]]
+[[!inline pages="documentation/supported-services/*" raw=yes feeds=no]]
 </div>
