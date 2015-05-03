@@ -29,9 +29,9 @@ have never closed Smuxi! This feature was already available in Smuxi for some
 time as an technical preview and it used the Db4o object database, but we were
 never happy about the performance neither with the stability so it always stayed
 an optional feature you need to enable. This year we tried a new message buffer
-backend using SQLite and it works much faster and stable as a rock. So _finally_
-we can enable this feature by default because it just works and enhanced your
-experience. We hope you enjoy it.
+backend using the famous [SQLite][] database and it works much faster and stable
+as a rock. So _finally_ we can enable this feature by default because it just
+works and enhanced your experience. We hope you enjoy it.
 
 ### smuxi-message-buffer tool ###
 
@@ -137,4 +137,5 @@ Want this? Go [here][download page] and grab it right now!
   [features]: /projects/smuxi/issues?fixed_version_id=19&set_filter=1&tracker_id=2&status_id=c
   [commits]: https://github.com/meebey/smuxi/compare/0.8.11...0.9
   [NNN]: /issues/show/NNN "#NNN: TITLE"
+  [SQLite]: https://www.sqlite.org/
 
