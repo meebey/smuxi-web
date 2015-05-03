@@ -1,0 +1,140 @@
+[[!meta title="""Smuxi 1.0 with message persistence, counters """]]
+
+And here we go again! We're proud to announce the new version of Smuxi, release
+1.0 "***Finally***". During the development, [NN bug reports][bugs] and
+[NN feature requests][features] in [NN commits][commits] were worked on making
+this release a MAJOR_OR_MINOR feature and bugfix release.
+
+### Finally 1.0 ###
+
+WRITE ME
+
+### Message Persistence ###
+
+One if the biggest drawbacks of the IRC protocol ever was that messages can't be
+retrieved from the IRC server because the IRC server is simply relaying messages
+to the connected clients. So, if an IRC client is freshly started and connects
+it starts to receive new messages, but all message you had received before are
+no longer available. This always made IRC in a way "volatile" unlike other
+communication systems like email where messages are relayed and stored on the
+client side. One common approach for IRC clients is to store log files in a text
+file. This is a simple feature and gives the user the possibility to read older
+conversations. Smuxi also supports text file logging like other IRC clients but
+it has a big user experience drawback as you need to open the file from the disk
+outside of the IRC client.
+
+In Smuxi 1.0 messages sent and received are now stored on the disk in a way they
+can automatically be retrieved/loaded when you restart Smuxi. It is like you
+have never closed Smuxi! This feature was already available in Smuxi for some
+time as an technical preview and it used the Db4o object database, but we were
+never happy about the performance neither with the stability so it always stayed
+an optional feature you need to enable. This year we tried a new message buffer
+backend using SQLite and it works much faster and stable as a rock. So _finally_
+we can enable this feature by default because it just works and enhanced your
+experience. We hope you enjoy it.
+
+### smuxi-message-buffer tool ###
+
+WRITE ME
+
+### Enhanced User Interface ###
+
+ * Synced message markers (Sebastian Poeplau)
+ * Message counter
+ * More changes here
+ * And even more changes here
+
+[[!img screenshots/smuxi-0.9-linux-gnome-main-window.png size="400x"
+       alt="Screenshot of Smuxi 0.9 on GNOME3"
+       title="Smuxi on GNOME3"]]
+[[!img screenshots/smuxi-0.9-linux-unity-main-window.png size="400x"
+       alt="Screenshot of Smuxi 0.9 on Ubuntu Unity"
+       title="Smuxi on Ubuntu Unity"]]
+
+[[!img screenshots/smuxi-0.9-win7-main-window.png size="400x"
+       alt="Screenshot of Smuxi 0.9 on Windows 7"
+       title="Smuxi on Windows 7"]]
+[[!img screenshots/smuxi-0.9-osx-main-window.png size="400x"
+       alt="Screenshot of Smuxi 0.9 on Mac OS X"
+       title="Smuxi on Mac OS X"]]
+
+[[!img scrVeenshots/smuxi-0.9-linux-stfl-main-window.png size="200x"
+       alt="Screenshot of Smuxi 0.9's text frontend" class="screenshot"]]
+### Text Frontend Enhancements ###
+
+ * Changes here
+ * More changes here
+ * And even more changes here
+
+### IRC Enhancements ###
+
+ * Changes here
+ * More changes here
+ * And even more changes here
+
+### XMPP (Beta) Enhancements ###
+
+ * Changes here
+ * More changes here
+ * And even more changes here
+
+### Twitter Enhancements ###
+
+ * Changes here
+ * More changes here
+ * And even more changes here
+
+### JabbR (Beta) Enhancements ###
+
+ * Changes here
+ * More changes here
+ * And even more changes here
+
+### Updated Translations ###
+
+Smuxi should now be in your language, including:
+
+ * Initial complete LANGUAGE (FULL_NAME)
+ * French (Clément Bourgeois)
+ * Czech (Ondřej Hošek)
+ * Chinese Simp (Dean Lee)
+ * Swedish (Jimmie Elvenmark)
+ * Danish (Joe Hansen)
+ * German (Bianca Mix)
+
+### Behind the Scenes ###
+
+ * Changes here
+ * More changes here
+ * And even more changes here
+
+### Contributors ####
+
+Contributors to this release are the following people:
+
+ * Mirco Bauer (193 commits)
+ * Oliver Schneider (59 commits)
+ * Ondřej Hošek (13 commits, translations)
+ * Jason Papakostas (2 commits)
+ * Carlos Martín Nieto (1 commit)
+ * Andrés G. Aragoneses (1 commit)
+ * George Karavasilev (artwork)
+ * Leonardo Pires Felix (translations)
+ * Kalle Kaitala (translations)
+ * Joe Hansen (translations)
+ * Jimmie Elvenmark (translations)
+ * Dean Lee (translations)
+ * Clément Bourgeois (translations)
+ * Bianca Mix (translations)
+
+Thank you very much for your contributions to Smuxi!
+
+Want this? Go [here][download page] and grab it right now!
+
+  [download page]: /page/Download
+  [roadmap]: /versions/show/
+  [bugs]: /projects/smuxi/issues?query_id=4
+  [features]: /projects/smuxi/issues?fixed_version_id=19&set_filter=1&tracker_id=2&status_id=c
+  [commits]: https://github.com/meebey/smuxi/compare/0.8.11...0.9
+  [NNN]: /issues/show/NNN "#NNN: TITLE"
+
