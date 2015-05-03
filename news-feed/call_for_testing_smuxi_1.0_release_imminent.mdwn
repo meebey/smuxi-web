@@ -1,0 +1,19 @@
+[[!meta title="Call for Testing - Smuxi 1.0 Release Imminent"]]
+[[!tag planet-feed]]
+
+The release of [Smuxi 1.0][roadmap] is imminent and needs final testing.  Smuxi
+development build users please upgrade your Smuxi version now. The release notes
+draft can be found [here][release notes], it contains some or most changes (it
+progresses over time till the final release). If you run from git please upgrade
+to at least [155de85][gh] (2015-05-03), if you run daily builds from the PPA
+please upgrade to at least ~500 or if you run Windows or Mac OS X please upgrade
+to 1.0~rc3 from [here][rc]. You can also upgrade your Smuxi version by using the
+release-candidates named smuxi-1.0~rc\* from [here][rc].  Please report any
+issue you find on the \#smuxi IRC channel or the [bug tracker][].  Thank you for
+your participation!
+
+  [roadmap]: /versions/show/28
+  [gh]: https://github.com/meebey/smuxi/tree/5468e10
+  [rc]: /jaws/data/files/
+  [bug tracker]: /issues/
+  [release notes]: /smuxi_1.0_release/
