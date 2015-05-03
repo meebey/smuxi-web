@@ -26,7 +26,7 @@ outside of the IRC client.
 In Smuxi 1.0 messages sent and received are now stored on the disk in a way they
 can automatically be retrieved/loaded when you restart Smuxi. It is like you
 have never closed Smuxi! This feature was already available in Smuxi for some
-time as an technical preview and it used the Db4o object database, but we were
+time as a technical preview and it used the Db4o object database, but we were
 never happy about the performance neither with the stability so it always stayed
 an optional feature you need to enable. This year we tried a new message buffer
 backend using the famous [SQLite][] database and it works much faster and stable
