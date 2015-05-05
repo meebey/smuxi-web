@@ -66,6 +66,27 @@ boots, add this to your /etc/rc.local file:
 
 ### Windows ###
 
+There are a number of ways to configure Smuxi-server to run at startup on Windows.  For instance, you could simply add a shortcut to `C:\Program Files (x86)\Smuxi\smuxi-server.exe` to your Startup directory.  However, this is less than ideal because it leaves  blank command-line window open on your desktop as long as the server is running.  The best way to avoid this is to set up Smuxi to run as a Windows service.
+
+Unfortunately, Microsoft does not provide a bult-in way to turn any executable into a Windows service.  To get around this, you must use a separate program such as [NSSM](www.nssm.cc) to turn a non-service executable into a service.  This guide assumes you will be using NSSM, but there are other options available.
+
+Before configuring Smuxi-server to run as a service, you should configure the server with whatever users you want, as described above.
+
+Configuring Smuxi-server to run as a Windows service using NSSM:
+- Download NSSM from the [NSSM download page](http://www.nssm.cc/download).
+- Extract the appropriate executable for your version of Windows (i.e. 32 or 64-bit) to somewhere you'll be able to find it, such as Desktop.
+- Open a command prompt and navigate to the directory to which you extracted the NSSM executable (e.g. `%USERPROFILE%\Desktop`)
+- Type `nssm install "Smuxi Engine"`.  You may see a prompt asking you whether you want to allow the program to make changes to your computer.  If you do, click Yes.
+- The NSSM installation window wil open.  There are several options you must specify: 
+    - In the **Application** tab, enter the path to `smuxi-server.exe` in the *Path* field.  By default, this is `C:\Program Files\Smuxi\smuxi-server.exe` (on a 32-bit system) or `C:\Program Files (x86)\Smuxi\smuxi-server.exe` (on a 64-bit system.)  Leave the Arguments field blank.
+	- In the **Details** tab, enter a name for the service (such as "Smuxi Engine") and description in the *Display name* and *Description* fields.  Make sure the startup type is set to Automatic.
+	- In the **Log on** tab, choose *This account* and enter your Windows username and password in the appropriate fields.
+- Click "Install Service."  You will get a pop-up informing you that the service installed correctly.
+- Open the Windows service manager.  On Windows Vista and later, this can be found by searching "Services" in the Start menu.
+- Scroll down to "Smuxi Engine" (or whatever you entered in the *Display name* field).  Select it and click Start.
+
+Congratulations!  Smuxi is now configured to run silently, in the background, when you start Windows.  If you ever whish to stop the Smuxi engine (to add more users, for instance) you can do so from the same Windows services manager you started it from.
+
 ## Connect frontend to smuxi-server ##
 
 Tell the frontend to connect to the remote engine by using "Engine -> Add Remote
