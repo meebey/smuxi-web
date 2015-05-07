@@ -75,7 +75,7 @@ run as a Windows service.
 
 Unfortunately, Microsoft does not provide a bult-in way to turn any executable
 into a Windows service.  To get around this, you must use a separate program
-such as [NSSM](www.nssm.cc) to turn a non-service executable into a service.
+such as [NSSM](http://www.nssm.cc) to turn a non-service executable into a service.
 This guide assumes you will be using NSSM, but there are other options
 available.
 
