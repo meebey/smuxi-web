@@ -116,15 +116,15 @@ do this for the hook, guaranteed.
 
 ## Hook Points ##
 
-### engine/protocol-manager/on-connected ###
+### engine/protocol-manager/on-connected/ ###
 
-### engine/protocol-manager/on-disconnected ###
+### engine/protocol-manager/on-disconnected/ ###
 
-### engine/protocol-manager/on-message-sent ###
+### engine/protocol-manager/on-message-sent/ ###
 
-### engine/protocol-manager/on-message-received ###
+### engine/protocol-manager/on-message-received/ ###
 
-### engine/protocol-manager/on-presence-status-changed (>= 0.12) ###
+### engine/protocol-manager/on-presence-status-changed/ (>= 0.12) ###
 
 Event specific environment variables:
 
@@ -134,17 +134,17 @@ Event specific environment variables:
    PROTOCOL_MANAGER_PRESENCE_STATUS
  * PRESENCE_STATUS_CHANGED_NEW_MESSAGE
 
-### engine/session/on-group-chat-person-added ###
+### engine/session/on-group-chat-person-added/ ###
 
-### engine/session/on-group-chat-person-removed ###
+### engine/session/on-group-chat-person-removed/ ###
 
-### engine/session/on-group-chat-person-updated ###
+### engine/session/on-group-chat-person-updated/ ###
 
-### engine/session/on-event-message (>= 0.12) ###
+### engine/session/on-event-message/ (>= 0.12) ###
 
-### engine/session/command-$cmd (>= 0.12) ###
+### engine/session/command-$cmd/ (>= 0.12) ###
 
-### frontend/command-manager/command-$cmd ###
+### frontend/command-manager/command-$cmd/ ###
 
 ## Hook Commands ##
 
