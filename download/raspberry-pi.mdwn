@@ -14,4 +14,4 @@ just run the following commands:
 Now you can start the smuxi-server from a shell, for more details see the [server how to].
 
   [release PPA]: https://launchpad.net/~meebey/+archive/ppa
-  [server how to]: https://www.smuxi.org/page/ServerHowTo
+  [server how to]: /documentation/server/
