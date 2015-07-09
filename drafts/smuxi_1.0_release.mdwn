@@ -141,5 +141,5 @@ Want this? Go [here][download page] and grab it right now!
   [commits]: https://github.com/meebey/smuxi/compare/0.11.1...1.0
   [NNN]: /issues/show/NNN "#NNN: TITLE"
   [SQLite]: https://www.sqlite.org/
-  [msgbuffer-docs]: /usage/message-buffer-settings/
+  [msgbuffer-docs]: /faq/usage/message-buffer-settings/
 
