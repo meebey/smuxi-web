@@ -7,7 +7,12 @@ this release a MAJOR_OR_MINOR feature and bugfix release.
 
 ### Finally 1.0 ###
 
-WRITE ME
+10 years ago, [Mirco Bauer has made the first commit][first-commit] to the Smuxi
+source code repository.
+
+  [first-commit]: https://github.com/meebey/smuxi/commit/295b37c8ac4939829a3c7f9150943dba8fff07f0
+
+## Changes since Smuxi 0.11 ##
 
 ### Message Persistence ###
 
