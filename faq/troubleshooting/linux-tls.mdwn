@@ -38,9 +38,9 @@ can break the certificate chain validation! Run this commands to see if your
 stores are OK or not:
 
     if certmgr -list -c -m Trust > /dev/null 2>&1; then \
-        echo "Your system store seems OK"; else echo "Your system store is BUGGED!"; fi
+        echo "Your system store seems OK"; else echo "Your system store is BUGGED"; fi
     if certmgr -list -c Trust > /dev/null 2>&1; then \
-        echo "Your user store sems OK"; else echo "Your user store is BUGGED!"; fi
+        echo "Your user store sems OK"; else echo "Your user store is BUGGED"; fi
 
 When both commands return OK, then you can go ahead. If one store says BUGGED
 then you can try this command that should remove all broken/unsupported
