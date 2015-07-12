@@ -50,6 +50,14 @@ certificates from your stores:
         if ! certmgr -add -c Trust $i > /dev/null 2>&1; then \
             echo "Removing BUGGY certificate ($i) from user store"; \
         rm $i; fi; done
+    # remove known CAs that cause issues with Mono
+    for i in 9AAF297AC011353526513000C36AFE40D5AED63C \
+             7571A7194819BC9D9DEA4147DF94C4487799D379 \
+             155F35575155FB25B2AD0369FC01A3FABE1155D5 \
+             9AD8003000E76B7F8518EE8BB6CE8A0CF811E1BB \
+             B31691FDEEA66EE4B52E498F87788180ECE5B1B5; do \
+        rm -f ~/.config/.mono/certs/Trust/ski-$i.cer /usr/share/.mono/certs/Trust/ski-$i.cer; \
+    done
 
 If the first SSL connect works but every connect after that not, then you'll
 need to set an environment variable to keep TLS (the secure connection) from
