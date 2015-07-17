@@ -2,7 +2,7 @@
 
 [[!img logos/linux.png link=no alt="GNU/Linux Logo" class="distrologo"]]
 
-### Download: [smuxi-0.11.1.tar.gz][] ([.asc][]) ###
+### Download: [smuxi-1.0.tar.gz][] ([.asc][]) ###
 
 This tarbal contains only the source code of Smuxi and is intended for package
 maintainers and advanced users of Unix-like operating systems as it requires you
@@ -28,8 +28,8 @@ command as root:
 
 Now you can start Smuxi from the GNOME or KDE menu.
 
-  [smuxi-0.11.1.tar.gz]: /download.php?file=smuxi-0.11.1.tar.gz
-  [.asc]: /jaws/data/files/smuxi-0.11.1.tar.gz.asc "PGP signature"
+  [smuxi-1.0.tar.gz]: /download.php?file=smuxi-1.0.tar.gz
+  [.asc]: /jaws/data/files/smuxi-1.0.tar.gz.asc "PGP signature"
   [Mono]: http://www.go-mono.com/mono-downloads/download.html
   [log4net]: http://logging.apache.org/log4net/
   [Nini]: http://nini.sourceforge.net/
