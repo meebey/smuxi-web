@@ -106,31 +106,30 @@
   * [[Smuxi Hooks|/documentation/hooks]] / Scripting / Plugin Support
     * All programming and scripting languages supported
 
-#### Localization
-  * [Translations][]
-    * British English (partial)
-    * Catalan (partial)
-    * Chinese Simp
-    * Croatian (partial)
-    * Czech
-    * Danish
-    * Dutch
-    * Finnish (partial)
-    * French
-    * German
-    * Italian (partial)
-    * Persian (partial)
-    * Polish (partial)
-    * Portuguese
-    * Portuguese Brazil (partial)
-    * Russian (partial)
-    * Slovak (partial)
-    * Spanish
-    * Spanish Argentina (partial)
-    * Swedish
-    * Telugu (partial)
-    * Turkish (partial)
-    * Urdu (partial)
+#### Translations
+  * British English (partial)
+  * Catalan (partial)
+  * Chinese Simp
+  * Croatian (partial)
+  * Czech
+  * Danish
+  * Dutch
+  * Finnish (partial)
+  * French
+  * German
+  * Italian (partial)
+  * Persian (partial)
+  * Polish (partial)
+  * Portuguese
+  * Portuguese Brazil (partial)
+  * Russian (partial)
+  * Slovak (partial)
+  * Spanish
+  * Spanish Argentina (partial)
+  * Swedish
+  * Telugu (partial)
+  * Turkish (partial)
+  * Urdu (partial)
 
 [^gtalk fn]: Google Talk support is in early stage of development
 
