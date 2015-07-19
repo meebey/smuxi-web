@@ -33,6 +33,8 @@ Currently there are 2 main types of Smuxi hooks:
  * command hook points: these are added Smuxi commands running in either the
    frontend or engine, so you can add /some_cool_command to Smuxi
 
+## Finding Hooks ##
+
 Smuxi hooks are maintained in the [smuxi-hooks git repository][smuxi-hooks.git].
 So if you want to share your written hook simply create a pull request against
 that repository on GitHub, other Smuxi users will be very thankful! Here a list
