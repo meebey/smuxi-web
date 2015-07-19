@@ -4,7 +4,7 @@ And here we go again! We're proud to announce the new version of Smuxi, release
 1.0 "***Finally***". During the development, [20 bug reports][bugs] and
 [10 feature requests][features] in [285 commits][commits] were worked on.
 
-### Finally 1.0 ###
+## Finally 1.0 ##
 
 Smuxi is celebrating its 10th anniversary! 10 years ago, [Mirco Bauer made the
 first commit][first-commit] to the Smuxi source code repository and is still
