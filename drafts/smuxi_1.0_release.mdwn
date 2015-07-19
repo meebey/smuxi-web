@@ -1,9 +1,8 @@
 [[!meta title="""Smuxi 1.0 with message persistence, counters """]]
 
 And here we go again! We're proud to announce the new version of Smuxi, release
-1.0 "***Finally***". During the development, [NN bug reports][bugs] and
-[NN feature requests][features] in [NN commits][commits] were worked on making
-this release a MAJOR_OR_MINOR feature and bugfix release.
+1.0 "***Finally***". During the development, [20 bug reports][bugs] and
+[10 feature requests][features] in [285 commits][commits] were worked on.
 
 ### Finally 1.0 ###
 
@@ -64,7 +63,7 @@ WRITE ME
    and frontend reconnects
 
  * Message counter
- * More changes here
+ * Single application instance support
  * And even more changes here
 
 [[!img screenshots/smuxi-0.9-linux-gnome-main-window.png size="400x"
