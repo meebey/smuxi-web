@@ -26,20 +26,35 @@ by writing [hook commands][] to the standard output.
 
 Currently there are 2 main types of Smuxi hooks:
 
- * protocol-manager hooks: these are mainly events like message-received/sent
+ * protocol-manager hook points: these are mainly events like message-received/sent
    that the various protocol managers (IRC, Twitter, XMPP, etc) can raise
- * command hooks: these are added Smuxi commands running in the frontend, so you
-   can add /some_cool_command to Smuxi
+ * session hook points: these are events that are not specific to a protocol
+   manager.
+ * command hook points: these are added Smuxi commands running in either the
+   frontend or engine, so you can add /some_cool_command to Smuxi
 
 Smuxi hooks are maintained in the [smuxi-hooks git repository][smuxi-hooks.git].
 So if you want to share your written hook simply create a pull request against
-that repository on GitHub, other Smuxi users will be very thankful! Right now
-thre are only 2 proof-of-concept hooks available:
+that repository on GitHub, other Smuxi users will be very thankful! Here a list
+of some already implemented ones:
 
  * [now-playing][]: adds a /np command to Smuxi which shows the currently
-   playing song/video of Banshee using MPRIS2 on D-Bus or YouTube (Chrome only).
+   playing song of MPRIS2 supported players.
  * [tinyurl-resolver][]: resolves all shortened URLs of t.co, bit.ly, etc to the
    full URL. This was originally an irssi plugin written in Perl.
+ * [topic-diff][]: Shows the word differences of the topic after topic changes.
+   (meebey)
+ * [away-nick][]: Automatically appends and removes $AWAY_SUFFIX to/from the nick
+   name when you go away using the /away command or by disconnecting all
+   frontends from the smuxi-server. (meebey)
+ * [system-info][]: Shows system info. Includes system kernel version, distro
+   name, and CPU vendor information. (AK0)
+
+  [now-playing]: https://github.com/meebey/smuxi-hooks/tree/master/now-playing
+  [tinyurl-resolver]: https://github.com/meebey/smuxi-hooks/tree/master/tinyurl-resolver
+  [topic-diff]: https://github.com/meebey/smuxi-hooks/tree/master/topic-diff
+  [away-nick]: https://github.com/meebey/smuxi-hooks/tree/master/away-nick
+  [system-info]: https://github.com/meebey/smuxi-hooks/tree/master/system-info
 
 ## Installing Hooks ##
 
@@ -124,7 +139,10 @@ do this for the hook, guaranteed.
 
 ### engine/protocol-manager/on-message-received/ ###
 
-### engine/protocol-manager/on-presence-status-changed/ (>= 0.12) ###
+### engine/protocol-manager/on-presence-status-changed/ (>= 1.0) ###
+
+This hook point is raised when the presence status of a protocol manager
+changes. This happens for example when an IRC connection toggles the away state.
 
 Event specific environment variables:
 
@@ -140,11 +158,25 @@ Event specific environment variables:
 
 ### engine/session/on-group-chat-person-updated/ ###
 
-### engine/session/on-event-message/ (>= 0.12) ###
+### engine/session/on-event-message/ (>= 1.0) ###
 
-### engine/session/command-$cmd/ (>= 0.12) ###
+This hook point raises event messages that usually begin with "-!-". This can
+be useful to track state changes that are shown as a message without having a
+dedicated hook point for it.
+
+### engine/session/command-$cmd/ (>= 1.0) ###
+
+This hook point is raised on the **engine** side for commands, e.g.
+/some_command that isn't handled by the frontend or engine built-in commands.
+This is useful for commands that should be available for all frontends and
+isn't specific to the frontend environment.
 
 ### frontend/command-manager/command-$cmd/ ###
+
+This hook point is raised on the **frontend** side for commands, e.g.
+/some_command that isn't handled by the frontend or engine built-in commands.
+This is useful for commands that rely on the frontend environment, like dealing
+with windows, notifications, D-Bus, etc.
 
 ## Hook Commands ##
 
@@ -176,8 +208,6 @@ Example:
   [hook variables]: #environmentvariables
   [hook commands]: #hookcommands
   [smuxi-hooks.git]: https://github.com/meebey/smuxi-hooks
-  [now-playing]: https://github.com/meebey/smuxi-hooks/tree/master/now-playing
-  [tinyurl-resolver]: https://github.com/meebey/smuxi-hooks/tree/master/tinyurl-resolver
   [session commands]: https://github.com/meebey/smuxi/blob/master/src/Engine/Session.cs#L411 "Session.Command() method on GitHub"
   [irc commands]: https://github.com/meebey/smuxi/blob/master/src/Engine-IRC/Protocols/Irc/IrcProtocolManager.cs#L721 "IrcProtocolManager.Command() method on GitHub"
   [twitter commands]: https://github.com/meebey/smuxi/blob/master/src/Engine-Twitter/Protocols/Twitter/TwitterProtocolManager.cs#L628 "TwitterProtocolManager.Command() method on GitHub"
