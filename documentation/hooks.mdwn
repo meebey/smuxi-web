@@ -24,7 +24,7 @@ send the message (SENDER), what was the message (MSG), when was it received
 (MSG\_TIMESTAMP\_UNIX) etc.  This program is also able to execute Smuxi commands
 by writing [hook commands][] to the standard output.
 
-Currently there are 2 main types of Smuxi hooks:
+Currently there are 3 different types of Smuxi [hook points][]:
 
  * protocol-manager hook points: these are mainly events like message-received/sent
    that the various protocol managers (IRC, Twitter, XMPP, etc) can raise
