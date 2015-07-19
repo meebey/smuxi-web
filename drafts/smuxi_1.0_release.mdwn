@@ -7,12 +7,21 @@ this release a MAJOR_OR_MINOR feature and bugfix release.
 
 ### Finally 1.0 ###
 
-10 years ago, [Mirco Bauer made the first commit][first-commit] to the Smuxi
-source code repository and is still committed to it.
+Smuxi is celebrating its 10th anniversary! 10 years ago, [Mirco Bauer made the
+first commit][first-commit] to the Smuxi source code repository and is still
+very committed to it. He started the Gnosmirc project in 2005 when the only way
+a 24/7 "always-on" experience with IRC meant you had to use a console based IRC
+client like bitchx, irssi or epic combined with screen and SSH. This looks very
+practical at first and is a powerful Unix-ish way of accomplishing that job, but
+it has the big downside that it doesn't integrate with a desktop environment
+like GNOME. A bit later the [Gnosmirc project got renamed][rename] to Smuxi when
+the new code architecture allowed other frontend implementations besides the
+GNOME one.
 
-WRITE ME
+CONTINUE SMUXI MILE STONES
 
   [first-commit]: https://github.com/meebey/smuxi/commit/295b37c8ac4939829a3c7f9150943dba8fff07f0
+  [rename]: /news/a_new_era_of_gnosmirc_the_smuxi_era/
 
 ## Changes since Smuxi 0.11 ##
 
@@ -47,9 +56,13 @@ can be found [here][msgbuffer-docs].
 
 WRITE ME
 
-### Enhanced User Interface ###
+### User Interface Enhancements ###
 
+ * TODO: screenshot of a chat with message marker here
  * Synced message markers (Sebastian Poeplau)
+ * position of the message marker is now remembered across restarts
+   and frontend reconnects
+
  * Message counter
  * More changes here
  * And even more changes here
@@ -68,13 +81,51 @@ WRITE ME
        alt="Screenshot of Smuxi 0.9 on Mac OS X"
        title="Smuxi on Mac OS X"]]
 
-[[!img scrVeenshots/smuxi-0.9-linux-stfl-main-window.png size="200x"
+[[!img screenshots/smuxi-0.9-linux-stfl-main-window.png size="200x"
        alt="Screenshot of Smuxi 0.9's text frontend" class="screenshot"]]
 ### Text Frontend Enhancements ###
 
  * Changes here
  * More changes here
  * And even more changes here
+
+### Scripting Enhancements ###
+
+#### New Hook Points ####
+
+Smuxi 1.0 supports with the following new [hook points][]:
+
+ * engine/protocol-manager/on-presence-status-changed/ This hook point is raised
+   when the presence status of a protocol manager changes. This happens for
+   example when an IRC connection toggles the away state.
+ * engine/session/on-event-message/ This hook point raises event messages that
+   usually begin with "-!-". This can be useful to track state changes that are
+   shown as a message without having a dedicated hook point for it.
+ * engine/session/command-$cmd/ This hook point is raised on the engine side
+   for commands, e.g. /some_command that isn't handled by the frontend or engine
+   built-in commands. This is useful for commands that should be available for
+   all frontends and isn't specific to the frontend environment.
+
+ [hook points]: /documentation/hooks/#hookpoints
+
+#### New Plugins ####
+
+The following new plugins are supported by Smuxi 1.0:
+
+ * [topic-diff][]: Shows the word differences of the topic after topic changes.
+   (meebey)
+ * [away-nick][]: Automatically appends and removes $AWAY_SUFFIX to/from the nick
+   name when you go away using the /away command or by disconnecting all
+   frontends from the smuxi-server. (meebey)
+ * [system-info][]: Shows system info. Includes system kernel version, distro
+   name, and CPU vendor information. (AK0)
+ * [now-playing][]: This plugin is not new but was rewritten in Python to get
+   rid of the spaghetti code monster which was written in Bash. (jamesaxl)
+
+ [topic-diff]: https://github.com/meebey/smuxi-hooks/blob/master/topic-diff/engine/session/on-event-message/topic-diff.sh
+ [away-nick]: https://github.com/meebey/smuxi-hooks/blob/master/away-nick/engine/protocol-manager/on-presence-status-changed/away-nick.sh
+ [system-info]: https://github.com/meebey/smuxi-hooks/blob/master/system-info/frontend/command-manager/command-si/system-info.sh
+ [now-playing]: https://github.com/meebey/smuxi-hooks/tree/master/now-playing
 
 ### IRC Enhancements ###
 
