@@ -15,7 +15,10 @@ practical at first and is a powerful Unix-ish way of accomplishing that job, but
 it has the big downside that it doesn't integrate with a desktop environment
 like GNOME. A bit later the [Gnosmirc project got renamed][rename] to Smuxi when
 the new code architecture allowed other frontend implementations besides the
-GNOME one.
+GNOME one. The ncurses/STFL based text frontend was later implemented and is
+considered stable and useful enough for day to day use, but still lacks some
+interface features. WinForms and WPF frontends also exists but need more work
+to reach a usable state.
 
 CONTINUE SMUXI MILE STONES
 
@@ -51,20 +54,28 @@ works and enhanced your experience. We hope you enjoy it.
 Documentation of how you can change Smuxi message buffer backend and behavior
 can be found [here][msgbuffer-docs].
 
-### smuxi-message-buffer tool ###
+For instructions how to convert your existing db4o history to SQLite can be
+found in the "smuxi-message-buffer tool" section.
+
+### Portable Version ###
 
 WRITE ME
+Limited to standalone use! .NET isn't ABI compatible with Mono
 
 ### User Interface Enhancements ###
 
- * TODO: screenshot of a chat with message marker here
- * Synced message markers (Sebastian Poeplau)
- * position of the message marker is now remembered across restarts
-   and frontend reconnects
-
- * Message counter
- * Single application instance support
- * And even more changes here
+ * Synced message markers: the position of of the seen/unseen messages marker is
+   pushed to the smuxi-server and remembered when the frontend reconnects.
+   (Sebastian Poeplau)
+ * Persistent message markers: the message marker position is also remembered
+   across Smuxi(-server) restarts.
+ * Message Counter: in addition to the highlight counter next to a chat
+   new/unseen messages are also counted. This makes it easy to identify chats
+   with much traffic.
+ * Single application instance support. If you start Smuxi again from the menu
+   it will bring the existing instance into the foreground. This makes the
+   Ubuntu Messaging Menu much nicer.
+ * The command/message entry is alignment with the messages. (Lex Berezhny)
 
 [[!img screenshots/smuxi-0.9-linux-gnome-main-window.png size="400x"
        alt="Screenshot of Smuxi 0.9 on GNOME3"
@@ -84,9 +95,25 @@ WRITE ME
        alt="Screenshot of Smuxi 0.9's text frontend" class="screenshot"]]
 ### Text Frontend Enhancements ###
 
- * Changes here
- * More changes here
- * And even more changes here
+ * The console background color can now be configured using:
+   /config set STFL/Interface/TerminalBackgroundColor = #000000 (Ondřej Hošek)
+ * The text color contrast if nicks with the background is now ensured
+   (Ondřej Hošek) #1033
+ * Messages containing images will not be skipped but their alternative text is
+   shown instead (Ondřej Hošek) #1035
+
+### New smuxi-message-buffer tool ###
+
+This is a new commandline tool that allows you to convert and export the message
+history of Smuxi message buffer files. This can be used to convert your existing
+Db4o history to SQLite like this for example:
+
+    for DB_DB4O in $HOME/.local/share/smuxi/buffers/*/*/*/*.db4o; do
+        DB_SQLITE=${DB_DB4O/.db4o/.sqlite3}
+        smuxi-message-buffer convert $DB_DB4O $DB_SQLITE
+    done
+
+Smuxi shouldn't be running when using this tool.
 
 ### Scripting Enhancements ###
 
@@ -128,9 +155,12 @@ The following new plugins are supported by Smuxi 1.0:
 
 ### IRC Enhancements ###
 
- * Changes here
- * More changes here
- * And even more changes here
+ * NICKSERV support Notices from Nick/ChanServ are no longer shown on all
+   channels as they like to send greeting messages and other spam which is
+   annoying to see on all channels. #868
+ * Automatic rejoin of channels protected with a key works as expected again
+ * Connecting to irc.gitter.im is now supported. Gitter's IRCd implementation
+   has a bug in the IRC protocol which is now tolerated.
 
 ### XMPP (Beta) Enhancements ###
 
@@ -140,9 +170,8 @@ The following new plugins are supported by Smuxi 1.0:
 
 ### Twitter Enhancements ###
 
- * Changes here
- * More changes here
- * And even more changes here
+ * The /search command shows tweets as live stream
+ * Added /delete, /favorite and /unfavorite commands
 
 ### JabbR (Beta) Enhancements ###
 
@@ -164,7 +193,7 @@ Smuxi should now be in your language, including:
 
 ### Behind the Scenes ###
 
- * Changes here
+ * Re-licensed smuxi-common from GPLv2 to MIT/X11
  * More changes here
  * And even more changes here
 
