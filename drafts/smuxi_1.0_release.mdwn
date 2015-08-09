@@ -13,17 +13,21 @@ a 24/7 "always-on" experience with IRC meant you had to use a console based IRC
 client like bitchx, irssi or epic combined with screen and SSH. This looks very
 practical at first and is a powerful Unix-ish way of accomplishing that job, but
 it has the big downside that it doesn't integrate with a desktop environment
-like GNOME. A bit later the [Gnosmirc project got renamed][rename] to Smuxi when
+like GNOME. A bit later the [Gnosmirc project was renamed][rename] to Smuxi when
 the new code architecture allowed other frontend implementations besides the
 GNOME one. The ncurses/STFL based text frontend was later implemented and is
-considered stable and useful enough for day to day use, but still lacks some
-interface features. WinForms and WPF frontends also exists but need more work
-to reach a usable state.
+considered stable and useful enough for day to day use, but still has some rough
+edges. WinForms and WPF frontends also exists but need more work to reach a
+usable state.
 
-CONTINUE SMUXI MILE STONES
+At this point Smuxi 1.0 contains all features that we could have imagined and
+even goes beyond with very advanced features like [message patterns][patterns]
+or [language agnostic scripting][hooks].
 
   [first-commit]: https://github.com/meebey/smuxi/commit/295b37c8ac4939829a3c7f9150943dba8fff07f0
   [rename]: /news/a_new_era_of_gnosmirc_the_smuxi_era/
+  [hooks]: /documentation/hooks/
+  [patterns]: /documentation/message-patterns/
 
 ## Changes since Smuxi 0.11 ##
 
@@ -56,11 +60,6 @@ can be found [here][msgbuffer-docs].
 
 For instructions how to convert your existing db4o history to SQLite can be
 found in the "smuxi-message-buffer tool" section.
-
-### Portable Version ###
-
-WRITE ME
-Limited to standalone use! .NET isn't ABI compatible with Mono
 
 ### User Interface Enhancements ###
 
@@ -162,59 +161,43 @@ The following new plugins are supported by Smuxi 1.0:
  * Connecting to irc.gitter.im is now supported. Gitter's IRCd implementation
    has a bug in the IRC protocol which is now tolerated.
 
-### XMPP (Beta) Enhancements ###
-
- * Changes here
- * More changes here
- * And even more changes here
-
 ### Twitter Enhancements ###
 
  * The /search command shows tweets as live stream
  * Added /delete, /favorite and /unfavorite commands
 
-### JabbR (Beta) Enhancements ###
-
- * Changes here
- * More changes here
- * And even more changes here
-
-### Updated Translations ###
-
-Smuxi should now be in your language, including:
-
- * Initial complete LANGUAGE (FULL_NAME)
- * French (Clément Bourgeois)
- * Czech (Ondřej Hošek)
- * Chinese Simp (Dean Lee)
- * Swedish (Jimmie Elvenmark)
- * Danish (Joe Hansen)
- * German (Bianca Mix)
-
 ### Behind the Scenes ###
 
  * Re-licensed smuxi-common from GPLv2 to MIT/X11
- * More changes here
- * And even more changes here
 
 ### Contributors ####
 
 Contributors to this release are the following people:
 
- * Mirco Bauer (193 commits)
- * Oliver Schneider (59 commits)
- * Ondřej Hošek (13 commits, translations)
- * Jason Papakostas (2 commits)
- * Carlos Martín Nieto (1 commit)
- * Andrés G. Aragoneses (1 commit)
- * George Karavasilev (artwork)
- * Leonardo Pires Felix (translations)
- * Kalle Kaitala (translations)
- * Joe Hansen (translations)
- * Jimmie Elvenmark (translations)
- * Dean Lee (translations)
- * Clément Bourgeois (translations)
- * Bianca Mix (translations)
+ * Mirco Bauer (199 commits)
+ * Carlos Martín Nieto (15 commits)
+ * Andrés G. Aragoneses (14 commits)
+ * Piotr Drąg (12 commits)
+ * Ondřej Hošek (11 commits)
+ * Oliver Schneider (5 commits)
+ * Calvin B (4 commits)
+ * Victor Seva (3 commits)
+ * Will Johansson (2 commits)
+ * Sebastian Poeplau (2 commits)
+ * Julian Taylor (2 commits)
+ * James Axl (2 commits)
+ * Daniel Mustieles (2 commits)
+ * Christopher James Halse Rogers (2 commits)
+ * Ş. Uzun (1 commit)
+ * Lex Berezhny (1 commit)
+ * Kalle Kaitala (1 commit)
+ * Jordi Mas (1 commit)
+ * Joe Hansen (1 commit)
+ * Jimmie Elvenmark (1 commit)
+ * Dimitris Spingos (1 commit)
+ * Dean Lee (1 commit)
+ * Clément Bourgeois (1 commit)
+ * Carlos Hernandez (1 commit)
 
 Thank you very much for your contributions to Smuxi!
 
