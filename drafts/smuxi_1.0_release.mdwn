@@ -17,7 +17,7 @@ like GNOME. A bit later the [Gnosmirc project was renamed][rename] to Smuxi when
 the new code architecture allowed other frontend implementations besides the
 GNOME one. The ncurses/STFL based text frontend was later implemented and is
 considered stable and useful enough for day to day use, but still has some rough
-edges. WinForms and WPF frontends also exists but need more work to reach a
+edges. WinForms and WPF frontends also exist but need more work to reach a
 usable state.
 
 At this point Smuxi 1.0 contains all features that we could have imagined and
@@ -33,7 +33,7 @@ or [language agnostic scripting][hooks].
 
 ### Message Persistence ###
 
-One if the biggest drawbacks of the IRC protocol ever was that messages can't be
+One of the biggest drawbacks of the IRC protocol ever was that messages can't be
 retrieved from the IRC server because the IRC server is simply relaying messages
 to the connected clients. So, if an IRC client is freshly started and connects
 it starts to receive new messages, but all message you had received before are
