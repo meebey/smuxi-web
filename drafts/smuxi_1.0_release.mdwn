@@ -76,22 +76,6 @@ found in the "smuxi-message-buffer tool" section.
    Ubuntu Messaging Menu much nicer.
  * The command/message entry is alignment with the messages. (Lex Berezhny)
 
-[[!img screenshots/smuxi-0.9-linux-gnome-main-window.png size="400x"
-       alt="Screenshot of Smuxi 0.9 on GNOME3"
-       title="Smuxi on GNOME3"]]
-[[!img screenshots/smuxi-0.9-linux-unity-main-window.png size="400x"
-       alt="Screenshot of Smuxi 0.9 on Ubuntu Unity"
-       title="Smuxi on Ubuntu Unity"]]
-
-[[!img screenshots/smuxi-0.9-win7-main-window.png size="400x"
-       alt="Screenshot of Smuxi 0.9 on Windows 7"
-       title="Smuxi on Windows 7"]]
-[[!img screenshots/smuxi-0.9-osx-main-window.png size="400x"
-       alt="Screenshot of Smuxi 0.9 on Mac OS X"
-       title="Smuxi on Mac OS X"]]
-
-[[!img screenshots/smuxi-0.9-linux-stfl-main-window.png size="200x"
-       alt="Screenshot of Smuxi 0.9's text frontend" class="screenshot"]]
 ### Text Frontend Enhancements ###
 
  * The console background color can now be configured using:
