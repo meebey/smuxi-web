@@ -1,4 +1,5 @@
 [[!meta title="""Smuxi 1.0 "Finally" Release"""]]
+[[!tag planet-feed]]
 
 Smuxi 1.0 with persistent chat history, persistent message markers/counters,
 single application instance support and NickServ support. Packages are available
