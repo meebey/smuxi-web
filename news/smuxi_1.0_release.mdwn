@@ -1,4 +1,4 @@
-[[!meta title="""Smuxi 1.0 with message persistence, counters """]]
+[[!meta title="""Smuxi 1.0 with message persistence, counters and NickServ auth"""]]
 
 And here we go again! We're proud to announce the new version of Smuxi, release
 1.0 "***Finally***". During the development, [20 bug reports][bugs] and
