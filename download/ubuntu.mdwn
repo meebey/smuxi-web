@@ -5,7 +5,7 @@
 Ubuntu users can install Smuxi from this [PPA], just run the following
 commands:
 
-    sudo add-apt-repository ppa:meebey/ppa
+    sudo add-apt-repository ppa:meebey/smuxi-stable
     sudo apt-get update
     sudo apt-get install smuxi
 
@@ -14,4 +14,4 @@ Now you can start Smuxi from the Unity Dash.
 [[!img screenshots/smuxi-0.8.11-dev-unity-main-window.png size="618x"
        alt="Screenshot of Smuxi on Ubuntu"]]
 
-  [PPA]: https://launchpad.net/~meebey/+archive/ppa
+  [PPA]: https://launchpad.net/~meebey/+archive/smuxi-stable
