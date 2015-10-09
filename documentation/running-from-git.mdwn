@@ -93,7 +93,7 @@ Get source:
 Build Smuxi:
 
     # If you don't want the GTK frontend (e.g: for servers) append --disable-frontend-gnome
-    INSTALL=$(which ginstall) ./autogen.sh --enable-frontend-stfl
+    CONFIG_SHELL="env bash" INSTALL=$(which ginstall) ./autogen.sh --enable-frontend-stfl
     gmake
 
 Run GNOME frontend:
