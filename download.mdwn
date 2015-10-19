@@ -5,7 +5,7 @@ Download
 
 <script type="text/javascript" src="selector.js"></script>
 <script>
-    setDistros('opensuse debian ubuntu gentoo archlinux foresight raspberrypi linux freebsd windows osx');
+    setDistros('opensuse debian ubuntu fedora gentoo archlinux foresight raspberrypi linux freebsd windows osx');
 </script>
 
 <div id="distro-selector" style="overflow: hidden; display: block;">
@@ -33,6 +33,10 @@ Download
 <div onclick="selectDistro('ubuntu')" id="button-ubuntu" class="button button-select">
   <img src="/logos/ubuntu_small.png" />
   Ubuntu
+</div>
+<div onclick="selectDistro('fedora')" id="button-fedora" class="button button-select">
+  <img src="/logos/fedora_small.png" />
+  Fedora
 </div>
 <div onclick="selectDistro('opensuse')" id="button-opensuse" class="button button-select">
   <img src="/logos/opensuse_small.png" />
@@ -82,6 +86,10 @@ Download
     [[!inline pages="download/ubuntu" feeds=no]]
 """]]
 
+[[!toggleable  id="download-fedora-stable" text="""
+    [[!inline pages="download/fedora" feeds=no]]
+"""]]
+
 [[!toggleable  id="download-opensuse-stable" text="""
     [[!inline pages="download/opensuse" feeds=no]]
 """]]
@@ -121,6 +129,8 @@ Download
     if (navigator.appVersion.indexOf("Ubuntu")!=-1) selectDistro('ubuntu');
     // "Mozilla/5.0 (X11; U; Linux ppc; en-US; rv:1.8.1.13) Gecko/20080313 Iceape/1.1.9 (Debian-1.1.9-5)"
     if (navigator.appVersion.indexOf("Debian")!=-1) selectDistro('debian');
+    // "Mozilla/5.0 (X11; Fedora; Linux i686; rv:41.0) Gecko/20100101 Firefox/41.0"
+    if (navigator.appVersion.indexOf("Fedora")!=-1) selectDistro('fedora');
     if (navigator.appVersion.indexOf("Gentoo")!=-1) selectDistro('gentoo');//?
     if (navigator.appVersion.indexOf("ArchLinux")!=-1) selectDistro('archlinux');//?
     if (navigator.appVersion.indexOf("Foresight")!=-1) selectDistro('foresight');//?
