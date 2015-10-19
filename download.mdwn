@@ -5,7 +5,7 @@ Download
 
 <script type="text/javascript" src="selector.js"></script>
 <script>
-    setDistros('opensuse debian ubuntu fedora gentoo archlinux foresight raspberrypi linux freebsd windows osx');
+    setDistros('opensuse debian ubuntu fedora gentoo archlinux raspberrypi linux freebsd windows osx');
 </script>
 
 <div id="distro-selector" style="overflow: hidden; display: block;">
@@ -49,10 +49,6 @@ Download
 <div onclick="selectDistro('archlinux')" id="button-archlinux" class="button button-select">
   <img src="/logos/archlinux_small.png" />
   Arch Linux
-</div>
-<div onclick="selectDistro('foresight')" id="button-foresight" class="button button-select">
-  <img src="/logos/foresight_small.png" />
-  Foresight
 </div>
 <div onclick="selectDistro('raspberrypi')" id="button-raspberrypi" class="button button-select">
   <img src="/logos/raspberry-pi_small.jpg" />
@@ -102,10 +98,6 @@ Download
     [[!inline pages="download/archlinux" feeds=no]]
 """]]
 
-[[!toggleable  id="download-foresight-stable" text="""
-    [[!inline pages="download/foresight" feeds=no]]
-"""]]
-
 [[!toggleable  id="download-raspberrypi-stable" text="""
     [[!inline pages="download/raspberry-pi" feeds=no]]
 """]]
@@ -133,7 +125,6 @@ Download
     if (navigator.appVersion.indexOf("Fedora")!=-1) selectDistro('fedora');
     if (navigator.appVersion.indexOf("Gentoo")!=-1) selectDistro('gentoo');//?
     if (navigator.appVersion.indexOf("ArchLinux")!=-1) selectDistro('archlinux');//?
-    if (navigator.appVersion.indexOf("Foresight")!=-1) selectDistro('foresight');//?
     if (navigator.appVersion.indexOf("Raspberry")!=-1) selectDistro('raspberrypi');//?
     if (navigator.appVersion.indexOf("OpenSUSE")!=-1) selectDistro('opensuse');//?
     // "Mozilla/5.0 (X11; U; FreeBSD i386; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.207.0 Safari/532.0"
