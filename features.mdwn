@@ -15,7 +15,7 @@
   * [Caret-Mode][] (keyboard navigation through messages)
   * [Browse Mode][] (allows to navigate through tabs without moving the markerline)
   * [Regular and Bash-Style Nickname Completion][Nick Completion]
-  * Full Keyboard Control
+  * [Full Keyboard Control](/faq/usage/keyboard-shortcuts/)
   * Message / Command History
   * Configurable Command Character
   * Quick Connect Dialog (simply connect to any server)
