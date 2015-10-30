@@ -1,0 +1,22 @@
+[[!template id=faqitem.tmpl
+question="What are the keyboard shortcuts for Smuxi?"
+answer="""
+Some keyboard shortcuts are visible in the user interface, but not all of them.
+
+Thus here is a list of all shortcuts:
+
+ * Alt + 1-0, Q-P: switches to chat window 1 to 10 and 11 to 20
+ * Up/Down Arrrow: switch to previous/next entered message
+ * Ctrl + L: moves the focus to the join bar in the top right corner
+ * Ctrl + C/X/V: copy, cut, paste the selection of the chat buffer or message
+   entry
+ * Ctrl + W: close current chat window
+ * Page Up/Down: scroll up/down the current chat window
+ * Ctrl + Home/End: scroll to the begin/end of the current chat window
+ * Ctrl + Page Up/Down, Ctrl + P/N, Ctrl + Tab/Ctrl + Shift + Tab: switch to previous/next chat window
+ * Ctrl + Q: Quit Smuxi
+ * F7: toggle caret mode
+ * F8: toggle browse mode
+ * F11: toggle fullscreen mode
+
+"""]]
