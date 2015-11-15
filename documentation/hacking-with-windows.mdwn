@@ -1,0 +1,39 @@
+# Hacking on Windows HowTo #
+
+## Software Requirements ##
+
+Install [Visual Studio 2013][VS] or later (Express edition is sufficient)
+Install [GTK# for .NET][GTK#]
+Install [GitHub Desktop][GH]
+
+ [GTK#]: http://www.mono-project.com/download/#download-win
+ [VS]: https://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx
+ [GH]: https://desktop.github.com/
+
+## Obtain Source ##
+
+[Fork Smuxi on GitHub][fork]
+Clone your fork with the GitHub Desktop
+
+ [fork]: https://github.com/meebey/smuxi#fork-destination-box
+
+## Prepare Source ##
+
+Open a Git Shell and run in the root directory of Smuxi's git repository:
+
+    msbuild-preprocess.ps1
+
+Or open a command prompt (cmd) and run:
+
+    powershell -ExecutionPolicy Bypass msbuild-preprocess.ps1
+
+## Open Solution ##
+
+Go to the smuxi/src folder and open smuxi.sln
+
+## Build Solution ##
+
+Select Debug-Win32 as build profile and x86 as architecture, regardless what
+your CPU is because Smuxi is 32bit only on Windows at the moment.
+
+From the Visual Studio top menu select Build -> Build Solution.
