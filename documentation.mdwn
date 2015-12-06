@@ -15,6 +15,7 @@ Documentation
   * [[Connect to gTalk|/screencasts/gtalk]]
   * [[Connect to Jabber|/screencasts/jabber]]
 * [[Frequently Asked Questions|/faq]]
+* [[Tor]]
 * [[Terms]]
 * [[Running from git|running-from-git]]
 * [[Using a smuxi-server|/documentation/server]]
