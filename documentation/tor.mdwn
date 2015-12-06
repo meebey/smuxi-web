@@ -1,0 +1,66 @@
+[[!meta title="Tor - Smuxi"]]
+
+How To Use Smuxi with Tor
+=========================
+
+## Install latest Smuxi ## 
+
+Starting with version 1.0.1 Smuxi supports Tor using the SOCKS 5 proxy feature.
+Versions before 1.0.1 will *not* work with Tor, so check your version from the
+menu: Help -> About. Engine must say 1.0.1 or later.
+
+## Install Tor ##
+
+First you need to install Tor on your computer where you have also Smuxi
+installed. You can obtain the Tor Browser which includes the Tor daemon for
+Windows and Linux from [here][tor-browser].
+
+On Debian and Ubuntu based systems it is just a matter of running this command:
+
+    sudo apt-get install tor
+ 
+  [tor-browser]: https://www.torproject.org/download/download-easy.html.en
+
+## Configure Smuxi ##
+
+Now that Tor is installed and running you need to tell Smuxi that network
+connections should be done through Tor. This is very critical, else Smuxi will
+keep using your regular network connection.
+
+Start Smuxi, go to _Preferences_ -> _Interface_ then under _Advanced_ enable
+_Show Advanced Settings_. Now in _Connection_ you will see _Network Proxy_, this
+is where Tor needs to be configured as shown:
+
+Type: SOCKS 5
+Host: 127.0.0.1
+Port: 9150
+
+If port 9150 does not work, the default port of the Tor daemon is 9050 and the
+default port of the Tor Browser is 9050. The Tor Browser has to be open and
+running.
+
+Leave _Username_ and _Password_ empty, they are not needed.
+
+After that confirm the changes using the _OK_ button and restart Smuxi to take
+full effect of the changes.
+
+## Test the Connection ##
+
+After restarting Smuxi, a connection test should be done to make sure
+connections are really going through Tor. Simply connect to an pre-configured
+IRC network like OFTC and make a /whois lookup on your own nickname. If the
+connection went through Tor then it should look like this:
+
+    -!- meebey7 [~smuxi@5P6AABTWT.tor-irc.dnsbl.oftc.net]
+    -!-  realname: http://www.smuxi.org/
+    -!-  channels: #smuxi
+    -!-  server: weber.oftc.net [Newark, NJ, USA]
+    [338 (?) meebey7 255.255.255.255] actually using host
+    -!-  End of /WHOIS list.
+
+The first line shows your nickname (meebey7), username (~smuxi) and your
+IP/host which should now be not your real IP but something with tor.
+
+If you can't connect then either the Tor daemon is not running or the IRC
+network blocks Tor. Freenode for example requires a registered account for Tor
+users, and SASL support which Smuxi does not support yet.
