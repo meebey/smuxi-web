@@ -3,7 +3,7 @@
 How To Use Smuxi with Tor
 =========================
 
-## Install latest Smuxi ## 
+## Install latest Smuxi ##
 
 Starting with version 1.0.1 Smuxi supports Tor using the SOCKS 5 proxy feature.
 Versions before 1.0.1 will *not* work with Tor, so check your version from the
