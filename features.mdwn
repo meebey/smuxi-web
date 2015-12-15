@@ -84,8 +84,10 @@
     /contact command
   * Configurable priorities
   * Highlight support
-  * Showing chat states (since 0.10)
-  * Show chat roots on own server (since 0.10)
+  * Show chat rooms on own server (XEP-0030) (since 0.10)
+  * Multi-User Chat (MUC) support (XEP-0045)
+  * /me Command support (XEP-0245)
+  * Chat State Notifications (XEP-0085) (since 0.10)
 
 #### Campfire Features
   * Automatically opens active rooms on connect
