@@ -13,8 +13,8 @@ Make sure you have the Mono SDK tools:
 
     sudo apt-get install ca-certificates mono-devel
 
-Next, import Mozilla's root CA certificates by running (do this as the user who
-is running smuxi-server, not as root):
+Next, import Mozilla's root CA certificates by running this *bash* command (do
+this as the user who is running smuxi-server, not as root):
 
     for i in $(shopt -s nullglob; echo /usr/local/share/ca-certificates/*.crt \
         /usr/share/ca-certificates/*/*.crt); do certmgr -add -c Trust $i; done
