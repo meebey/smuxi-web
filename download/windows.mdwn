@@ -4,7 +4,7 @@
 
 ### Download: [smuxi-1.0.1-win32-setup.exe][] ([.asc][]) ###
 
-Windows XP / Vista / 7 / 8.x users (32-bit and 64-bit) can download the
+Windows XP / Vista / 7 / 8.x / 10 users (32-bit and 64-bit) can download the
 installer (as listed above). The installer automatically downloads the
 needed requirements if missing. If the auto install fails for some
 reason, you can download the components from here.
