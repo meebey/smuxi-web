@@ -14,4 +14,4 @@ install first the Mono runtime though:
 
   [Mono X86]: /jaws/data/files/MonoFramework-MDK-3.12.1.macos10.xamarin.x86.pkg
   [smuxi-1.0.1-osx.zip]: /download.php?file=smuxi-1.0.1-osx.zip
-  [.asc]: /jaws/data/files/smuxi-1.0-osx.zip.asc "PGP signature"
+  [.asc]: /jaws/data/files/smuxi-1.0.1-osx.zip.asc "PGP signature"
