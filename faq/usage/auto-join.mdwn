@@ -13,9 +13,4 @@ to join like the following:
     /join #smuxi,#smuxi.de,#debian,#ubuntu
 
 This way you will join the 4 channels mentioned above.
-
-P.S.: You may also add the IDENTIFY command there:
-
-    /msg NickServ IDENTIFY <your password>
-
 """]]
