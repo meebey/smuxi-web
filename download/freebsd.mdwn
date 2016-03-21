@@ -3,10 +3,14 @@
 [[!img logos/freebsd.png link=no alt="FreeBSD Logo" class="distrologo"]]
 
 Smuxi is in the official [FreeBSD ports tree][], so just run the
-following comand to install it:
+following comand to install it from ports:
 
-    make -C /usr/ports/irc/smuxi/ install
+    make -C /usr/ports/irc/smuxi/ install clean
 
+Use this alternative to install it quickly using binary packages
+
+    pkg install smuxi
+    
 Now you can start Smuxi from the GNOME or KDE menu.
 
   [FreeBSD ports tree]: http://www.freshports.org/irc/smuxi/
