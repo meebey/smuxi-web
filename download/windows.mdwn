@@ -2,7 +2,7 @@
 
 [[!img logos/windows.png link=no alt="Microsoft Windows Logo" class="distrologo"]]
 
-### Download: [smuxi-1.0.3-win32-setup.exe][] ([.asc][]) ###
+### Download: [smuxi-1.0.4-win32-setup.exe][] ([.asc][]) ###
 
 Windows XP / Vista / 7 / 8.x / 10 users (32-bit and 64-bit) can download the
 installer (as listed above). The installer automatically downloads the
@@ -20,5 +20,5 @@ Windows Start Menu.
 
   [.NET]: http://www.microsoft.com/en-us/download/details.aspx?id=17113
   [GTK#]: /jaws/data/files/gtk-sharp-2.12.22.msi
-  [smuxi-1.0.3-win32-setup.exe]: /download.php?file=smuxi-1.0.3-win32-setup.exe
-  [.asc]: /jaws/data/files/smuxi-1.0.3-win32-setup.exe.asc "PGP signature"
+  [smuxi-1.0.4-win32-setup.exe]: /download.php?file=smuxi-1.0.4-win32-setup.exe
+  [.asc]: /jaws/data/files/smuxi-1.0.4-win32-setup.exe.asc "PGP signature"
