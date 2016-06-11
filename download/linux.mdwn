@@ -2,7 +2,7 @@
 
 [[!img logos/linux.png link=no alt="GNU/Linux Logo" class="distrologo"]]
 
-### Static server binary: [smuxi-server-1.0.5-linux-x86_64-static.tar.gz][] ([server.asc][]) ###
+### Static server binary: [smuxi-server-1.0.5-linux-x86_64-static.tar.gz][] ([.asc][server-sig]) ###
 
 This tarball contains a statically linked smuxi-server binary for the x86_64 /
 AMD64 architecture. This binary is self-contained and does not need any external
@@ -38,7 +38,7 @@ Now you can start Smuxi from the GNOME or KDE menu.
   [smuxi-1.0.5.tar.gz]: /download.php?file=smuxi-1.0.5.tar.gz
   [.asc]: /jaws/data/files/smuxi-1.0.5.tar.gz.asc "PGP signature"
   [smuxi-server-1.0.5-linux-x86_64-static.tar.gz]: /download.php?file=smuxi-server-1.0.5-linux-x86_64-static.tar.gz
-  [server.asc]: /jaws/data/files/smuxi-server-1.0.5-linux-x86_64-static.tar.gz.asc "PGP signature"
+  [server-sig]: /jaws/data/files/smuxi-server-1.0.5-linux-x86_64-static.tar.gz.asc "PGP signature"
   [Mono]: http://www.go-mono.com/mono-downloads/download.html
   [log4net]: http://logging.apache.org/log4net/
   [Nini]: http://nini.sourceforge.net/
