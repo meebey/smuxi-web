@@ -6,14 +6,14 @@ and bugfixes, then you can install a development build or build Smuxi from the
 
 ## Installing Development Builds ##
 
-### Debian ###
+### Debian (smuxi-server only) ###
 On **Debian 6.0 (squeeze)** you can use the [daily APT repository][PPA] by running:
 
     sudo -s bash -c 'echo "deb http://ppa.launchpad.net/meebey/smuxi-daily/ubuntu lucid main" >> /etc/apt/sources.list'
     gpg --keyserver keyserver.ubuntu.com --recv-keys FC6D77D5
     gpg --export --armor FC6D77D5 | sudo apt-key add -
     sudo apt-get update
-    sudo apt-get install smuxi
+    sudo apt-get install smuxi-engine
 
 On **Debian 7.0 (wheezy)** and **Testing/Unstable** you can use the [daily APT repository][PPA] by running:
 
@@ -21,7 +21,11 @@ On **Debian 7.0 (wheezy)** and **Testing/Unstable** you can use the [daily APT r
     gpg --keyserver keyserver.ubuntu.com --recv-keys FC6D77D5
     gpg --export --armor FC6D77D5 | sudo apt-key add -
     sudo apt-get update
-    sudo apt-get install smuxi
+    sudo apt-get install smuxi-engine
+
+This launchpad repository only allows you to install a smuxi-server using the
+smuxi-engine package. To install a graphical frontend from this daily build
+repository is currently not supported!
 
 ### Ubuntu ###
 On **Ubuntu** you can use the [daily APT repository][PPA] by running:
