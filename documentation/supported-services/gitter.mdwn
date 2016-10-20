@@ -7,10 +7,15 @@ password for the IRC connection. Now add a new server from Smuxi's menu: Server
 
 * Protocol: IRC
 * Hostname: irc.gitter.im
+* Network: gitter
 * Port: 6697
 * Nickname: your GitHub account name, e.g. meebey
 * Password: token from above
 * Use Encryption: checked / enabled
-"""]]
+
+Connect to Gitter by clicking the _Connect_ button from the Smuxi menu bar,
+select irc.gitter.im and confirm with the _Connect_ button.
 
   [login]: https://irc.gitter.im/login
+
+"""]]
