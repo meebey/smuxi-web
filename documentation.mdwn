@@ -9,6 +9,7 @@ Documentation
 
 ## Using Smuxi ##
 
+* [[Supported Services|/documentation/supported-services/]] (Google Talk, Gitter, etc)
 * Screencasts
   * [[Connect to Facebook Chat|/screencasts/facebook-chat]]
   * [[Connect to Twitter|/screencasts/twitter]]
