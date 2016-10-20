@@ -1,7 +1,7 @@
 [[!template id=faqitem.tmpl
 question="Gitter.im"
 answer="""
-Login to [this Gitter page][login] and it will provide a token you need to use as
+Login to [this Gitter page][login] to obtain the token you need to use as the
 password for the IRC connection. Now add a new server from Smuxi's menu: Server
 -> Add and fill in the following details:
 
@@ -12,3 +12,5 @@ password for the IRC connection. Now add a new server from Smuxi's menu: Server
 * Password: token from above
 * Use Encryption: checked / enabled
 """]]
+
+  [login]: https://irc.gitter.im/login
