@@ -1,0 +1,47 @@
+[[!template id=faqitem.tmpl
+question="How do I connect to SSL/TLS enabled IRC servers using stunnel?"
+answer="""
+First install the stunnel4 package:
+
+    sudo apt-get install stunnel4
+
+Provide a stunnel config file:
+
+    cat << EOF | sudo tee /etc/stunnel/irc-freenode.conf
+    pid = /var/run/stunnel4/irc-freenode.pid
+    setuid = stunnel4
+    setgid = stunnel4
+    CAfile = /etc/ssl/certs/ca-certificates.crt
+    verify = 2
+
+    [irc]
+    client = yes
+    accept = 127.0.0.1:6667
+    connect = irc.freenode.net:6697
+    EOF
+
+Restart the stunnel4 service:
+
+    sudo service stunnel4 restart
+
+Now you need to tell Smuxi to connect to host 127.0.0.1 port 6667 in the
+settings of the IRC server. (Server -> Manage -> select an IRC server -> Edit)
+
+Connect to the updated IRC server. After the connection was established you can
+check if you are connected using SSL/TLS by doing a /whois your own nick, e.g.:
+
+    /whois meebey
+
+This will show the following output:
+
+    -!- meebey [~smuxi@123.123.123.123]
+    -!-  realname: Mirco Bauer
+    -!-  server: karatkievich.freenode.net [Montreal, CA, NA]
+    [671 (?) meebey] is using a secure connection
+    [378 (?) meebey] is connecting from *@123.123.123.123
+    -!-  idle: 6 [signon: 1/9/2017 4:08:03 PM]
+    -!-  End of /WHOIS list.
+
+The "[671 (?) meebey3] is using a secure connection" line is the interesting
+one. It means we are connected using SSL/TLS.
+"""]]
