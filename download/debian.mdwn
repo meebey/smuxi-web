@@ -4,10 +4,16 @@
 
 ### Debian 8.0 (Stable / Jessie) ###
 
-**Debian 8.0** users can install Smuxi from the official Debian repository,
-just run the following command:
+**Debian 8.0** users can install Smuxi from the [backports.debian.org][]
+repository, just add the following line to your /etc/apt/sources.list
+file:
 
-    apt-get install smuxi
+    deb http://deb.debian.org/debian jessie-backports main
+
+After that run:
+
+    apt-get update
+    apt-get -t jessie-backports install smuxi
 
 Now you can start Smuxi from the GNOME Activities Overview or KDE menu.
 
@@ -23,21 +29,6 @@ After that run:
 
     apt-get update
     apt-get -t wheezy-backports install smuxi
-
-Now you can start Smuxi from the GNOME or KDE menu.
-
-### Debian 6.0 (Squeeze) ###
-
-**Debian 6.0** users can install Smuxi from the [backports.debian.org][]
-repository, just add the following line to your /etc/apt/sources.list
-file:
-
-    deb http://backports.debian.org/debian-backports squeeze-backports-sloppy main
-
-After that run:
-
-    apt-get update
-    apt-get -t squeeze-backports-sloppy install smuxi
 
 Now you can start Smuxi from the GNOME or KDE menu.
 
