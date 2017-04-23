@@ -9,7 +9,7 @@ in Smuxi! You are probably thinking right now "so which scripting language is
 it?! C#? VB.NET? JavaScript? Perl? Python? Ruby? Maybe even PHP?" and here
 comes the best part: **ALL OF THEM AND MORE!** More? What else there would
 be... well, if you really want you can write Smuxi hooks in C, C++ or even
-assembler ;)
+x86(-64) assembly ;)
 
 ## How It Works ##
 
