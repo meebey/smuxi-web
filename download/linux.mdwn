@@ -9,7 +9,7 @@ AMD64 architecture. This binary is self-contained and does not need any external
 libraries or runtime like Mono. This binary is very useful for shell / VPS
 systems where you can't install system software.
 
-### Source: [smuxi-1.0.6.tar.gz][] ([.asc][]) ###
+### Source: [smuxi-1.0.7.tar.gz][] ([.asc][]) ###
 
 This tarbal contains only the source code of Smuxi and is intended for package
 maintainers and advanced users of Unix-like operating systems as it requires you
@@ -35,8 +35,8 @@ command as root:
 
 Now you can start Smuxi from the GNOME or KDE menu.
 
-  [smuxi-1.0.6.tar.gz]: /download.php?file=smuxi-1.0.6.tar.gz
-  [.asc]: /jaws/data/files/smuxi-1.0.6.tar.gz.asc "PGP signature"
+  [smuxi-1.0.7.tar.gz]: /download.php?file=smuxi-1.0.7.tar.gz
+  [.asc]: /jaws/data/files/smuxi-1.0.7.tar.gz.asc "PGP signature"
   [smuxi-server-1.0.5-linux-x86_64-static.tar.gz]: /download.php?file=smuxi-server-1.0.5-linux-x86_64-static.tar.gz
   [server-sig]: /jaws/data/files/smuxi-server-1.0.5-linux-x86_64-static.tar.gz.asc "PGP signature"
   [Mono]: http://www.go-mono.com/mono-downloads/download.html
