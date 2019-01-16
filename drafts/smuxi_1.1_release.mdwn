@@ -1,0 +1,141 @@
+[[!meta title="""Smuxi 0.X with XXX, YYY, ZZZ"""]]
+
+And here we go again! We're proud to announce the new version of Smuxi, release
+0.X "***Codename***". During the development, [NN bug reports][bugs] and [NN
+feature requests][features] in [NN commits][commits] were worked on. Notable
+highlights in this release are:
+
+### User Interface Enhancements ###
+
+ * Re-designed preferences GTK3 dialog. This lovely new interface that is simple
+   to use and visually pleasing was designed by me4oslav aka Georgi Karavasilev.
+   He is known for his great icon and GTK+ theme [Numix][] which I can highly
+   recommend if you want a truly beautiful Linux desktop.
+ # TODO: ADD SCREENSHOT HERE!!!
+
+ * The heuristic link detection is more reliable with less false-positives by
+   using a better strategy to find links and which characters really belong to
+   the link. (knocte)
+ * Bitcoin addresses and transaction hashes are now a linked to your local
+   Bitcoin wallet and a web blockchain explorer.
+ * EmojiOne catalog updated to v2.2.7 supporting 2373 emojis.
+ * Making preferences changes will no longer block the interface for many
+   seconds when using a smuxi-server. The code was optimized to make a single
+   call to the backend to push all changes.
+ * Message filters can match against NetworkIDs. This is useful if you want to
+   filter messages of a channel on a specific IRC network. [#838][] 
+ * The activity counters behind the chat name in the chat tree can be hidden
+   using [an internal config setting][counter-hide-docs]
+  
+  
+[[!img screenshots/smuxi-0.9-linux-gnome-main-window.png size="400x"
+       alt="Screenshot of Smuxi 0.9 on GNOME3"
+       title="Smuxi on GNOME3"]]
+[[!img screenshots/smuxi-0.9-linux-unity-main-window.png size="400x"
+       alt="Screenshot of Smuxi 0.9 on Ubuntu Unity"
+       title="Smuxi on Ubuntu Unity"]]
+
+[[!img screenshots/smuxi-0.9-win7-main-window.png size="400x"
+       alt="Screenshot of Smuxi 0.9 on Windows 7"
+       title="Smuxi on Windows 7"]]
+[[!img screenshots/smuxi-0.9-osx-main-window.png size="400x"
+       alt="Screenshot of Smuxi 0.9 on Mac OS X"
+       title="Smuxi on Mac OS X"]]
+
+[[!img scrVeenshots/smuxi-0.9-linux-stfl-main-window.png size="200x"
+       alt="Screenshot of Smuxi 0.9's text frontend" class="screenshot"]]
+### Text Frontend Enhancements ###
+
+ * /window list command:
+   On small terminals, e.g. SSH clients on mobile phones, the screen may not
+   be wide enough to display more than a few tabs. /window list outputs a list
+   of all windows and their numbers (for selection via /window number) into the
+   current chat window.
+
+ * More changes here
+ * And even more changes here
+
+### Server Enhancements ###
+
+The smuxi-server will now start all sessions on startup and no longer waits for
+a frontend to connect first. This makes sure you can't miss any messages if your
+smuxi-server went down for whatever reason. [#1067][]
+
+### IRC Enhancements ###
+
+ * CertFP support. You can authenticate against NickServ using a certificate
+   file. Many modern IRC networks already support CertFP. As CertFP support is
+   an internal setting, you need to use the /config command to configure it.
+   Documentation of this feature an be found [here][certfp-docs].
+ * /oper command added (Ravu)
+ * Enhanced IRC proxy/bouncer/gateway support: messages that you sent outside of
+   Smuxi will no longer highlight yourself. [#1095][] (knocte)
+
+### XMPP Enhancements ###
+
+ * Removed Facebook as protocol option as it is no longer available since
+   Facebook shutdown their XMPP gateway and discontinued the support.
+ 
+### Twitter Enhancements ###
+
+ * Quoted tweets support
+ * Tweets have clickable links that open the tweet in the official Twitter web
+   client. (knocte)
+
+### JabbR (Beta) Enhancements ###
+
+ * Changes here
+ * More changes here
+ * And even more changes here
+
+### Updated Translations ###
+
+Smuxi should now be in your language, including:
+
+ * Initial complete LANGUAGE (FULL_NAME)
+ * French (Clément Bourgeois)
+ * Czech (Ondřej Hošek)
+ * Chinese Simp (Dean Lee)
+ * Swedish (Jimmie Elvenmark)
+ * Danish (Joe Hansen)
+ * German (Bianca Mix)
+
+### Behind the Scenes ###
+
+ * Changes here
+ * More changes here
+ * And even more changes here
+
+### Contributors ####
+
+Contributors to this release are the following people:
+
+ * Mirco Bauer (193 commits)
+ * Oliver Schneider (59 commits)
+ * Ondřej Hošek (13 commits, translations)
+ * Jason Papakostas (2 commits)
+ * Carlos Martín Nieto (1 commit)
+ * Andrés G. Aragoneses (1 commit)
+ * George Karavasilev (artwork)
+ * Leonardo Pires Felix (translations)
+ * Kalle Kaitala (translations)
+ * Joe Hansen (translations)
+ * Jimmie Elvenmark (translations)
+ * Dean Lee (translations)
+ * Clément Bourgeois (translations)
+ * Bianca Mix (translations)
+
+Thank you very much for your contributions to Smuxi!
+
+Want this? Go [here][download page] and grab it right now!
+
+  [download page]: /download/
+  [roadmap]: /versions/show/
+  [bugs]: /projects/smuxi/issues?query_id=4
+  [features]: /projects/smuxi/issues?fixed_version_id=19&set_filter=1&tracker_id=2&status_id=c
+  [commits]: https://github.com/meebey/smuxi/compare/0.8.11...0.9
+  [NNN]: /issues/show/NNN "#NNN: TITLE"
+  [Numix]: https://numixproject.github.io/products
+  [certfp-docs]: https://github.com/meebey/smuxi/commit/83a2ab1c3e64ef4438b8e901891270f65566ea95
+  [counter-hide-docs]: https://github.com/meebey/smuxi/commit/dfacd123b5d6138c7d9614a596111efce280e207
+
