@@ -22,11 +22,10 @@ you can check what was going on while you were away.
 
 ## Be Everywhere ##
 
-Smuxi doesn't do just IRC, it can also handle [Twitter][], [Facebook Chat][FB],
-[Google Talk][GTalk], Jabber / XMPP, Campfire and SignalR's JabbR natively.
+Smuxi doesn't do just IRC, it can also handle [Twitter][], [Google Talk][GTalk],
+Jabber / XMPP, Campfire and SignalR's JabbR natively.
 
  [Twitter]: /screencasts/twitter/
- [FB]: /screencasts/facebook-chat/
  [GTalk]: /screencasts/gtalk/
 
 ## Be Aware ##

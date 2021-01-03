@@ -50,7 +50,6 @@
     * IRC
     * [Twitter] (since 0.7)
     * [Google Talk] [^gtalk fn] (since 0.8.9)
-    * [Facebook Chat] [^fb fn] (since 0.8.9)
     * [Jabber] [^jabber fn] (since 0.8.9)
     * XMPP [^xmpp fn] (since 0.8.9)
     * Campfire (since 0.8.11)
@@ -140,8 +139,6 @@ Smuxi is translated to 25 languages:
 
 [^gtalk fn]: Google Talk support is in early stage of development
 
-[^fb fn]: Facebook Chat support is in early stage of development
-
 [^jabber fn]: Jabber support is in early stage of development
 
 [^xmpp fn]: XMPP support is in early stage of development
@@ -159,6 +156,5 @@ Smuxi is translated to 25 languages:
   [smuxi-server]: /screencasts/smuxi-server-connect/
   [Twitter]: /screencasts/twitter/
   [Google Talk]: /screencasts/gtalk/
-  [Facebook Chat]: /screencasts/facebook-chat/
   [Jabber]: /screencasts/jabber/
   [Translations]: https://www.transifex.com/projects/p/smuxi/
