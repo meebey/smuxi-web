@@ -5,7 +5,7 @@ Download
 
 <script type="text/javascript" src="selector.js"></script>
 <script>
-    setDistros('opensuse debian ubuntu fedora gentoo archlinux raspberrypi linux freebsd windows osx');
+    setDistros('opensuse debian ubuntu fedora archlinux raspberrypi linux freebsd windows osx');
 </script>
 
 <div id="distro-selector" style="overflow: hidden; display: block;">
@@ -41,10 +41,6 @@ Download
 <div onclick="selectDistro('opensuse')" id="button-opensuse" class="button button-select">
   <img src="/logos/opensuse_small.png" />
   openSUSE
-</div>
-<div onclick="selectDistro('gentoo')" id="button-gentoo" class="button button-select">
-  <img src="/logos/gentoo.png" />
-  Gentoo
 </div>
 <div onclick="selectDistro('archlinux')" id="button-archlinux" class="button button-select">
   <img src="/logos/archlinux_small.png" />
@@ -90,10 +86,6 @@ Download
     [[!inline pages="download/opensuse" feeds=no]]
 """]]
 
-[[!toggleable  id="download-gentoo-stable" text="""
-    [[!inline pages="download/gentoo" feeds=no]]
-"""]]
-
 [[!toggleable  id="download-archlinux-stable" text="""
     [[!inline pages="download/archlinux" feeds=no]]
 """]]
@@ -123,7 +115,6 @@ Download
     if (navigator.appVersion.indexOf("Debian")!=-1) selectDistro('debian');
     // "Mozilla/5.0 (X11; Fedora; Linux i686; rv:41.0) Gecko/20100101 Firefox/41.0"
     if (navigator.appVersion.indexOf("Fedora")!=-1) selectDistro('fedora');
-    if (navigator.appVersion.indexOf("Gentoo")!=-1) selectDistro('gentoo');//?
     if (navigator.appVersion.indexOf("ArchLinux")!=-1) selectDistro('archlinux');//?
     if (navigator.appVersion.indexOf("Raspberry")!=-1) selectDistro('raspberrypi');//?
     if (navigator.appVersion.indexOf("OpenSUSE")!=-1) selectDistro('opensuse');//?
