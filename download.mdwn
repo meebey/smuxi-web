@@ -5,7 +5,7 @@ Download
 
 <script type="text/javascript" src="selector.js"></script>
 <script>
-    setDistros('opensuse debian ubuntu fedora archlinux raspberrypi linux freebsd windows osx');
+    setDistros('opensuse debian ubuntu archlinux raspberrypi linux freebsd windows osx');
 </script>
 
 <div id="distro-selector" style="overflow: hidden; display: block;">
