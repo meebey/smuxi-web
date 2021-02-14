@@ -2,35 +2,23 @@
 
 [[!img logos/debian.png link=no alt="Debian GNU/Linux Logo" class="distrologo"]]
 
-### Debian 8.0 (Stable / Jessie) ###
+### Debian 10 (Stable / Buster) ###
 
-**Debian 8.0** users can install Smuxi from the [backports.debian.org][]
-repository, just add the following line to your /etc/apt/sources.list
-file:
+**Debian 10** users can install Smuxi from the official Debian repository, just
+run the following command:
 
-    deb http://deb.debian.org/debian jessie-backports main
-
-After that run:
-
-    apt-get update
-    apt-get -t jessie-backports install smuxi
+    apt-get install smuxi
 
 Now you can start Smuxi from the GNOME Activities Overview or KDE menu.
 
-### Debian 7.0 (Old Stable / Wheezy) ###
+### Debian 9 (Old Stable / Stretch) ###
 
-**Debian 7.0** users can install Smuxi from the [backports.debian.org][]
-repository, just add the following line to your /etc/apt/sources.list
-file:
+**Debian 9** users can install Smuxi from the official Debian repository, just
+run the following command:
 
-    deb http://http.debian.net/debian wheezy-backports main
+    apt-get install smuxi
 
-After that run:
-
-    apt-get update
-    apt-get -t wheezy-backports install smuxi
-
-Now you can start Smuxi from the GNOME or KDE menu.
+Now you can start Smuxi from the GNOME Activities Overview or KDE menu.
 
 ### Debian Testing and Unstable ###
 
