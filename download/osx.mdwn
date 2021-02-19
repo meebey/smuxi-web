@@ -2,16 +2,16 @@
 
 [[!img logos/osx.png link=no alt="Mac OS X" class="distrologo"]]
 
-### Download: [smuxi-1.0.8-osx.zip] ([.asc][]) ###
+### Download: [smuxi-1.1-1-osx.zip] ([.asc][]) ###
 
 Mac OS X users can download this beta package. You have to download and
 install first the Mono runtime though:
 
-* [Mono 3.12.1 for Intel (x86)][Mono X86]
+* [Mono 6.8 for Intel (x86)][Mono X86]
 
 [[!img screenshots/smuxi-0.8.11-3-dev-osx-main-window.png size="400x"
        alt="Screenshot of Smuxi on Mac OS X"]]
 
-  [Mono X86]: /jaws/data/files/MonoFramework-MDK-3.12.1.macos10.xamarin.x86.pkg
-  [smuxi-1.0.8-osx.zip]: /download.php?file=smuxi-1.0.8-osx.zip
-  [.asc]: /jaws/data/files/smuxi-1.0.8-osx.zip.asc "PGP signature"
+  [Mono X86]: https://download.mono-project.com/archive/6.8.0/macos-10-universal/MonoFramework-MDK-6.8.0.123.macos10.xamarin.universal.pkg
+  [smuxi-1.1-1-osx.zip]: /download.php?file=smuxi-1.1-1-osx.zip
+  [.asc]: /jaws/data/files/smuxi-1.1-1-osx.zip.asc "PGP signature"
