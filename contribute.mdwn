@@ -14,16 +14,16 @@ contribute!
 
 If you run into an issue or miss something that feels important to you and
 possibly others then you can help by reporting issues or requesting features
-using [Smuxi's issue tracker][redmine]. All you need to do is to create an
-account [here][new account] once. Your account is not usable right away because
-the account needs to be approved first. You don't need to specify your real
-name if you don't like, but don't use names that look like you are a spammer ;).
-After your account was approved (usually within a day, if not poking meebey on
-IRC can help) you are good to create your first bug report or feature request
-from [here][new issue]. If you are not sure if you do the right thing in the
-tracker, don't hesitate to submit it anyhow. We are thankful for every feedback
-you provide and tune the ticket when needed.
+using either Smuxi's issue tracker on [Redmine][] or [GitHub][].
 
+For Redmine you need to create an account [here][new account]. Your account is
+not usable right away because the account needs to be approved first (this step
+is sadly needed because of the high amount of spam). You don't need to specify
+your real name if you don't like, but don't use names that look like you are a
+spammer ;). If you prefer to not create an account, you can alternatively create
+issues on [GitHub][].
+
+ [GitHub]: https://github.com/meebey/smuxi/issues/
  [redmine]: /issues
  [new account]: /account/register
  [new issue]: /issues/new
@@ -54,7 +54,7 @@ using Smuxi's bug tracker mentioned in the
 <br/>
 
 *So where do I get release candidates?* Release candidates are usually announced
-on the #smuxi-devel @ freenode IRC channel, [Smuxi planet feed][planet-feed]
+on the #smuxi @ OFTC IRC channel, [Smuxi planet feed][planet-feed]
 ([RSS version][planet-feed-rss]) and inside the Smuxi itself in the Smuxi
 home chat showing Smuxi news. You can also seek for release candidates in this
 [web directory][rcs]. All release candidates have a *~rc* suffix in their
