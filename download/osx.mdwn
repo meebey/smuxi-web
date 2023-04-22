@@ -2,7 +2,7 @@
 
 [[!img logos/osx.png link=no alt="Mac OS X" class="distrologo"]]
 
-### Download: [smuxi-1.1-1-osx.zip] ([.asc][]) ###
+### Download: [smuxi-1.2.1-osx.zip] ([.asc][]) ###
 
 Mac OS X users can download this beta package. You have to download and
 install first the Mono runtime though:
@@ -13,5 +13,5 @@ install first the Mono runtime though:
        alt="Screenshot of Smuxi on Mac OS X"]]
 
   [Mono X86]: https://download.mono-project.com/archive/6.8.0/macos-10-universal/MonoFramework-MDK-6.8.0.123.macos10.xamarin.universal.pkg
-  [smuxi-1.1-1-osx.zip]: /download.php?file=smuxi-1.1-1-osx.zip
-  [.asc]: /jaws/data/files/smuxi-1.1-1-osx.zip.asc "PGP signature"
+  [smuxi-1.2.1-osx.zip]: /download.php?file=smuxi-1.2.1-osx.zip
+  [.asc]: /jaws/data/files/smuxi-1.2.1-osx.zip.asc "PGP signature"
