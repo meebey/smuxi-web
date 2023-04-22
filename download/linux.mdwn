@@ -2,13 +2,6 @@
 
 [[!img logos/linux.png link=no alt="GNU/Linux Logo" class="distrologo"]]
 
-### Static server binary: [smuxi-server-1.0.5-linux-x86_64-static.tar.gz][] ([.asc][server-sig]) ###
-
-This tarball contains a statically linked smuxi-server binary for the x86_64 /
-AMD64 architecture. This binary is self-contained and does not need any external
-libraries or runtime like Mono. This binary is very useful for shell / VPS
-systems where you can't install system software.
-
 ### Source: [smuxi-1.1.tar.gz][] ([.asc][]) ###
 
 This tarbal contains only the source code of Smuxi and is intended for package
