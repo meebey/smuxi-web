@@ -88,16 +88,6 @@
   * /me Command support (XEP-0245)
   * Chat State Notifications (XEP-0085) (since 0.10)
 
-#### Campfire Features
-  * Automatically opens active rooms on connect
-  * List and search of available rooms using the Find Group Chat dialog
-
-#### SignalR JabbR Features
-  * Automatically opens active rooms on connect
-  * Message History (since 0.10)
-  * List and search of available rooms using the Find Group Chat dialog
-  * Sending/receiving public and private messages
-
 #### Automatization
   * Auto Connect (automatically connect to defined servers)
   * Startup Commands (when Smuxi starts)
