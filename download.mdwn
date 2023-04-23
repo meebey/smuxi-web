@@ -19,8 +19,8 @@ Download
   Windows
 </div>
 <div onclick="selectDistro('osx')" id="button-osx" class="button button-select">
-  <img src="/logos/osx_small.png" />
-  OS X
+  <img src="/logos/apple.svg" />
+  Mac 
 </div>
 <div onclick="selectDistro('linux')" id="button-linux" class="button button-select">
   <img src="/logos/linux_small.jpg" />
