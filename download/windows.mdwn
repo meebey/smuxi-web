@@ -9,7 +9,7 @@ installer (as listed above). The installer automatically downloads the
 needed requirements if missing. If the auto install fails for some
 reason, you can download the components from here.
 
-* [Microsoft .NET Framework 4.0][.NET]
+* [Microsoft .NET Framework 4.7.2][.NET]
 * [GTK\# 2.12.22 for Microsoft .NET package][GTK#]
 
 After you have installed GTK\# 2.12 for .NET manually you **must reboot (or
@@ -18,7 +18,7 @@ re-logon)** your Windows!
 After you have installed both packages, you can start Smuxi from the
 Windows Start Menu.
 
-  [.NET]: http://www.microsoft.com/en-us/download/details.aspx?id=17113
+  [.NET]: https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net472-web-installer
   [GTK#]: /jaws/data/files/gtk-sharp-2.12.22.msi
   [smuxi-1.0.7-win32-setup.exe]: /download.php?file=smuxi-1.0.7-win32-setup.exe
   [.asc]: /jaws/data/files/smuxi-1.0.7-win32-setup.exe.asc "PGP signature"
