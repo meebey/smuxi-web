@@ -9,6 +9,7 @@ div.button {
     padding:5px;
     float: left;
     font-size: x-small;
+    text-align: center;
 }
 
 div.button img {
