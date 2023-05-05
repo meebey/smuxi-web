@@ -12,11 +12,14 @@ install the Mono runtime first:
 [[!img screenshots/smuxi-0.8.11-3-dev-osx-main-window.png size="400x"
        alt="Screenshot of Smuxi on macOS"]]
 
-<div style="float: top">
+<div style="float: top; font-size: x-small;">
   <p>Apple, Apple logo, Mac and the Mac logo are trademarks of Apple Inc.,
      registered in the U.S. and other countries.</p>
 </div>
 
+Smuxi releases are signed using this [PGP key][].
+
   [Mono Universal]: https://download.mono-project.com/archive/6.12.0/macos-10-universal/MonoFramework-MDK-6.12.0.182.macos10.xamarin.universal.pkg
   [smuxi-1.2.1-osx.zip]: /download.php?file=smuxi-1.2.1-osx.zip
   [.asc]: /jaws/data/files/smuxi-1.2.1-osx.zip.asc "PGP signature"
+  [PGP key]: https://keys.openpgp.org/search?q=0x33A429E62D907822
