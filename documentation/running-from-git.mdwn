@@ -92,7 +92,7 @@ commands:
 ### FreeBSD ###
 Install the required build dependencies with the following commands:
 
-    pkg install mono nini log4net stfl sqlite3 git gmake coreutils bash libtool intltool autoconf automake pkgconf
+    pkg install mono nini log4net stfl sqlite3 git gmake coreutils bash libtool intltool gettext autoconf automake pkgconf
 
 If you want to use the GNOME/GTK+ frontend on FreeBSD you can install this optional build dependency:
 
