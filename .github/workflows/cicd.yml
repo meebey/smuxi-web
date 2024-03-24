@@ -37,8 +37,10 @@ jobs:
         mkdir -p $HOME/smuxi-web.src
         ikiwiki --setup $PWD/ikiwiki.setup
         #ikiwiki --rebuild --setup $PWD/ikiwiki.setup
-        # HACK: copy symlinked screenshot files into the build output as ikiwiki is skipping these
+        # copy symlinked screenshot files into the build output as ikiwiki is skipping these
         cp -a $PWD/screenshots/* $PWD/smuxi-web.public_html/screenshots/
+        # ikiwiki ignores plain HTML files, so we copy them here
+        cp -a $PWD/download/start.html $PWD/smuxi-web.public_html/download/
     - name: seed SSH host pub key
       run: |
         mkdir -p $HOME/.ssh
