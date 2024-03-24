@@ -21,5 +21,5 @@ re-logon)** your Windows!
 
   [.NET]: https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net472-web-installer
   [GTK#]: /jaws/data/files/gtk-sharp-2.12.22.msi
-  [smuxi-1.0.7-win32-setup.exe]: /download.php?file=smuxi-1.0.7-win32-setup.exe
+  [smuxi-1.0.7-win32-setup.exe]: /download/start.html?file=smuxi-1.0.7-win32-setup.exe
   [.asc]: /jaws/data/files/smuxi-1.0.7-win32-setup.exe.asc "PGP signature"

@@ -29,9 +29,9 @@ command as root:
 
 Now you can start Smuxi from the GNOME or KDE menu.
 
-  [smuxi-1.2.1.tar.gz]: /download.php?file=smuxi-1.2.1.tar.gz
+  [smuxi-1.2.1.tar.gz]: /download/start.html?file=smuxi-1.2.1.tar.gz
   [.asc]: /jaws/data/files/smuxi-1.2.1.tar.gz.asc "PGP signature"
-  [smuxi-server-1.0.5-linux-x86_64-static.tar.gz]: /download.php?file=smuxi-server-1.0.5-linux-x86_64-static.tar.gz
+  [smuxi-server-1.0.5-linux-x86_64-static.tar.gz]: /download/start.html?file=smuxi-server-1.0.5-linux-x86_64-static.tar.gz
   [server-sig]: /jaws/data/files/smuxi-server-1.0.5-linux-x86_64-static.tar.gz.asc "PGP signature"
   [Mono]: http://www.go-mono.com/mono-downloads/download.html
   [log4net]: http://logging.apache.org/log4net/

@@ -1,0 +1,28 @@
+<html>
+<body>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-12057559-1");
+pageTracker._trackPageview();
+} catch(err) {}
+</script>
+<script type="text/javascript">
+  let urlParams = (new URL(document.location)).searchParams;
+  let fileName = urlParams.get("file");
+  let fileUrl = "/jaws/data/files/" + fileName;
+
+  document.write("Starting download (in 3 seconds) of <b>" + fileName + "</b>...<br>");
+  document.write("<small>(If the download doesn't start, click <a href=\"" + fileUrl + "\">here</a>)</small>");
+  setTimeout(function() {
+    self.location = fileUrl;
+  }, (3 * 1000));
+</script>
+<noscript>
+  <a href="/jaws/data/files/">To start the download automatically it needs JavaScript enabled. Without JavaScript, please click here and navigate to the file by hand.</a>
+</noscript>
+</body>
+</html>
