@@ -5,7 +5,7 @@ Download
 
 <script type="text/javascript" src="selector.js"></script>
 <script>
-    setDistros('opensuse debian ubuntu archlinux raspberrypi linux freebsd windows osx');
+    setDistros('opensuse debian ubuntu archlinux raspberrypi linux freebsd windows osx nix');
 </script>
 
 <div id="distro-selector" style="overflow: hidden; display: block;">
@@ -33,6 +33,10 @@ Download
 <div onclick="selectDistro('ubuntu')" id="button-ubuntu" class="button button-select">
   <img src="/logos/ubuntu_small.png" />
   Ubuntu
+</div>
+<div onclick="selectDistro('nix')" id="button-nix" class="button button-select">
+  <img src="/logos/nix.svg" />
+  NixOS / Nix
 </div>
 <div onclick="selectDistro('opensuse')" id="button-opensuse" class="button button-select">
   <img src="/logos/opensuse_small.png" />
@@ -88,6 +92,10 @@ Download
 
 [[!toggleable  id="download-freebsd-stable" text="""
     [[!inline pages="download/freebsd" feeds=no]]
+"""]]
+
+[[!toggleable  id="download-nix-stable" text="""
+    [[!inline pages="download/nix" feeds=no]]
 """]]
 </div>
 

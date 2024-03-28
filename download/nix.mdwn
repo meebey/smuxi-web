@@ -1,0 +1,25 @@
+[[!meta robots="noindex, nofollow"]]
+
+[[!img logos/nix.svg link=no height=128 alt="Nix Logo" class="distrologo"]]
+
+Smuxi is in the [nixpkgs/unstable][] channel, so you can simply install it on
+NixOS or macOS with this command:
+
+    $ nix-env -i smuxi
+    $ smuxi-frontend-gnome
+
+Or run it from an ephemeral shell:
+
+    nix-shell -p smuxi --run "smuxi-frontend-gnome"
+
+Or to run the smuxi-server:
+
+    nix-shell -p smuxi --run "smuxi-server"
+
+You can also start Smuxi from the GNOME or KDE menu.
+
+Smuxi's nix package is known to build and run on NixOS and macOS including x86
+and Apple Silicon. If you run into issues, please open an issue at:
+[https://github.com/meebey/smuxi]
+
+  [nixpkgs/unstable]: https://search.nixos.org/packages?channel=unstable&show=smuxi
