@@ -12,6 +12,10 @@ Or run it from an ephemeral shell:
 
     nix-shell -p smuxi --run "smuxi-frontend-gnome"
 
+Or to run the text user-interface:
+
+    nix-shell -p smuxi --run "smuxi-frontend-stfl"
+
 Or to run the smuxi-server:
 
     nix-shell -p smuxi --run "smuxi-server"
