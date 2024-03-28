@@ -24,6 +24,6 @@ You can also start Smuxi from the GNOME or KDE menu.
 
 Smuxi's nix package is known to build and run on NixOS and macOS including x86
 and Apple Silicon. If you run into issues, please open an issue at:
-[https://github.com/meebey/smuxi]
+[[https://github.com/meebey/smuxi]]
 
   [nixpkgs/unstable]: https://search.nixos.org/packages?channel=unstable&show=smuxi
