@@ -1,6 +1,6 @@
 [[!meta robots="noindex, nofollow"]]
 
-[[!img logos/nix.svg link=no height=128 alt="Nix Logo" class="distrologo"]]
+[[!img logos/nix.svg size="x128" link=no alt="Nix Logo" class="distrologo"]]
 
 Smuxi is in the [nixpkgs/unstable][] channel, so you can simply install it on
 NixOS or macOS with this command:
