@@ -12,7 +12,7 @@
   * Messaging Menu / Indicators (as provided by Ubuntu's [Ayatana project][])
   * Integrated Spell Checking (Linux-only)
   * Unified Nickname Colors (identical color across channels and networks)
-  * [Caret-Mode][] (keyboard navigation through messages)
+  * [Caret Mode][] (keyboard navigation through messages)
   * [Browse Mode][] (allows to navigate through tabs without moving the markerline)
   * [Regular and Bash-Style Nickname Completion][Nick Completion]
   * [Full Keyboard Control](/faq/usage/keyboard-shortcuts/)
@@ -134,14 +134,14 @@ Smuxi is translated to 25 languages:
 [^xmpp fn]: XMPP support is in early stage of development
 
   [Ayatana project]: https://wiki.ubuntu.com/MessagingMenu
-  [Caret-Mode]: http://www.smuxi.org/ezfaq/show/smuxi?faq_id=7
-  [Browse Mode]: http://www.smuxi.org/ezfaq/show/smuxi?faq_id=24
-  [Nick Completion]: http://www.smuxi.org/ezfaq/show/smuxi?faq_id=14
-  [Channel List / Search]: http://www.smuxi.org/ezfaq/show/smuxi?faq_id=27
-  [On Connect Commands]: http://www.smuxi.org/ezfaq/show/smuxi?faq_id=26
-  [Filters]: http://www.smuxi.org/ezfaq/show/smuxi?faq_id=13
+  [Caret Mode]: /faq/usage/caret-mode/
+  [Browse Mode]: /faq/usage/browse-mode/
+  [Nick Completion]: /faq/usage/nick-completion/
+  [Channel List / Search]: /faq/usage/channel-list/
+  [On Connect Commands]: /faq/usage/auto-join/
+  [Filters]: /faq/usage/filters/
   [Multiple Identities]: /issues/show/428
-  [NetworkManager]: https://wiki.gnome.org/Projects/NetworkManager
+  [NetworkManager]: https://networkmanager.dev/
   [Join Bar]: /screencasts/quick-join/
   [smuxi-server]: /screencasts/smuxi-server-connect/
   [Twitter]: /screencasts/twitter/

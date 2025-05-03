@@ -1,0 +1,17 @@
+[[!template id=faqitem.tmpl
+question="How do I have to setup filters (and ignore joins and quits or ignore someone)?"
+answer="""
+In Preferences -> Filters you can add or edit filters to omit messages to be shown. Message are simply discard if any of the filters match a message. Filters currently have 5 fields to choose what you would like to filter out:
+[[!img filters-screenshot.jpg alt="screenshot of a filter"]]
+
+Protocol: You can choose whether to filter out messages in IRC or in Twitter
+Chat Type: Group/Public would be the #channel or Home Timeline, Person/Private would be a query or direct message, Protocol/Server means for example all message on irc.oftc.net
+Name: here you can specify nicks/channels etc. which are fitting to the prior options
+Type: An event would be things like join/part/name changes and so on, while a message means actual messages written by a user or a bot
+Pattern: The pattern field describes which kind of words/events you would like to filter out.
+
+It is possible to leave out e.g. pattern field so all events could be filtered at once. If you would like to see name changes but no join/quit/left messages you could use regex to setup a filter for more than one word.
+
+For example enter <pre>/(join|left|quit)/</pre> to filter out the scenario described above
+or use <pre>/^<nick> |^*  nick /</pre> to ignore all messages from one specific user (nick must be replaced by the nick you want to ignore)
+"""]]

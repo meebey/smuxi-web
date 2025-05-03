@@ -7,7 +7,7 @@ server.
 From the menu go to Server --> Manage
 
 Choose the server, to which you want to add the channel and click on edit.
-In the text box at the bottom of the window you may enter the channels you want
+In the _On Connect Commands_ text box at the bottom of the window you may enter the channels you want
 to join like the following:
 
     /join #smuxi,#smuxi.de,#debian,#ubuntu

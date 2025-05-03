@@ -1,0 +1,12 @@
+[[!template id=faqitem.tmpl
+question="Why does the nickname completion not work like I want?"
+answer="""
+The default nickname completion searches for the first nick matching the entered letter in an unsorted list. To be able to control the nickname completion use the *bash-style* nickname completion (to be setup in the Preferences --> Interface --> Input section). Like the bash-shell completes commands, it is completing until it's not possible to identify a unique value anymore but helps by filling in those letters, where possible.
+
+For example in a #channel there are the following users:
+* test
+* test-2
+* another
+
+by typing in "t" and hitting the tab-key the completion algorithm would automatically add "est" whyle at typing in "a" and hitting the tab-key it is possible for the algorithm to tell, that you meant "another" and is completing the whole nick.
+"""]]

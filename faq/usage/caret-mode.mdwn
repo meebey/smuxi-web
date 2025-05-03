@@ -1,0 +1,5 @@
+[[!template id=faqitem.tmpl
+question="Caret Mode - What is this?"
+answer="""
+The _Caret Mode_ which can be enabled and disabled in the menu *View -> Caret Mode* or by pressing the F7 key, allows you to navigate through the output buffer using your cursor keys. That way you don't have to move your hand from the keyboard to the mouse. It also makes the selection in general easier if you want to copy/paste a specific string from it. The idea is from the Firefox Web Browser which also has this handy feature. This feature is also explained on [Wikipedia](http://en.wikipedia.org/wiki/Caret_navigation)
+"""]]
