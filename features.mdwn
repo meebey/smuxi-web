@@ -48,12 +48,12 @@
   * IPv6 Support
   * Multiple Protocol Support
     * IRC
-    * [Twitter] (since 0.7)
     * [Google Talk] [^gtalk fn] (since 0.8.9)
     * [Jabber] [^jabber fn] (since 0.8.9)
     * XMPP [^xmpp fn] (since 0.8.9)
     * Campfire (since 0.8.11)
     * SignalR JabbR (since 0.9)
+    * [Twitter] (since 0.7, killed by X requiring paid API access)
 
 #### IRC Features
   * Configurable Encoding (ISO-8859-1/15, UTF-8, etc)
