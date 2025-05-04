@@ -67,17 +67,6 @@
   * Lag Indicator
   * Flood detection and prevention 
 
-#### Twitter Features
-  * OAuth authentication
-  * Twitter v1.1 API
-  * Reading and posting tweets
-  * Searching, retweeting and replying to tweets (since 0.10)
-  * Reading timelines of other users (since 0.10)
-  * Home Timeline view
-  * Replies view
-  * Direct Messages view
-  * Highlight support
-
 #### XMPP Features
   * Contact List: show and rename online contacts, Invite To Menu,
     /contact command
@@ -144,7 +133,6 @@ Smuxi is translated to 25 languages:
   [NetworkManager]: https://networkmanager.dev/
   [Join Bar]: /screencasts/quick-join/
   [smuxi-server]: /screencasts/smuxi-server-connect/
-  [Twitter]: /screencasts/twitter/
   [Google Talk]: /screencasts/gtalk/
   [Jabber]: /screencasts/jabber/
   [Translations]: https://www.transifex.com/projects/p/smuxi/

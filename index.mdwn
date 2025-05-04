@@ -1,4 +1,4 @@
-[[!meta description="Smuxi is a free and user-friendly IRC client with Twitter and XMPP/Jabber support for Linux, Windows and macOS based on GNOME / GTK"]]
+[[!meta description="Smuxi is a free and user-friendly IRC client with XMPP/Jabber support for Linux, Windows and macOS based on GNOME / GTK"]]
 [[!meta robots="noodp"]]
 
 <div class="jcarousel-filler" style="display: none;">
@@ -22,10 +22,8 @@ you can check what was going on while you were away.
 
 ## Be Everywhere ##
 
-Smuxi doesn't do just IRC, it can also handle [Twitter][] and [Jabber / XMPP][]
-natively.
+Smuxi doesn't do just IRC, it can also handle [Jabber / XMPP][] natively.
 
- [Twitter]: /screencasts/twitter/
  [Jabber / XMPP]: /screencasts/jabber/
 
 ## Be Aware ##
