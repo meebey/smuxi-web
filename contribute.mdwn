@@ -14,17 +14,15 @@ contribute!
 
 If you run into an issue or miss something that feels important to you and
 possibly others then you can help by reporting issues or requesting features
-using either Smuxi's issue tracker on [Redmine][] or [GitHub][].
+using the issue tracker on [GitHub][].
 
-For Redmine you need to create an account [here][new account]. Your account is
-not usable right away because the account needs to be approved first (this step
-is sadly needed because of the high amount of spam). You don't need to specify
-your real name if you don't like, but don't use names that look like you are a
-spammer ;). If you prefer to not create an account, you can alternatively create
-issues on [GitHub][].
+All previously reported issues have been archived in the
+[Redmine ticket system here][redmine archive]. Please refer to Redmine for
+historical data of bugs and feature requests, while all new requests go to
+[GitHub][].
 
  [GitHub]: https://github.com/meebey/smuxi/issues/
- [redmine]: /issues
+ [redmine archive]: /redmine-archive/issues/
  [new account]: /account/register
  [new issue]: /issues/new
 
