@@ -70,4 +70,4 @@ jobs:
           --stats --progress --recursive --links --itemize-changes \
           $PWD/smuxi-web.public_html/ \
           nos.eu1.meebey.net: \
-          | grep egrep '^(>|Number)'
+          | egrep '^(>|Number)'
