@@ -60,7 +60,7 @@ filename.
 
  [planet-feed]: /tags/planet-feed/
  [planet-feed-rss]: /tags/planet-feed/index.rss
- [rcs]: /jaws/data/files/?C=M;O=D
+ [rcs]: /jaws/data/files/?sort=time&order=desc
 
 <br/>
 
@@ -81,6 +81,6 @@ reports][] and [feature requests][]. [Here][low hanging fruits] you can also
 find a list of "low hanging fruits" to get familiar with Smuxi's code base.
 
  [hacking howto]: /documentation/hacking
- [bug reports]:  /projects/smuxi/issues?set_filter=1&tracker_id=1
- [feature requests]: /projects/smuxi/issues?set_filter=1&tracker_id=2
- [low hanging fruits]: /projects/smuxi/issues?set_filter=1&tracker_id=2&cf_2=low
+ [bug reports]: /issues
+ [feature requests]: /issues
+ [low hanging fruits]: https://github.com/meebey/smuxi/issues?q=is%3Aopen%20label%3A%22good%20first%20issue%22%20
