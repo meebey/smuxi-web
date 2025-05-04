@@ -67,6 +67,7 @@ jobs:
         #  $PWD/smuxi-web.public_html/* \
         #  github-actions_smuxi-web@nos.eu1.meebey.net:/srv/local/websites/smuxi.im/htdocs/
         rsync -e "ssh -l github-actions_smuxi-web -i $HOME/.ssh/id -o UserKnownHostsFile=$HOME/.ssh/known_hosts" \
-          --stats --progress --recursive --links \
+          --stats --progress --recursive --links --itemize-changes \
           $PWD/smuxi-web.public_html/ \
-          nos.eu1.meebey.net:
+          nos.eu1.meebey.net: \
+          | grep egrep '^(>|Number)'
