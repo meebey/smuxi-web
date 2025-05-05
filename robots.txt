@@ -1,0 +1,17 @@
+User-agent: *
+Disallow: /trac/browser
+Disallow: /trac/changeset
+Disallow: /trac/log
+Disallow: /trac/milestone
+Disallow: /issues/gantt
+Disallow: /projects/gantt
+Disallow: /projects/calendar
+Disallow: /projects/activity
+Disallow: /projects/phpbitch
+Disallow: /projects/monotorrent
+Disallow: /projects/mono-nat
+Disallow: /projects/*/issues/gantt
+Disallow: /repositories
+Disallow: /ezfaq/history
+Disallow: /*?format=*
+Disallow: /*?export=*
