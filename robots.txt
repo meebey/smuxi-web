@@ -15,3 +15,5 @@ Disallow: /repositories
 Disallow: /ezfaq/history
 Disallow: /*?format=*
 Disallow: /*?export=*
+Disallow: /*issues/?per_page=*
+Disallow: /*issues?page=*
