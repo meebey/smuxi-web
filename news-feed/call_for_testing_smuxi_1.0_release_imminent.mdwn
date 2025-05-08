@@ -16,4 +16,4 @@ your participation!
   [gh]: https://github.com/meebey/smuxi/tree/5468e10
   [rc]: /jaws/data/files/
   [bug tracker]: /issues/
-  [release notes]: /smuxi_1.0_release/
+  [release notes]: /news/smuxi_1.0_release/
